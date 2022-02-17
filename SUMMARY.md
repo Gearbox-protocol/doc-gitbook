@@ -45,7 +45,7 @@
 
 * [Governance Model](governance/setup/README.md)
   * [Multisigs](governance/setup/multisigs.md)
-* [Community Delegators](governance/community-delegators.md)
+* [Community Delegates](governance/community-delegates.md)
 
 ## GEAR Token
 

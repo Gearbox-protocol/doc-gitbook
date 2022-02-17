@@ -4,9 +4,15 @@ description: 'Early governance: forum + snapshot + multisigs.'
 
 # Governance Model
 
-{% hint style="info" %}
-Gearbox Protocol does not have a core team from day 0, no central authority! Initial members handed over the code to the DAO who then deployed the protocol and even decided the initial pools, assets, collateral types, and so on. The DAO consists of the community multisigs and a few hundred of token holders as per the **DAO-First Launch** strategy. Snapshot + multisigs combination is used. See all the info below.
+{% hint style="success" %}
+**Where is the DAO, how can I contribute?**
+
+DAO contributors are split among different sub-projects and can decide to work on something specific, or a few tasks at a a time. Notion docs are to organize that:
 {% endhint %}
+
+{% embed url="https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a" %}
+
+Gearbox Protocol did not have a core team from day 0, no central authority! Initial members handed over the code to the DAO who then deployed the protocol and even decided the initial pools, assets, collateral types, and so on. The DAO consists of the community multisigs and a few hundred of token holders as per the **DAO-First Launch** strategy. Snapshot + multisigs is used.
 
 ![](<../../.gitbook/assets/Screenshot 2021-10-18 at 21.23.24 (1).png>)
 
@@ -111,8 +117,8 @@ Anybody who is not a community member is locked for a minimum of 1 year since la
 
 Snapshot page delegation is turned on for delegators from the community to unite and allow smaller holders get their voice. Anyone can delegate to any delegator or multiple delegators at once, including initial core members and contributors. But their votes are reduced, to even out the playing field. See the point above for all the details. This is done on the snapshot page.
 
-{% content-ref url="../community-delegators.md" %}
-[community-delegators.md](../community-delegators.md)
+{% content-ref url="../community-delegates.md" %}
+[community-delegates.md](../community-delegates.md)
 {% endcontent-ref %}
 
 ### A minimum of 3 days period must be selected on the snapshot

@@ -1,14 +1,18 @@
 ---
-description: Generalized Leverage Protocol ⚙ With composability in mind <3
+description: Generalized Leverage Protocol ⚙ Built with composability in mind <3
 ---
 
 # Overview&#x20;
 
 ![](.gitbook/assets/IMG\_7234.PNG)
 
-Gearbox is a generalized leverage protocol: it allows you to take leverage in one place and then use it across various DeFi protocols and platforms in a composable way. The protocol has two sides to it: passive liquidity providers who earn higher APY by [providing liquidity](liquidity-providers/manage-liquidity.md); active traders, farmers, or even other protocols who can borrow those assets to [trade or farm with x4+ leverage](broken-reference).
+Gearbox is a generalized leverage protocol: it allows anyone / anything to take leverage in a DeFi-native way and then use it across your favorite DeFi protocols in a composable way. **You take leverage with Gearbox and then use it on other protocols you already love.** For example, you can leverage trade on Uniswap, leverage farm on Yearn, make complex delta-neutral strategies, get Leverage-as-a-Service for your structured product, and more... Composable and generalized!
 
-The core vision is to become a backend **composable leverage protocol** that all kinds of users have but don’t even need to interact directly with any interface. You can envision building your own DeFi protocol and just making a “take leverage with Gearbox” as a button. And _bam_ - your users are now more capital efficient. Or integrate Gearbox into a platform like Zerion or Zapper.
+The protocol has two sides to it: passive liquidity providers who earn higher APY by [providing liquidity](liquidity-providers/manage-liquidity.md); - and active traders, farmers, or even other protocols who can borrow those assets to [trade or farm with x4+ leverage](broken-reference). See [how it works on this page](overview/how-it-works.md).
+
+The core vision is to become a backend **composable leverage protocol** that all kinds of users can utilize but don’t even need to interact directly with a specific interface. You can envision building your own DeFi protocol and just making a “take leverage with Gearbox” as a button. And _bam_ - your users are now more capital efficient. Or integrate Gearbox into a platform like Zerion or Zapper. Check this page to understand why [composable leverage 2.0 is cool](leverage-2.0-is-composable.md)!
+
+> Some compare this leverage as a primitive to DeFi-native prime brokerage.
 
 Developer docs can be found here:
 
@@ -16,7 +20,9 @@ Developer docs can be found here:
 [Gearbox Dev](https://app.gitbook.com/o/-MVf0w9QBIQw5nuscwFc/s/-MTW5vYjW5AmfzJsI9yS/)
 {% endcontent-ref %}
 
-**Join the DAO and become one of the contributors:**
+### **Where is the DAO, how can I contribute?**
+
+DAO contributors are split among different sub-projects and can decide to work on something specific, or a few tasks at a a time. Notion docs are to organize and document the work:
 
 {% embed url="https://gearboxprotocol.notion.site/gearboxprotocol/Gearbox-DAO-Working-Sheet-23966f122ae4421492819242b30a0e7a" %}
 
