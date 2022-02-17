@@ -6,7 +6,7 @@ description: Generalized Leverage Protocol ⚙ Built with composability in mind 
 
 ![](.gitbook/assets/IMG\_7234.PNG)
 
-Gearbox is a generalized leverage protocol: it allows anyone / anything to take leverage in a DeFi-native way and then use it across your favorite DeFi protocols in a composable way. **You take leverage with Gearbox and then use it on other protocols you already love.** For example, you can leverage trade on Uniswap, leverage farm on Yearn, make complex delta-neutral strategies, get Leverage-as-a-Service for your structured product, and more... Composable and generalized!
+Gearbox is a generalized leverage protocol: it allows anyone to take leverage in a DeFi-native way and then use it across various DeFi protocols in a composable way. **You take leverage with Gearbox and then use it on other protocols you already love.** For example, you can leverage trade on Uniswap, leverage farm on Yearn, make complex delta-neutral strategies, get Leverage-as-a-Service for your structured product, and more... Thanks to [Credit Accounts](overview/credit-account/) primitive!
 
 The protocol has two sides to it: passive liquidity providers who earn higher APY by [providing liquidity](liquidity-providers/manage-liquidity.md); - and active traders, farmers, or even other protocols who can borrow those assets to [trade or farm with x4+ leverage](broken-reference). See [how it works on this page](overview/how-it-works.md).
 
