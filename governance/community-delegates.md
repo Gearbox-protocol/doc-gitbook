@@ -28,6 +28,8 @@ There is a proposal to have delegates earn about 15,000 GEAR per month or quarte
 * Be on as many contributor calls as possible. After all, they are bi-weekly at most, so they shouldn’t take too much of your time. You need to be on top of the discussions.
 * Try to be reachable from time to time so that those who delegated to you can ask questions and see what your viewpoint is on certain topics. Participate in forum and discord discussions where you think it is necessary. You are a governance member, so - govern!
 
+{% embed url="https://gov.gearbox.fi/t/delegate-list-apply/943" %}
+
 Basically, if you are a good active member who also votes and tries to move the project forward - you are a perfect Delegate! Don’t worry too much about the other small things.
 
 **Second**, make an intro message on the forum and then fill in the form.
