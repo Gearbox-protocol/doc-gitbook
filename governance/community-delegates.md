@@ -5,7 +5,9 @@ description: Become a delate or put your GEAR to use as a holder!
 # Community Delegates
 
 {% hint style="info" %}
-A bit of a preface: you can be in a DAO but not be 24/7 active, which is totally okay. There are different ways to get involved and get rewarded for your time and skills.&#x20;
+**Where is the DAO, how can I contribute?**
+
+You can be in a DAO but not be 24/7 active, which is totally okay. There are different ways to get involved and get rewarded for your time and skills.&#x20;
 
 * **Workers / core contributors**: those who day and/or night work on different tasks as core contributors, ranging from marketing to coding. The onboarding is easy though! DAO contributors are split among different sub-projects and can decide to work on something specific, or a few tasks at a time. [Notion pages are to organize that](https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a).&#x20;
 * **Delegates**: members who stay on top of protocol strategic ideas and plans, but don’t have the 24/7 to really get hands-on operational tasks. They can become delegates and lead how [governance](setup/) decides on protocol vital things.&#x20;
@@ -16,7 +18,7 @@ Delegates have been an important governance component since even before the Make
 
 ## How to be a Delegate
 
-{% hint style="info" %}
+{% hint style="warning" %}
 There is a proposal to have delegates earn about 15,000 GEAR per month or quarter. After all, governance work is important! But the rewards being lower are also to avoid issues of sybilling. Next to that, there would also be a minimum balance requirement. TBD.
 {% endhint %}
 
@@ -28,17 +30,19 @@ There is a proposal to have delegates earn about 15,000 GEAR per month or quarte
 
 Basically, if you are a good active member who also votes and tries to move the project forward - you are a perfect Delegate! Don’t worry too much about the other small things.
 
-**Second**, make an intro message on the forum and then fill in the list.
+**Second**, make an intro message on the forum and then fill in the form.
 
 {% hint style="success" %}
 Fill in [this short info form](https://forms.gle/zRiXZXivdKDvFz3C9) to be in the list below.
 {% endhint %}
 
+{% embed url="https://forms.gle/f479Yfo2abhGhQih8" %}
+
 ### List of Delegates \[updating]
 
 The list below is updated bi-weekly or so, and is in no order of preference. Ideally, there should be a simple interface where possible delegates get randomly displayed instead, which is one of the projects you could build as a contributor. Overall, the list is just to help you check who is an active Delegate responsible for keeping Gearbox DAO and protocol secure and vibrant.
 
-_-COMING UP IN A FEW DAYS-_
+_-_COMING UP IN A FEW DAYS-
 
 | ETH address / ENS | Forum Intro | Discord | Twitter |
 | ----------------- | ----------- | ------- | ------- |
