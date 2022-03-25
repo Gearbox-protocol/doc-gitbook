@@ -22,7 +22,11 @@ Developer docs can be found here:
 
 ### **Where is the DAO, how can I contribute?**
 
-DAO contributors are split among different sub-projects and can decide to work on something specific, or a few tasks at a a time. Notion docs are to organize and document the work:
+You can be in a DAO but not be 24/7 active, which is totally okay. There are different ways to get involved and get rewarded for your time and skills.&#x20;
+
+* **Workers / core contributors**: those who day and/or night work on different tasks as core contributors, ranging from marketing to coding. The onboarding is easy though! DAO contributors are split among different sub-projects and can decide to work on something specific, or a few tasks at a time. [Notion pages are to organize that](https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a).&#x20;
+* **Delegates**: members who stay on top of protocol strategic ideas and plans, but don’t have the 24/7 to really get hands-on operational tasks. They can become delegates and lead how governance decides on protocol vital things. See more in [Community Delegates](governance/community-delegates.md).
+* **Shitposters**: you can meme, learn, and discuss DeFi in [Discord](https://discord.com/invite/gearbox). We’ll like you ;)
 
 {% embed url="https://gearboxprotocol.notion.site/gearboxprotocol/Gearbox-DAO-Working-Sheet-23966f122ae4421492819242b30a0e7a" %}
 
