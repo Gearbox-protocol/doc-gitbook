@@ -53,7 +53,7 @@ GEAR supply has been split according to a handful of contributor groups:
 {% endcontent-ref %}
 
 * **Temporary Reserve**: approximately 0.26%. No vesting. _Token distributor TBA._ \
-  __As we set on to a few stages of the community distribution, we expect there could be some technical difficulties with some claimants, or an extra amazing contributor pops up, and so on. This is just a buffer made available for the first few weeks, in case some distributions need to be adjusted. Address -&#x20;
+  __As we set on to a few stages of the community distribution, we expect there could be some technical difficulties with some claimants, or an extra amazing contributor pops up, and so on. This is just a buffer made available for the first few weeks, in case some distributions need to be adjusted. Address - [0xd2c15e47465519789c2e6cdccb3527d989d04955](https://etherscan.io/address/0xd2c15e47465519789c2e6cdccb3527d989d04955). _This is from where the drop for testers and discord shall happen, and remaining should be approx 0.26% (minus what the_ [_community found to be bots_](https://gov.gearbox.fi/t/botting-findings/88)_)._
 
 ### Initial External Contributors: 1.28%. Locked > 1 year + vesting.
 
