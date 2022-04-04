@@ -16,6 +16,39 @@ You can be in a DAO but not be 24/7 active, which is totally okay. There are dif
 
 Delegates have been an important governance component since even before the MakerDAO times! And it’s time Gearbox DAO enters the game. After a couple of months of testing in prod with small Credit Account limits, it’s soon time to grow, update into v2, add new adapters, and more… there will always be a lot of work governance! As quorums aren’t so low in Gearbox governance (about 20% of possible voting power needs to be hit at the time of writing) - delegation is an imperative part of pushing into quorums any new important decisions on time.
 
+## How to delegate your GEAR
+
+It takes literally 1 minute!
+
+1. Connect the wallet where you have your GEAR (Ethereum mainnet only currently) to [https://snapshot.org/#/gearbox.eth](https://snapshot.org/#/gearbox.eth). Don’t worry, just connecting does nothing.&#x20;
+2. Go to [https://snapshot.org/#/delegate/gearbox.eth](https://snapshot.org/#/delegate/gearbox.eth)
+3. Choose a delegate you like from the list above. Before delegating, feel free to ask questions in Discord by tagging that delegate, and DYOR on why you have chosen that candidate.&#x20;
+4. Insert their address or ENS and click confirm. This will cost a little bit of gas. This is just a delegate function, you are not giving any approvals or other scary things. Besides, your GEAR is not locked. You can undelegate or move them freely. But if you do either one of these things, your delegate will lose the corresponding number of votes, of course.
+
+![](<../.gitbook/assets/Screenshot 2022-03-24 at 12.40.09.png>)
+
+### Why would you delegate your GEAR
+
+Before the DAO comes up with a staking module and more complex tokenomics - GEAR primary utility as intended - is to be used in governance. As such, if you are not voting yourself but holding GEAR, there is no reason not to delegate! It’s a super cheap one transaction, and doesn’t make your tokens locked or anything. You can transfer them out or undelegate at any point in time. Help make Gearbox DAO governance more efficient and hit quorums faster!
+
+In general, delegation is also important to allow smaller community members to unite and push for their voices to be heard. As such, hard-working and smart yet not \*rich\* members can be able to meet the proposal creation quorums and thus Gearbox DAO - more inclusive and secure.
+
+Join [Discord and ask any questions](https://discord.com/invite/gearbox) you still have!
+
+### List of Delegates \[updating]
+
+The list below is updated bi-weekly or so, and is in no order of preference. Ideally, there should be a simple interface where possible delegates get randomly displayed instead, which is one of the projects you could build as a contributor. Overall, the list is just to help you check who is an active Delegate responsible for keeping Gearbox DAO and protocol secure and vibrant.
+
+_-_COMING UP IN A FEW DAYS-
+
+| ETH address / ENS | Forum Intro | Discord | Twitter |
+| ----------------- | ----------- | ------- | ------- |
+| XYZ               |             |         |         |
+|                   |             |         |         |
+|                   |             |         |         |
+
+You can ask questions before delegating to any one candidate in Discord, and check their previous history. For example, [this Messari board](https://messari.io/asset/gearbox) can help you see what and how delegates voted.
+
 ## How to be a Delegate
 
 {% hint style="warning" %}
@@ -38,37 +71,20 @@ Basically, if you are a good active member who also votes and tries to move the 
 Fill in [this short info form](https://forms.gle/zRiXZXivdKDvFz3C9) to be in the list below.
 {% endhint %}
 
+{% hint style="warning" %}
+In case you submitted the form but do not see yourself on the list, it's likely that you:
+
+* made a very shallow or even spammy intro post on forum;
+* did not include a link to the forum intro post at all;
+* your address or other field was not submitted properly;
+* your social presence is just retweeting giveaways;
+* you have 0 Discord or other community presence in context of Gearbox.
+
+Put a bit of thought into your submission and do it again. Let's make governance cool!
+{% endhint %}
+
 {% embed url="https://forms.gle/f479Yfo2abhGhQih8" %}
 
-### List of Delegates \[updating]
-
-The list below is updated bi-weekly or so, and is in no order of preference. Ideally, there should be a simple interface where possible delegates get randomly displayed instead, which is one of the projects you could build as a contributor. Overall, the list is just to help you check who is an active Delegate responsible for keeping Gearbox DAO and protocol secure and vibrant.
-
-_-_COMING UP IN A FEW DAYS-
-
-| ETH address / ENS | Forum Intro | Discord | Twitter |
-| ----------------- | ----------- | ------- | ------- |
-| XYZ               |             |         |         |
-|                   |             |         |         |
-|                   |             |         |         |
-
-You can ask questions before delegating to any one candidate in Discord, and check their previous history. For example, [this Messari board](https://messari.io/asset/gearbox) can help you see what and how delegates voted.
-
-## How to delegate your GEAR
-
-It takes literally 1 minute!
-
-1. Connect the wallet where you have your GEAR (Ethereum mainnet only currently) to [https://snapshot.org/#/gearbox.eth](https://snapshot.org/#/gearbox.eth). Don’t worry, just connecting does nothing.&#x20;
-2. Go to [https://snapshot.org/#/delegate/gearbox.eth](https://snapshot.org/#/delegate/gearbox.eth)
-3. Choose a delegate you like from the list above. Before delegating, feel free to ask questions in Discord by tagging that delegate, and DYOR on why you have chosen that candidate.&#x20;
-4. Insert their address or ENS and click confirm. This will cost a little bit of gas. This is just a delegate function, you are not giving any approvals or other scary things. Besides, your GEAR is not locked. You can undelegate or move them freely. But if you do either one of these things, your delegate will lose the corresponding number of votes, of course.
-
-![](<../.gitbook/assets/Screenshot 2022-03-24 at 12.40.09.png>)
-
-### Why would you delegate your GEAR
-
-Before the DAO comes up with a staking module and more complex tokenomics - GEAR primary utility as intended - is to be used in governance. As such, if you are not voting yourself but holding GEAR, there is no reason not to delegate! It’s a super cheap one transaction, and doesn’t make your tokens locked or anything. You can transfer them out or undelegate at any point in time. Help make Gearbox DAO governance more efficient and hit quorums faster!
-
-In general, delegation is also important to allow smaller community members to unite and push for their voices to be heard. As such, hard-working and smart yet not \*rich\* members can be able to meet the proposal creation quorums and thus Gearbox DAO - more inclusive and secure.
-
 Join [Discord and ask any questions](https://discord.com/invite/gearbox) you still have!
+
+{% embed url="https://discord.gg/kPejWrzfTw" %}
