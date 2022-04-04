@@ -77,8 +77,7 @@ In case you submitted the form but do not see yourself on the list, it's likely 
 * made a very shallow or even spammy intro post on forum;
 * did not include a link to the forum intro post at all;
 * your address or other field was not submitted properly;
-* your social presence is just retweeting giveaways;
-* you have 0 Discord or other community presence in context of Gearbox.
+* you have no Discord or other community presence in the context of Gearbox.
 
 Put a bit of thought into your submission and do it again. Let's make governance cool!
 {% endhint %}
