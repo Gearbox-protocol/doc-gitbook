@@ -47,6 +47,16 @@ Rewards are distributed according to the impact of the vulnerability. The final 
 | Very High | Up to $75’000                      |   |
 | Critical  | Up to $150’000 + GEAR              |   |
 
+### Disclosures and Multisig Actions
+
+As a report for transparency on the actions of the multisig, as well as the disclosures related to certain actions, you can keep an eye on this specific Discord announcement channel:&#x20;
+
+{% embed url="https://discord.gg/J53N5WYfR3" %}
+
+More info can also be found on GitHub:&#x20;
+
+{% embed url="https://github.com/Gearbox-protocol/secutiry/tree/main/disclosures" %}
+
 ### Rules
 
 {% hint style="info" %}
