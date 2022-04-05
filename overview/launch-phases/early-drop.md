@@ -4,16 +4,14 @@ description: Thanks to the early community, LFG!
 
 # Early Testers and Discord
 
-**The contract and the distribution with claim process will be set up for both groups in the coming weeks.** Since GEAR is not going to be transferrable at first, there is no issue with getting your tokens a little bit later. Stay tuned for that! For now you can already act here:
+**Claim is / was live here:**
 
-{% embed url="https://medium.com/gearbox-protocol/gearbox-dao-retroactive-public-contributions-funding-jan-recap-5c318ef89d75" %}
+{% embed url="https://claim.gearbox.fi" %}
 
 * Testers: snapshot was taken at [Kovan block 28668076](https://kovan.etherscan.io/block/28668076), end of the day of December 7.
 * Discord: snapshot of users and messages was taken around evening time of December 6.
 
-{% embed url="https://medium.com/@gearboxprotocol/gear-token-not-yet-live-and-governance-reverse-voting-escrow-75f367985397" %}
-Scroll to the second part of the article for the relevant information.
-{% endembed %}
+{% embed url="https://medium.com/gearbox-protocol/gearbox-dao-retroactive-public-contributions-funding-jan-recap-5c318ef89d75" %}
 
 See this sheet to find yourself:
 
