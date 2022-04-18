@@ -43,11 +43,16 @@ This was established by the DAO (token holders) and multisig as [part of the fir
 | 1INCH  | 77.5%                                     | 77.5%                                 | 0x111111111117dc0aa78b770fa6a738034120c302 | 0x72AFAECF99C9d9C8215fF44C77B94B99C28741e8 |
 | AAVE   | 75%                                       | 75%                                   | 0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9 | 0x6Df09E975c830ECae5bd4eD9d90f3A95a4f88012 |
 | COMP   | 80%                                       | 80%                                   | 0xc00e94cb662c3520282e6f5717214004a7f26888 | 0x1B39Ee86Ec5979ba5C322b826B3ECb8C79991699 |
+| CRV    | 77.5%                                     | 77.5%                                 | 0xD533a949740bb3306d119CC777fa900bA034cd52 | 0x8a12Be339B0cD1829b91Adc01977caa5E9ac121e |
 | DAI    | <p>87.5% for USDC,<br>93% for DAI</p>     | 85%                                   | 0x6B175474E89094C44Da98b954EedeAC495271d0F | 0x773616E4d11A78F511299002da57A0a94577F1f4 |
 | DPI    | 77.5%                                     | 77.5%                                 | 0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b | 0x029849bbc0b1d93b85a8b6190e979fd38F5760E2 |
 | FEI    | 85%                                       | 85%                                   | 0x956F47F50A910163D8BF957Cf5846D573E7f87CA | 0x7f0d2c2838c6ac24443d13e23d99490017bde370 |
+| FTM    | 72.5%                                     | 72.5%                                 | 0x4e15361fd6b4bb609fa63c81a2be19d873717870 | 0x2DE7E4a9488488e0058B95854CC2f7955B35dC9b |
+| LDO    | 75%                                       | 75%                                   | 0x5a98fcbea516cf06857215779fd812ca3bef1b32 | 0x4e844125952D32AcdF339BE976c98E22F6F318dB |
+| LUNA   | 72.5%                                     | 72.5%                                 | 0xd2877702675e6ceb975b4a1dff9fb7baf4c91ea9 | 0x91E9331556ED76C9393055719986409e11b56f73 |
 | LINK   | 75%                                       | 75%                                   | 0x514910771AF9Ca656af840dff83E8264EcF986CA | 0xDC530D9457755926550b59e8ECcdaE7624181557 |
 | SNX    | 77.5%                                     | 77.5%                                 | 0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f | 0x79291A9d692Df95334B1a0B3B4AE6bC606782f8c |
+| SUSHI  | 77.5%                                     | 77.5%                                 | 0x6b3595068778dd592e39a122f4f5a5cf09c90fe2 | 0xe572CeF69f43c2E488b33924AF04BDacE19079cf |
 | UNI    | 75%                                       | 75%                                   | 0x1f9840a85d5af5bf1d1762f925bdaddc4201f984 | 0xD6aA3D25116d8dA79Ea0246c4826EB951872e02e |
 | USDC   | <p>87.5% for DAI, </p><p>93% for USDC</p> | 85%                                   | 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 | 0x986b5E1e1755e3C2440e960477f25201B0a8bbD4 |
 | WBTC   | 85%                                       | <p>85% for WETH, <br>93% for WBTC</p> | 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599 | 0xdeb288F737066589598e9214E782fa5A8eD689e8 |
@@ -55,3 +60,5 @@ This was established by the DAO (token holders) and multisig as [part of the fir
 | YFI    | 72.5%                                     | 72.5%                                 | 0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e | 0x7c5d4F8345e66f68099581Db340cd65B078C41f4 |
 | yvDAI  | <p>87.5% for USDC, <br>90% for DAI</p>    | 85%                                   | 0xdA816459F1AB5631232FE5e97a05BBBb94970c95 | 0x614f9486Ab9C7a217526c097656D2F6bD2DB631C |
 | yvUSDC | <p>90% for USDC, <br>87.5% for DAI</p>    | 85%                                   | 0xa354F35829Ae975e850e23e9615b11Da1B3dC4DE | 0x172971182351e00C2D700bA1e8c5586Ad2CFa38c |
+
+**Update #1, 18 April 2022:** added FTM, LUNA, CRV, SUSHI, LDO.&#x20;
