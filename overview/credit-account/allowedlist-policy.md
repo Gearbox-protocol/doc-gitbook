@@ -61,8 +61,8 @@ This was established by the DAO (token holders) and multisig as [part of the fir
 | yvDAI  | <p>87.5% for USDC, <br>90% for DAI</p>    | 85%                                   | 0xdA816459F1AB5631232FE5e97a05BBBb94970c95 | 0x614f9486Ab9C7a217526c097656D2F6bD2DB631C |
 | yvUSDC | <p>90% for USDC, <br>87.5% for DAI</p>    | 85%                                   | 0xa354F35829Ae975e850e23e9615b11Da1B3dC4DE | 0x172971182351e00C2D700bA1e8c5586Ad2CFa38c |
 
-**Update #1, 23 December 2021:** DPI forbidden
+****[**Update #1**](https://discord.com/channels/841203475606011905/922889626035818576/931424147257557002)**: 23 December 2021:** DPI forbidden
 
-**Update #2, 18 April 2022:** added FTM, LUNA, CRV, SUSHI, LDO.&#x20;
+****[**Update #2**](https://discord.com/channels/841203475606011905/922889626035818576/972844268139987035)**: 18 April 2022:** added FTM, LUNA, CRV, SUSHI, LDO.&#x20;
 
-**Update #3, 12 May 2022:** LUNA, FTM liquidation threshold was changed from 72.5%,72.5% to 0.01%, 0.01%.
+****[**Update #3**](https://discord.com/channels/841203475606011905/922889626035818576/974363111882645504)**: 12 May 2022:** LUNA, FTM liquidation threshold was changed from 72.5%,72.5% to 0.01%, 0.01%.
