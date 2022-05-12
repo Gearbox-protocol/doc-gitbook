@@ -47,9 +47,9 @@ This was established by the DAO (token holders) and multisig as [part of the fir
 | DAI    | <p>87.5% for USDC,<br>93% for DAI</p>     | 85%                                   | 0x6B175474E89094C44Da98b954EedeAC495271d0F | 0x773616E4d11A78F511299002da57A0a94577F1f4 |
 | DPI    | 77.5%                                     | 77.5%                                 | 0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b | 0x029849bbc0b1d93b85a8b6190e979fd38F5760E2 |
 | FEI    | 85%                                       | 85%                                   | 0x956F47F50A910163D8BF957Cf5846D573E7f87CA | 0x7f0d2c2838c6ac24443d13e23d99490017bde370 |
-| FTM    | 72.5%                                     | 72.5%                                 | 0x4e15361fd6b4bb609fa63c81a2be19d873717870 | 0x2DE7E4a9488488e0058B95854CC2f7955B35dC9b |
+| FTM    | 0.01%                                     | 0.01%                                 | 0x4e15361fd6b4bb609fa63c81a2be19d873717870 | 0x2DE7E4a9488488e0058B95854CC2f7955B35dC9b |
 | LDO    | 75%                                       | 75%                                   | 0x5a98fcbea516cf06857215779fd812ca3bef1b32 | 0x4e844125952D32AcdF339BE976c98E22F6F318dB |
-| LUNA   | 72.5%                                     | 72.5%                                 | 0xd2877702675e6ceb975b4a1dff9fb7baf4c91ea9 | 0x91E9331556ED76C9393055719986409e11b56f73 |
+| LUNA   | 0.01%                                     | 0.01%                                 | 0xd2877702675e6ceb975b4a1dff9fb7baf4c91ea9 | 0x91E9331556ED76C9393055719986409e11b56f73 |
 | LINK   | 75%                                       | 75%                                   | 0x514910771AF9Ca656af840dff83E8264EcF986CA | 0xDC530D9457755926550b59e8ECcdaE7624181557 |
 | SNX    | 77.5%                                     | 77.5%                                 | 0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f | 0x79291A9d692Df95334B1a0B3B4AE6bC606782f8c |
 | SUSHI  | 77.5%                                     | 77.5%                                 | 0x6b3595068778dd592e39a122f4f5a5cf09c90fe2 | 0xe572CeF69f43c2E488b33924AF04BDacE19079cf |
@@ -61,4 +61,8 @@ This was established by the DAO (token holders) and multisig as [part of the fir
 | yvDAI  | <p>87.5% for USDC, <br>90% for DAI</p>    | 85%                                   | 0xdA816459F1AB5631232FE5e97a05BBBb94970c95 | 0x614f9486Ab9C7a217526c097656D2F6bD2DB631C |
 | yvUSDC | <p>90% for USDC, <br>87.5% for DAI</p>    | 85%                                   | 0xa354F35829Ae975e850e23e9615b11Da1B3dC4DE | 0x172971182351e00C2D700bA1e8c5586Ad2CFa38c |
 
-**Update #1, 18 April 2022:** added FTM, LUNA, CRV, SUSHI, LDO.&#x20;
+**Update #1, 23 December 2021:** DPI forbidden
+
+**Update #2, 18 April 2022:** added FTM, LUNA, CRV, SUSHI, LDO.&#x20;
+
+**Update #3, 12 May 2022:** LUNA, FTM liquidation threshold was changed from 72.5%,72.5% to 0.01%, 0.01%.
