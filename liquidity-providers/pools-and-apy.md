@@ -62,10 +62,10 @@ This model is similar to how Aave works, you can find more details in the [tech 
 
 | Asset | Pool max  | Min collateral | Max pers borrow |
 | ----- | --------- | -------------- | --------------- |
-| WETH  | 1200 WETH | 0.3WETH        | 125 WETH        |
+| WETH  | 2400 WETH | 0.3WETH        | 125 WETH        |
 | WBTC  | 100 WBTC  | 0.02 WBTC      | 10 WBTC         |
-| USDC  | 6M USDC   | 1,000 USDC     | 500,000 USDC    |
-| DAI   | 6M DAI    | 1,000 DAI      | 500,000 DAI     |
+| USDC  | 12M USDC  | 1,000 USDC     | 500,000 USDC    |
+| DAI   | 12M DAI   | 1,000 DAI      | 500,000 DAI     |
 
 **Update #1, 18.04.2022**: governance voting for increasing limits are [here](https://snapshot.org/#/gearbox.eth/proposal/0x88f4662687cad00cfdd515fc21289a537cbe69f80ddf790a13a58bb94af3f9f1).
 
