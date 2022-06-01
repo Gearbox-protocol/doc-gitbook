@@ -53,10 +53,12 @@ This model is similar to how Aave works, you can find more details in the [tech 
 
 | Asset pool | r\_0 | r\_1 | r\_2 | U\_\* |
 | ---------- | ---- | ---- | ---- | ----- |
-| ETH        | 0    | 4    | 60   | 70    |
-| WBTC       | 0    | 4    | 60   | 70    |
-| USDC       | 0    | 5    | 100  | 70    |
-| DAI        | 0    | 5    | 100  | 70    |
+| ETH        | 0    | 4    | 60   | 85    |
+| WBTC       | 0    | 4    | 60   | 85    |
+| USDC       | 0    | 2    | 100  | 85    |
+| DAI        | 0    | 2    | 100  | 85    |
+
+**Update #1, 31.05.2022**: governance voting to change pool interest rate curve parameters are [here](https://snapshot.org/#/gearbox.eth/proposal/0xaddc09aa7a2dcda4c90577bc15553164ae987dba7c34a5b8c9dfac57cca7d291). r\_1 for USDC and DAI are changed from 4% to 2%, optimal utilisation for all 4 pools from 70% to 85%.&#x20;
 
 ### Current Pool Caps as per latest GIP voting
 
