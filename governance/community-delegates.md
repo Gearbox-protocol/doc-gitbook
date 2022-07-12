@@ -24,7 +24,7 @@ It takes literally 1 minute!
 
 1. Choose [a delegate you like from the list below](https://docs.google.com/spreadsheets/d/13zTSI4TIjuJ7W65F1CrN9Yd0gYUie\_97HQL3JQ8V3I4/edit?usp=sharing). Before delegating, feel free to ask questions in Discord by tagging that delegate, and DYOR on why you have chosen that candidate. Check their forum history, see for what they stand for in terms of strategy ideas.
 
-![https://docs.google.com/spreadsheets/d/13zTSI4TIjuJ7W65F1CrN9Yd0gYUie\_97HQL3JQ8V3I4/edit?usp=sharing](<../.gitbook/assets/Screenshot 2022-04-04 at 13.57.05.png>)
+![https://docs.google.com/spreadsheets/d/13zTSI4TIjuJ7W65F1CrN9Yd0gYUie\_97HQL3JQ8V3I4/edit?usp=sharing](<../.gitbook/assets/Screenshot 2022-07-12 at 12.48.35.png>)
 
 2\. Go to [https://snapshot.org/#/delegate/gearbox.eth](https://snapshot.org/#/delegate/gearbox.eth) and connect the wallet where you have your [GEAR](broken-reference). Don’t worry, just connecting is safe.&#x20;
 

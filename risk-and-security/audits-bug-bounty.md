@@ -30,8 +30,8 @@ The scope of the bug bounty refers to the core contracts available at this repos
 
 If you need more information on the protocol, please check:&#x20;
 
-* Regular protocol documentation: [https://docs.gearbox.finance/ ](https://docs.gearbox.finance)
-* Developer docs in progress: [https://dev.gearbox.fi/](https://dev.gearbox.fi)
+* Regular protocol documentation: [https://docs.gearbox.finance/ ](https://docs.gearbox.finance/)
+* Developer docs in progress: [https://dev.gearbox.fi/](https://dev.gearbox.fi/)
 
 **NOTE**: for bugs related to the interface which are just referring to typos and non-security related issues, please feel free to report them in a community [Discord](https://discord.gg/5YuHH9tvms) pro bono - and Gearbox community can maybe send nice GIFs your way. In case a bug you found is related to the interface and is outside of the scope, but has serious security concerns, please do report it as well and a bounty can be also decided ad-hoc. Again, you can ask all your questions in [Discord](https://discord.gg/JZgvmaenwn).
 

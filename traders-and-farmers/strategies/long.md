@@ -6,7 +6,7 @@ description: How to go long ETH or some other asset with the help of Gearbox.
 
 If you want to go long ETH to USDC, you need to open a Credit Account denominated in a stable coin. Then you can use those extra stables you got from leverage and buy more ETH with your Credit Account. The same strategy goes for going long ETH against BTC or some other asset.
 
-[Open Credit Account and try it](https://app.gearbox.fi).
+[Open Credit Account and try it](https://app.gearbox.fi/).
 
 #### Farming Long
 

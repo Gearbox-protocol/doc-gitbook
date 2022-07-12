@@ -6,7 +6,7 @@ description: How to go short ETH or some other asset with the help of Gearbox.
 
 If you want to go short ETH to USD, you need to open a Credit Account denominated in ETH.&#x20;
 
-Then you can sell all the ETH within your Credit Account to USDC. You can use those USDC to leverage farm or do something else then. The same strategy goes for going short WBTC against ETH or some other asset available. [Open Credit Account and try it](https://app.gearbox.fi).
+Then you can sell all the ETH within your Credit Account to USDC. You can use those USDC to leverage farm or do something else then. The same strategy goes for going short WBTC against ETH or some other asset available. [Open Credit Account and try it](https://app.gearbox.fi/).
 
 #### Farming Short
 

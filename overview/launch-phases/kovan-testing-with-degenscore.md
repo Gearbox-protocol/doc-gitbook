@@ -14,7 +14,7 @@ Snapshot was taken at [Kovan block 28668076](https://kovan.etherscan.io/block/28
 [early-drop.md](early-drop.md)
 {% endcontent-ref %}
 
-This was the time to [**get the app**](https://app.beta.gearbox.fi) into the hands of the most tech-savvy DeFi users: to test the user flow, to understand how degens think, to realize how to improve further... \
+This was the time to [**get the app**](https://app.beta.gearbox.fi/) into the hands of the most tech-savvy DeFi users: to test the user flow, to understand how degens think, to realize how to improve further... \
 \
 Get the app: [app.beta.gearbox.fi](https://app.beta.gearbox.fi)
 

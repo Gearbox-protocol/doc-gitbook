@@ -47,11 +47,11 @@ You can be in a DAO but not be 24/7 active, which is totally okay. There are dif
 ## Useful Links
 
 * **Join** **Discord** 👾 [https://discord.com/invite/gearbox](https://discord.com/invite/gearbox)&#x20;
-* Website: [https://gearbox.fi/](https://gearbox.fi)&#x20;
-* Dev docs: [https://dev.gearbox.fi/](https://dev.gearbox.fi)
-* Mainnet dApp: [https://app.gearbox.fi/ ](https://app.gearbox.fi)
+* Website: [https://gearbox.fi/](https://gearbox.fi/)&#x20;
+* Dev docs: [https://dev.gearbox.fi/](https://dev.gearbox.fi/)
+* Mainnet dApp: [https://app.gearbox.fi/ ](https://app.gearbox.fi/)
 * Kovan dApp: [https://app.kovan.gearbox.fi/](https://app.kovan.gearbox.fi/accounts)
-* Developer Docs: [https://dev.gearbox.fi/](https://dev.gearbox.fi)
+* Developer Docs: [https://dev.gearbox.fi/](https://dev.gearbox.fi/)
 * Forum: [https://gov.gearbox.fi/t/start-here-forum-rules/](https://gov.gearbox.fi/t/start-here-forum-rules/)
 * Blog Medium: [https://medium.com/@gearboxprotocol](https://medium.com/@gearboxprotocol)
 * Github: [https://github.com/Gearbox-protocol](https://github.com/Gearbox-protocol)
