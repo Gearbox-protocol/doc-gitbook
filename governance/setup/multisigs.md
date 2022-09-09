@@ -26,10 +26,10 @@ List of members on the multisig:
 7. [Lewi](https://twitter.com/lewifree) - OG degenerate & ESD summoner
 8. [Klim](https://twitter.com/milkyklim) - data analytics and [YFI](https://twitter.com/iearnfinance) Maximalist
 9. [Alex](https://gov.gearbox.fi/t/multisig-ceremony-apply/95/30) - ex-Neutrino, a lobster and a builder
-10. [Alex](https://twitter.com/0xAlexEuler) - CTO of Mellow Protocol
+10. [Alex](https://twitter.com/0xAlexEuler) - CTO of [Mellow Protocol](https://twitter.com/Mellowprotocol)
 
 {% hint style="warning" %}
-Technical Multisig will not have a timelock function just yet, for security purposes. The pause function was currently awarded to [2 analytical addresses](https://gov.gearbox.fi/t/gip-17-multisig-reshuffle-pausable-admin/1447), while the unpause function is in the hands of the same technical multisig, but 3/10 for better response time. That is [0xbb803559b4d58b75e12dd74641ab955e8b0df40e](https://gnosis-safe.io/app/eth:0xbb803559B4D58b75E12dd74641AB955e8B0Df40E).
+Technical Multisig will not have a timelock function just yet, for security purposes. The pause function was awarded to [2 analytical addresses](https://gov.gearbox.fi/t/gip-17-multisig-reshuffle-pausable-admin/1447), while the unpause function is in the hands of the same technical multisig, but a 3/10 for better response time. That is [0xbb803559b4d58b75e12dd74641ab955e8b0df40e](https://gnosis-safe.io/app/eth:0xbb803559B4D58b75E12dd74641AB955e8B0Df40E).
 {% endhint %}
 
 ### Financial-Treasury Multisig | 5/9
