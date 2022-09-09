@@ -55,8 +55,8 @@ All further distributions can be found in [monthly-quarterly DAO reports](https:
 [credit-account-mining.md](../overview/launch-phases/credit-account-mining.md)
 {% endcontent-ref %}
 
-* **Community Testers**: \~1.085%. No vesting. _Originally, 1.267% were allocated, but community members performed_ [_on-chain sleuthing_](https://gov.gearbox.fi/t/botting-findings/88/148) _and a good portion of GEARs was saved._
-* **Early Discord members**: \~0.348%. No vesting. _Originally, 0.476% were allocated, but after 9 months of claimants now showing up, the tokens were repurposed. See below._
+* **Community Testers**: \~1.085%. No vesting. _Originally, 1.267% were allocated, but community members performed_ [_on-chain sleuthing_](https://gov.gearbox.fi/t/botting-findings/88/148) _and reduced this number._ [_Distributor contract_](https://etherscan.io/address/0xda12b368a93007ef2446717765917933cebc6080)_._&#x20;
+* **Early Discord members**: \~0.348%. No vesting. _Originally, 0.476% were allocated, but after 9 months of claimants now showing up, the tokens were repurposed._ [_Distributor contract_](https://etherscan.io/address/0xda12b368a93007ef2446717765917933cebc6080)_._&#x20;
 
 {% content-ref url="../overview/launch-phases/early-drop.md" %}
 [early-drop.md](../overview/launch-phases/early-drop.md)
@@ -71,7 +71,7 @@ _Launch time_ is technically TGE, when the DAO was formed: December 15, 2021.
 
 ### Initial External Contributors: 1.28%. Locked > 1 year + vesting.
 
-These are some amazing people who have contributed to the technical development and project growth but weren't committing capital, yet we wanted to incentivize them to work further with the DAO. Lockup: 12 months since token deployment (launch), and then linear vesting over 18 months starting after the cliff.&#x20;
+These are some amazing people who have contributed to the technical development but weren't committing capital, yet we wanted to incentivize them to work further. Lockup: 12 months since token deployment (launch), and then linear vesting over 18 months starting after the cliff.&#x20;
 
 ### Initial сore contributors: 29.20%. Locked > 1 year + vesting.
 
