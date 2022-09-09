@@ -5,8 +5,10 @@ description: Offering leverage to your users with Gearbox, or fully integrate.
 # Integrations
 
 {% hint style="info" %}
-See [Gearbox Dev](https://app.gitbook.com/o/-MVf0w9QBIQw5nuscwFc/s/-MTW5vYjW5AmfzJsI9yS/ "mention") for technical documentation and guidance.
+See [dev docs](https://dev.gearbox.fi/) or technical documentation and guidance:
 {% endhint %}
+
+{% embed url="https://dev.gearbox.fi/" %}
 
 List of currently integrated protocols by Gearbox DAO:
 
@@ -36,6 +38,4 @@ For more details, please ask the community on [Discord](https://discord.gg/JZgvm
 
 Gearbox core vision is that users should continue to use the DeFi protocols they love, but ... with leverage. Keeping this goal in mind. we have implemented a special library that makes it possible for any dApp to be connected with Gearbox credit account in a similar way to how Metamask or Fortmatic work. See more in the Developer Docs:
 
-{% content-ref url="https://app.gitbook.com/o/-MVf0w9QBIQw5nuscwFc/s/-MTW5vYjW5AmfzJsI9yS/" %}
-[Gearbox Dev](https://app.gitbook.com/o/-MVf0w9QBIQw5nuscwFc/s/-MTW5vYjW5AmfzJsI9yS/)
-{% endcontent-ref %}
+{% embed url="https://dev.gearbox.fi/" %}

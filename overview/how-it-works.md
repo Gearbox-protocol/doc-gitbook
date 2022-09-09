@@ -6,8 +6,8 @@ description: High-level technical overview of Gearbox Protocol.
 
 Gearbox protocol has two sides to it:
 
-* **Lenders** - **liquidity providers** who seek additional yield and have a higher risk tolerance. This can be seen similar to providing liquidity to Compound and getting cTokens back. LPs' assets are utilized by others, for which they get APY. Any one can be a liquidity provider on Gearbox.
-* **Borrowers** - **traders and farmers** who wish to increase their position by borrowing liquidity from the protocol at multiples of their collateral, for which they pay interest rates. The liquidity they borrow is 4x+ or more of what their notional size is. This is the leverage they get.&#x20;
+* **Lenders** - **liquidity providers** who seek passive yield and don't want to actively trade. This can be seen similar to providing liquidity to Compound and getting cTokens back. LPs' assets are utilized by others, for which they get APY. Any one can be a liquidity provider on Gearbox.
+* **Borrowers** - **traders, farmers, and protocols** who wish to increase their position by borrowing liquidity from the protocol at multiples of their collateral, for which they pay interest rates. The liquidity they borrow can be 10x of what their notional size is. This is the leverage power!
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
@@ -21,7 +21,7 @@ Gearbox protocol has two sides to it:
 
 ![](<../.gitbook/assets/Screenshot 2021-08-07 at 22.53.18.png>)
 
-One of the key aspects which actually makes this DeFi primitive possible are [Credit Accounts](credit-account/), which “bind” together lenders and borrowers in this equation. More specifically, a Credit Account is an isolated smart contract that holds user + borrowed funds, has liquidation thresholds, and **has a list of** [**allowed tokens and protocols**](credit-account/#allowed-list-policy) (in order to avoid attack vectors from malicious actors, like borrowing leverage and buying a self-created ERC20 token; or sending an operation to a malicious smart contract).
+One of the key aspects which actually makes this DeFi primitive possible are [Credit Accounts](credit-account/) (and Credit Managers), which “bind” together lenders and borrowers in this equation. More specifically, a Credit Account is an isolated smart contract that holds user + borrowed funds, has liquidation thresholds, and **has a list of** [**allowed tokens and protocols**](credit-account/#allowed-list-policy) (in order to avoid attack vectors from malicious actors, like borrowing leverage and buying a self-created ERC20 token; or sending an amount to a malicious smart contract).
 
 {% content-ref url="credit-account/" %}
 [credit-account](credit-account/)
@@ -29,7 +29,7 @@ One of the key aspects which actually makes this DeFi primitive possible are [Cr
 
 **Gearbox does not silo the assets within its protocol.**&#x20;
 
-All trades and operations happen on third-party protocols: Uniswap, Curve, Yearn, etc. **Your assets never end up in custody of any one person or company**. As such, Gearbox Protocol is not a trading platform / protocol. The protocol does not execute trades, have its own order books, or control the secondary market liquidity. Therefore, there are no funding rates.
+All trades and operations happen on third-party protocols: Uniswap, Curve, Yearn, etc. **Your assets never end up in custody of any one person or company**. As such, Gearbox Protocol is not a trading platform / protocol. The protocol does not have its own order books, or control the secondary market liquidity. Therefore, there are no funding rates.
 
 Integrations possibilities are very broad, as Gearbox is built with composability at its core:
 
@@ -47,14 +47,8 @@ The liquidations are based on the **health factor and the threshold weighted val
 
 ![](<../.gitbook/assets/Screenshot 2021-08-07 at 22.49.59.png>)
 
-The protocol takes fees for different operations, where a part goes to [Reserve Fund](liquidations/insurance-fund.md) and part to different protocol operations. All parameters and spending depend on the [governance](../governance/setup/). Learn more:
+The protocol [takes fees](protocol-fees.md) for different operations, where a part goes to [Reserve Fund](liquidations/insurance-fund.md) and part to different protocol operations. All parameters and spending depend on the [governance](../governance/setup/). Learn more:
 
 {% content-ref url="protocol-fees.md" %}
 [protocol-fees.md](protocol-fees.md)
-{% endcontent-ref %}
-
-You can find all details on the math in the technical paper:
-
-{% content-ref url="whitepaper.md" %}
-[whitepaper.md](whitepaper.md)
 {% endcontent-ref %}

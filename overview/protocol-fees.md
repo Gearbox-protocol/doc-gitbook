@@ -28,7 +28,7 @@ The protocol takes spread as a fee between the APY which liquidity providers rec
 {% endcontent-ref %}
 
 {% hint style="success" %}
-All protocol fees go to [governance](../governance/setup/) and nothing is assumed for the core contributors or the foundation. The protocol is fully operated by the decentralized community.
+All protocol fees go to [governance](../governance/setup/multisigs.md#financial-treasury-multisig-or-5-7) and nothing is assumed for the core contributors or the foundation. The protocol is fully operated by the decentralized community.
 {% endhint %}
 
 ### **Liquidity Provider Fees**
@@ -38,7 +38,7 @@ A **withdrawal fee** is taken when a liquidity provider withdraws funds from the
 * Current withdrawal fee: 1%.
 
 {% hint style="warning" %}
-Withdrawal fees on the LP side are not considered to be sustainable source of protocol revenue as it creates conflict of interest between the protocols and its LPs. Yearn has previously moved away from this model. In the future, [governance](../governance/setup/) can either implement a performance fee or some other mechanism in order to best align interests.&#x20;
+**LP withdrawal fee is planned to go away in November. So you can disregard it!**
 
-Because Gearbox Protocol currently has TVL caps in place, lack of liquidity can create discrepancies in borrow APY and thus degrade the experience for traders and farmers. Withdrawal fees are in place and shall be removed by governance in a few weeks. This is not the source of protocol revenue, it's simply there as a backstop against system turbulences in the first weeks post-launch.
+Withdrawal fees on the LP side are not considered to be sustainable source of protocol revenue as it creates conflict of interest between the protocols and its LPs. Yearn has previously moved away from this model. In the future, [governance](../governance/setup/) can either implement a performance fee or some other mechanism in order to best align interests.&#x20;
 {% endhint %}

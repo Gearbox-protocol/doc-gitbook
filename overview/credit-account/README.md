@@ -6,7 +6,7 @@ description: DeFi Primitive for composable leverage 2.0
 
 ![](<../../.gitbook/assets/Screenshot 2021-08-07 at 22.49.38.png>)
 
-A Credit Account is an isolated smart contract which contains both the user funds and the borrowed funds. This is where your leverage is. After you open an account, all the operations go through this account and the assets stay on it as well. You can see a Credit Account as your automated DeFi wallet where you not only keep positions, but can also potentially program it the way you want.
+A Credit Account is an isolated smart contract which contains both the user funds and the borrowed funds. This is where your leverage is. After you open an account, all the operations go through this account and the assets stay on it as well. You can see a Credit Account as your automated DeFi wallet where you not only keep positions, but can also potentially program it the way you want. _You can at all times see transactions and assets on Etherscan, obviously._
 
 ![](<../../.gitbook/assets/Screenshot 2021-08-07 at 23.07.53.png>)
 
@@ -27,12 +27,13 @@ Both policies are managed by [governance](../../governance/setup/) and can grow 
 [allowedlist-policy.md](allowedlist-policy.md)
 {% endcontent-ref %}
 
-Gearbox architecture is very modular, so it's not just that there is an allowed asset for the entire protocol - there are different pools and **can even be multiple pools for the same asset**. There can be **different Credit Managers with different Allowed List policies**, etc. The information below is just an easy-to-grasp understanding for product users. Developers should dive into the tech section in Gearbox Dev docs and understand the intricacies. Namely, the tree goes as follows:
+Gearbox architecture is very modular, so it's not just that there is an allowed asset for the entire protocol - there are different pools and **can even be multiple pools for the same asset**. There can be **different Credit Managers with different AllowedList policies**, etc. The information below is just an easy-to-grasp understanding for product users. Developers should dive into the tech section in Gearbox Dev docs and understand the intricacies. Namely, the tree goes as follows:
 
-* pool
-  * credit manager
+* Pool
+  * Credit Manager
     * allowed assets
     * allowed contracts
+* Credit Accounts
 
 {% embed url="https://dev.gearbox.fi" %}
 

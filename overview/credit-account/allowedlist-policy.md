@@ -9,18 +9,19 @@ Composability of Gearbox Protocol is possible via forever-increasing list of All
 {% hint style="success" %}
 Gearbox architecture is very modular, so it's not just that there is an allowed asset for the entire protocol - there are different pools and **can even be multiple pools for the same asset**. There can be **different Credit Managers with different Allowed List policies**, etc. The information below is just an easy-to-grasp understanding for product users. Developers should dive into the tech section in Gearbox Dev docs and understand the intricacies. Namely, the tree goes as follows:
 
-* pool
-  * credit manager
+* Pool
+  * Credit Manager
     * allowed assets
     * allowed contracts
+* Credit Accounts
 {% endhint %}
 
 If you want to check and see the list of deployed contracts, go here:
 
-{% embed url="https://dev.gearbox.fi/contracts/deployed-contracts" %}
+{% embed url="https://dev.gearbox.fi/docs/documentation/deployments/deployed-contracts" %}
 
 {% hint style="info" %}
-If working with the raw numbers, [LT](../liquidations/#liquidation-threshold) for stables would work as follows: a swap from a stablecoin to a stablecoin would cause your [Health Factor](../../traders-and-farmers/credit-account-dashboard-overview/kak-ne-byt-rekt.md#what-i-can-do-if-my-health-factor-is-close-to-1-to-keep-my-credit-account-alive) to majorly decrease, that is because stables are not always stable from the price feed and risks perspective. As such, minor semi-manual assumptions could be made in order to improve user experience, whereas certain select asset types would be granted higher LT. See [GIP-2](https://gov.gearbox.fi/t/gip-2-voting-for-allowed-tokens-list/345) for example.
+If working with the raw numbers, [LT](../liquidations/#liquidation-threshold) for stables would work as follows: a swap from a stablecoin to a stablecoin would cause your [Health Factor](../../traders-and-farmers/credit-account-dashboard-overview/kak-ne-byt-rekt.md#what-i-can-do-if-my-health-factor-is-close-to-1-to-keep-my-credit-account-alive) to decrease, that is because stables are not always stable from the price feed and risks perspective. It's not safe to assume a stable is 1:1 to another one, so there are more [complex calculations being done](../liquidations/#threshold-weighted-value) which account for possible slippage, chainlink price tick, and other factors.
 {% endhint %}
 
 ### Allowed Contracts List
