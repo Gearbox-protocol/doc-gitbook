@@ -42,14 +42,14 @@ As a result of community members performing [on-chain sleuthing](https://gov.gea
 
 * **DAO Treasury Multisig**: originally 51.00%. Up to DAO to decide, managed by the DAO-enacted [treasury multisig](../governance/setup/multisigs.md#financial-treasury-multisig-or-5-9). Address[: 0x7b065fcb0760df0cea8cfd144e08554f3cea73d1](https://etherscan.io/address/0x7b065fcb0760df0cea8cfd144e08554f3cea73d1).
   * Out of that, 2.766% to [DAO Round Part 1](https://gov.gearbox.fi/t/gip-10-strategic-dao-funding-proposal-part-1/1315/17). Cliff lockup ends on July 15 of 2023, upon which 1 year of linear vesting will take place throughout 365 days, until July 2024.
-  * Out of that, 0.133% to DAO Round Part 2. Cliff lockup ending on September 15 of 2023, upon which 1 year of linear vesting will take place throughout 365 days, until July 2024.
-  * Our of that, 0.1% to [VIBES metaDAO](https://gov.gearbox.fi/t/gip-13-vibes-internal-metadao-focusing-on-onboarding-marketing/1387) committee for mardketing Q3 2022.
+  * Out of that, 1.057% to [DAO Round Part 2](https://gov.gearbox.fi/t/gip-18-dao-round-part-2-community-proposal/1374/112). Cliff lockup ending on September 15 of 2023, upon which 1 year of linear vesting will take place throughout 365 days, until July 2024.
+  * Our of that, 0.1% to [VIBES metaDAO](https://gov.gearbox.fi/t/gip-13-vibes-internal-metadao-focusing-on-onboarding-marketing/1387) committee for marketing Q3 2022.
 
 {% hint style="success" %}
 All further distributions can be found in [monthly-quarterly DAO reports](https://gearboxprotocol.notion.site/Monthly-Reports-6849871a9bae44dfb903531c0a997e8f) & budgets.
 {% endhint %}
 
-* **Credit Account Mining**: 5%. Split over 5,000 wallets participated in the ceremony. No vesting.
+* **Credit Account Mining**: 5%. Mined by 5,000 participants in the ceremony. No vesting.
 
 {% content-ref url="../overview/launch-phases/credit-account-mining.md" %}
 [credit-account-mining.md](../overview/launch-phases/credit-account-mining.md)
