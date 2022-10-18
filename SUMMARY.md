@@ -16,7 +16,7 @@
 * [Tech Paper](overview/whitepaper.md)
 * [Integrations](overview/integrations.md)
 * [DAO-First Launch](overview/launch-phases/README.md)
-  * [Birth at ETHGlobal MarketMake & First Contributors](overview/launch-phases/birth-at-ethglobal-marketmake-and-first-contributors.md)
+  * [Birth at ETHGlobal MarketMake 2021 & 1st Contributors](overview/launch-phases/birth-at-ethglobal-marketmake-and-first-contributors.md)
   * [Kovan testing with DegenScore & lobsterdao](overview/launch-phases/kovan-testing-with-degenscore.md)
   * [Credit Account Mining](overview/launch-phases/credit-account-mining.md)
   * [Early Testers and Discord](overview/launch-phases/early-drop.md)
