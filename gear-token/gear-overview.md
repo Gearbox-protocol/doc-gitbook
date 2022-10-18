@@ -81,6 +81,6 @@ These are some amazing people who have contributed to the technical development 
 
 {% embed url="https://medium.com/gearbox-protocol/product-evolution-from-an-idea-to-an-app-0-to-1-contributors-united-832154e3c7ba" %}
 
-### Company Wallet: 11.52%. Locked > 1 year + vesting.
+### Initial company wallet: 11.52%. Locked > 1 year + vesting.
 
-**Company wallet** lockup: 12 months since token deployment (launch), and then linear vesting over 18 months starting after the cliff. Address: [0xa8b1d00b1d224e83760963e361b7f676581a622d](https://etherscan.io/address/0xa8b1d00b1d224e83760963e361b7f676581a622d). This is outside of the scope of the DAO, and can be used for discretionary activities.
+**Company wallet** lockup: 12 months since token deployment (launch), and then linear vesting over 18 months starting after the cliff. Address: [0xa8b1d00b1d224e83760963e361b7f676581a622d](https://etherscan.io/address/0xa8b1d00b1d224e83760963e361b7f676581a622d). This is outside of the scope of the DAO, and can be used for discretionary activities. This is a company that kickstarted the first protocol development pre-DAO launch. Not related to the DAO.
