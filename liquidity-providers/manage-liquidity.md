@@ -31,7 +31,7 @@ description: By providing liquidity, you can earn APY in the same asset. Simple!
 **Step 3.** First click _Approve_ and wait for the transaction to be confirmed. Then click _Withdraw_ and wait for the confirmation. When a transaction is confirmed, you will receive back your assets.
 
 {% hint style="warning" %}
-Usually, in DeFi protocols forced liquidation is not implemented. This creates the risk of insufficient liquidity for the withdrawal operation. To mitigate this risk, the parameters for managing the interest rate curve of the pool are introduced (interest rate depends on utilization ratio of the pool). If the utilization of the pool is too high, the Governance can increase these parameters and thereby make lending more expensive. This will encourage borrowers to close loans and thereby reduce pool utilization.
+Usually, in DeFi protocols forced liquidation is not implemented. This creates the risk of insufficient liquidity for the withdrawal operation. To mitigate this risk, the parameters for managing the interest rate curve of the pool are introduced (interest rate depends on utilization ratio of the pool). If the utilization of the pool is too high, governance can increase these parameters and thereby make lending more expensive. This will encourage borrowers to close loans and thereby reduce pool utilization.
 {% endhint %}
 
 {% hint style="info" %}

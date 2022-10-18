@@ -14,7 +14,7 @@ The asset you supply to the protocol would be able to be utilized, aka borrowed 
 
 The positions which traders and farmers take should be liquidated by third-party [liquidators](../overview/liquidations/) before the assets of liquidity providers would start being exposed to the downside. As such, the protocol returns the liquidity providers’ assets to the pools. This is how Gearbox is able to provide composable leverage.
 
-{% hint style="warning" %}
+{% hint style="info" %}
 Keep in mind that earning on Gearbox entails certain [risks](../risk-and-security/risks-terms.md), especially related to third party liquidators doing their job right. The risks presented are also general across DeFi.&#x20;
 {% endhint %}
 
@@ -70,7 +70,3 @@ This model is similar to how Aave works, you can find more details in the [tech 
 | DAI   | 12M DAI   | 1,000 DAI      | 500,000 DAI     |
 
 **Update #1, 18.04.2022**: governance voting for increasing limits are [here](https://snapshot.org/#/gearbox.eth/proposal/0x88f4662687cad00cfdd515fc21289a537cbe69f80ddf790a13a58bb94af3f9f1).
-
-{% hint style="success" %}
-This was established by the DAO (token holders) and multisig as [part of the first GIPs](https://gov.gearbox.fi/t/gip-1-proposal-to-add-pools/347).
-{% endhint %}
