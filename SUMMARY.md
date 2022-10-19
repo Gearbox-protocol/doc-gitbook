@@ -27,8 +27,6 @@
 * [How to open a Credit Account](traders-and-farmers/how-to-open-account.md)
 * [Inside a Credit Account](traders-and-farmers/credit-account-dashboard-overview/README.md)
   * [Wallet Connect](traders-and-farmers/credit-account-dashboard-overview/wallet-connect.md)
-  * [How to borrow more](traders-and-farmers/credit-account-dashboard-overview/how-to-borrow-more.md)
-  * [How to add more collateral](traders-and-farmers/credit-account-dashboard-overview/how-to-add-a-collateral.md)
   * [How to avoid liquidations](traders-and-farmers/credit-account-dashboard-overview/kak-ne-byt-rekt.md)
   * [How to close a Credit Account](traders-and-farmers/credit-account-dashboard-overview/how-to-close-account.md)
 * [Strategies](traders-and-farmers/strategies/README.md)

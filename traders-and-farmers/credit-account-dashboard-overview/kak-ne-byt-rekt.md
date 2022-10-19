@@ -20,8 +20,8 @@ Keep your health factor as high as possible. Make sure it doesn't drop close to 
 
 One of the ways is to add more collateral and thus improving the HF:
 
-{% content-ref url="how-to-add-a-collateral.md" %}
-[how-to-add-a-collateral.md](how-to-add-a-collateral.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 You can also close your Credit Account if you want to cut the losses and avoid full annihilation:
