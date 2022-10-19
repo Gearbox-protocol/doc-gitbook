@@ -10,7 +10,7 @@ Using Wallet Connect integration, you can use leverage on native interfaces of y
 
 1. Open _Connect_ page.
 
-![](<../../.gitbook/assets/Screenshot 2021-10-19 at 10.27.50.png>)
+<figure><img src="../../.gitbook/assets/Screenshot 2022-10-19 at 14.07.29.png" alt=""><figcaption></figcaption></figure>
 
 2\. Open another page in your browser and go to dApp you want to use with leverage.
 
@@ -28,15 +28,9 @@ You can only interact with the allowed protocol list as per Gearbox governance. 
 
 5\. Now return to the Gearbox Application page (as you can remember it is still opened on another page in your browser), paste copied into the input field, and click _Connect_. &#x20;
 
-![](<../../.gitbook/assets/Screenshot 2021-10-19 at 10.37.12.png>)
+<figure><img src="../../.gitbook/assets/Screenshot 2022-10-19 at 14.09.20.png" alt=""><figcaption></figcaption></figure>
 
-6\. Click _Connect_ button again to allow Gearbox WalletConnect integration access to dApp you want to get leverage on.
-
-![](<../../.gitbook/assets/Screenshot 2021-10-19 at 10.37.59 (2).png>)
-
-7\. Voila! Now you can return to native dApp interface of the protocol you were using, and use it as you are already familiar with. You can sign transactions with Metamask as you are used to
-
-![](<../../.gitbook/assets/Screenshot 2021-10-19 at 10.41.16.png>)
+6\. Voila! Now you can return to native dApp interface of the protocol you were using, and use it as you are already familiar with. You can sign transactions with Metamask as you are used to.
 
 {% hint style="info" %}
 Did you find a bug with the interface, something didn't work as you think it should have, or you have a suggestion on how to improve the user experience? [Report](https://discord.gg/5YuHH9tvms) or [suggest](https://discord.gg/hF3QvX2vgt) on Discord!
