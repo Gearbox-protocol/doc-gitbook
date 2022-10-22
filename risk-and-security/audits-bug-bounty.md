@@ -19,6 +19,10 @@ Keep in mind that no number of audits can guarantee full safety. There are alway
 * Peckshield (22/07/2021 - 10/08/2021): initial version coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2021%20Sep%20-%20Peckshield-10.08.2021.pdf)
 * Peckshield (09/04/2021 - 03/05/2021): first iteration coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2021%20May%20-%20Peckshield-03.05.2021.pdf)
 
+{% hint style="info" %}
+Since Gearbox Protocol is modular, full protocol re-deployment is not required during changes. Enacted [multisig](../governance/setup/multisigs.md#technical-multisig-or-6-10) can simply take pieces in-and-out. What it means for audits is that not every protocol change has to be re-audited fully. For example, in V2 Credit Accounts stay the same. Also, pools stay the same, so liquidity providers do not need to migrate! As a result with all the audits, pools codebase has been covered with every single full audit since summer 2021, so 6 in total. As for Credit Managers and new parts in V2, those have been covered by 3 new fresh audits including the older parts.
+{% endhint %}
+
 ## Bug Bounty
 
 Join the Bug Bounty with Immunefi! Help Gearbox stay safe and be rewarded for it.
