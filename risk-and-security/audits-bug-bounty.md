@@ -10,11 +10,14 @@ Keep in mind that no number of audits can guarantee full safety. There are alway
 
 ## Audits
 
-* **Consensys** Diligence Fuzzing (04/10/2021- 13/12/2021): [report](https://github.com/Gearbox-protocol/gearbox-contracts/blob/master/audits/ConsensysDiligence%20\_Fuzzing\_report.pdf)
-* **ChainSecurity** (31/08/2021–13/12/2021): [report](https://github.com/Gearbox-protocol/gearbox-contracts/blob/master/audits/ChainSecurity\_Gearbox\_audit.pdf)
-* **MixBytes** (06/07/2021–22/12/2021): [report](https://github.com/Gearbox-protocol/gearbox-contracts/blob/master/audits/MixBytes\_security\_audit\_report.pdf)
-* Peckshield (22/07/2021 - 10/08/2021): [report](https://github.com/Gearbox-protocol/gearbox-contracts/blob/master/audits/Peckshield-10.08.2021.pdf)
-* Peckshield (09/04/2021 - 03/05/2021): [report](https://github.com/Gearbox-protocol/gearbox-contracts/blob/master/audits/Peckshield-03.05.2021.pdf)
+* **ChainSecurity** (23/02/2022 - 19/10/2022): full V2 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2022%20Oct%20-%20ChainSecurity%20report.pdf)
+* **Consensys Diligence** (25/07/2022 - 12/08/2022): full V2 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2022%20Sep%20-%20Conensys%20Dilligence.pdf)
+* **Sigma Prime** (21/02/2022 - 06/08/2022): almost full V2 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2022%20Aug%20-%20SigmaPrime\_Gearbox\_Smart\_Contract\_Security\_Assessment\_Report\_v2.pdf)
+* **Consensys** **Diligence** Fuzzing (04/10/2021 - 13/12/2021): V1 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2021%20Dec%20-%20ConsensysDiligence%20\_Fuzzing\_report.pdf)
+* **ChainSecurity** (31/08/2021 - 13/12/2021): V1 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2021%20Dec%20-%20ChainSecurity\_Gearbox\_audit.pdf)
+* **MixBytes** (06/07/2021 - 22/12/2021): V1 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2021%20Dec%20-%20MixBytes\_security\_audit\_report.pdf)
+* Peckshield (22/07/2021 - 10/08/2021): initial version coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2021%20Sep%20-%20Peckshield-10.08.2021.pdf)
+* Peckshield (09/04/2021 - 03/05/2021): first iteration coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2021%20May%20-%20Peckshield-03.05.2021.pdf)
 
 ## Bug Bounty
 
