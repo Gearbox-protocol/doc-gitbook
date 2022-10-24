@@ -31,9 +31,10 @@ Getting Diesel tokens is super easy, you can try it out by [supplying liquidity 
 | Asset                                                                             | Contract Address                                                                                                      |
 | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | ETH ([WETH](../overview/faq.md#why-cant-i-trade-eth-on-dexes-via-wallet-connect)) | [0xB03670c20F87f2169A7c4eBE35746007e9575901](https://etherscan.io/address/0xB03670c20F87f2169A7c4eBE35746007e9575901) |
-| WBTC                                                                              | [0xB2A015c71c17bCAC6af36645DEad8c572bA08A08](https://etherscan.io/address/0xB2A015c71c17bCAC6af36645DEad8c572bA08A08) |
+| wstETH                                                                            | [0xB8cf3Ed326bB0E51454361Fb37E9E8df6DC5C286](https://etherscan.io/address/0xB8cf3Ed326bB0E51454361Fb37E9E8df6DC5C286) |
 | USDC                                                                              | [0x86130bDD69143D8a4E5fc50bf4323D48049E98E4](https://etherscan.io/address/0x86130bDD69143D8a4E5fc50bf4323D48049E98E4) |
 | DAI                                                                               | [0x24946bCbBd028D5ABb62ad9B635EB1b1a67AF668](https://etherscan.io/address/0x24946bCbBd028D5ABb62ad9B635EB1b1a67AF668) |
+| WBTC                                                                              | [0xB2A015c71c17bCAC6af36645DEad8c572bA08A08](https://etherscan.io/address/0xB2A015c71c17bCAC6af36645DEad8c572bA08A08) |
 
 ## How to calculate APY?
 
@@ -53,20 +54,22 @@ This model is similar to how Aave works, you can find more details in the [tech 
 
 | Asset pool | r\_0 | r\_1 | r\_2 | U\_\* |
 | ---------- | ---- | ---- | ---- | ----- |
-| ETH        | 0    | 4    | 60   | 85    |
-| WBTC       | 0    | 4    | 60   | 85    |
-| USDC       | 0    | 2    | 100  | 85    |
-| DAI        | 0    | 2    | 100  | 85    |
+| USDC       | 0    | 1.5  | 100  | 85    |
+| DAI        | 0    | 1.5  | 100  | 85    |
+| wstETH     | 0    | 1    | 60   | 85    |
+| ETH        | 0    | 2.5  | 60   | 85    |
+| WBTC       | 0    | 2.5  | 60   | 85    |
 
-**Update #1, 31.05.2022**: governance voting to change pool interest rate curve parameters are [here](https://snapshot.org/#/gearbox.eth/proposal/0xaddc09aa7a2dcda4c90577bc15553164ae987dba7c34a5b8c9dfac57cca7d291). r\_1 for USDC and DAI are changed from 4% to 2%, optimal utilisation for all 4 pools from 70% to 85%.&#x20;
+****[**Latest update**](https://gov.gearbox.fi/t/gip-20-update-fees-interest-rate-curves/1571): governance voting to change pool interest rate curve parameters and make the curve more flat as a bootstrap mechanism for V2 Leverage Ninja launch.
 
 ### Current Pool Caps as per latest GIP voting
 
-| Asset | Pool max  | Min collateral | Max pers borrow |
-| ----- | --------- | -------------- | --------------- |
-| WETH  | 2400 WETH | 0.3WETH        | 125 WETH        |
-| WBTC  | 100 WBTC  | 0.02 WBTC      | 10 WBTC         |
-| USDC  | 12M USDC  | 1,000 USDC     | 500,000 USDC    |
-| DAI   | 12M DAI   | 1,000 DAI      | 500,000 DAI     |
+| Asset  | Pool max | Min pers borrow | Max pers borrow |
+| ------ | -------- | --------------- | --------------- |
+| USDC   | N/A      | 100,000 USDC    | 1,000,000 USDC  |
+| DAI    | N/A      | 100,000 DAI     | 1,000,000 DAI   |
+| wstETH | N/A      | 75 wstETH       | 600 wstETH      |
+| WETH   | N/A      | 75 WETH         | 600 WETH        |
+| WBTC   | N/A      | 5.5 WBTC        | 50 WBTC         |
 
-**Update #1, 18.04.2022**: governance voting for increasing limits are [here](https://snapshot.org/#/gearbox.eth/proposal/0x88f4662687cad00cfdd515fc21289a537cbe69f80ddf790a13a58bb94af3f9f1).
+****[**Latest update**](https://gov.gearbox.fi/t/gip-20-update-fees-interest-rate-curves/1571)**:** pool limits effectively lifted off. Any actual caps are just required by the architecture to have \*some\* number and can be lifted without a vote if the TVL approaches them. As for the min-max personal borrow limits, they have been established by another vote: [GIP-21](https://gov.gearbox.fi/t/gip-21-leverage-ninja-mode-limits-for-v2/1572).

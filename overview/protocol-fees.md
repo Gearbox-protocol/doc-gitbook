@@ -12,8 +12,8 @@ As mentioned in previous sections, Gearbox Protocol has two sides - lenders ([li
 
 If a Credit Account is liquidated, some percentage goes to a third-party liquidator who liquidated the account - and some percentage goes to Gearbox Protocol.
 
-* Current liquidation fee going to the liquidator: 5%
-* Current liquidation fee going to the protocol: 2%
+* Current liquidation fee going to the liquidator: 4%
+* Current liquidation fee going to the protocol: 1.5%
 
 {% hint style="info" %}
 This was established by the DAO (token holders) and multisig as [part of the first GIPs](https://gov.gearbox.fi/t/gip-1-proposal-to-add-pools/347).
