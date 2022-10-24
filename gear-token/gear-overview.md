@@ -55,8 +55,8 @@ All further distributions can be found in [monthly-quarterly DAO reports](https:
 [credit-account-mining.md](../overview/launch-phases/credit-account-mining.md)
 {% endcontent-ref %}
 
-* **Community Testers**: \~1.085%. No vesting. _Originally, 1.267% were allocated, but community members performed_ [_on-chain sleuthing_](https://gov.gearbox.fi/t/botting-findings/88/148) _and reduced this number._ [_Distributor contract_](https://etherscan.io/address/0xda12b368a93007ef2446717765917933cebc6080)_._&#x20;
-* **Early Discord members**: \~0.348%. No vesting. _Originally, 0.476% were allocated, but after 9 months of claimants now showing up, the tokens were repurposed._ [_Distributor contract_](https://etherscan.io/address/0xda12b368a93007ef2446717765917933cebc6080)_._&#x20;
+* **Community Testers**: \~1.085%. No vesting. _Originally, 1.267% were allocated, but community members performed_ [_on-chain sleuthing_](https://gov.gearbox.fi/t/botting-findings/88/148) _and reduced this number._ [_Distributor contract_](https://etherscan.io/address/0xadc72d5c034c189f5c0b03c7bac21ac50b9d01f1)_._&#x20;
+* **Early Discord members**: \~0.348%. No vesting. _Originally, 0.476% were allocated, but after 9 months of claimants now showing up, the tokens were repurposed._ [_Distributor contract_](https://etherscan.io/address/0xadc72d5c034c189f5c0b03c7bac21ac50b9d01f1)_._&#x20;
 
 {% content-ref url="../overview/launch-phases/early-drop.md" %}
 [early-drop.md](../overview/launch-phases/early-drop.md)
