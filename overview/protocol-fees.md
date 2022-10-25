@@ -19,7 +19,7 @@ If a Credit Account is liquidated, some percentage goes to a third-party liquida
 This was established by the DAO (token holders) and multisig as [part of the first GIPs](https://gov.gearbox.fi/t/gip-1-proposal-to-add-pools/347).
 {% endhint %}
 
-#### APY Spread Fee: 50%
+#### APY Spread Fee
 
 The protocol takes spread as a fee between the APY which liquidity providers receive and the fee traders & farmers pay for borrowing their assets. More information is on the Pools & APY page:
 

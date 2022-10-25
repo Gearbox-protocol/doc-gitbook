@@ -16,7 +16,7 @@ Keep in mind that no number of audits can guarantee full safety. There are alway
 * **Consensys** **Diligence** Fuzzing (04/10/2021 - 13/12/2021): V1 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2021%20Dec%20-%20ConsensysDiligence%20\_Fuzzing\_report.pdf)
 * **ChainSecurity** (31/08/2021 - 13/12/2021): V1 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2021%20Dec%20-%20ChainSecurity\_Gearbox\_audit.pdf)
 * **MixBytes** (06/07/2021 - 22/12/2021): V1 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2021%20Dec%20-%20MixBytes\_security\_audit\_report.pdf)
-* Peckshield (22/07/2021 - 10/08/2021): initial version coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2021%20Sep%20-%20Peckshield-10.08.2021.pdf)
+* **Peckshield** (22/07/2021 - 10/08/2021): initial version coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2021%20Sep%20-%20Peckshield-10.08.2021.pdf)
 * Peckshield (09/04/2021 - 03/05/2021): first iteration coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2021%20May%20-%20Peckshield-03.05.2021.pdf)
 
 {% hint style="info" %}
