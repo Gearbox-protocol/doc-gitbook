@@ -11,7 +11,7 @@ Keep in mind that no number of audits can guarantee full safety. There are alway
 ## Audits
 
 * **ChainSecurity** (23/02/2022 - 19/10/2022): full V2 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2022%20Oct%20-%20ChainSecurity%20report.pdf)
-* **Consensys Diligence** (25/07/2022 - 12/08/2022): full V2 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2022%20Sep%20-%20Conensys%20Dilligence.pdf)
+* **Consensys Diligence** (25/07/2022 - 12/08/2022): full V2 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2022%20Sep%20-%20Consensys%20Diligence.pdf)
 * **Sigma Prime** (21/02/2022 - 06/08/2022): almost full V2 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2022%20Aug%20-%20SigmaPrime\_Gearbox\_Smart\_Contract\_Security\_Assessment\_Report\_v2.pdf)
 * **Consensys** **Diligence** Fuzzing (04/10/2021 - 13/12/2021): V1 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2021%20Dec%20-%20ConsensysDiligence%20\_Fuzzing\_report.pdf)
 * **ChainSecurity** (31/08/2021 - 13/12/2021): V1 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2021%20Dec%20-%20ChainSecurity\_Gearbox\_audit.pdf)
