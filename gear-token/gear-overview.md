@@ -84,3 +84,7 @@ These are some amazing people who have contributed to the technical development 
 ### Initial company wallet: 11.52%. Locked > 1 year + vesting.
 
 **Company wallet** lockup: 12 months since token deployment (launch), and then linear vesting over 18 months starting after the cliff. Address: [0xa8b1d00b1d224e83760963e361b7f676581a622d](https://etherscan.io/address/0xa8b1d00b1d224e83760963e361b7f676581a622d). This is outside of the scope of the DAO, and can be used for discretionary activities. This is a company that kickstarted the first protocol development pre-DAO launch. Not related to the DAO.
+
+
+
+<figure><img src="../.gitbook/assets/IMG_6227.PNG.png" alt=""><figcaption><p>Information on some supporters, rounds, and contributors - can be found at the bottom of the main <a href="https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a">Notion page</a>.</p></figcaption></figure>
