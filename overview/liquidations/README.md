@@ -5,7 +5,7 @@ description: Defining liquidations, health factor, and weighted thresholds.
 # Liquidations
 
 {% hint style="info" %}
-Here is a sample liquidation bot written in RUST: [https://github.com/Gearbox-protocol/liquidation-bot](https://github.com/Gearbox-protocol/liquidation-bot). Some tips and tricks as a liquidator you can find [here](https://twitter.com/mikaellazarev/status/1472975451589160960).
+A new liquidator code for V2 written in typescript: [https://github.com/Gearbox-protocol/liquidator-v2](https://github.com/Gearbox-protocol/liquidator-v2). Also here is a sample liquidation bot in RUST for V1: [https://github.com/Gearbox-protocol/liquidation-bot](https://github.com/Gearbox-protocol/liquidation-bot). Some tips and tricks [here](https://twitter.com/0xmikko\_eth/status/1580963422317203457).
 {% endhint %}
 
 #### How does the protocol ensure over-collaterization while allowing users leveraged operations?
