@@ -27,6 +27,7 @@
 * [How to open a Credit Account](traders-and-farmers/how-to-open-account.md)
 * [Inside a Credit Account](traders-and-farmers/credit-account-dashboard-overview/README.md)
   * [Trade: swapping assets](traders-and-farmers/credit-account-dashboard-overview/trade-swapping-assets.md)
+  * [Farm: depositing into protocols](traders-and-farmers/credit-account-dashboard-overview/farm-depositing-into-protocols.md)
   * [Connect: Wallet Connect](traders-and-farmers/credit-account-dashboard-overview/connect-wallet-connect.md)
   * [How to close a Credit Account](traders-and-farmers/credit-account-dashboard-overview/how-to-close-account.md)
   * [How to avoid liquidations](traders-and-farmers/credit-account-dashboard-overview/kak-ne-byt-rekt.md)
