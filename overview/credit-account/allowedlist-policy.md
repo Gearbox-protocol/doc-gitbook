@@ -24,48 +24,81 @@ If you want to check and see the list of deployed contracts, go here:
 If working with the raw numbers, [LT](../liquidations/#liquidation-threshold) for stables would work as follows: a swap from a stablecoin to a stablecoin would cause your [Health Factor](../../traders-and-farmers/credit-account-dashboard-overview/kak-ne-byt-rekt.md#what-i-can-do-if-my-health-factor-is-close-to-1-to-keep-my-credit-account-alive) to decrease, that is because stables are not always stable from the price feed and risks perspective. It's not safe to assume a stable is 1:1 to another one, so there are more [complex calculations being done](../liquidations/#threshold-weighted-value) which account for possible slippage, chainlink price tick, and other factors.
 {% endhint %}
 
+{% hint style="success" %}
+Decision on the assets and contracts as per [GIP-19](https://gov.gearbox.fi/t/gip-19-v2-discussion-pools-assets-and-allowedlist-policy-for-v2/1438).
+{% endhint %}
+
 ### Allowed Contracts List
 
-* Curve Finance 3pool - [0xbEbc44782C7dB0a1A60Cb6fe97d0b483032FF1C7](https://etherscan.io/address/0xbEbc44782C7dB0a1A60Cb6fe97d0b483032FF1C7)
-* Uniswap V2 - [0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D](https://etherscan.io/address/0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D)
-* Uniswap V3 - [0xE592427A0AEce92De3Edee1F18E0157C05861564](https://etherscan.io/address/0xE592427A0AEce92De3Edee1F18E0157C05861564)
-* Yearn Finance yUSDC - [0xa354F35829Ae975e850e23e9615b11Da1B3dC4DE](https://etherscan.io/address/0xa354F35829Ae975e850e23e9615b11Da1B3dC4DE)
-* Yearn Finance yDAI - [0xdA816459F1AB5631232FE5e97a05BBBb94970c95](https://etherscan.io/address/0xdA816459F1AB5631232FE5e97a05BBBb94970c95)
-* Sushiswap - [0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F](https://etherscan.io/address/0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F)
-
-{% hint style="success" %}
-This was established by the DAO (token holders) and multisig as [part of the first GIPs](https://gov.gearbox.fi/t/gip-3-proposal-for-allowed-contracts/351). Submit to Gearbox DAO your favorite protocol so that [governance](../../governance/setup/) can vote it in!
-{% endhint %}
+| Pool                            | LP Token Address                                                                                                      |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Curve ETH+stETH                 | [0x06325440D014e39736583c165C2963BA99fAf14E](https://etherscan.io/address/0x06325440D014e39736583c165C2963BA99fAf14E) |
+| Convex Curve ETH+stETH          | [0x9518c9063eB0262D791f38d8d6Eb0aca33c63ed0](https://etherscan.io/address/0x9518c9063eB0262D791f38d8d6Eb0aca33c63ed0) |
+| Curve FRAX+3Crv                 | [0xd632f22692FaC7611d2AA1C0D552930D43CAEd3B](https://etherscan.io/address/0xd632f22692FaC7611d2AA1C0D552930D43CAEd3B) |
+| Convex Curve FRAX+3Crv          | [0xbE0F6478E0E4894CFb14f32855603A083A57c7dA](https://etherscan.io/address/0xbE0F6478E0E4894CFb14f32855603A083A57c7dA) |
+| Curve 3pool (DAI+USDC+USDT)     | [0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490](https://etherscan.io/address/0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490) |
+| Convex 3pool (DAI+USDC+USDT)    | [0x30D9410ED1D5DA1F6C8391af5338C93ab8d4035C](https://etherscan.io/address/0x30D9410ED1D5DA1F6C8391af5338C93ab8d4035C) |
+| Curve LUSD+3Crv                 | [0xEd279fDD11cA84bEef15AF5D39BB4d4bEE23F0cA](https://etherscan.io/address/0xEd279fDD11cA84bEef15AF5D39BB4d4bEE23F0cA) |
+| Convex Curve LUSD+3Crv          | [0xFB9B2f06FDb404Fd3E2278E9A9edc8f252F273d0](https://etherscan.io/address/0xFB9B2f06FDb404Fd3E2278E9A9edc8f252F273d0) |
+| Curve DAI+USDC+USDT+sUSD        | [0xC25a3A3b969415c80451098fa907EC722572917F](https://etherscan.io/address/0xC25a3A3b969415c80451098fa907EC722572917F) |
+| Convex Curve DAI+USDC+USDT+sUSD | [0x11D200ef1409cecA8D6d23e6496550f707772F11](https://etherscan.io/address/0x11D200ef1409cecA8D6d23e6496550f707772F11) |
+| Curve GUSD+3Crv                 | [0xD2967f45c4f384DEEa880F807Be904762a3DeA07](https://etherscan.io/address/0xD2967f45c4f384DEEa880F807Be904762a3DeA07) |
+| Convex Curve GUSD+3Crv          | [0x15c2471ef46Fa721990730cfa526BcFb45574576](https://etherscan.io/address/0x15c2471ef46Fa721990730cfa526BcFb45574576) |
+| USDC yVault                     | [0xa354F35829Ae975e850e23e9615b11Da1B3dC4DE](https://etherscan.io/address/0xa354F35829Ae975e850e23e9615b11Da1B3dC4DE) |
+| DAI yVault                      | [0xdA816459F1AB5631232FE5e97a05BBBb94970c95](https://etherscan.io/address/0xdA816459F1AB5631232FE5e97a05BBBb94970c95) |
+| WETH yVault                     | [0xa258C4606Ca8206D8aA700cE2143D7db854D168c](https://etherscan.io/address/0xa258C4606Ca8206D8aA700cE2143D7db854D168c) |
+| WBTC yVault                     | [0xA696a63cc78DfFa1a63E9E50587C197387FF6C7E](https://etherscan.io/address/0xA696a63cc78DfFa1a63E9E50587C197387FF6C7E) |
+| Curve stETH Pool yVault         | [0xdCD90C7f6324cfa40d7169ef80b12031770B4325](https://etherscan.io/address/0xdCD90C7f6324cfa40d7169ef80b12031770B4325) |
+| Curve FRAX Pool yVault          | [0xB4AdA607B9d6b2c9Ee07A275e9616B84AC560139](https://etherscan.io/address/0xB4AdA607B9d6b2c9Ee07A275e9616B84AC560139) |
 
 ### Allowed Assets List
 
-| Asset  | LT for USDC & DAI                         | LT for WBTC & ETH                     | Address                                    | Price Oracle                               |
-| ------ | ----------------------------------------- | ------------------------------------- | ------------------------------------------ | ------------------------------------------ |
-| 1INCH  | 77.5%                                     | 77.5%                                 | 0x111111111117dc0aa78b770fa6a738034120c302 | 0x72AFAECF99C9d9C8215fF44C77B94B99C28741e8 |
-| AAVE   | 75%                                       | 75%                                   | 0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9 | 0x6Df09E975c830ECae5bd4eD9d90f3A95a4f88012 |
-| COMP   | 80%                                       | 80%                                   | 0xc00e94cb662c3520282e6f5717214004a7f26888 | 0x1B39Ee86Ec5979ba5C322b826B3ECb8C79991699 |
-| CRV    | 77.5%                                     | 77.5%                                 | 0xD533a949740bb3306d119CC777fa900bA034cd52 | 0x8a12Be339B0cD1829b91Adc01977caa5E9ac121e |
-| DAI    | <p>87.5% for USDC,<br>93% for DAI</p>     | 85%                                   | 0x6B175474E89094C44Da98b954EedeAC495271d0F | 0x773616E4d11A78F511299002da57A0a94577F1f4 |
-| DPI    | 77.5%                                     | 77.5%                                 | 0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b | 0x029849bbc0b1d93b85a8b6190e979fd38F5760E2 |
-| FEI    | 85%                                       | 85%                                   | 0x956F47F50A910163D8BF957Cf5846D573E7f87CA | 0x7f0d2c2838c6ac24443d13e23d99490017bde370 |
-| FTM    | 0.01%                                     | 0.01%                                 | 0x4e15361fd6b4bb609fa63c81a2be19d873717870 | 0x2DE7E4a9488488e0058B95854CC2f7955B35dC9b |
-| LDO    | 75%                                       | 75%                                   | 0x5a98fcbea516cf06857215779fd812ca3bef1b32 | 0x4e844125952D32AcdF339BE976c98E22F6F318dB |
-| LUNA   | 0.01%                                     | 0.01%                                 | 0xd2877702675e6ceb975b4a1dff9fb7baf4c91ea9 | 0x91E9331556ED76C9393055719986409e11b56f73 |
-| LINK   | 75%                                       | 75%                                   | 0x514910771AF9Ca656af840dff83E8264EcF986CA | 0xDC530D9457755926550b59e8ECcdaE7624181557 |
-| SNX    | 77.5%                                     | 77.5%                                 | 0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f | 0x79291A9d692Df95334B1a0B3B4AE6bC606782f8c |
-| SUSHI  | 77.5%                                     | 77.5%                                 | 0x6b3595068778dd592e39a122f4f5a5cf09c90fe2 | 0xe572CeF69f43c2E488b33924AF04BDacE19079cf |
-| UNI    | 75%                                       | 75%                                   | 0x1f9840a85d5af5bf1d1762f925bdaddc4201f984 | 0xD6aA3D25116d8dA79Ea0246c4826EB951872e02e |
-| USDC   | <p>87.5% for DAI, </p><p>93% for USDC</p> | 85%                                   | 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 | 0x986b5E1e1755e3C2440e960477f25201B0a8bbD4 |
-| WBTC   | 85%                                       | <p>85% for WETH, <br>93% for WBTC</p> | 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599 | 0xdeb288F737066589598e9214E782fa5A8eD689e8 |
-| WETH   | 85%                                       | <p>85% for WBTC,<br>93% for WETH</p>  | 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 | 0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419 |
-| YFI    | 72.5%                                     | 72.5%                                 | 0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e | 0x7c5d4F8345e66f68099581Db340cd65B078C41f4 |
-| yvDAI  | <p>87.5% for USDC, <br>90% for DAI</p>    | 85%                                   | 0xdA816459F1AB5631232FE5e97a05BBBb94970c95 | 0x614f9486Ab9C7a217526c097656D2F6bD2DB631C |
-| yvUSDC | <p>90% for USDC, <br>87.5% for DAI</p>    | 85%                                   | 0xa354F35829Ae975e850e23e9615b11Da1B3dC4DE | 0x172971182351e00C2D700bA1e8c5586Ad2CFa38c |
+Each column is the pool denomination asset, so the % LTV values per different asset are specific to each pool. As such, leverage factor on correlated assets \[stable to stable] can be higher! Links to all the ERC20 assets can be found on forum [here](https://gov.gearbox.fi/t/gip-19-v2-discussion-pools-assets-and-allowedlist-policy-for-v2/1438), they do not fit into gitbook table format.
 
-****[**Update #1**](https://discord.com/channels/841203475606011905/922889626035818576/931424147257557002)**: 23 December 2021:** DPI forbidden
+| Token                  | USDC | DAI  | WETH | wstETH | WBTC |
+| ---------------------- | ---- | ---- | ---- | ------ | ---- |
+| WETH                   | 85   | 85   | 94.5 | 90     | 85   |
+| stETH                  | 82.5 | 82.5 | 90   | 94.5   | 82.5 |
+| WBTC                   | 85   | 85   | 85   | 85     | 94.5 |
+| USDC                   | 94.5 | 92   | 82.5 | 82.5   | 82.5 |
+| DAI                    | 92   | 94.5 | 82.5 | 82.5   | 82.5 |
+| USDT                   | 90   | 90   | 82.5 | 82.5   | 82.5 |
+| sUSD                   | 90   | 90   | 82.5 | 82.5   | 82.5 |
+| FRAX                   | 90   | 90   | 82.5 | 82.5   | 82.5 |
+| gUSD                   | 90   | 90   | 82.5 | 82.5   | 82.5 |
+| LUSD                   | 90   | 90   | 82.5 | 82.5   | 82.5 |
+| steCRV                 | 82.5 | 82.5 | 90   | 90     | 82.5 |
+| cvxsteCRV              | 82.5 | 82.5 | 90   | 90     | 82.5 |
+| stkcvxsteCRV           | 82.5 | 82.5 | 90   | 90     | 82.5 |
+| FRAX3CRV-f             | 90   | 90   | 80   | 80     | 80   |
+| cvxFRAX3CRV-f          | 90   | 90   | 80   | 80     | 80   |
+| stkcvxFRAX3CRV         | 90   | 90   | 80   | 80     | 80   |
+| 3Crv                   | 90   | 90   | 80   | 80     | 80   |
+| cvx3Crv                | 90   | 90   | 80   | 80     | 80   |
+| stkcvx3Crv             | 90   | 90   | 80   | 80     | 80   |
+| LUSD3CRV-f             | 90   | 90   | 80   | 80     | 80   |
+| cvxLUSD3CRV-f          | 90   | 90   | 80   | 80     | 80   |
+| stkcvxLUSD3CRV         | 90   | 90   | 80   | 80     | 80   |
+| crvPlain3andSUSD       | 90   | 90   | 80   | 80     | 80   |
+| cvxcrvPlain3andSUSD    | 90   | 90   | 80   | 80     | 80   |
+| stkcvxcrvPlain3andSUSD | 90   | 90   | 80   | 80     | 80   |
+| gusd3CRV               | 90   | 90   | 80   | 80     | 80   |
+| cvxgusd3CRV            | 90   | 90   | 80   | 80     | 80   |
+| stkcvxgusd3CRV         | 90   | 90   | 80   | 80     | 80   |
+| FraxUsdc               | 90   | 90   | 80   | 80     | 80   |
+| yvDAI                  | 90   | 90   | 80   | 80     | 80   |
+| yvUSDC                 | 90   | 90   | 80   | 80     | 80   |
+| yvWETH                 | 82.5 | 82.5 | 90   | 90     | 80   |
+| yvWBTC                 | 82.5 | 82.5 | 80   | 80     | 90   |
+| yvCurve-stETH          | 82.5 | 82.5 | 90   | 90     | 82.5 |
+| yvCurve-FRAX           | 90   | 90   | 80   | 80     | 80   |
+| CVX                    | 25   | 25   | 25   | 25     | 25   |
+| FXS                    | 25   | 25   | 25   | 25     | 25   |
+| LQTY                   | 0    | 0    | 0    | 0      | 0    |
+| CRV                    | 25   | 25   | 25   | 25     | 25   |
+| LDO                    | 0    | 0    | 0    | 0      | 0    |
+| SNX                    | 25   | 25   | 25   | 25     | 25   |
 
-****[**Update #2**](https://discord.com/channels/841203475606011905/922889626035818576/972844268139987035)**: 18 April 2022:** added FTM, LUNA, CRV, SUSHI, LDO.&#x20;
-
-****[**Update #3**](https://discord.com/channels/841203475606011905/922889626035818576/974363111882645504)**: 12 May 2022:** LUNA, FTM liquidation threshold was changed from 72.5%,72.5% to 0.01%, 0.01%.
-
-[**Update #4**](https://gov.gearbox.fi/t/gip-19-v2-discussion-pools-assets-and-allowedlist-policy-for-v2/1438)**:** 27 May 2022: Yearn, Curve, Convex and Lido adapters added. Multiple assets added for V2.
+{% hint style="info" %}
+The information about V1 Credit Managers \[Allowed List of contracts & assets] was scraped out from the docs to not confuse new users. Those CMs are still on-chain and exist, but only with the option to trade out of CA positions and close, not borrow or open new ones. If you are looking for old numbers, [check on forum](https://gov.gearbox.fi/t/pre-gip-2-3-start-gearbox-allowed-tokens-and-protocols/152/37).
+{% endhint %}

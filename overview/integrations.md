@@ -1,16 +1,14 @@
 ---
-description: Offering leverage to your users with Gearbox, or fully integrate.
+description: Offer leverage to your users with Gearbox, or fully integrate.
 ---
 
 # Integrations
 
 {% hint style="info" %}
-See [dev docs](https://dev.gearbox.fi/) or technical documentation and guidance:
+See [dev docs](https://dev.gearbox.fi/) for technical documentation and guidance.
 {% endhint %}
 
-{% embed url="https://dev.gearbox.fi/" %}
-
-List of currently integrated protocols by Gearbox DAO:
+### List of currently integrated protocols by Gearbox DAO
 
 {% content-ref url="credit-account/allowedlist-policy.md" %}
 [allowedlist-policy.md](credit-account/allowedlist-policy.md)
@@ -24,7 +22,7 @@ The goal of Gearbox is to be integrated with existing and new protocols in an op
 
 {% embed url="https://github.com/Gearbox-protocol" %}
 
-## How to integrate on a contract level
+### How to integrate on a contract level
 
 The integration process looks pretty simple: it is required to inherit an abstract contract (Credit Account Manager or Pool) and add specific business logic with set parameters. To be integrated with deployed contracts, the integration should be approved by Gearbox [governance](../governance/setup/).
 
@@ -34,7 +32,7 @@ For more details, please ask the community on [Discord](https://discord.gg/JZgvm
 
 {% embed url="https://gov.gearbox.fi/t/template-proposal-for-managing-gearbox-protocol-parameters/100" %}
 
-## How to integrate your interface application
+### How to integrate your interface application
 
 Gearbox core vision is that users should continue to use the DeFi protocols they love, but ... with leverage. Keeping this goal in mind, we have implemented a special library that makes it possible for any dApp to be connected with Gearbox credit account in a similar way to how Metamask or Fortmatic work. See more in the Developer Docs:
 
