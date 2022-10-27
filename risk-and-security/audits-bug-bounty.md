@@ -35,7 +35,14 @@ Join the Bug Bounty with Immunefi! Help Gearbox stay safe and be rewarded for it
 
 ### Scope&#x20;
 
-The scope of the bug bounty refers to the core contracts available at this repository: [https://github.com/Gearbox-protocol/gearbox-contracts](https://github.com/Gearbox-protocol/gearbox-contracts). _If you have found a bug that you think is within the security interests of the protocol but is outside of the scope of the repository above, please do notify us then anyway. We can decide ad-hoc together with you._
+The scope of the bug bounty refers to the core contracts available in these repositories:
+
+1. [https://github.com/Gearbox-protocol/core-v2](https://github.com/Gearbox-protocol/core-v2)
+2. [https://github.com/Gearbox-protocol/integrations-v2](https://github.com/Gearbox-protocol/integrations-v2)
+
+{% hint style="success" %}
+If you have found a bug that you think is within the security interests of the protocol but is outside of the scope of the repository above, please do notify us then anyway. We can decide ad-hoc together with you. 1/1 payouts has been done before based on this.
+{% endhint %}
 
 If you need more information on the protocol, please check:&#x20;
 
@@ -79,9 +86,9 @@ In order to be considered for a reward, all bug reports must contain the followi
 * Your name and/or colleagues if you wish to be later recognized&#x20;
 * (Optional) A patch and/or suggestions to resolve the vulnerability
 
-The following activities are prohibited by bug bounty program:&#x20;
+The following activities are **prohibited** by bug bounty program:&#x20;
 
-* Any testing with mainnet or public testnet contracts: all testing should be done on private testnets
+* Testing with mainnet or public testnet contracts: all testing should be done on private testnets
 * Any testing with pricing oracles or third party smart contracts&#x20;
 * Attempting phishing or other social engineering attacks against our employees and/or customers&#x20;
 * Any testing with third party systems and applications (e.g. browser extensions) as well as websites (e.g. SSO providers, advertising networks)&#x20;
