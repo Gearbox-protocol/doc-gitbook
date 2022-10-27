@@ -14,11 +14,9 @@ Gearbox Protocol allows anyone to take DeFi-native leverage and then use it acro
 >
 > The core vision is to become a **leverage middle layer**. You can envision building your own DeFi protocol and just making a “take leverage with Gearbox” as a button. And _bam_ - your users are now more capital efficient. Or integrate Gearbox into a platform like Zerion or Zapper. Check this page to understand why [composable leverage 2.0 is cool](leverage-2.0-is-composable.md)!
 
-Developer docs can be found here:
+**Developer docs can be found here:**
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+{% embed url="https://dev.gearbox.fi/" %}
 
 ### **Where is the DAO, how can I contribute?**
 
@@ -30,6 +28,8 @@ Gearbox is a DAO, run by various contributors and teams. The protocol and assets
 
 {% embed url="https://gearboxprotocol.notion.site/gearboxprotocol/Gearbox-DAO-Working-Sheet-23966f122ae4421492819242b30a0e7a" %}
 
+<figure><img src=".gitbook/assets/IMG_0418.png" alt=""><figcaption><p><strong></strong><a href="https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a"><strong>https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a</strong></a><strong></strong></p></figcaption></figure>
+
 ## **Cool Features**
 
 * **Composable.** Gearbox does not have its own order book or trading environment. The leverage you get - is used across multiple DeFi protocols and assets, fully composable! For example, a yield aggregator can be on the liquidity provider side of Gearbox Protocol, as well as be an avenue for Gearbox users to deploy their leverage into. Learn [how-it-works.md](overview/how-it-works.md "mention").
@@ -39,10 +39,10 @@ Gearbox is a DAO, run by various contributors and teams. The protocol and assets
 * **Low overhead on gas.** Due to how data and operations are processed across isolated smart contracts, gas usage overhead is reduced to an insignificant overhead. [Learn more](overview/credit-account/#low-overhead-on-gas).
 
 {% hint style="info" %}
-With V2, Gearbox Protocol has become cooler & faster! It now has its own multicall for complex transactions, pathfinder for the best automated routing, integrations with Curve + Yearn + Convex + Lido, and more awesome stuff! Read here:
+With V2, Gearbox Protocol has become cooler & faster! It now has its own multicall for complex transactions, smart router for the best automated routing of trades & deposits, integrations with Curve + Yearn + Convex + Lido, and more! Read here:
 {% endhint %}
 
-<> medium article link soon <>
+{% embed url="https://medium.com/gearbox-protocol/product-evolution-v2-gearbox-protocol-from-1-to-2-going-further-dcedf3b5d959" %}
 
 ### DAO-First Approach to Building
 

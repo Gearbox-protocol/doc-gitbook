@@ -14,7 +14,7 @@ Funds on Credit Accounts are used as collateral for debt, and users can operate 
 
 See the list of [integrations](../integrations.md).
 
-## Allowed list policy
+## Allowed List policy
 
 Operations available to users are restricted by two policies:
 
@@ -43,9 +43,7 @@ Due to the architecture and design of Gearbox Protocol being modular, users each
 
 Next to that, Credit Accounts are not deployed by users every time as separate smart contracts, but are "borrowed" from the protocol by users like if you were to get an Uber: you use a car and then give it back once finished. This way, the deployment costs are kept to zero for new users.
 
-You can find all details on the math in technical paper:
+With V2, Gearbox Protocol also got Multicall, making it all even more gas efficient! See more:
 
-{% content-ref url="../whitepaper.md" %}
-[whitepaper.md](../whitepaper.md)
-{% endcontent-ref %}
+{% embed url="https://medium.com/gearbox-protocol/product-evolution-v2-gearbox-protocol-from-1-to-2-going-further-dcedf3b5d959" %}
 

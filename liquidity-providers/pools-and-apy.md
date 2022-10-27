@@ -20,7 +20,7 @@ Keep in mind that earning on Gearbox entails certain [risks](../risk-and-securit
 
 ## What is a Diesel Token?
 
-When you supply capital to a pool, you get Diesel Tokens, also known as dTokens, back. These tokens automatically earn interest & fees proportional to your share of the pool [like cTokens on Compound](https://compound.finance/docs/ctokens) or Yearn LP tokens. You don’t need to claim interest or perform any other actions, your Diesel Tokens value is supposed to grow with the protocol. _This is if the pool doesn't suffer losses from incorrect liquidations._
+When you supply capital to a pool, you get Diesel Tokens, also known as dTokens, back. These tokens automatically earn interest & fees proportional to your share of the pool [like cTokens on Compound](https://compound.finance/docs/ctokens) or Yearn LP tokens. You don’t need to claim interest or perform any other actions, your Diesel Tokens grow in value. _This is if the pool doesn't suffer losses from incorrect liquidations._
 
 Getting Diesel tokens is super easy, you can try it out by [supplying liquidity to Gearbox Protocol](manage-liquidity.md#supplying-liquidity).
 
@@ -38,7 +38,7 @@ Getting Diesel tokens is super easy, you can try it out by [supplying liquidity 
 
 ## How to calculate APY?
 
-Capital is required for traders and farmers to get leverage for their financial operations. For this, there are Liquidity Pools: anyone can become a liquidity provider by supplying assets in the Liquidity Pool. The profitability of LPs depends on the pool utilization ratio _U_ - the higher utilization, the higher interest rate.&#x20;
+Capital is required for traders and farmers to get leverage for their financial operations. For this, there are Liquidity Pools: anyone can become a liquidity provider by supplying assets in the Liquidity Pool. The profitability of LPs depends on the pool utilization ratio _U_ - the higher utilization, the higher interest rate. See a bit more on the [protocol-fees.md](../overview/protocol-fees.md "mention") page.
 
 Borrow APY is calculated according to formula
 
@@ -50,7 +50,7 @@ r(t) =
     \end{cases}
 $$
 
-This model is similar to how Aave works, you can find more details in the [tech paper](../overview/whitepaper.md).
+This model is similar to how Aave works.
 
 | Asset pool | r\_0 | r\_1 | r\_2 | U\_\* |
 | ---------- | ---- | ---- | ---- | ----- |
@@ -60,7 +60,7 @@ This model is similar to how Aave works, you can find more details in the [tech 
 | ETH        | 0    | 2.5  | 60   | 85    |
 | WBTC       | 0    | 2.5  | 60   | 85    |
 
-****[**Latest update**](https://gov.gearbox.fi/t/gip-20-update-fees-interest-rate-curves/1571): governance voting to change pool interest rate curve parameters and make the curve more flat as a bootstrap mechanism for V2 Leverage Ninja launch.
+****[**Latest update**](https://gov.gearbox.fi/t/gip-20-update-fees-interest-rate-curves/1571): governance voting to change pool interest rate curve parameters and make the curve more flat as a bootstrap mechanism for V2 Leverage Ninja launch. See the [logic](https://gov.gearbox.fi/t/gip-20-update-fees-interest-rate-curves/1571).
 
 ### Current Pool Caps as per latest GIP voting
 
@@ -72,4 +72,4 @@ This model is similar to how Aave works, you can find more details in the [tech 
 | WETH   | N/A      | 75 WETH         | 600 WETH        |
 | WBTC   | N/A      | 5.5 WBTC        | 50 WBTC         |
 
-****[**Latest update**](https://gov.gearbox.fi/t/gip-20-update-fees-interest-rate-curves/1571)**:** pool limits effectively lifted off. Any actual caps are just required by the architecture to have \*some\* number and can be lifted without a vote if the TVL approaches them. As for the min-max personal borrow limits, they have been established by another vote: [GIP-21](https://gov.gearbox.fi/t/gip-21-leverage-ninja-mode-limits-for-v2/1572).
+****[**Latest update**](https://gov.gearbox.fi/t/gip-20-update-fees-interest-rate-curves/1571)**:** pool limits are effectively lifted. Any actual caps are just required by the architecture to have \*some\* number and can be lifted without a vote if the TVL approaches them. As for the min-max personal borrow limits, they have been established by another vote: [GIP-21](https://gov.gearbox.fi/t/gip-21-leverage-ninja-mode-limits-for-v2/1572).

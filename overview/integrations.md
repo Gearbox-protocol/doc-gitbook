@@ -36,6 +36,6 @@ For more details, please ask the community on [Discord](https://discord.gg/JZgvm
 
 ## How to integrate your interface application
 
-Gearbox core vision is that users should continue to use the DeFi protocols they love, but ... with leverage. Keeping this goal in mind. we have implemented a special library that makes it possible for any dApp to be connected with Gearbox credit account in a similar way to how Metamask or Fortmatic work. See more in the Developer Docs:
+Gearbox core vision is that users should continue to use the DeFi protocols they love, but ... with leverage. Keeping this goal in mind, we have implemented a special library that makes it possible for any dApp to be connected with Gearbox credit account in a similar way to how Metamask or Fortmatic work. See more in the Developer Docs:
 
 {% embed url="https://dev.gearbox.fi/" %}
