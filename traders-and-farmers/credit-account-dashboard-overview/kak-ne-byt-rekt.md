@@ -18,13 +18,17 @@ Keep your health factor as high as possible. Make sure it doesn't drop close to 
 
 ### What I can do if my health factor is close to 1 to keep my Credit Account alive?&#x20;
 
-One of the ways is to add more collateral and thus improving the HF:
+1. **Add collateral**: the easiest method to improve your health factor is simply by adding more collateral in the form of the base asset that you opened your credit account in. If this isn't a possibility you can follow the below options.
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+<figure><img src="../../.gitbook/assets/Add more collateral.png" alt=""><figcaption></figcaption></figure>
 
-You can also close your Credit Account if you want to cut the losses and avoid full annihilation:
+&#x20;2\.  **Change strategy:** If you are in a strategy that has a directional trade that's leading to the HF dropping, a possible better idea could be to change to a strategy with stables or lesser volatile/base asset to preserve your credit account.
+
+&#x20;3\.  **Decrease debt:** Add some of the collateral back to the CA in the form of the base asset you borrowed, this will help you lower your leverage and thus improve your health factor
+
+&#x20;4\.  **Lower Leverage:** If the above isn't possible, you can close your leverage account and reopen it with a lower leverage level and this will ensure that while the value of your funds remains the same, the risk of liquidation is lower.
+
+&#x20;5\.  **Close CA:** In the case where none of the above are beneficial, it makes more sense to close your credit account and preserve the funds you have instead of getting liquidated and losing it all.  &#x20;
 
 {% content-ref url="how-to-close-account.md" %}
 [how-to-close-account.md](how-to-close-account.md)
@@ -34,11 +38,11 @@ You can also close your Credit Account if you want to cut the losses and avoid f
 
 In the [Credit Account's page](https://app.beta.gearbox.fi/accounts) you can check health factors of all your Credit Accounts:
 
-![](<../../.gitbook/assets/Screenshot 2021-10-17 at 23.53.05 (1).png>)
+<figure><img src="../../.gitbook/assets/screenshot-app-goerli-gearbox-fi-accounts-1666402061955.png" alt=""><figcaption></figcaption></figure>
 
 Also you can check health factor inside the Credit Account:&#x20;
 
-![](<../../.gitbook/assets/Screenshot 2021-10-17 at 14.26.47.png>)
+<figure><img src="../../.gitbook/assets/screenshot-app-goerli-gearbox-fi-accounts-0x2ad4a2f1bdd815e285a22cdcc072fbb-1666400881484 (3).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Anybody can run a liquidator bot and secure the protocol. You can chat about setting up your bot and other liquidator-things in [this Discord channel](https://discord.gg/wmydr8JfcP). Help users minimize the [risks](../../risk-and-security/risks-terms.md)!

@@ -4,13 +4,41 @@ description: Some ideas on how leverage could be used across DeFi with the help 
 
 # Strategies
 
-Gearbox Protocol allows for multiple collateral types and interactions within a Credit Account. While a developer can run all of the complex interactions on-chain, interface helps non-technical users to ape into strategies with one click thanks to Multicall. What it enables:
+Gearbox Protocol allows for multiple collateral types and interactions within a Credit Account. These collaterals can then deployed across protocols in order to turn DeFi strategies leveraged. Effectively, **every integration on Gearbox enables you to access multiple new strategies** basis the pools and vaults that are allowed. Some example of these are:
 
-* Openы a Credit Account based on your collateral, leverage, etc. selected;
-* Swapы some assets if needed to the ones needed for a specific farm you chose;
+1. **Leveraged Liquid Staking**: Stake ETH on LIDO to get stETH. The stETH can then further enable multiple further avenues of incremental APY. You can read the complete details below
+
+{% content-ref url="leveraged-liquid-staking.md" %}
+[leveraged-liquid-staking.md](leveraged-liquid-staking.md)
+{% endcontent-ref %}
+
+&#x20;2\.  **Leveraged Stablecoin Farming:** With V2, we'll be adding a few different stablecoins to help you access more stablecoin strategies as well as gain control over what all stablecoins you have and want exposure to, you can see the exact details below:
+
+{% content-ref url="leveraged-stablecoin-farming.md" %}
+[leveraged-stablecoin-farming.md](leveraged-stablecoin-farming.md)
+{% endcontent-ref %}
+
+&#x20;3\.  **Leveraged Vanilla yVaults:** This is a great way to avoid any funding fee while leveraging BTC and ETH and earning a small APY through yVaults
+
+{% content-ref url="leveraged-vanilla-yvaults.md" %}
+[leveraged-vanilla-yvaults.md](leveraged-vanilla-yvaults.md)
+{% endcontent-ref %}
+
+#### **How tedious is it to deploy these strategies though?**
+
+While a developer can run all of the complex interactions on-chain, executing these by going protocol to protocol is a tough task. The devs have worked this out though and the interface helps non-technical users to **ape into strategies with one click thanks to "One-Click Ready Strategies"**.&#x20;
+
+What it enables in 1 go:
+
+* Open a Credit Account based on your preferred collateral, leverage, etc. selected;
+* Swap some assets if needed to the ones needed for a specific farm you chose;
 * LP, stake, etc. to end up in that destination as you have chosen.
 
-Done! From assets X Y Z -> to taking leverage with gearbox -> to swaps into other assets -> to LP and then staking in the protocols you chose. All in one click thanks to Multicall + Smart Router!
+Done! From assets X Y Z -> to taking leverage with gearbox -> to swaps into other assets -> to LP and then staking in the protocols you chose. **All in one click thanks to Multicall + Smart Router!**
+
+{% content-ref url="one-click-strategies.md" %}
+[one-click-strategies.md](one-click-strategies.md)
+{% endcontent-ref %}
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-10-19 at 13.51.05.png" alt=""><figcaption><p>The numbers are taken from Goerli and are just a mockup!</p></figcaption></figure>
 
@@ -23,10 +51,6 @@ Do you have a strategy or idea which you would like to build on top of Gearbox o
 {% endhint %}
 
 Some older V1 primitive examples \[that still work though of course]:
-
-{% content-ref url="short.md" %}
-[short.md](short.md)
-{% endcontent-ref %}
 
 {% content-ref url="long.md" %}
 [long.md](long.md)

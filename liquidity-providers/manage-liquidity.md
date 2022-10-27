@@ -1,32 +1,38 @@
 ---
-description: By providing liquidity, you can earn APY in the same asset. Simple!
+description: >-
+  By providing liquidity, you can earn APY in the same asset plus any additional
+  boost of GEAR APY if it is incentivised by the DAO.
 ---
 
 # LP Dashboard - How to supply or withdraw liquidity
 
 ## Supplying liquidity
 
-**Step 1.** Go to [Pools](https://app.beta.gearbox.fi/pools) page and click _Supply_ on the asset you want to supply.
+**Step 1.** Go to [Pools](https://app.beta.gearbox.fi/pools) page and click _Supply_ on the asset you want to supply. The Supply APY will specify both the organic APY in the first half and the GEAR token APY in the 2nd half
 
-![](<../.gitbook/assets/Screenshot 2021-10-17 at 14.11.00.png>)
+<figure><img src="../.gitbook/assets/screenshot-app-gearbox-fi-pools-1666806854195.png" alt=""><figcaption></figcaption></figure>
 
 **Step 2.** Specify the amount you want to supply or just click on _MAX_.
 
-![](<../.gitbook/assets/Screenshot 2021-10-17 at 14.12.35.png>)
+<figure><img src="../.gitbook/assets/screenshot-app-gearbox-fi-pools-add-0x86130bdd69143d8a4e5fc50bf4323d48049e9-1666806906672.png" alt=""><figcaption></figcaption></figure>
 
 **Step 3.** First click _Approve_ and wait for the transaction to be confirmed. Then, click _Supply_ and wait for the confirmation. When a transaction is confirmed, you will receive [diesel tokens](pools-and-apy.md#what-is-diesel-token).&#x20;
 
-![](<../.gitbook/assets/Screenshot 2021-10-17 at 14.14.09.png>)
+<figure><img src="../.gitbook/assets/screenshot-app-gearbox-fi-pools-add-0x86130bdd69143d8a4e5fc50bf4323d48049e9-1666806993400.png" alt=""><figcaption><p>Approve the asset you want to supply</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/screenshot-app-gearbox-fi-pools-add-0x86130bdd69143d8a4e5fc50bf4323d48049e9-1666807034772.png" alt=""><figcaption><p>Click on supply</p></figcaption></figure>
 
 ## Withdrawing liquidity
 
 **Step 1.** Go to [Pools](https://app.beta.gearbox.fi/pools) page and click _Withdraw_ on the asset you want to withdraw.
 
-![](<../.gitbook/assets/Screenshot 2021-08-02 at 14.15.36.png>)
+<figure><img src="../.gitbook/assets/screenshot-app-gearbox-fi-pools-1666808115679 (1).png" alt=""><figcaption></figcaption></figure>
+
+
 
 **Step 2.** Specify the amount you want to withdraw if you want to take out a bit or click _MAX_ if all.
 
-![](<../.gitbook/assets/Screenshot 2021-10-17 at 14.18.09.png>)
+<figure><img src="../.gitbook/assets/screenshot-app-gearbox-fi-pools-remove-0x86130bdd69143d8a4e5fc50bf4323d4804-1666808137465.png" alt=""><figcaption></figcaption></figure>
 
 **Step 3.** First click _Approve_ and wait for the transaction to be confirmed. Then click _Withdraw_ and wait for the confirmation. When a transaction is confirmed, you will receive back your assets.
 

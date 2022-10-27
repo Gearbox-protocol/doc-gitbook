@@ -67,3 +67,5 @@ This was established by the DAO (token holders) and multisig as [part of the fir
 ****[**Update #2**](https://discord.com/channels/841203475606011905/922889626035818576/972844268139987035)**: 18 April 2022:** added FTM, LUNA, CRV, SUSHI, LDO.&#x20;
 
 ****[**Update #3**](https://discord.com/channels/841203475606011905/922889626035818576/974363111882645504)**: 12 May 2022:** LUNA, FTM liquidation threshold was changed from 72.5%,72.5% to 0.01%, 0.01%.
+
+[**Update #4**](https://gov.gearbox.fi/t/gip-19-v2-discussion-pools-assets-and-allowedlist-policy-for-v2/1438)**:** 27 May 2022: Yearn, Curve, Convex and Lido adapters added. Multiple assets added for V2.

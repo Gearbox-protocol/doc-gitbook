@@ -8,6 +8,10 @@ description: A quick guide to your first Credit Account.
 Learn what a [Credit Account](../overview/credit-account/) is and how it works.
 {% endhint %}
 
+{% hint style="info" %}
+**NOTE:** At the moment, the credit accounts are in "Leverage Ninja" Mode as we initially test in prod. You can post your address on the [**gov forum**](https://gov.gearbox.fi/t/gip-21-leverage-ninja-mode-limits-for-v2/1572/11) **** with a few links. If you don't want your twitter and address to be connected publicly, you can drop a message to any of the contributors on [**Discord**](https://discord.com/invite/gearbox).  &#x20;
+{% endhint %}
+
 Being able to leverage trade & farm starts with opening a Credit Account. However, there are different approaches in the interface that vary based on what you are looking for:
 
 * "I just want to leverage farm" - then you should go to [strategies](strategies/ "mention") and simply open a leveraged farming position with multicall in one click. That page lets you ape into Curve/Convex/Lido/Yearn with a single transaction, and saves you gas costs as well! It's more applicable to farmers who don't want to have a bunch of complexities and steps, and who know what end strategies they want to sit and farm in. It creates a Credit Account for you and apes into a strategy right after, removing manual complexity from you as a user.
@@ -24,9 +28,9 @@ Being able to leverage trade & farm starts with opening a Credit Account. Howeve
 
 **Step 2.** Specify the amount you want to put as collateral. This will be the notional amount from which the leverage X will be calculated. As such, 1 ETH you "deposit" as notional capital can be x6 more leverage, so a 6 ETH position total.
 
-**Step 3.** Select the leverage you want to get and click "Open position" button. Execute the approval and opening transactions as required, and that's it.
-
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-19 at 13.29.11 (1).png" alt=""><figcaption></figcaption></figure>
+
+**Step 3.** Select the leverage you want to get and click "Open position" button. Execute the approval and opening transactions as required, and that's it.
 
 Your Credit Account is now open!&#x20;
 

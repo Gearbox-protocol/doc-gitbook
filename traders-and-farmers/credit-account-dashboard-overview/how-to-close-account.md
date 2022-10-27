@@ -21,7 +21,7 @@ Another reason why **option number two is preferred is because you as a user can
 
 **Step 1.** Click _Manage_ button on your Credit Account's page.&#x20;
 
-![](<../../.gitbook/assets/Screenshot 2021-10-19 at 10.15.58 (1).png>)
+
 
 {% hint style="danger" %}
 Trading LP tokens on the market is not so easy, so make sure to unwrap them yourself. This way, you can avoid harsh slippage and save on liquidator fees. If you LPed into Yearn or another protocol which gives back such asset, you are better off unwrapping manually.
@@ -37,13 +37,13 @@ The current basic functionality only allows swaps for this feature on Uniswap V2
 
 **Step I-1.** Click _Close_ button
 
-![](<../../.gitbook/assets/Screenshot 2021-10-17 at 14.35.32.png>)
+<figure><img src="../../.gitbook/assets/Close credit account.png" alt=""><figcaption></figcaption></figure>
 
 **Step I-2.** Choose the maximum size of the slippage that you will tolerate in the options page in the top right corner, and click _Swap and get tokens_ button. If the price falls by more than the slippage while your trade is being confirmed, the trade will be reverted.
 
-![](<../../.gitbook/assets/Screenshot 2021-10-19 at 10.21.53.png>)
+<figure><img src="../../.gitbook/assets/screenshot-app-goerli-gearbox-fi-accounts-0x2ad4a2f1bdd815e285a22cdcc072fbb-1666402379978.png" alt=""><figcaption></figcaption></figure>
 
-## Option 2: **C**lose a Credit Account using your funds to repay the debt
+## Option 2: **C**lose a Credit Account using your funds to decrease the debt
 
 You repay the loan with your own funds. This means you have more funds on your personal wallet. After repayment is done, the assets which were on your Credit Account will be sent to your wallet.
 
@@ -51,13 +51,11 @@ You repay the loan with your own funds. This means you have more funds on your p
 This option is possible only if your wallet balance in the denominated asset is at least of the amount required for repaying the debt.
 {% endhint %}
 
-**Step II-2.** Click _Repay_ button in the Manage page.
+**Step II-2.** Click _Decrease Debt_ button in the Manage page.
 
-![](<../../.gitbook/assets/Screenshot 2021-10-17 at 14.37.01.png>)
+<figure><img src="../../.gitbook/assets/Decrease Debt.png" alt=""><figcaption></figcaption></figure>
 
 **Step II-2.** Check amount to be repaid and click _Repay_ button
-
-![](<../../.gitbook/assets/Screenshot 2021-10-19 at 10.24.42.png>)
 
 {% hint style="info" %}
 Did you find a bug with the interface, something didn't work as you think it should have, or you have a suggestion on how to improve the user experience? [Report](https://discord.gg/5YuHH9tvms) or [suggest](https://discord.gg/hF3QvX2vgt) on Discord!

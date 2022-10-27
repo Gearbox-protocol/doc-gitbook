@@ -8,7 +8,7 @@ description: Generalized Leverage Protocol ⚙ Built with composability in mind 
 
 Gearbox is a generalized leverage protocol. It has two sides to it: passive liquidity providers who earn low-risk APY by [providing single-asset liquidity](liquidity-providers/manage-liquidity.md); and active farmers, firms, or even other protocols who borrow those assets to [trade or farm with even x10 leverage](overview/credit-account/). See [how-it-works.md](overview/how-it-works.md "mention").
 
-Gearbox Protocol allows anyone to take DeFi-native leverage and then use it across various (DeFi & more) protocols in a composable way. **You take leverage with Gearbox and then use it on other protocols you already love: Uniswap, Curve, Convex, Lido, etc.** For example, you can leverage trade on Uniswap, leverage farm on Yearn, make delta-neutral strategies, get Leverage-as-a-Service for your structured product, and more... Thanks to the [Credit Accounts](overview/credit-account/) primitive!
+Gearbox Protocol allows anyone to take DeFi-native leverage and then use it across various (DeFi & more) protocols to earn leveraged yields, this enables you to compose your position as you want. **You take leverage with Gearbox and then use it on other protocols you already love: Uniswap, Curve, Convex, Lido, etc.** For example, you can leverage trade on Uniswap, leverage farm on Yearn, make delta-neutral strategies, get Leverage-as-a-Service for your structured product, and more... Thanks to the [Credit Accounts](overview/credit-account/) primitive!
 
 > Some compare composable leverage as a primitive to DeFi-native prime brokerage.
 >
@@ -16,8 +16,8 @@ Gearbox Protocol allows anyone to take DeFi-native leverage and then use it acro
 
 Developer docs can be found here:
 
-{% content-ref url="https://app.gitbook.com/o/-MVf0w9QBIQw5nuscwFc/s/-MTW5vYjW5AmfzJsI9yS/" %}
-[Gearbox Dev](https://app.gitbook.com/o/-MVf0w9QBIQw5nuscwFc/s/-MTW5vYjW5AmfzJsI9yS/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ### **Where is the DAO, how can I contribute?**

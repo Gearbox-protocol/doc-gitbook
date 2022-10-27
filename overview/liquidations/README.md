@@ -10,7 +10,7 @@ A new liquidator code for V2 written in typescript: [https://github.com/Gearbox-
 
 #### How does the protocol ensure over-collaterization while allowing users leveraged operations?
 
-When trading with Gearbox, your [Credit Account](../credit-account/) becomes the collateral: both your initial funds and the borrowed amount you got from the protocol. Gearbox Protocol sees which tokens your portfolio consists of and can determine its value at all times, which are always calculated in the underlying borrowed asset which you opened that Credit Account in.&#x20;
+When trading with Gearbox, your [Credit Account](../credit-account/) becomes the collateral for external protocols/actions: both your initial funds and the borrowed amount you got from the protocol. Gearbox Protocol sees which tokens your portfolio consists of and can determine its value at all times, which are always calculated in the underlying borrowed asset which you opened that Credit Account in.&#x20;
 
 Gearbox uses a risk model to continuously assess the quality-value of a Credit Account. For each Credit Account, it computes its health factor**.**&#x20;
 

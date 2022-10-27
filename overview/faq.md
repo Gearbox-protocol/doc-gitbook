@@ -10,7 +10,9 @@ Do you feel like some question is missing? [Send it on Discord](https://discord.
 
 #### **What fees am I paying to the protocol and others?**&#x20;
 
-Since Gearbox Protocol has two sides to it, the fees you are paying depend on what user type you are. **If you are a passive Liquidity Provider, there is no fee**. If you are a leverage user, you are paying a borrow interest fee (which fluctuates depending on [utilization ratio](../liquidity-providers/pools-and-apy.md#how-to-calculate-apy) similar to Aave) + [liquidation fees to the protocol and a liquidator](protocol-fees.md#trader-farmer-fees). The latter you pay only if you are liquidated.
+Since Gearbox Protocol has two sides to it, the fees you are paying depend on what user type you are. **If you are a passive Liquidity Provider, there is no direct fee for becoming one**. Though, while withdrawing an LP position, there is currently a 1% withdrawal fee. The DAO is planning to vote to remove this in November 2022.
+
+&#x20;If you are a leverage user, you are paying a borrow interest fee (which fluctuates depending on [utilization ratio](../liquidity-providers/pools-and-apy.md#how-to-calculate-apy) similar to Aave) + [liquidation fees to the protocol and a liquidator](protocol-fees.md#trader-farmer-fees). The latter you pay only if you are liquidated.
 
 All these fees are configurable by [DAO](../governance/setup/). See more in [protocol-fees.md](protocol-fees.md "mention").
 
@@ -50,7 +52,7 @@ So in the future there is no worry with it, but current ecosystems need to devel
 
 #### **Why can't I trade ETH on DEXes via Wallet Connect? Only WETH?**
 
-Because ETH is not an ERC20 token by itself, so you can't _operate_ it like an ERC20 token which is a must-have for Gearbox Protocol and safe operations. Within the Credit Account, ETH is converted to WETH. So if you [connect via Wallet Connect](../traders-and-farmers/credit-account-dashboard-overview/wallet-connect.md) or see your Credit Account on Etherscan - and check for ETH, you will see WETH only. After liquidation or closing your account, it is converted back to ETH, so liquidity providers don't need to think through this too much.
+Because ETH is not an ERC20 token by itself, so you can't _operate_ it like an ERC20 token which is a must-have for Gearbox Protocol and safe operations. Within the Credit Account, ETH is converted to WETH. So if you [connect via Wallet Connect](../traders-and-farmers/credit-account-dashboard-overview/connect-using-native-adapters.md) or see your Credit Account on Etherscan - and check for ETH, you will see WETH only. After liquidation or closing your account, it is converted back to ETH, so liquidity providers don't need to think through this too much.
 
 #### Why does a trade from stable to stable decrease my HF (health factor)?
 

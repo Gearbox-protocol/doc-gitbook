@@ -12,16 +12,16 @@ As mentioned in previous sections, Gearbox Protocol has two sides - lenders ([li
 
 If a Credit Account is liquidated, some percentage goes to a third-party liquidator who liquidated the account - and some percentage goes to Gearbox Protocol.
 
-* Current liquidation fee going to the liquidator: 4%
-* Current liquidation fee going to the protocol: 1.5%
+* Current liquidation fee going to the liquidator: 5%
+* Current liquidation fee going to the protocol: 2%
 
 {% hint style="info" %}
 This was established by the DAO (token holders) and multisig as [part of the first GIPs](https://gov.gearbox.fi/t/gip-1-proposal-to-add-pools/347).
 {% endhint %}
 
-#### APY Spread Fee: 50%
+#### APY Spread Fee: 33%
 
-The protocol takes spread as a fee between the APY which liquidity providers receive and the fee traders & farmers pay for borrowing their assets. More information is on the Pools & APY page:
+The protocol takes spread as a fee between the APY which liquidity providers receive and the fee traders & farmers pay for borrowing their assets. Of the APY fee that is generated, 33% of it goes to the DAO while 67% goes to the lenders. More information is on the Pools & APY page:
 
 {% content-ref url="../liquidity-providers/pools-and-apy.md" %}
 [pools-and-apy.md](../liquidity-providers/pools-and-apy.md)
