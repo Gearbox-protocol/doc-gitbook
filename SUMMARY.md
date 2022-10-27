@@ -31,11 +31,11 @@
   * [How to close a Credit Account](traders-and-farmers/credit-account-dashboard-overview/how-to-close-account.md)
   * [How to avoid liquidations](traders-and-farmers/credit-account-dashboard-overview/kak-ne-byt-rekt.md)
 * [Strategies](traders-and-farmers/strategies/README.md)
-  * [One Click Strategies](traders-and-farmers/strategies/one-click-strategies.md)
-  * [Leveraged Liquid Staking](traders-and-farmers/strategies/leveraged-liquid-staking.md)
-  * [Leveraged Stablecoin Farming](traders-and-farmers/strategies/leveraged-stablecoin-farming.md)
-  * [Leveraged Vanilla yVaults](traders-and-farmers/strategies/leveraged-vanilla-yvaults.md)
-  * [Farming- Long and Short](traders-and-farmers/strategies/long.md)
+  * [One-Click Strategies](traders-and-farmers/strategies/one-click-strategies.md)
+  * [Leveraged liquid staking](traders-and-farmers/strategies/leveraged-liquid-staking.md)
+  * [Leveraged stablecoin farming](traders-and-farmers/strategies/leveraged-stablecoin-farming.md)
+  * [Leveraged vanilla yVaults](traders-and-farmers/strategies/leveraged-vanilla-yvaults.md)
+  * [Farming Long/Short or "Free Leverage Position"](traders-and-farmers/strategies/long.md)
   * [Arbitrage of correlated assets](traders-and-farmers/strategies/arb-correlated-assets.md)
 
 ## Liquidity providers

@@ -5,7 +5,7 @@ description: A walk-through the main functions on Gearbox app interface.
 # Inside a Credit Account
 
 {% hint style="info" %}
-Learn what a [Credit Account](../../overview/credit-account/) is and how it works.
+Learn [how to open a Credit Account](../how-to-open-account.md) if you have not done it yet.
 {% endhint %}
 
 ### Operating a Credit Account
@@ -62,5 +62,5 @@ At the top, you can see the balance of your Credit Account denominated in the un
 <figure><img src="../../.gitbook/assets/screenshot-app-goerli-gearbox-fi-accounts-0x2ad4a2f1bdd815e285a22cdcc072fbb-1666400881484 (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Did you find a bug with the interface, something didn't work as you think it should have, or you have a suggestion on how to improve the user experience? [Report](https://discord.gg/5YuHH9tvms) or [suggest](https://discord.gg/hF3QvX2vgt) on Discord!
+Did you find a bug with the interface, something didn't work as you think it should have, or you have a suggestion on how to improve the user experience? [Suggest](https://discord.gg/hF3QvX2vgt) on Discord!
 {% endhint %}

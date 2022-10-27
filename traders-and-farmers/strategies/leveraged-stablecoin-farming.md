@@ -2,61 +2,59 @@
 description: Learn about the multiple stablecoin strategies we have coming up
 ---
 
-# Leveraged Stablecoin Farming
+# Leveraged stablecoin farming
 
-<figure><img src="../../.gitbook/assets/screenshot-app-gearbox-fi-accounts-strategies-list-1666803356826.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot-app-gearbox-fi-accounts-strategies-list-1666803356826.png" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts/strategies/list">https://app.gearbox.fi/accounts/strategies/list</a></p></figcaption></figure>
 
-### 1. Metapool/3Pool(USDC+USDT+DAI)
-
-#### a. Curve 3Pool
+### Curve 3Pool (USDC+USDT+DAI)
 
 The Curve 3Pool is one of the most important stablecoin pools in all of DeFi — it underpins much of the Curve ecosystem because many of their other pools are made up for the 3pool + 1 additional asset (known as Curve metapools).
 
 It also holds almost $1b in assets at the moment. While this pool doesn’t have very high APY, this pool is broadly seen as very safe as long as you are happy to hold the underlying stables (USDC, USDT, DAI). Basically, the risks you are taking are Curve protocol risks + one of the 3 assets depegging. That’s a pretty low low risk compared to whatever else you can face in DeFi.
 
-#### **b. Convex 3CRV**
+{% hint style="success" %}
+You can then put those Curve LP tokens either in Convex or Yearn. This will give you some \[boosted] CRV rewards as well as CVX rewards, next to trading fees of the pool.
+{% endhint %}
 
-
-
-### 2. FRAX Strategies
+### FRAX flavour
 
 #### a. Curve FRAX3CRV
 
 The **FRAX3crv pool** is the type where a pool pairs 1 asset with the 3CRV Pool token. So by participating in this pool, you’re (very approximately) holding 50% FRAX and 50% 3CRV, which is made up of DAI, USDC, and USDT. If FRAX is your stablecoin of choice, then this Vault is a decent option for you to earn yield on FRAX as a stablecoin.
 
-#### b. Convex FRAX3CRV
+b. **Curve** **FRAXUSDC**
 
-Convex FRAX3CRV is the convex vault for the curve LP pool, it is boosted by the CVX emissions on convex.
+This pool is approximately 50%-50% in FRAX and USDC.
 
-#### c. Curve FRAX Pool yVault <a href="#0af6" id="0af6"></a>
+{% hint style="success" %}
+You can then put those Curve LP tokens either in Convex or Yearn. This will give you some \[boosted] CRV rewards as well as CVX rewards, next to trading fees of the pool.
+{% endhint %}
 
-The yVault is formed by the LP tokens of the above mentioned Curve pool. These LP tokens from Curve are then further deposited in Convex for additional yield from CVX emissions. The CVX is then sold and assets redeposited to increase yield. You can execute this in one click as well.
+### LUSD flavour
 
-### 3. LUSD Strategy
+#### Curve LUSD3CRV
 
-#### a. Curve LUSD3CRV
+The **LUSD3crv pool** is another one of these pools with 1 asset + 3CRV. In this case, the 1 asset is LUSD, which again means that you’re holding 50% LUSD and 50% a mixture of DAI, USDC, and USDT. LUSD is generally viewed as one of the most decentralized and censorship resistant stablecoins (the design is similar to original design of DAI, where the only collateral used for LUSD is ETH). So if you’re a decentralization maxi but you still want to earn yield on stables, this LUSD pool might be a reasonably good solution for you.&#x20;
 
-The **LUSD3crv pool** is another one of these pools with 1 asset + 3CRV. In this case, the 1 asset is LUSD, which again means that you’re holding 50% LUSD and 50% a mixture of DAI, USDC, and USDT.
+_Just keep in mind that recently LUSD has been >$1 peg, so entering the pool (but so is exiting) yields slippage if you are using another stablecoin other than LUSD itself._
 
-LUSD is generally viewed as one of the most decentralized and censorship resistant stablecoins (the design is similar to original design of DAI, where the only collateral used for LUSD is ETH). So if you’re a decentralization maxi but you still want to earn yield on stables, this LUSD pool might be a reasonably good solution for you.&#x20;
+{% hint style="success" %}
+You can then put those Curve LP tokens either in Convex or Yearn. This will give you some \[boosted] CRV rewards as well as CVX rewards, next to trading fees of the pool.
+{% endhint %}
 
-Just keep in mind that recently LUSD has been >$1 peg, so entering the pool (but so is exiting) yields slippage if you are using another stablecoin other than LUSD itself.
+### GUSD flavour
 
-**b. Convex LUSD3CRV**
+#### Curve GUSD3CRV
 
-Like the above two, this is the convex vault for the curve pool to earn boosted rewards
+Similar to the above 2, **GUSD3crv pool** on Curve also functions with 1 asset being clubbed with the 3CRV. GUSD is a 1:1 USD-backed stablecoin issued by Gemini.&#x20;
 
-### 4. GUSD Strategy
+{% hint style="success" %}
+You can then put those Curve LP tokens either in Convex or Yearn. This will give you some \[boosted] CRV rewards as well as CVX rewards, next to trading fees of the pool.
+{% endhint %}
 
-#### a. Curve GUSD3CRV
+### **sUSD** flavour
 
-Similar to the above 2, **GUSD3crv pool** on Curve also functions with 1 asset being clubbed with the 3CRV. GUSD is a 1:1 USD-backed stablecoin issued by Gemini. You can redeem a GUSD for $1 at Gemini.&#x20;
-
-**b. Convex vault for Curve GUSD3CRV**
-
-### **5. sUSD Strategies**
-
-**a. Curve sUSD**
+**Curve sUSD**
 
 The Curve sUSD pool which this vault is built on predates the metapool design and is instead made up for (approximately, in an ideal world) 25% each of SUSD, USDC, USDT, and DAI.
 
@@ -64,7 +62,9 @@ sUSD is an overcollateralized stablecoin by Synthetix protocol. You can learn mo
 
 If you’re a believer in the Synthetix ecosystem then this Curve sUSD Pool might make sense as a place for you to park your stablecoins to earn yield.
 
-**b. Convex Curve sUSD vault**
+{% hint style="success" %}
+You can then put those Curve LP tokens either in Convex or Yearn. This will give you some \[boosted] CRV rewards as well as CVX rewards, next to trading fees of the pool.
+{% endhint %}
 
 Try these vaults out here:&#x20;
 

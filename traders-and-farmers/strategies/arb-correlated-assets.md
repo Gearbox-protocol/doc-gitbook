@@ -9,13 +9,13 @@ When one of the correlated assets de-pegs and you believe the peg will be restor
 DAI: $1.05\
 USDC: $1.00
 
-1. Go to the [Credit Accounts](https://app.gearbox.fi/) app page.
-2. Open a DAI-denominated Credit Account. For example, 100.000 x 10 leverage = 1M DAI.
+1. Go to the [Credit Accounts](https://app.gearbox.fi/accounts) app page.
+2. Open a DAI-denominated Credit Account. For example, 100.000 x 9 leverage = 900K DAI.
 3. Swap all the DAI from your Credit Account to USDC.
 4. Wait until the price of DAI returns to peg of 1:1.
 5. Close your Credit Account and fix profits.&#x20;
 
-Not taking slippage and interest rate into account, 1M DAI swapped to USDC at the price of $1.05 would be 1.05M USDC and when closing the account - essentially 50K profits in arbitrage.&#x20;
+Not taking slippage and interest rate into account, 900K DAI swapped to USDC at the price of $1.05 would be 945M USDC and when closing the account - essentially 50K profits in arbitrage.&#x20;
 
 Same strategy works for the case DAI < USDC. The only difference is that you should open a Credit Account denominated in USDC. Such strategy also can apply to WBTC, or other pegged assets. [Open Credit Account and try it](https://app.gearbox.fi/).
 

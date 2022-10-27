@@ -26,7 +26,7 @@ Being able to leverage trade & farm starts with opening a Credit Account. Howeve
 
 Once opened, the underlying asset in that particular account can't be changed. But you can open a new Credit Account with a different debt \[borrowed] asset.&#x20;
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-10-19 at 13.27.08.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-19 at 13.27.08.png" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts">https://app.gearbox.fi/accounts</a></p></figcaption></figure>
 
 **Step 2.** Specify the amount you want to put as collateral. This will be the notional amount from which the leverage X will be calculated. As such, 1 ETH you "deposit" as notional capital can be x6 more leverage, so a 6 ETH position total. You can also have multiple collateral assets!
 
