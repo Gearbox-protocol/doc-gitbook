@@ -10,6 +10,8 @@ Keep in mind that no number of audits can guarantee full safety. There are alway
 
 ## Audits
 
+<figure><img src="../.gitbook/assets/gearbox audits.jpeg" alt=""><figcaption></figcaption></figure>
+
 * **ChainSecurity** (23/02/2022 - 19/10/2022): full V2 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2022%20Oct%20-%20ChainSecurity%20report.pdf)
 * **Consensys Diligence** (25/07/2022 - 12/08/2022): full V2 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2022%20Sep%20-%20Consensys%20Diligence.pdf)
 * **Sigma Prime** (21/02/2022 - 06/08/2022): almost full V2 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2022%20Aug%20-%20SigmaPrime\_Gearbox\_Smart\_Contract\_Security\_Assessment\_Report\_v2.pdf)
