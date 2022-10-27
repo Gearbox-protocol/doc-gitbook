@@ -1,5 +1,5 @@
 ---
-description: The path to decentralization and community governance.
+description: The path to decentralization and community governance from summer 2021.
 ---
 
 # DAO-First Launch

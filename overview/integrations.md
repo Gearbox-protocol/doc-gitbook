@@ -14,13 +14,17 @@ See [dev docs](https://dev.gearbox.fi/) for technical documentation and guidance
 [allowedlist-policy.md](credit-account/allowedlist-policy.md)
 {% endcontent-ref %}
 
+For the technical implementation and contracts, see:
+
+{% embed url="https://github.com/Gearbox-protocol/integrations-v2" %}
+
+{% hint style="info" %}
 Gearbox protocol has a flexible, adaptable, and scalable architecture.&#x20;
 
-The main business logic is encapsulated in the core layer which supports operations for both protocol sides. It allows connecting customized pools with Credit Account managers without changing the internal codebase, and thus simplifying the integration process.
+The main business logic is encapsulated in the core layer which supports operations for both protocol sides. It allows connecting customized pools with Credit Account managers without changing the internal codebase, and thus simplifying integrations.
 
-The goal of Gearbox is to be integrated with existing and new protocols in an open-source manner and provide leverage across many user bases. The architecture allows integration on both sides: both by protocols that are interested in granting leveraged access to their operations as well as by protocols that could provide supply-side lending liquidity like Aave, Compound, Iron Bank, etc.
-
-{% embed url="https://github.com/Gearbox-protocol" %}
+The goal of Gearbox is to be integrated with existing and new protocols in an open-source manner and provide leverage across many user bases. The architecture allows integration on both sides: both by protocols that are interested in granting leveraged access to their operations as well as by protocols that could provide supply-side lending liquidity like Aave, Compound, Frax, etc.
+{% endhint %}
 
 ### How to integrate on a contract level
 
