@@ -52,7 +52,7 @@ So in the future there is no worry with it, but current ecosystems need to devel
 
 #### **Why can't I trade ETH on DEXes via Wallet Connect? Only WETH?**
 
-Because ETH is not an ERC20 token by itself, so you can't _operate_ it like an ERC20 token which is a must-have for Gearbox Protocol and safe operations. Within the Credit Account, ETH is converted to WETH. So if you [connect via Wallet Connect](../traders-and-farmers/credit-account-dashboard-overview/connect-using-native-adapters.md) or see your Credit Account on Etherscan - and check for ETH, you will see WETH only. After liquidation or closing your account, it is converted back to ETH, so liquidity providers don't need to think through this too much.
+Because ETH is not an ERC20 token by itself, so you can't _operate_ it like an ERC20 token which is a must-have for Gearbox Protocol and safe operations. Within the Credit Account, ETH is converted to WETH. So if you [connect via Wallet Connect](../traders-and-farmers/credit-account-dashboard-overview/connect-wallet-connect.md) or see your Credit Account on Etherscan - and check for ETH, you will see WETH only. After liquidation or closing your account, it is converted back to ETH, so liquidity providers don't need to think through this too much.
 
 #### Why does a trade from stable to stable decrease my HF (health factor)?
 

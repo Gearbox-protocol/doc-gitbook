@@ -4,9 +4,9 @@ description: >-
   Connect.
 ---
 
-# Connect- Using native adapters
+# Connect: Wallet Connect
 
-Using Wallet Connect integration, you can use leverage on native interfaces of your favorite DeFi protocols. That's right, interfaces of other protocols don't even have to integrate Gearbox Protocol - you simply connect your Credit Account wallet instead of your regular metamask one... and there you go - now you can trade with larger positions thanks to Gearbox leverage!&#x20;
+Using the Wallet Connect integration, you can use leverage on native interfaces of your favorite DeFi protocols. That's right, interfaces of other protocols don't even have to integrate Gearbox Protocol - you simply connect your Credit Account wallet instead of your regular Metamask obe... and there you go - now you can trade with larger positions thanks to Gearbox leverage!&#x20;
 
 1. Open _Connect_ page.
 
@@ -35,4 +35,3 @@ You can only interact with the allowed protocol list as per Gearbox governance. 
 {% hint style="info" %}
 Did you find a bug with the interface, something didn't work as you think it should have, or you have a suggestion on how to improve the user experience? [Report](https://discord.gg/5YuHH9tvms) or [suggest](https://discord.gg/hF3QvX2vgt) on Discord!
 {% endhint %}
-

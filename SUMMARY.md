@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Overview ](README.md)
-* [Useful Links](useful-links.md)
+* [Link Tree](link-tree.md)
 * [Leverage 2.0 is composable!](leverage-2.0-is-composable.md)
 
 ## Protocol overview <a href="#overview" id="overview"></a>
@@ -26,8 +26,8 @@
 
 * [How to open a Credit Account](traders-and-farmers/how-to-open-account.md)
 * [Inside a Credit Account](traders-and-farmers/credit-account-dashboard-overview/README.md)
-  * [Trade- Swapping assets](traders-and-farmers/credit-account-dashboard-overview/trade-swapping-assets.md)
-  * [Connect- Using native adapters](traders-and-farmers/credit-account-dashboard-overview/connect-using-native-adapters.md)
+  * [Trade: swapping assets](traders-and-farmers/credit-account-dashboard-overview/trade-swapping-assets.md)
+  * [Connect: Wallet Connect](traders-and-farmers/credit-account-dashboard-overview/connect-wallet-connect.md)
   * [How to close a Credit Account](traders-and-farmers/credit-account-dashboard-overview/how-to-close-account.md)
   * [How to avoid liquidations](traders-and-farmers/credit-account-dashboard-overview/kak-ne-byt-rekt.md)
 * [Strategies](traders-and-farmers/strategies/README.md)

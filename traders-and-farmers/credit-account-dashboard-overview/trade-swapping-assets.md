@@ -4,22 +4,14 @@ description: >-
   you want to.
 ---
 
-# Trade- Swapping assets
+# Trade: swapping assets
 
-The trade tab lets you convert your leveraged base asset to the asset of your choice as long as it is a part of the allowedlist&#x20;
+The trade tab lets you trade (swap) any asset from one to another, as long as it is on the [allowedlist-policy.md](../../overview/credit-account/allowedlist-policy.md "mention"). You can see that list by scrolling on the right tab of the dashboard.
 
 {% content-ref url="../../overview/credit-account/allowedlist-policy.md" %}
 [allowedlist-policy.md](../../overview/credit-account/allowedlist-policy.md)
 {% endcontent-ref %}
 
-Swapping your asset to another can have a direct impact to your health factor, please do keep a check on it in order to make sure you don't run a risk of liquidation.
+Swapping your asset to another can have a direct impact on your Health Factor, so please do keep a check on it in order to make sure you don't run into a risk of a liquidation.
 
 <figure><img src="../../.gitbook/assets/screenshot-app-goerli-gearbox-fi-accounts-0x2ad4a2f1bdd815e285a22cdcc072fbb-1666402210046.png" alt=""><figcaption></figcaption></figure>
-
-Feel there's an asset that should available on trade? You can raise it to the community for it to be added to the Allowedlist.
-
-You can use these swapped assets just for leveraging them or on our Adapter integrations through the connect page to earn yields as you want.
-
-{% content-ref url="connect-using-native-adapters.md" %}
-[connect-using-native-adapters.md](connect-using-native-adapters.md)
-{% endcontent-ref %}

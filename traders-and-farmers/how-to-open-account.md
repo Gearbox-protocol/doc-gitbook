@@ -9,7 +9,7 @@ Learn what a [Credit Account](../overview/credit-account/) is and how it works.
 {% endhint %}
 
 {% hint style="info" %}
-**NOTE:** At the moment, the credit accounts are in "Leverage Ninja" Mode as we initially test in prod. You can post your address on the [**gov forum**](https://gov.gearbox.fi/t/gip-21-leverage-ninja-mode-limits-for-v2/1572/11) **** with a few links. If you don't want your twitter and address to be connected publicly, you can drop a message to any of the contributors on [**Discord**](https://discord.com/invite/gearbox).  &#x20;
+**NOTE:** At the moment, Credit Accounts are in "Leverage Ninja" Mode as we initially test in prod: a list of addresses having access to V2 leverage. You can post your address on the [**gov forum**](https://gov.gearbox.fi/t/gip-21-leverage-ninja-mode-limits-for-v2/1572/11) **** with a few links. If you don't want your twitter and address to be connected publicly, you can drop a message to any of the contributors on [**Discord**](https://discord.com/invite/gearbox).
 {% endhint %}
 
 Being able to leverage trade & farm starts with opening a Credit Account. However, there are different approaches in the interface that vary based on what you are looking for:
@@ -22,15 +22,17 @@ Being able to leverage trade & farm starts with opening a Credit Account. Howeve
 
 * "I want to have different strategies and figure out step by step" - in this case, you might be better off following the steps by yourself: from selecting the debt asset to choosing leverage, to swapping some assets and LPing into Curve, to staking on Yearn and so on. In terms of _what_ you are doing, it's the same as option 1 above, but with more steps in-between.
 
-**Step 1.** Go to [Credit Accounts](https://app.beta.gearbox.fi/accounts/) page. Click on the asset you want to provide as collateral. The underlying asset is the asset you trade against, meaning all your positions are denominated in it. Once opened, the underlying asset in that particular account can't be changed. But you can open a new Credit Account with a different debt \[borrowed] asset.&#x20;
+**Step 1.** Go to [Credit Accounts](https://app.gearbox.fi/accounts) page. Click on the asset you want to borrow. This underlying debt asset is the asset you trade against, meaning all your positions are denominated in it.&#x20;
+
+Once opened, the underlying asset in that particular account can't be changed. But you can open a new Credit Account with a different debt \[borrowed] asset.&#x20;
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-19 at 13.27.08.png" alt=""><figcaption></figcaption></figure>
 
-**Step 2.** Specify the amount you want to put as collateral. This will be the notional amount from which the leverage X will be calculated. As such, 1 ETH you "deposit" as notional capital can be x6 more leverage, so a 6 ETH position total.
+**Step 2.** Specify the amount you want to put as collateral. This will be the notional amount from which the leverage X will be calculated. As such, 1 ETH you "deposit" as notional capital can be x6 more leverage, so a 6 ETH position total. You can also have multiple collateral assets!
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-19 at 13.29.11 (1).png" alt=""><figcaption></figcaption></figure>
 
-**Step 3.** Select the leverage you want to get and click "Open position" button. Execute the approval and opening transactions as required, and that's it.
+**Step 3.** Select the leverage you want to get and click "Open X position" button. Execute the approval and opening transactions as required, and that's it.
 
 Your Credit Account is now open!&#x20;
 
