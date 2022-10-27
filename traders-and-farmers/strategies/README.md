@@ -24,7 +24,7 @@ Gearbox Protocol allows for multiple collateral types and interactions within a 
 [leveraged-vanilla-yvaults.md](leveraged-vanilla-yvaults.md)
 {% endcontent-ref %}
 
-#### **How tedious is it to deploy these strategies though?**
+### **How tedious is it to deploy these strategies though?**
 
 While a developer can run all of the complex interactions on-chain, executing these by going protocol to protocol is a tough task. The devs have worked this out though and the interface helps non-technical users to **ape into strategies with one click thanks to "One-Click Ready Strategies"**.&#x20;
 

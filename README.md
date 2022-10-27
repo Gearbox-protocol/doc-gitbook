@@ -22,7 +22,7 @@ Gearbox Protocol allows anyone to take DeFi-native leverage and then use it acro
 
 Gearbox is a DAO, run by various contributors and teams. The protocol and assets are never in custody of any one single person. You can be in a DAO but not be 24/7 active, which is totally okay. There are different ways to get involved and get rewarded for your time and skills.&#x20;
 
-* **Workers / core contributors**: those who day and/or night work on different tasks as core contributors, ranging from marketing to coding. DAO contributors are split among different sub-projects and can decide to work on something specific, or a few tasks at a time. [See Notion](https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a).&#x20;
+* **Core contributors**: those who day and/or night work on different tasks as core contributors, ranging from marketing to coding. DAO contributors are split among different sub-projects and can decide to work on something specific, or a few tasks at a time. [See Notion](https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a).&#x20;
 * **Delegates**: members who stay on top of protocol strategic ideas and plans, but don’t have the 24/7 to really get hands-on operational tasks. They can become delegates and lead how [governance](governance/setup/) decides on protocol vital things.&#x20;
 * **Shitposters**: you can meme, learn, and discuss DeFi in [Discord](https://discord.com/invite/gearbox). We’ll like you ;) In fact, there is a _VIBES_ community program for the best posters, check it out [here](https://medium.com/gearbox-protocol/vibes-community-program-is-starting-welcome-to-the-1st-stage-e64a03f4c025).
 
@@ -32,17 +32,16 @@ Gearbox is a DAO, run by various contributors and teams. The protocol and assets
 
 ## **Cool Features**
 
-* **Composable.** Gearbox does not have its own order book or trading environment. The leverage you get - is used across multiple DeFi protocols and assets, fully composable! For example, a yield aggregator can be on the liquidity provider side of Gearbox Protocol, as well as be an avenue for Gearbox users to deploy their leverage into. Learn [how-it-works.md](overview/how-it-works.md "mention").
-* **0% Funding Rates**. The leverage offered is not based on derivative positions but is instead executed with real assets on third-party protocols. Because Gearbox does not create its own trading pairs, there is no short/long ratio that needs to be maintained with funding rates.&#x20;
-* **Leverage as a Service.** Other protocols can offer leverage to their users with the help of Gearbox Protocol, without modifying anything in their own architecture. As such, they also get exposure to the user base of Gearbox. [Make a proposal to Gearbox DAO](https://gov.gearbox.fi/t/template-proposal-for-managing-gearbox-protocol-parameters/100)!
-* **Permissionless Strategies.** Positions and trades within Credit Accounts can be extended to include complex strategies, for example, making a short position farm in Yearn; or having LP tokens as collateral for more composable actions. In fact, you can make all of these complex things easier to ape into, by using Gearbox's unique multicall features.
-* **Low overhead on gas.** Due to how data and operations are processed across isolated smart contracts, gas usage overhead is reduced to an insignificant overhead. [Learn more](overview/credit-account/#low-overhead-on-gas).
-
 {% hint style="info" %}
 With V2, Gearbox Protocol has become cooler & faster! It now has its own multicall for complex transactions, smart router for the best automated routing of trades & deposits, integrations with Curve + Yearn + Convex + Lido, and more! Read here:
 {% endhint %}
 
 {% embed url="https://medium.com/gearbox-protocol/product-evolution-v2-gearbox-protocol-from-1-to-2-going-further-dcedf3b5d959" %}
+
+* **Composable.** Gearbox does not have its own order book or trading environment. The leverage you get - is used across multiple DeFi protocols and assets, fully composable! For example, a yield aggregator can be on the liquidity provider side of Gearbox Protocol, as well as be an avenue for Gearbox users to deploy their leverage into. Learn [how-it-works.md](overview/how-it-works.md "mention").
+* **0% Funding Rates**. The leverage offered is not based on derivative positions but is instead executed with real assets on third-party protocols. Because Gearbox does not create its own trading pairs, there is no short/long ratio that needs to be maintained with funding rates.&#x20;
+* **Leverage as a Service.** Other protocols can offer leverage to their users with the help of Gearbox Protocol, without modifying anything in their own architecture. As such, they also get exposure to the user base of Gearbox. [Make a proposal to Gearbox DAO](https://gov.gearbox.fi/t/template-proposal-for-managing-gearbox-protocol-parameters/100)!
+* **Permissionless Strategies.** Positions and trades within Credit Accounts can be extended to include complex strategies, for example, making a short position farm in Yearn; or having LP tokens as collateral for more composable actions. In fact, you can make all of these complex things easier to ape into, by using Gearbox's unique multicall features.
 
 ### DAO-First Approach to Building
 

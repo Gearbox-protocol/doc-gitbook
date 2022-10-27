@@ -8,7 +8,7 @@ description: >-
 
 ## Supplying liquidity
 
-**Step 1.** Go to [Pools](https://app.beta.gearbox.fi/pools) page and click _Supply_ on the asset you want to supply. The Supply APY will specify both the organic APY in the first half and the GEAR token APY in the 2nd half
+**Step 1.** Go to [Passive Pools](https://app.gearbox.fi/pools) page and click _Supply_ on the asset you want to supply.
 
 <figure><img src="../.gitbook/assets/screenshot-app-gearbox-fi-pools-1666806854195.png" alt=""><figcaption></figcaption></figure>
 
@@ -20,15 +20,11 @@ description: >-
 
 <figure><img src="../.gitbook/assets/screenshot-app-gearbox-fi-pools-add-0x86130bdd69143d8a4e5fc50bf4323d48049e9-1666806993400.png" alt=""><figcaption><p>Approve the asset you want to supply</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/screenshot-app-gearbox-fi-pools-add-0x86130bdd69143d8a4e5fc50bf4323d48049e9-1666807034772.png" alt=""><figcaption><p>Click on supply</p></figcaption></figure>
-
 ## Withdrawing liquidity
 
-**Step 1.** Go to [Pools](https://app.beta.gearbox.fi/pools) page and click _Withdraw_ on the asset you want to withdraw.
+**Step 1.** Go to [Passive Pools](https://app.gearbox.fi/pools) page and click _Withdraw_ on the asset you want to withdraw.
 
 <figure><img src="../.gitbook/assets/screenshot-app-gearbox-fi-pools-1666808115679 (1).png" alt=""><figcaption></figcaption></figure>
-
-
 
 **Step 2.** Specify the amount you want to withdraw if you want to take out a bit or click _MAX_ if all.
 
@@ -41,5 +37,5 @@ Usually, in DeFi protocols forced liquidation is not implemented. This creates t
 {% endhint %}
 
 {% hint style="info" %}
-Did you find a bug with the interface, something didn't work as you think it should have, or you have a suggestion on how to improve the user experience? [Report](https://discord.gg/5YuHH9tvms) or [suggest](https://discord.gg/hF3QvX2vgt) on Discord!
+Did you find a bug with the interface, something didn't work as you think it should have, or you have a suggestion on how to improve the user experience? [Report](https://discord.gg/5YuHH9tvms) on Discord!
 {% endhint %}

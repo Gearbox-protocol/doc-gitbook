@@ -9,7 +9,7 @@ description: Become a delate or put your GEAR to use as a holder!
 
 You can be in a DAO but not be 24/7 active, which is totally okay. There are different ways to get involved and get rewarded for your time and skills.&#x20;
 
-* **Workers / core contributors**: those who day and/or night work on different tasks as core contributors, ranging from marketing to coding. DAO contributors are split among different sub-projects and can decide to work on something specific, or a few tasks at a time. [See Notion](https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a).&#x20;
+* **Core contributors**: those who day and/or night work on different tasks as core contributors, ranging from marketing to coding. DAO contributors are split among different sub-projects and can decide to work on something specific, or a few tasks at a time. [See Notion](https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a).&#x20;
 * **Delegates**: members who stay on top of protocol strategic ideas and plans, but don’t have the 24/7 to really get hands-on operational tasks. They can become delegates and lead how [governance](setup/) decides on protocol vital things.&#x20;
 * **Shitposters**: you can meme, learn, and discuss DeFi in [Discord](https://discord.com/invite/gearbox). We’ll like you ;)
 {% endhint %}
@@ -43,10 +43,6 @@ Before the DAO comes up with a staking module and more complex tokenomics - GEAR
 In general, delegation is also important to allow smaller community members to unite and push for their voices to be heard. As such, hard-working and smart yet not \*rich\* members can be able to meet the proposal creation quorums and thus Gearbox DAO - more inclusive and secure.
 
 ## How to be a Delegate
-
-{% hint style="warning" %}
-There is a discussion to have delegates earn some GEAR per month or quarter. After all, governance work is important! But the rewards being lower are also to avoid issues of sybilling / airdrop hunting. TBD, voice it on Discord!
-{% endhint %}
 
 **First**, to qualify, and just as a generally good candidate, you should:
 

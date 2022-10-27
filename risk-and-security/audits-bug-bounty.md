@@ -90,5 +90,5 @@ The following activities are prohibited by bug bounty program:&#x20;
 * Public disclosure of an unpatched vulnerability in an embargoed bounty
 
 {% hint style="success" %}
-Security is a continuous effort which must always be following protocol growth. As a DAO, it is imperative to constantly dedicate ample resources to ensure safety of user funds.
+Security is a continuous effort which must always be following protocol growth. As a DAO, it is imperative to constantly dedicate ample resources to ensure safety of funds.
 {% endhint %}
