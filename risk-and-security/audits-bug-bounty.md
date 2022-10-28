@@ -31,7 +31,7 @@ Join the Bug Bounty with Immunefi! Help Gearbox stay safe and be rewarded for it
 
 {% embed url="https://immunefi.com/bounty/gearbox" %}
 
-![https://immunefi.com/bounty/gearbox/](<../.gitbook/assets/Screenshot 2022-02-08 at 17.37.31.png>)
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-28 at 14.59.10.png" alt=""><figcaption><p><a href="https://immunefi.com/bounty/gearbox/">https://immunefi.com/bounty/gearbox/</a></p></figcaption></figure>
 
 ### Scope&#x20;
 
