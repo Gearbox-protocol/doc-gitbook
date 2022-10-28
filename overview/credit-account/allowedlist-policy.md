@@ -6,7 +6,7 @@ description: Constantly updated list of Allowed Tokens and Contracts.
 
 Composability of Gearbox Protocol is possible via forever-increasing list of Allowed Tokens and Allowed Contracts. By allowing users to access more trade routes, deposits, farms, interactions - the [composability](../../leverage-2.0-is-composable.md) of Gearbox Protocol can really shine! This page is dedicated to keeping an up-to-date list of Allowed Tokens and Allowed Contracts.
 
-{% hint style="success" %}
+{% hint style="info" %}
 Gearbox architecture is very modular, so it's not just that there is an allowed asset for the entire protocol - there are different pools and **can even be multiple pools for the same asset**. There can be **different Credit Managers with different Allowed List policies**, etc. The information below is just an easy-to-grasp understanding for product users. Developers should dive into the tech section in Gearbox Dev docs and understand the intricacies. Namely, the tree goes as follows:
 
 * Pool

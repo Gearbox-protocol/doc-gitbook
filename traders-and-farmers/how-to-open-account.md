@@ -39,6 +39,12 @@ Your Credit Account is now open!&#x20;
 * You can see how much borrow fees you are paying on the amount you borrowed.
 * You can top up your Credit Account or borrow more... see further sections.
 
+### Credit Account min/max borrow limits
+
+The limits on Credit Accounts are enforced on the contract level by minimum borrow and maximum borrow limits, as per the DAO governance process - those can change. Check the latest here:
+
+{% embed url="https://docs.gearbox.finance/liquidity-providers/pools-and-apy#current-pool-caps-as-per-latest-gip-voting" %}
+
 {% hint style="info" %}
 Did you find a bug with the interface, something didn't work as you think it should have, or you have a suggestion on how to improve the user experience? [Suggest](https://discord.gg/hF3QvX2vgt) on Discord!
 {% endhint %}
