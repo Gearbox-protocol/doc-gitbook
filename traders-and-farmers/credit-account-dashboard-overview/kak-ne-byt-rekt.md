@@ -18,6 +18,12 @@ Keep your health factor as high as possible. **Make sure it doesn't drop below 1
 
 ### What I can do if my Health Factor is close to 1?&#x20;
 
+{% hint style="success" %}
+In case you are in position which has correlated collateral to debt \[like stablecoin debt to a stablecoin farm [leveraged-stablecoin-farming.md](../strategies/leveraged-stablecoin-farming.md "mention"), or an ETH debt to leveraged liquid staking position [leveraged-liquid-staking.md](../strategies/leveraged-liquid-staking.md "mention") - you can take higher leverage as the LTVs of your position <> debt are essentially correlated and are high. As such, it allows you to take 10x leverage in some extreme cases.&#x20;
+
+In these cases, it's much more normal to have low Health Factor, because you would only \[putting aside other [Broken link](broken-reference "mention")] be rekt if the said stablecoin or farm would actually be depegging or getting drained. That is, in extreme circumstances. In other cases of market volatility, stables are not as volatile nor are ETH-debt farms.
+{% endhint %}
+
 1. **Add collateral**: the easiest method to improve your Health Factor is simply by adding more collateral in the form of the base asset that you opened your credit account in. If this isn't a possibility you can follow the below options.
 
 <figure><img src="../../.gitbook/assets/Add more collateral.png" alt=""><figcaption></figcaption></figure>

@@ -4,20 +4,14 @@ description: To stay self-sustainable, the protocol takes fees for different ope
 
 # Protocol Fees
 
-As mentioned in previous sections, Gearbox Protocol has two sides - lenders ([liquidity providers](../liquidity-providers/pools-and-apy.md)) and borrowers ([traders/farmers](broken-reference)). The protocol is designed to receive fees from both sides:
-
-{% hint style="info" %}
-This was established by the DAO (token holders) and multisig as [part of the first GIPs](https://gov.gearbox.fi/t/gip-1-proposal-to-add-pools/347).
-{% endhint %}
-
-**Liquidation fee**
+### **Liquidation fee**
 
 If a Credit Account is liquidated, some percentage goes to a third-party liquidator who liquidated the account - and some percentage goes to Gearbox Protocol.
 
-* Current liquidation fee going to the liquidator: 5%
-* Current liquidation fee going to the protocol: 2%
+* Current liquidation fee going to the liquidator: 4%
+* Current liquidation fee going to the protocol: 1.5%
 
-#### APY Spread Fee: 50%
+### APY Spread Fee: 50%
 
 The protocol takes spread as a fee between the APY which liquidity providers recieve and the fee & farmers pay for borrowing their assets. The exact value of this fee is calculated as following:
 
@@ -29,7 +23,7 @@ The protocol takes spread as a fee between the APY which liquidity providers rec
 {% endcontent-ref %}
 
 {% hint style="success" %}
-All protocol fees go to [governance](../governance/setup/multisigs.md#financial-treasury-multisig-or-5-7) and nothing is assumed for the core contributors or the foundation. The protocol is fully operated by the decentralized community.
+All protocol fees go to [governance](../governance/setup/multisigs.md#financial-treasury-multisig-or-5-7) and nothing is assumed for the core contributors or the foundation. The protocol is fully operated by a DAO community.
 {% endhint %}
 
 #### **Liquidity Provider Fees**

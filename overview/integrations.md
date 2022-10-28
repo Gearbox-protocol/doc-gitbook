@@ -18,7 +18,7 @@ For the technical implementation and contracts, see:
 
 {% embed url="https://github.com/Gearbox-protocol/integrations-v2" %}
 
-{% hint style="info" %}
+{% hint style="success" %}
 Gearbox protocol has a flexible, adaptable, and scalable architecture.&#x20;
 
 The main business logic is encapsulated in the core layer which supports operations for both protocol sides. It allows connecting customized pools with Credit Account managers without changing the internal codebase, and thus simplifying integrations.
