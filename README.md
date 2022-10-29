@@ -33,7 +33,7 @@ Gearbox is a DAO, run by various contributors and teams. The protocol and assets
 ## **Cool Features**
 
 {% hint style="info" %}
-With V2, Gearbox Protocol has become cooler & faster! It now has its own multicall for complex transactions, smart router for the best automated routing of trades & deposits, integrations with Curve + Yearn + Convex + Lido, and more! Read here:
+With V2, Gearbox Protocol has become cooler & faster! It now has its own **new multicall** for complex transactions, **smart router** for the best automated routing of trades & deposits, **new integrations** with Curve + Yearn + Convex + Lido, and more:
 {% endhint %}
 
 {% embed url="https://medium.com/gearbox-protocol/product-evolution-v2-gearbox-protocol-from-1-to-2-going-further-dcedf3b5d959" %}

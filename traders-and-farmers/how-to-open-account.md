@@ -9,22 +9,19 @@ Learn what a [Credit Account](../overview/credit-account/) is and how it works.
 {% endhint %}
 
 {% hint style="info" %}
-**NOTE:** At the moment, Credit Accounts are in "Leverage Ninja" Mode as we initially test in prod: a list of addresses having access to V2 leverage. You can post your address on the [**gov forum**](https://gov.gearbox.fi/t/gip-21-leverage-ninja-mode-limits-for-v2/1572/11) **** with a few links. If you don't want your twitter and address to be connected publicly, you can drop a message to any of the contributors on [**Discord**](https://discord.com/invite/gearbox).
+**NOTE:** At the moment, Credit Accounts are in "Leverage Ninja" Mode as we initially test in prod: a list of addresses having access to V2 leverage. You can post your address on the [**gov forum**](https://gov.gearbox.fi/t/gip-21-leverage-ninja-mode-limits-for-v2/1572/11) **** with a few links. If you don't want your twitter and address to be connected publicly, you can drop a message to any of the contributors on [**Discord**](https://discord.com/invite/gearbox)**:**&#x20;
 {% endhint %}
+
+{% embed url="https://medium.com/gearbox-protocol/leverage-ninja-mode-gearbox-v2-is-open-for-business-in-a-few-hours-bf471e588033" %}
+
+## Two paths to opening a Credit Account
 
 Being able to leverage trade & farm starts with opening a Credit Account. However, there are different approaches in the interface that vary based on what you are looking for:
 
-* "I just want to leverage farm" - then you should go to [strategies](strategies/ "mention") and simply open a leveraged farming position with multicall in one click. That page lets you ape into Curve/Convex/Lido/Yearn with a single transaction, and saves you gas costs as well! It's more applicable to farmers who don't want to have a bunch of complexities and steps, and who know what end strategies they want to sit and farm in. It creates a Credit Account for you and apes into a strategy right after, removing manual complexity from you as a user.
+1. "I just want to leverage farm" - then you should go to [strategies](strategies/ "mention") and simply open a leveraged farming position with multicall in one click. That page lets you ape into Curve/Convex/Lido/Yearn with a single transaction, and saves you gas costs as well! It's more applicable to farmers who don't want to have a bunch of complexities and steps, and who know what end strategies they want to sit and farm in. It creates a Credit Account for you and apes into a strategy right after, removing manual complexity from you as a user.
+2. "I want to have different strategies and figure out step by step" - in this case, you might be better off following the steps by yourself: from selecting the debt asset to choosing leverage, to swapping some assets and LPing into Curve, to staking on Yearn and so on. In terms of _what_ you are doing, it's the same as option 1 above, but with more steps in-between.
 
-{% content-ref url="strategies/" %}
-[strategies](strategies/)
-{% endcontent-ref %}
-
-* "I want to have different strategies and figure out step by step" - in this case, you might be better off following the steps by yourself: from selecting the debt asset to choosing leverage, to swapping some assets and LPing into Curve, to staking on Yearn and so on. In terms of _what_ you are doing, it's the same as option 1 above, but with more steps in-between.
-
-**Step 1.** Go to [Credit Accounts](https://app.gearbox.fi/accounts) page. Click on the asset you want to borrow. This underlying debt asset is the asset you trade against, meaning all your positions are denominated in it.&#x20;
-
-Once opened, the underlying asset in that particular account can't be changed. But you can open a new Credit Account with a different debt \[borrowed] asset.&#x20;
+**Step 1.** Go to [Credit Accounts](https://app.gearbox.fi/accounts) page. Click on the asset you want to borrow. This underlying debt asset is the asset you trade against, meaning all your positions are denominated in it. Once opened, the underlying asset in that particular account can't be changed. But you can open a new Credit Account with a different debt \[borrowed] asset.&#x20;
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-19 at 13.27.08.png" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts">https://app.gearbox.fi/accounts</a></p></figcaption></figure>
 
