@@ -32,4 +32,8 @@ This is why we call it leverage 2.0 and value composability so highly!&#x20;
 
 This also **reimagines how undercollateralized loans can work**, because such a system can potentially calculate on-chain values of many things, be it: tokens you trade, LP positions, your reputation score if it's liquid, your vested investments, and so on. If the value of social interactions also becomes liquid and tradeable, like some try to do with social tokens, then undercollateralized loans don't even need to exist per se: Gearbox would potentially be able to calculate the price of any such interaction. It's potentially a new way of how credit can be managed.&#x20;
 
-Let's build it together!
+Check out what more is possible:
+
+{% content-ref url="traders-and-farmers/strategies/" %}
+[strategies](traders-and-farmers/strategies/)
+{% endcontent-ref %}

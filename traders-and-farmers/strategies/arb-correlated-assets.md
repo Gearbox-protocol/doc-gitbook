@@ -17,7 +17,9 @@ USDC: $1.00
 
 Not taking slippage and interest rate into account, 900K DAI swapped to USDC at the price of $1.05 would be 945M USDC and when closing the account - essentially 50K profits in arbitrage.&#x20;
 
-Same strategy works for the case DAI < USDC. The only difference is that you should open a Credit Account denominated in USDC. Such strategy also can apply to WBTC, or other pegged assets. [Open Credit Account and try it](https://app.gearbox.fi/).
+Same strategy works for the case DAI < USDC. The only difference is that you should open a Credit Account denominated in USDC. Such strategy also can apply to WBTC, or other pegged assets.&#x20;
+
+[Open Credit Account and try it](https://app.gearbox.fi/).
 
 ![Flash loans make it possible to arbitrage a peg within one block. Gearbox allows you to do so even if it takes more time. However, with stablecoins it's generally easier as there are other avenues to borrow from. But not for all pegged assets!](<../../.gitbook/assets/Screenshot 2021-10-19 at 00.42.00 (1).png>)
 

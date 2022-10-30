@@ -2,7 +2,7 @@
 description: Useful links about everything in the Gearbox ecosystem.
 ---
 
-# Useful Links
+# Link Tree
 
 * Main website: [https://gearbox.fi/](https://gearbox.fi/)
 * Mainnet dApp: [https://app.gearbox.fi/](https://app.gearbox.fi/)
@@ -14,8 +14,9 @@ description: Useful links about everything in the Gearbox ecosystem.
 * Github: [https://github.com/Gearbox-protocol](https://github.com/Gearbox-protocol)
 * Twitter: [https://twitter.com/GearboxProtocol](https://twitter.com/GearboxProtocol)
 * Discord 👾 [https://discord.com/invite/gearbox](https://discord.com/invite/gearbox)
-* Deployed Contracts \[Registry]: [https://dev.gearbox.fi/docs/documentation/deployments/deployed-contracts](https://dev.gearbox.fi/docs/documentation/deployments/deployed-contracts)
-* **DAO Notion**: [https://gearboxprotocol.notion.site/gearboxprotocol/Gearbox-DAO-23966f122ae4421492819242b30a0e7a](https://gearboxprotocol.notion.site/gearboxprotocol/Gearbox-DAO-23966f122ae4421492819242b30a0e7a)
+* Deployed Contracts: [https://dev.gearbox.fi/docs/documentation/deployments/deployed-contracts/](https://dev.gearbox.fi/docs/documentation/deployments/deployed-contracts/)
+
+**DAO Notion**: [https://gearboxprotocol.notion.site/gearboxprotocol/Gearbox-DAO-23966f122ae4421492819242b30a0e7a](https://gearboxprotocol.notion.site/gearboxprotocol/Gearbox-DAO-23966f122ae4421492819242b30a0e7a)
 
 {% embed url="https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a" %}
 Notion pages set up to streamline DAO work and contributions.
