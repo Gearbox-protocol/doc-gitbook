@@ -32,7 +32,7 @@ Learn about the current fee model a user pays in case of a liquidation:
 [protocol-fees.md](../protocol-fees.md)
 {% endcontent-ref %}
 
-### What is a health factor?
+### What is a Health Factor?
 
 Health Factor is a numeric representation of your account health. If your health factor drops below 1 or close to it, you might be liquidated. The higher the number is, the safer you are. There are some tips on how you can avoid liquidations, [check them here](../../traders-and-farmers/credit-account-dashboard-overview/kak-ne-byt-rekt.md).
 
@@ -78,5 +78,5 @@ $$
 Gearbox Protocol uses statistics of 5-min, 15-min, 1h change of i-th asset's price (price is in the underlying asset) for the last 180 days.&#x20;
 
 {% hint style="info" %}
-Anybody can run a liquidator bot and secure the protocol. You can chat about setting up your bot and other liquidator-things in [this Discord channel](https://discord.gg/wmydr8JfcP). Help users minimize the [risks](../../risk-and-security/risks-terms.md)!
+Anybody can run a liquidator bot and secure the protocol. You can chat about setting up your bot and other liquidator-things in [Discord](https://discord.gg/wmydr8JfcP). Help users minimize the [risks](../../risk-and-security/risks-terms.md)!
 {% endhint %}

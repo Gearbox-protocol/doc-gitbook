@@ -14,7 +14,7 @@ Post opening a Credit Account and taking a leverage position, you'll be able to 
 
 <figure><img src="../../.gitbook/assets/screenshot-app-goerli-gearbox-fi-accounts-0x2ad4a2f1bdd815e285a22cdcc072fbb-1666402210046 (1).png" alt=""><figcaption></figcaption></figure>
 
-There are 4 tabs inside a credit account that let you operate and utilise it to the max potential
+There are 4 tabs inside a Credit Account that let you operate and utilise it to the max potential.
 
 1. **Trade:** This is where you can see the leveraged funds you have as well as swap them for a different assets. Swapping can affect your HF so take note of the same by monitoring the right side of the screen. Usually, the interface would give a preview of your HF change.
 

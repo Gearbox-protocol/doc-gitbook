@@ -28,8 +28,6 @@ All protocol fees go to [governance](../governance/setup/multisigs.md#financial-
 
 #### **Liquidity Provider Fees**
 
-A withdrawal fee is taken when a liquidity provider withdraws funds from the pool.&#x20;
-
 * Current withdrawal fee: 1%.
 
 {% hint style="warning" %}

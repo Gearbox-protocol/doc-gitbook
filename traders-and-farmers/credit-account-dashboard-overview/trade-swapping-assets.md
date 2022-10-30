@@ -1,7 +1,5 @@
 ---
-description: >-
-  How you can move your leverage from the CA base asset to the Allowedlist asset
-  you want to.
+description: How you can trade non-farm assets from the Allowed List.
 ---
 
 # Trade: swapping assets
@@ -12,6 +10,12 @@ The trade tab lets you trade (swap) any asset from one to another, as long as it
 [allowedlist-policy.md](../../overview/credit-account/allowedlist-policy.md)
 {% endcontent-ref %}
 
-Swapping your asset to another can have a direct impact on your Health Factor, so please do keep a check on it in order to make sure you don't run into a risk of a liquidation.
+Swapping your asset to another has direct impact on your Health Factor, so please do keep a check on it in order to make sure you don't run into a risk of a liquidation. In most cases, the interface would give you a preview of your approximate Health Factor change prior to a swap.
 
 <figure><img src="../../.gitbook/assets/screenshot-app-goerli-gearbox-fi-accounts-0x2ad4a2f1bdd815e285a22cdcc072fbb-1666402210046.png" alt=""><figcaption></figcaption></figure>
+
+You can also use native interfaces of Uniswap/Curve/Sushiswap with the this cool feature:
+
+{% content-ref url="connect-wallet-connect.md" %}
+[connect-wallet-connect.md](connect-wallet-connect.md)
+{% endcontent-ref %}

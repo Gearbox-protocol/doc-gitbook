@@ -76,7 +76,7 @@ These are some amazing people who have contributed to the technical development 
 
 **Initial core members 20%** (usually referred to as "team" but here the DAO took over during the launch time, so that naming wouldn't make sense). Lockup: 12 months since token deployment (launch), and then linear vesting over 18 months starting after the cliff.&#x20;
 
-**Initial contributors 9.20%** (usually referred to as "investors" but here they were all forced to put a lot of time since more than half a year before launch, so that naming wouldn't make sense). Lockup: 12 months since token deployment (launch), and then linear vesting over 12 months starting after the cliff. See their contributions and work over 2021 clearly here:
+**Initial contributors 9.20%** (usually referred to as "investors" but here they were all forced to put a lot of time, so that naming wouldn't make sense - see at the bottom of the page for details). Lockup: 12 months since token deployment (launch), and then linear vesting over 12 months starting after the cliff. See their contributions and work over 2021 clearly here:
 
 {% embed url="https://medium.com/gearbox-protocol/product-evolution-from-an-idea-to-an-app-0-to-1-contributors-united-832154e3c7ba" %}
 
@@ -84,4 +84,4 @@ These are some amazing people who have contributed to the technical development 
 
 **Company wallet** lockup: 12 months since token deployment (launch), and then linear vesting over 18 months starting after the cliff. Address: [0xa8b1d00b1d224e83760963e361b7f676581a622d](https://etherscan.io/address/0xa8b1d00b1d224e83760963e361b7f676581a622d). This is outside of the scope of the DAO, and can be used for discretionary activities. This is a company that kickstarted the first protocol development pre-DAO launch. Not related to the DAO. _Keep in mind that some of those reserves were used to onboard new pre-DAO contributors, auditor engagements, external work performed before the DAO was established, etc._
 
-<figure><img src="../.gitbook/assets/IMG_6227 1.png" alt=""><figcaption><p>The information on rounds, aka early contributors and supporters with vested GEAR, can be found at the bottom of <a href="https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a">Notion page</a>.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/IMG_6227 1.png" alt=""><figcaption><p>The information on rounds, aka early contributors with vested GEAR, can be found at the bottom of <a href="https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a">Notion page</a>.</p></figcaption></figure>

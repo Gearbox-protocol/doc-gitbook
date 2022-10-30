@@ -15,7 +15,7 @@ Using the Wallet Connect integration, you can use leverage on native interfaces 
 2\. Open another page in your browser and go to dApp you want to use with leverage.
 
 {% hint style="info" %}
-You can only interact with the allowed protocol list as per Gearbox governance. You can see their list on the main Credit Accounts page, and also on the [Integration page here in docs](../../overview/integrations.md). Didn’t find a protocol? Propose to Gearbox DAO to add your favorite protocol!
+You can only interact with the allowed protocol list as per Gearbox governance. You can see their list on the main Credit Accounts page, and also on the [Allowed List policy page](../../overview/credit-account/allowedlist-policy.md). Didn’t find a protocol? Propose to Gearbox DAO to add your favorite protocol!
 {% endhint %}
 
 3\. Connect on that interface using WalletConnect.&#x20;
@@ -30,8 +30,8 @@ You can only interact with the allowed protocol list as per Gearbox governance. 
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-10-19 at 14.09.20.png" alt=""><figcaption></figcaption></figure>
 
-6\. Voila! Now you can return to native dApp interface of the protocol you were using, and use it as you are already familiar with. You can sign transactions with Metamask as you are used to.
+6\. Voila! Now you can return to native dApp interface of the protocol you were using, and use it as you are already familiar with. You can sign transactions with Metamask as you are used to. You don't have to cross-check Gearbox interface every time anymore. Just keep the tab open.
 
 {% hint style="info" %}
-Did you find a bug with the interface, something didn't work as you think it should have, or you have a suggestion on how to improve the user experience? [Report](https://discord.gg/5YuHH9tvms) or [suggest](https://discord.gg/hF3QvX2vgt) on Discord!
+Did you find a bug with the interface, something didn't work as you think it should have, or you have a suggestion on how to improve the user experience? [Suggest](https://discord.gg/hF3QvX2vgt) on Discord!
 {% endhint %}

@@ -6,8 +6,8 @@ description: High-level technical overview of Gearbox Protocol.
 
 Gearbox protocol has two sides to it:
 
-* **Lenders** - **liquidity providers** who seek passive yield and prefer lower risks. This can be seen similar to providing liquidity to Compound and getting cTokens back. LPs' assets are utilized by others, for which they get APY. Any one can be a liquidity provider on Gearbox.
-* **Borrowers** - **traders, farmers, and protocols** who wish to increase their position by borrowing liquidity from the protocol at multiples of their collateral, for which they pay interest rates. The liquidity they borrow can be 10x of what their notional size is. This is the leverage power!
+* **Passive lenders** - **liquidity providers** who seek passive yield and prefer lower risks. This can be seen similar to providing liquidity to Compound and getting cTokens back. LPs' assets are utilized by others, for which they get APY. Any one can be a liquidity provider on Gearbox.
+* **Borrowers** - **active** **traders, farmers, and even protocols** who wish to increase their position by borrowing liquidity from the protocol at multiples of their collateral. The liquidity they borrow can be 10x of what their notional size is. This is the leverage power!
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)

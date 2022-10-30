@@ -19,9 +19,9 @@ Keep your health factor as high as possible. **Make sure it doesn't drop below 1
 ### What I can do if my Health Factor is close to 1?&#x20;
 
 {% hint style="success" %}
-In case you are in position which has correlated collateral to debt \[like stablecoin debt to a stablecoin farm [leveraged-stablecoin-farming.md](../strategies/leveraged-stablecoin-farming.md "mention"), or an ETH debt to leveraged liquid staking position [leveraged-liquid-staking.md](../strategies/leveraged-liquid-staking.md "mention") - you can take higher leverage as the LTVs of your position <> debt are essentially correlated and are high. As such, it allows you to take 10x leverage in some extreme cases.&#x20;
+In case you are in position which has correlated collateral to debt \[like stablecoin debt to a stablecoin farm [leveraged-stablecoin-farming.md](../strategies/leveraged-stablecoin-farming.md "mention"), or an ETH debt to leveraged liquid staking position [leveraged-liquid-staking.md](../strategies/leveraged-liquid-staking.md "mention") - you can take higher leverage as the LTVs of your position <> debt are essentially correlated and are high. As such, it allows you to take 10x leverage in some extreme cases. Then it's normal to have low HF.
 
-In these cases, it's much more normal to have low Health Factor, because you would only \[putting aside other [Broken link](broken-reference "mention")] be rekt if the said stablecoin or farm would actually be depegging or getting drained. That is, in extreme circumstances. In other cases of market volatility, stables are not as volatile nor are ETH-debt farms.
+Read about that in [pro-max-degenerate.md](../pro-max-degenerate.md "mention").
 {% endhint %}
 
 1. **Add collateral**: the easiest method to improve your Health Factor is simply by adding more collateral in the form of the base asset that you opened your credit account in. If this isn't a possibility you can follow the below options.
@@ -47,5 +47,5 @@ Also you can check health factor inside the Credit Account. _All of these stats 
 <figure><img src="../../.gitbook/assets/screenshot-app-goerli-gearbox-fi-accounts-0x2ad4a2f1bdd815e285a22cdcc072fbb-1666400881484 (3).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Anybody can run a liquidator bot and secure the protocol. You can chat about setting up your bot and other liquidator-things in [this Discord channel](https://discord.gg/wmydr8JfcP). Help users minimize the [risks](../../risk-and-security/risks-terms.md)!
+Anybody can run a liquidator bot and secure the protocol. You can chat about setting up your bot and other liquidator-things in [Discord](https://discord.gg/wmydr8JfcP). Help users minimize the [risks](../../risk-and-security/risks-terms.md)!
 {% endhint %}

@@ -20,10 +20,6 @@ If you want to check and see the list of deployed contracts, go here:
 
 {% embed url="https://dev.gearbox.fi/docs/documentation/deployments/deployed-contracts" %}
 
-{% hint style="info" %}
-If working with the raw numbers, [LT](../liquidations/#liquidation-threshold) for stables would work as follows: a swap from a stablecoin to a stablecoin would cause your [Health Factor](../../traders-and-farmers/credit-account-dashboard-overview/kak-ne-byt-rekt.md#what-i-can-do-if-my-health-factor-is-close-to-1-to-keep-my-credit-account-alive) to decrease, that is because stables are not always stable from the price feed and risks perspective. It's not safe to assume a stable is 1:1 to another one, so there are more [complex calculations being done](../liquidations/#threshold-weighted-value) which account for possible slippage, chainlink price tick, and other factors.
-{% endhint %}
-
 {% hint style="success" %}
 Decision on the assets and contracts as per [GIP-19](https://gov.gearbox.fi/t/gip-19-v2-discussion-pools-assets-and-allowedlist-policy-for-v2/1438).
 {% endhint %}
@@ -53,7 +49,11 @@ Decision on the assets and contracts as per [GIP-19](https://gov.gearbox.fi/t/gi
 
 ### Allowed Assets List
 
-Each column is the pool denomination asset, so the % LTV values per different asset are specific to each pool. As such, leverage factor on correlated assets \[stable to stable] can be higher! Links to all the ERC20 assets can be found on forum [here](https://gov.gearbox.fi/t/gip-19-v2-discussion-pools-assets-and-allowedlist-policy-for-v2/1438), they do not fit into gitbook table format.
+Each column is the pool denomination asset, so the % LTV values per different asset are specific to each pool. As such, leverage factor on correlated assets \[stable to stable] can be higher! Links to all the ERC20 contracts can be found [here](https://gov.gearbox.fi/t/gip-19-v2-discussion-pools-assets-and-allowedlist-policy-for-v2/1438), they do not fit into gitbook table format.
+
+{% hint style="info" %}
+If working with the raw numbers, [LT](../liquidations/#liquidation-threshold) for stables would work as follows: a swap from a stablecoin to a stablecoin would cause your [Health Factor](../../traders-and-farmers/credit-account-dashboard-overview/kak-ne-byt-rekt.md#what-i-can-do-if-my-health-factor-is-close-to-1-to-keep-my-credit-account-alive) to decrease, that is because stables are not always stable from the price feed and risks perspective. It's not safe to assume a stable is 1:1 to another one, so there are more [complex calculations being done](../liquidations/#threshold-weighted-value) which account for possible slippage, chainlink price tick, and other factors.
+{% endhint %}
 
 | Token                  | USDC | DAI  | WETH | wstETH | WBTC |
 | ---------------------- | ---- | ---- | ---- | ------ | ---- |
