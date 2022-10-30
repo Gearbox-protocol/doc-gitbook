@@ -1,5 +1,5 @@
 ---
-description: Some tips for absolutely degenarate farmers and traders.
+description: Some tips for absolutely degenerate farmers and traders.
 ---
 
 # PRO: Max Degenerate Bible
