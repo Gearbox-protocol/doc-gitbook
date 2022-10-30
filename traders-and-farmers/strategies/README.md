@@ -42,8 +42,6 @@ Done! From assets X Y Z -> to taking leverage with gearbox -> to swaps into othe
 [leveraged-vanilla-yvaults.md](leveraged-vanilla-yvaults.md)
 {% endcontent-ref %}
 
-****
-
 {% hint style="info" %}
 Do you have a strategy or idea which you would like to build on top of Gearbox or find community members who could help you out get un-rekt? Jump into [Discord](https://discord.gg/dtqqwDuawE)!
 {% endhint %}
