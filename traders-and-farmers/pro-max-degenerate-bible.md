@@ -33,7 +33,7 @@ $$
 
 Let's say you go into Convex GUSD3crv farm \[stkcvxgusd3CRV] with debt as USDC. If [LTV](../overview/credit-account/allowedlist-policy.md#allowed-assets-list) for that is 90, the max leverage would be: 1/(1-0,90) = 10x. Let's do yvCurve-stETH \[Yearn farm for stETH/ETH Curve pool] with WETH as debt. The LTV for either is 90 right now. That means 1/(1-0,90) = 10x as well. _If LTVs for some farms become higher, more leverage could be applied._
 
-That's technically the max leverage you can take which will make your HF = 1. If the deviations in assets within a farm \[assets on your Credit Account acting as collateral] never occur - then you cam remain as is, but that's VERY risky. It's better to count in some fluctuations.
+That's technically the max leverage you can take which will make your HF = 1. If the deviations in assets within a farm \[assets on your Credit Account acting as collateral] never occur - then you can remain as is, but that's VERY risky. It's better to count in some fluctuations.
 
 {% hint style="info" %}
 LTVs of assets inside CA <> debt assets are what determines the max.
