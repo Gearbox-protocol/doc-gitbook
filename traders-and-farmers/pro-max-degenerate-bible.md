@@ -93,7 +93,9 @@ You don't have to assume the worst case scenario right away. You can simply reba
 
 Now, go, degen -> [go into the world of composable leverage](https://app.gearbox.fi/accounts)!
 
-{% embed url="https://app.gearbox.fi/accounts" %}
+{% content-ref url="how-to-open-account.md" %}
+[how-to-open-account.md](how-to-open-account.md)
+{% endcontent-ref %}
 
 {% hint style="warning" %}
 When exercising max leverage - you should keep in mind that even a few-minutes of interface not responding properly \[Infura/Alchemy downtime, bugs, whatever it is] can lead to liquidations. Everyone remembers the "oops maintaince mode" of BitMex? Well, in DeFi you can influence these cases, because the contracts are on-chain / verified - as such, you can interact with them directly without any interface. [See the contracts](https://dev.gearbox.fi/docs/documentation/deployments/deployed-contracts/).
