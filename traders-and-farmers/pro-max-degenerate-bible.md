@@ -1,12 +1,8 @@
 ---
-description: Some tips for absolutely degenerate farmers and traders.
+description: Some tips for skilled [degenerate] farmers and traders.
 ---
 
 # PRO: Max Degenerate Bible
-
-{% hint style="warning" %}
-These tips are for traders & farmers who are absolutely degenerate. Maximum leverage, maximum risk. Exercise with caution. It's better if you are able to understand Etherscan WRITE functions in case anything goes wrong with the interface. Be careful!
-{% endhint %}
 
 ### What is the minimum / maximum leverage?
 
@@ -35,25 +31,11 @@ Let's say you go into Convex GUSD3crv farm \[stkcvxgusd3CRV] with debt as USDC. 
 
 That's technically the max leverage you can take which will make your HF = 1. If the deviations in assets within a farm \[assets on your Credit Account acting as collateral] never occur - then you can remain as is, but that's VERY risky. It's better to count in some fluctuations.
 
-{% hint style="info" %}
-LTVs of assets inside CA <> debt assets are what determines the max.
-{% endhint %}
-
-### Where do price feeds come from?
-
-Great question, degen! You probably want to leave a bit of a leeway for some price fluctuations... Hold on, where do the prices come from? As a simple reply: currently, only Chainlink data price feeds. So this is where you should look for the source of truth, it's open to everyone on-chain.
-
-With farming positions it's a bit more tricky. For the implementation of Curve pool oracles \[as such, Yearn & Convex positions for these assets respectively too], custom PriceFeeds look at _virtualprice \* Chainlink price of the cheapest asset inside the pool._ That is because in an event that any one asset inside a Curve pool goes down in price, the pool automatically trades into that asset. So while not a 100% will be traded into it immediately, for the safety of Gearbox Protocol, the worst case scenario is assumed when calculating the position value.
-
-\-> [You can check the price feeds on-chain](https://etherscan.io/address/0x6385892aCB085eaa24b745a712C9e682d80FF681#readContract). Other [contracts deployed are available here](https://dev.gearbox.fi/docs/documentation/deployments/deployed-contracts/).
-
-{% hint style="info" %}
-For the avoidance\* of Cream-like flash loan attacks, there is a min-max range applied to LP token price shares, which can be observed in the code/audits + mentioned in [here](https://medium.com/gearbox-protocol/product-evolution-v2-gearbox-protocol-from-1-to-2-going-further-dcedf3b5d959).
-
-\*That is, unless a new attack vector is found. Security is important, [please verify](../risk-and-security/audits-bug-bounty.md).
-{% endhint %}
-
 ### How to max out... but kinda safely?
+
+{% hint style="warning" %}
+These tips are for traders & farmers who are absolutely degenerate. Maximum leverage, maximum risk. Exercise with caution. It's better if you are able to understand Etherscan WRITE functions in case anything goes wrong with the interface. Be careful!
+{% endhint %}
 
 {% hint style="warning" %}
 Keep in mind that in reality you could encounter slippage, fast price changes, and other scenarios - so don't try to squueze every last drop unless you are a MEV guru. It's better to be safe and reduce your desired leverage factor by at least a factor of 0.25 or 0.5 to account for those. It still keeps you maxed out but [helps avoid a liquidation](credit-account-dashboard-overview/kak-ne-byt-rekt.md).
@@ -90,6 +72,34 @@ That is max leverage factor you can apply if you are afraid of stETH ever revisi
 {% hint style="success" %}
 You don't have to assume the worst case scenario right away. You can simply rebalance and reduce leverage \[or debt] to [avoid liquidations](credit-account-dashboard-overview/kak-ne-byt-rekt.md). If you are active in DeFi, you can take changes after sensing a farm could be worsening. No need to do it from the start.
 {% endhint %}
+
+### Where do price feeds come from?
+
+Great question, degen! You probably want to leave a bit of a leeway for some price fluctuations... Hold on, where do the prices come from? As a simple reply: currently, only Chainlink data price feeds. So this is where you should look for the source of truth, it's open to everyone on-chain.
+
+With farming positions it's a bit more tricky. For the implementation of Curve pool oracles \[as such, Yearn & Convex positions for these assets respectively too], custom PriceFeeds look at _virtualprice \* Chainlink price of the cheapest asset inside the pool._ That is because in an event that any one asset inside a Curve pool goes down in price, the pool automatically trades into that asset. So while not a 100% will be traded into it immediately, for the safety of Gearbox Protocol, the worst case scenario is assumed when calculating the position value.
+
+\-> [You can check the price feeds on-chain](https://etherscan.io/address/0x6385892aCB085eaa24b745a712C9e682d80FF681#readContract). Other [contracts deployed are available here](https://dev.gearbox.fi/docs/documentation/deployments/deployed-contracts/).
+
+{% hint style="info" %}
+For the avoidance\* of Cream-like flash loan attacks, there is a min-max range applied to LP token price shares, which can be observed in the code/audits + mentioned in [here](https://medium.com/gearbox-protocol/product-evolution-v2-gearbox-protocol-from-1-to-2-going-further-dcedf3b5d959).
+
+\*That is, unless a new attack vector is found. Security is important, [please verify](../risk-and-security/audits-bug-bounty.md).
+{% endhint %}
+
+### A few words about slippage
+
+When swapping large amounts at once, you can encounter slippage. That is totally normal to have, like 0.1% on $1M is not unusual = $1K loss. But you have to keep in mind that you can't socialize losses with the borrowed capital, so that loss is applied to your assets within the Credit Account only. _Otherwise it would be an attack vector that would let an attacker "lose" all LP money, duh!_&#x20;
+
+What it means is that if you went x10 leverage on $100K of your capital, you will technically get a 1% loss on your capital, meaning -1% instantly. Sounds scary? Hold on!
+
+That is not really an issue if you are leverage farming, because your larger position also makes back larger APY (per each leverage factor). On a medium to long-term timeline (or even short-term) this is practically negligible. It is less negligible if you are trading though. But, the same way slippage losses are not socialized - neither are your profits. You keep those all to yourself.
+
+{% hint style="success" %}
+This is all standard. Just don't be surprised when you ape with size!
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-11-01 at 22.03.59.png" alt=""><figcaption></figcaption></figure>
 
 Now, go, degen -> [go into the world of composable leverage](https://app.gearbox.fi/accounts)!
 
