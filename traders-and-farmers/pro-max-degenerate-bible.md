@@ -89,11 +89,11 @@ For the avoidance\* of Cream-like flash loan attacks, there is a min-max range a
 
 ### A few words about slippage
 
-When swapping large amounts at once, you can encounter slippage. That is totally normal to have, like 0.1% on $1M is not unusual = $1K loss. But you have to keep in mind that you can't socialize losses with the borrowed capital, so that loss is applied to your assets within the Credit Account only. _Otherwise it would be an attack vector that would let an attacker "lose" all LP money, duh!_&#x20;
+When swapping large amounts at once, you can encounter slippage. That is totally normal to have, like 0.1% on $1M is not unusual = $1K loss. But you have to keep in mind that you can't socialize losses with the borrowed capital, so that loss is applied to your assets within the Credit Account only. _Otherwise it would be an attack vector that would let an attacker "lose" all LP money._ What it means is that if you went x10 leverage on $100K of your capital, you will technically get a 1% loss on your capital, meaning -1% instantly. Sounds scary? Hold on!
 
-What it means is that if you went x10 leverage on $100K of your capital, you will technically get a 1% loss on your capital, meaning -1% instantly. Sounds scary? Hold on!
+That is not really an issue if you are leverage farming, because your larger position also makes back larger APY (per each leverage factor). **On a medium to long-term timeline (or even short-term) this is practically negligible.** It's the same as if you did not use leverage!
 
-That is not really an issue if you are leverage farming, because your larger position also makes back larger APY (per each leverage factor). On a medium to long-term timeline (or even short-term) this is practically negligible. It is less negligible if you are trading though. But, the same way slippage losses are not socialized - neither are your profits. You keep those all to yourself.
+It is less negligible if you are trading though. But, the same way slippage losses are not socialized - neither are your profits. You keep those all to yourself. Just don't... trade poorly, ok?!
 
 {% hint style="success" %}
 This is all standard. Just don't be surprised when you ape with size!
