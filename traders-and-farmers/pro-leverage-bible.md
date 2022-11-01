@@ -2,7 +2,7 @@
 description: Some tips for skilled [degenerate] farmers and traders.
 ---
 
-# PRO: Max Degenerate Bible
+# PRO: Leverage Bible
 
 ### What is the minimum / maximum leverage?
 
@@ -96,7 +96,7 @@ That is not really an issue if you are leverage farming, because your larger pos
 It is less negligible if you are trading though. But, the same way slippage losses are not socialized - neither are your profits. You keep those all to yourself. Just don't... trade poorly, ok?!
 
 {% hint style="success" %}
-This is all standard. Just don't be surprised when you ape with size!
+This is all standard. Just don't be surprised when you ape with size! **The interface shows the worst case scenario, in reality you might have not lost anything at all.**
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-11-01 at 22.03.59.png" alt=""><figcaption></figcaption></figure>

@@ -38,7 +38,7 @@
   * [Leveraged vanilla yVaults](traders-and-farmers/strategies/leveraged-vanilla-yvaults.md)
   * [Farming Long/Short or "Free Leverage Position"](traders-and-farmers/strategies/long.md)
   * [Arbitrage of correlated assets](traders-and-farmers/strategies/arb-correlated-assets.md)
-* [PRO: Max Degenerate Bible](traders-and-farmers/pro-max-degenerate-bible.md)
+* [PRO: Leverage Bible](traders-and-farmers/pro-leverage-bible.md)
 
 ## Liquidity providers
 

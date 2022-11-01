@@ -22,7 +22,7 @@ Being able to leverage trade & farm starts with opening a Credit Account. Howeve
 2. "I want to have different strategies and figure out step by step" - in this case, you might be better off following the steps by yourself: from selecting the debt asset to choosing leverage, to swapping some assets and LPing into Curve, to staking on Yearn and so on. In terms of _what_ you are doing, it's the same as option 1 above, but with more steps in-between.
 
 {% hint style="warning" %}
-Before you begin, maybe check out [pro-max-degenerate-bible.md](pro-max-degenerate-bible.md "mention") section to understand some of the intricacies on how max leverage works.
+Before you begin, maybe check out [pro-leverage-bible.md](pro-leverage-bible.md "mention") section to understand some of the intricacies on how max leverage works.
 {% endhint %}
 
 **Step 1.** Go to [Credit Accounts](https://app.gearbox.fi/accounts) page. Click on the asset you want to borrow. This underlying debt asset is the asset you trade against, meaning all your positions are denominated in it. Once opened, the underlying asset in that particular account can't be changed. But you can open a new Credit Account with a different debt \[borrowed] asset.&#x20;
