@@ -4,6 +4,28 @@ description: Some tips for skilled [degenerate] farmers and traders.
 
 # PRO: Leverage Bible
 
+### A different concept of "collateral"
+
+DeFi users are accustomed to think of collateral as "idle asset, sits there and changes my borrowing power for better or worse". With Gearbox, it's not exactly like that. That is because the entire composition of your Credit Account, whatever you have on it - be it WBTC or a farm token - acts as collateral to your debt at the same time - denominated in the debt asset, of course.&#x20;
+
+_If you go in with ETH but then swap all your assets into a stablecoin farm - your collateral now is the ERC20 representation of that stablecoin farm. Your ETH became something else._
+
+{% hint style="info" %}
+Your starting asset(s) are usually not relevant. What is important is your debt asset - and then all of the assets on your Credit Account denominated in that debt asset.
+{% endhint %}
+
+In case you want to keep your asset as truly collateral, for example you want to keep ETH yet borrow stables and grow your borrowing power, then you need to keep it idle on Credit Account:
+
+* Open a Credit Account with debt in stablecoin (USDC CA for example)
+* Put ETH in there as collateral and NOT sell it or not ape it into a position
+* Borrow more stables due to ETH borrowing power
+
+You lose some capital efficiency since not your entire position is "working", but that might be indeed your strategy. ETH goes up and u can borrow even more stables - that could work!
+
+{% content-ref url="strategies/" %}
+[strategies](strategies/)
+{% endcontent-ref %}
+
 ### What is the minimum / maximum leverage?
 
 The protocol works without any trust or off-chain mechanisms, so the values are derived from on-chain. Even if the interface sometimes can show that your maximum leverage is reached - in reality, by interacting with the contracts on-chain, you could squeeze to the last bits!
