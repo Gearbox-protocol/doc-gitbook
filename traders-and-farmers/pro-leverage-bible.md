@@ -94,7 +94,7 @@ $$
 That is max leverage factor you can apply if you are afraid of stETH ever revisiting its lows compared to the debt asset (ETH). In case you think the lows could be 0.90 relative to ETH, then the max leverage would be: 1/(1-0,90\*0,90) = 5.26. Still, pretty damn capital efficient to farm with such leverage! _FYI, Gearbox Protocol currently uses USD Chainlink price feeds, so the ETH debt calculations are using an extra hoop when it comes to conversions._
 
 {% hint style="danger" %}
-Check the oracles section below to understand that Gearbox uses USD oracles. So when you are dealing with ETH debt <> stETH position, the Chainlink price tick is different for both and might cause liquidation even if stETH does not actually depeg relative to ETH.&#x20;
+Check the oracles section below to understand that Gearbox uses Chainlink USD oracles. So when you are dealing with ETH debt <> stETH position, the Chainlink price tick is different for both and might cause liquidation even if stETH does not actually depeg relative to ETH.&#x20;
 
 Check [this article](https://medium.com/gearbox-protocol/product-evolution-v2-gearbox-protocol-from-1-to-2-going-further-dcedf3b5d959) about Yearn, Curve, & other oracles. And read code!
 {% endhint %}
