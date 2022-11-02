@@ -55,12 +55,12 @@ That's technically the max leverage you can take which will make your HF = 1. If
 
 ### How to max out... but kinda safely?
 
-{% hint style="warning" %}
-These tips are for traders & farmers who are absolutely degenerate. Maximum leverage, maximum risk. Exercise with caution. It's better if you are able to understand Etherscan WRITE functions in case anything goes wrong with the interface. Be careful!
-{% endhint %}
+These tips are for traders & farmers who are absolutely degenerate. Maximum leverage, maximum risk. Exercise with caution. It's better if you are able to understand Etherscan WRITE functions in case anything goes wrong with the interface. **Be careful and read the code!**
 
-{% hint style="warning" %}
-Keep in mind that in reality you could encounter slippage, fast price changes, and other scenarios - so don't try to squueze every last drop unless you are a MEV guru. It's better to be safe and reduce your desired leverage factor by at least a factor of 0.25 or 0.5 to account for those. It still keeps you maxed out but [helps avoid a liquidation](credit-account-dashboard-overview/kak-ne-byt-rekt.md).
+{% hint style="danger" %}
+Keep in mind that in reality you could encounter slippage, fast price changes, and other scenarios - so don't try to squueze every last drop unless you are a MEV guru. It's better to be safe and reduce your desired leverage factor by at least a factor of 0.25 or 0.5 to account for those. It still keeps you maxed out but [helps avoid a liquidation](credit-account-dashboard-overview/kak-ne-byt-rekt.md).&#x20;
+
+Check the oracles section below to understand that Gearbox uses USD oracles. So when you are dealing with ETH debt <> stETH position, the Chainlink price tick is different for both and might cause liquidation even if stETH does not actually depeg relative to ETH.
 {% endhint %}
 
 Let's say you want to go into FRAX3Crv. Out of all the assets inside, you might think that FRAX has some perceived risk. Maybe yes maybe no, doesn't matter for this exercise. Your debt asset is USDC, and you just wanna max out this farm. Let's say [LTV](../overview/credit-account/allowedlist-policy.md#allowed-assets-list) is 90. The formula is:
