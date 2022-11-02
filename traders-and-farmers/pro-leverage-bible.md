@@ -53,16 +53,16 @@ Let's say you go into Convex GUSD3crv farm \[stkcvxgusd3CRV] with debt as USDC. 
 
 That's technically the max leverage you can take which will make your HF = 1. If the deviations in assets within a farm \[assets on your Credit Account acting as collateral] never occur - then you can remain as is, but that's VERY risky. It's better to count in some fluctuations.
 
+{% hint style="success" %}
+You don't have to assume the worst case scenario right away. You can simply rebalance and reduce leverage \[or debt] to [avoid liquidations](credit-account-dashboard-overview/kak-ne-byt-rekt.md). If you are active in DeFi, you can take changes after sensing a farm could be worsening. No requirement to do it from the start.
+{% endhint %}
+
 ### How to max out... but kinda "safely"?
 
 These tips are for traders & farmers who are absolutely degenerate. Maximum leverage, maximum risk. Exercise with caution. It's better if you are able to understand Etherscan WRITE functions in case anything goes wrong with the interface. **Be careful and read the code!**
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 Keep in mind that in reality you could encounter slippage, fast price changes, and other scenarios - so don't try to squueze every last drop unless you are a MEV guru. It's better to be safe and reduce your desired leverage factor by at least a factor of 0.25 or 0.5 to account for those. It still keeps you maxed out but [helps avoid a liquidation](credit-account-dashboard-overview/kak-ne-byt-rekt.md).&#x20;
-
-Check the oracles section below to understand that Gearbox uses USD oracles. So when you are dealing with ETH debt <> stETH position, the Chainlink price tick is different for both and might cause liquidation even if stETH does not actually depeg relative to ETH.&#x20;
-
-Check [this article](https://medium.com/gearbox-protocol/product-evolution-v2-gearbox-protocol-from-1-to-2-going-further-dcedf3b5d959) about Yearn, Curve, & other oracles. And read code!
 {% endhint %}
 
 Let's say you want to go into FRAX3Crv. Out of all the assets inside, you might think that FRAX has some perceived risk. Maybe yes maybe no, doesn't matter for this exercise. Your debt asset is USDC, and you just wanna max out this farm. Let's say [LTV](../overview/credit-account/allowedlist-policy.md#allowed-assets-list) is 90. The formula is:
@@ -93,8 +93,10 @@ $$
 
 That is max leverage factor you can apply if you are afraid of stETH ever revisiting its lows compared to the debt asset (ETH). In case you think the lows could be 0.90 relative to ETH, then the max leverage would be: 1/(1-0,90\*0,90) = 5.26. Still, pretty damn capital efficient to farm with such leverage! _FYI, Gearbox Protocol currently uses USD Chainlink price feeds, so the ETH debt calculations are using an extra hoop when it comes to conversions._
 
-{% hint style="success" %}
-You don't have to assume the worst case scenario right away. You can simply rebalance and reduce leverage \[or debt] to [avoid liquidations](credit-account-dashboard-overview/kak-ne-byt-rekt.md). If you are active in DeFi, you can take changes after sensing a farm could be worsening. No need to do it from the start.
+{% hint style="danger" %}
+Check the oracles section below to understand that Gearbox uses USD oracles. So when you are dealing with ETH debt <> stETH position, the Chainlink price tick is different for both and might cause liquidation even if stETH does not actually depeg relative to ETH.&#x20;
+
+Check [this article](https://medium.com/gearbox-protocol/product-evolution-v2-gearbox-protocol-from-1-to-2-going-further-dcedf3b5d959) about Yearn, Curve, & other oracles. And read code!
 {% endhint %}
 
 ### Where do price feeds come from?
