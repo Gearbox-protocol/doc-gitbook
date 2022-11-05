@@ -127,6 +127,8 @@ This is all standard. Just don't be surprised when you ape with size! **The inte
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-11-01 at 22.03.59.png" alt=""><figcaption></figcaption></figure>
 
+That is because the dApp uses Chainlink oracles to calculate prices in the UI instead of spot prices, which quite often deviate. So, the interface presents an overly pessimistic scenario. You can check Zapper instead for the prices and value of your Credit Account closer to reality. Just input your Credit Account address into [Zapper](https://zapper.fi/), and you can see all the positions there.
+
 Now, go, degen -> [go into the world of composable leverage](https://app.gearbox.fi/accounts)!
 
 {% content-ref url="how-to-open-account.md" %}
