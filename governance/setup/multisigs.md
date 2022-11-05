@@ -45,7 +45,7 @@ List of members on the multisig:
 4. [Larry Cermak](https://twitter.com/lawmaster) - VP of Research at [TheBlock](https://twitter.com/TheBlock\_\_)
 5. [Sergey](https://t.me/icodrops\_sergey) - founder of [ICODrops](https://twitter.com/ICODrops)
 6. [Allan](https://twitter.com/niemerg) - founder of [Yield](https://twitter.com/yield)
-7. [Ilgiz](https://twitter.com/apeir99n) - original math & product at Gearbox
+7. [Apeir99n](https://twitter.com/apeir99n) - original math & product at Gearbox
 8. [Nikitakle](https://twitter.com/NOstroymov) - core DAO contributor on marketing & community
 9. [Amantay](https://gov.gearbox.fi/u/amantay/summary)  - core DAO contributor on risk & analytics
 
