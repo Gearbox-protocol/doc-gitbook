@@ -4,7 +4,7 @@ description: Closing your account and avoiding liquidations.
 
 # How to close a Credit Account
 
-Before you close a Credit Account, the protocol would want you to pay back what you own. That is the loan you took and the interest accrued to it over the time you used the Credit Account. You can see this amount in the [Credit Account Dashboard](./) section. There are two options to pay back:&#x20;
+Before you close a Credit Account, the protocol would want you to pay back what you owe. That is the loan you took and the interest accrued to it over the time you used the Credit Account. You can see this amount in the [Credit Account Dashboard](./) section. There are two options to pay back:&#x20;
 
 * Use the Credit Account's funds to repay the debt by automatically swapping all positions inside it to the underlying asset, from which the debt (notional loan + interest accrued) are subtracted and then the difference is given back to you. The better you traded, the more you will get.
 * Use your own funds to repay the debt in the underlying asset - and get all the assets from the Credit Account back to your wallet. You essentially prepay the debt, and then the Credit Account releases all the funds on its balance to your personal wallet. _This shall become available shortly after V2 launch, but not at the start. On contract level this is of course available, but interface didn't catch up to this functionality yet._
