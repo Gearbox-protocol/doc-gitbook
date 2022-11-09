@@ -129,6 +129,21 @@ This is all standard. Just don't be surprised when you ape with size! **The inte
 
 That is because the dApp uses Chainlink oracles to calculate prices in the UI instead of spot prices, which quite often deviate. So, the interface presents an overly pessimistic scenario. You can check Zapper instead for the prices and value of your Credit Account closer to reality. Just input your Credit Account address into [Zapper](https://zapper.fi/), and you can see all the positions there.
 
+### Claim rewards before closing CA
+
+The current logic doesn't automatically claim your unclaimed rewards, like from farming stables in Curve or Convex, so make sure to claim them before closing your Credit Account. These rewards would not be lost conceptually, but the next user of this particular CA might wake up with a nice present. _Unless you are playing a "take 100 bucks, or I double it and pass onto the next" - not recommended._ And the next user could be not you, so:
+
+* first claim your rewards from Curve / Convex / etc. in "[Farm](credit-account-dashboard-overview/farm-depositing-into-protocols.md)" tab
+* then close your Credit Account
+
+{% content-ref url="credit-account-dashboard-overview/farm-depositing-into-protocols.md" %}
+[farm-depositing-into-protocols.md](credit-account-dashboard-overview/farm-depositing-into-protocols.md)
+{% endcontent-ref %}
+
+{% hint style="info" %}
+This logic will be soon implemented by default, but might take some time, so just FYI!
+{% endhint %}
+
 Now, go, degen -> [go into the world of composable leverage](https://app.gearbox.fi/accounts)!
 
 {% content-ref url="how-to-open-account.md" %}

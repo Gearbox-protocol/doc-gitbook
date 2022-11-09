@@ -16,4 +16,15 @@ From A to Yearn deposit \[swap->deposit->deposit LP tokens] in one click!
 * Once you get some rewards like CVX, LDO, CRV, or other emissions which require a claim action - the button will appear at the top of the Farm tab. You can claim whenever.
 * You can choose to exit into an absolutely different asset too, thanks to Smart Router!
 
-<figure><img src="../../.gitbook/assets/Screenshot 2022-10-27 at 22.21.19.png" alt=""><figcaption><p><a href="https://app.goerli.gearbox.fi/accounts">https://app.goerli.gearbox.fi/accounts</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2022-10-27 at 22.21.19.png" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts">https://app.gearbox.fi/accounts </a></p></figcaption></figure>
+
+
+
+### Claiming farming rewards
+
+This is also where you claim your LDO, CVX, CRV, and other rewards from farms:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2022-11-09 at 15.58.58.png" alt=""><figcaption><p>Go to the Farm tab inside your Credit Account view</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Screenshot 2022-11-09 at 16.00.40.png" alt=""><figcaption><p>Claim the rewards, done. See their LTVs in <a href="../../overview/credit-account/allowedlist-policy.md#allowed-assets-list">Allowed List</a></p></figcaption></figure>
+
