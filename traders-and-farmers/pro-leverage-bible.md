@@ -115,19 +115,21 @@ For the avoidance\* of Cream-like flash loan attacks, there is a min-max range a
 
 ### A few words about slippage
 
-When swapping large amounts at once, you can encounter slippage. That is totally normal to have, like 0.1% on $1M is not unusual = $1K loss. But you have to keep in mind that you can't socialize losses with the borrowed capital, so that loss is applied to your assets within the Credit Account only. _Otherwise it would be an attack vector that would let an attacker "lose" all LP money._ What it means is that if you went x10 leverage on $100K of your capital, you will technically get a 1% loss on your capital, meaning -1% instantly. Sounds scary? Hold on!
+When swapping large amounts at once, you can encounter slippage. That is totally normal to have, like 0.1% on $1M is not unusual = $1K loss. But you have to keep in mind that you can't _socialize_ losses with the borrowed capital, so that loss is applied to your assets within the Credit Account only. _Otherwise it would be an attack vector that would let an attacker "lose" all LP money._ What it means is that if you went x10 leverage on $100K of your capital, you will technically get a 1% loss on your capital, meaning -1% instantly. Sounds scary? Hold on!
 
 That is not really an issue if you are leverage farming, because your larger position also makes back larger APY (per each leverage factor). **On a medium to long-term timeline (or even short-term) this is practically negligible.** It's the same as if you did not use leverage!
 
+<figure><img src="../.gitbook/assets/Screenshot 2022-11-01 at 22.03.59.png" alt=""><figcaption></figcaption></figure>
+
 It is less negligible if you are trading though. But, the same way slippage losses are not socialized - neither are your profits. You keep those all to yourself. Just don't... trade poorly, ok?!
 
-{% hint style="success" %}
+{% hint style="info" %}
 This is all standard. Just don't be surprised when you ape with size! **The interface shows the worst case scenario, in reality you might have not lost anything at all.**
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-11-01 at 22.03.59.png" alt=""><figcaption></figcaption></figure>
-
 That is because the dApp uses Chainlink oracles to calculate prices in the UI instead of spot prices, which quite often deviate. So, the interface presents an overly pessimistic scenario. You can check Zapper instead for the prices and value of your Credit Account closer to reality. Just input your Credit Account address into [Zapper](https://zapper.fi/), and you can see all the positions there.
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-11-11 at 18.44.06.png" alt=""><figcaption></figcaption></figure>
 
 ### Claim rewards before closing CA
 
