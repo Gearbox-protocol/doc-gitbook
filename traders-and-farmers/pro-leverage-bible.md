@@ -123,11 +123,19 @@ That is not really an issue if you are leverage farming, because your larger pos
 
 It is less negligible if you are trading though. But, the same way slippage losses are not socialized - neither are your profits. You keep those all to yourself. Just don't... trade poorly, ok?!
 
-{% hint style="info" %}
+{% hint style="success" %}
 This is all standard. Just don't be surprised when you ape with size! **The interface shows the worst case scenario, in reality you might have not lost anything at all.**
 {% endhint %}
 
-That is because the dApp uses Chainlink oracles to calculate prices in the UI instead of spot prices, which quite often deviate. So, the interface presents an overly pessimistic scenario. You can check Zapper instead for the prices and value of your Credit Account closer to reality. Just input your Credit Account address into [Zapper](https://zapper.fi/), and you can see all the positions there.
+### Doomer interface numbers
+
+The above happens because the dApps \[both the [https://app.gearbox.fi/pools](https://app.gearbox.fi/pools) and [https://charts.gearbox.finance/pools](https://charts.gearbox.finance/pools)] use Chainlink oracles to calculate prices in the UI instead of spot prices, and those quite often deviate. So, **the interface presents an overly pessimistic scenario**. You can check Zapper instead for the prices and value of your Credit Account closer to reality. Just input your Credit Account address into [Zapper](https://zapper.fi/), and you can see all the positions there.
+
+An even better way is to check on-chain virtual price of the positions you are in. So, the loss you are seeing in the dApps is just an honest max-pessimism scenario. Reality is always better!
+
+{% hint style="success" %}
+The same goes for slippage numbers in the interface when you try to trade & swap assets. In those cases, the interface shows the maximum drop in case your slippage, let's say if it is selected as 0.5%. Try putting it lower, and the number will improve.
+{% endhint %}
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-11-11 at 18.44.06.png" alt=""><figcaption></figcaption></figure>
 
