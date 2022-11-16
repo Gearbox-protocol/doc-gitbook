@@ -4,7 +4,7 @@ description: To stay self-sustainable, the protocol takes fees for different ope
 
 # Protocol Fees
 
-### **Liquidation fee**
+### **Liquidation Fee**
 
 If a Credit Account is liquidated, some percentage goes to a third-party liquidator who liquidated the account - and some percentage goes to Gearbox Protocol.
 
@@ -24,14 +24,4 @@ The protocol takes spread as a fee between the APY which liquidity providers rec
 
 {% hint style="success" %}
 All protocol fees go to [governance](../governance/setup/multisigs.md#financial-treasury-multisig-or-5-7) and nothing is assumed for the core contributors or the foundation. The protocol is fully operated by a DAO community.
-{% endhint %}
-
-#### **Liquidity Provider Fees**
-
-* Current withdrawal fee: 1%.
-
-{% hint style="warning" %}
-****[**LP withdrawal fee is planned to go away in November. So you can disregard it!**](https://gov.gearbox.fi/t/gip-25-remove-withdrawal-fee/1684)****
-
-Withdrawal fees on the LP side are not considered to be sustainable source of protocol revenue as it creates conflict of interest between the protocols and its LPs. Yearn has previously moved away from this model. In the future, [governance](../governance/setup/) can either implement a performance fee or some other mechanism in order to best align interests.&#x20;
 {% endhint %}
