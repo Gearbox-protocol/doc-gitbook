@@ -19,7 +19,7 @@ List of members on the multisig:
 
 1. [zefram.eth](https://twitter.com/boredGenius) - Building [88mphapp](https://twitter.com/88mphapp), sudoswap, and more. Member of MetaCartel.
 2. [0xngmi](https://twitter.com/0xngmi) - lead developer at [DefiLlama](https://defillama.com/)
-3. [Mikael Lazarev](https://twitter.com/mikaellazarev) - original developer of Gearbox
+3. [Mikael Lazarev](https://twitter.com/mikaellazarev) - original inventor of Gearbox \[on behalf of Gearbox Protocol Limited]
 4. [Alex Smirnov](https://twitter.com/AlexSmirnov\_\_) - co-founder of [deBridge](https://twitter.com/deBridgeFinance)
 5. [MacLane Wilkison](https://twitter.com/MacLaneWilkison) - co-founder of [NuCypher](https://twitter.com/NuCypher) & [Threshold](https://twitter.com/TheTNetwork)
 6. [Simone](https://twitter.com/kronosimste) - developer at [DegenScore](https://twitter.com/DegenScore)
@@ -45,7 +45,7 @@ List of members on the multisig:
 4. [Larry Cermak](https://twitter.com/lawmaster) - VP of Research at [TheBlock](https://twitter.com/TheBlock\_\_)
 5. [Sergey](https://t.me/icodrops\_sergey) - founder of [ICODrops](https://twitter.com/ICODrops)
 6. [Allan](https://twitter.com/niemerg) - founder of [Yield](https://twitter.com/yield)
-7. [Apeir99n](https://twitter.com/apeir99n) - original math & product at Gearbox
+7. [apeir99n](https://twitter.com/apeir99n) - original math & product at Gearbox \[on behalf of Gearbox Protocol Limited]
 8. [Nikitakle](https://twitter.com/NOstroymov) - core DAO contributor on marketing & community
 9. [Amantay](https://gov.gearbox.fi/u/amantay/summary)  - core DAO contributor on risk & analytics
 
