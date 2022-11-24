@@ -5,6 +5,8 @@ description: 'Early governance: forum + snapshot + multisigs.'
 # Governance Model
 
 {% hint style="info" %}
+****
+
 **Where is the DAO, how can I contribute?**
 
 You can be in a DAO but not be 24/7 active, which is totally okay. There are different ways to get involved and get rewarded for your time and skills.&#x20;
@@ -113,9 +115,11 @@ Anybody who is not a community member is locked for a minimum of 1 year since la
 * you can also check \[12] and \[13] for the weight multiplier. For example, if it's 1250 - that means it's x0.125 - this is the reduction early contributors get. FYI, Contributor A = early contributors, Contributor B = initial core members and initial external.
 {% endhint %}
 
-{% embed url="https://etherscan.io/address/0xbf57539473913685688d224ad4e262684b23dd4c#readContract" %}
-[https://etherscan.io/address/0xbf57539473913685688d224ad4e262684b23dd4c#readContract](https://etherscan.io/address/0xbf57539473913685688d224ad4e262684b23dd4c#readContract)
+{% embed url="https://etherscan.io/address/0xf7512B2B20Cf427ADD8b01D8CDEef97a4B0E2C27" %}
+[https://etherscan.io/address/0xf7512B2B20Cf427ADD8b01D8CDEef97a4B0E2C27](https://etherscan.io/address/0xf7512B2B20Cf427ADD8b01D8CDEef97a4B0E2C27)
 {% endembed %}
+
+PS. Old TokenDistributor contract you can find [here. ](https://etherscan.io/address/0xbf57539473913685688d224ad4e262684b23dd4c)
 
 ### Delegation is available to streamline community work
 
