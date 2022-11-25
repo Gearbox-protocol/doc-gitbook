@@ -21,13 +21,12 @@ Anybody who is not a community member is locked for a minimum of 1 year since la
 
 **You can check those by going to the TokenDistributor contract**:
 
-* check contributorsList \[2] to find yourself/someone;
-* fill in your/eligible address from \[2] into \[10] vestingContracts. That will give you the corresponding personal vesting contract for that address;
-* you can also check \[12] and \[13] for the weight multiplier. For example, if it's 1250 - that means it's x0.125 - this is the reduction early contributors get. FYI, Contributor A = early contributors, Contributor B = initial core members and initial external.
+* check contributorsList \[3] to find yourself/someone;
+* fill in your/eligible address from \[3] into \[2] contributorVestingContracts. That will give you the corresponding personal vesting contract for that address.
 {% endhint %}
 
-{% embed url="https://etherscan.io/address/0xbf57539473913685688d224ad4e262684b23dd4c#readContract" %}
-[https://etherscan.io/address/0xbf57539473913685688d224ad4e262684b23dd4c#readContract](https://etherscan.io/address/0xbf57539473913685688d224ad4e262684b23dd4c#readContract)
+{% embed url="https://etherscan.io/address/0xf7512B2B20Cf427ADD8b01D8CDEef97a4B0E2C27#readContract" %}
+[https://etherscan.io/address/0xf7512B2B20Cf427ADD8b01D8CDEef97a4B0E2C27#readContract](https://etherscan.io/address/0xf7512B2B20Cf427ADD8b01D8CDEef97a4B0E2C27#readContract)
 {% endembed %}
 
 GEAR supply has been split according to a handful of contributor groups:

@@ -103,24 +103,6 @@ This way, **community voices are over x2 bigger in its voting power than early c
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
-
-
-{% hint style="success" %}
-Anybody who is not a community member is locked for a minimum of 1 year since launch. All of the vestings can be verified on-chain, no trust required. Community retains the largest portions both in terms of the distribution and in terms of voting weights.
-
-**You can check those by going to the TokenDistributor contract**:
-
-* check contributorsList \[2] to find yourself/someone;
-* fill in your/eligible address from \[2] into \[10] vestingContracts. That will give you the corresponding personal vesting contract for that address;
-* you can also check \[12] and \[13] for the weight multiplier. For example, if it's 1250 - that means it's x0.125 - this is the reduction early contributors get. FYI, Contributor A = early contributors, Contributor B = initial core members and initial external.
-{% endhint %}
-
-{% embed url="https://etherscan.io/address/0xf7512B2B20Cf427ADD8b01D8CDEef97a4B0E2C27" %}
-[https://etherscan.io/address/0xf7512B2B20Cf427ADD8b01D8CDEef97a4B0E2C27](https://etherscan.io/address/0xf7512B2B20Cf427ADD8b01D8CDEef97a4B0E2C27)
-{% endembed %}
-
-PS. Old TokenDistributor contract you can find [here. ](https://etherscan.io/address/0xbf57539473913685688d224ad4e262684b23dd4c)
-
 ### Delegation is available to streamline community work
 
 Snapshot page delegation is turned on for delegators from the community to unite and allow smaller holders get their voice. Anyone can delegate to any delegator or multiple delegators at once, including initial core members and contributors. But their votes are reduced, to even out the playing field. See the point above for all the details. This is done on the snapshot page.
