@@ -19,7 +19,7 @@ List of members on the multisig:
 
 1. [zefram.eth](https://twitter.com/boredGenius) - Building [88mphapp](https://twitter.com/88mphapp), sudoswap, and more. Member of MetaCartel.
 2. [0xngmi](https://twitter.com/0xngmi) - lead developer at [DefiLlama](https://defillama.com/)
-3. [Mikael Lazarev](https://twitter.com/mikaellazarev) - original inventor of Gearbox \[on behalf of Gearbox Protocol Limited]
+3. [0xmikko](https://twitter.com/0xmikko\_eth) - original inventor of Gearbox \[on behalf of Gearbox Protocol Limited]
 4. [Alex Smirnov](https://twitter.com/AlexSmirnov\_\_) - co-founder of [deBridge](https://twitter.com/deBridgeFinance)
 5. [MacLane Wilkison](https://twitter.com/MacLaneWilkison) - co-founder of [NuCypher](https://twitter.com/NuCypher) & [Threshold](https://twitter.com/TheTNetwork)
 6. [Simone](https://twitter.com/kronosimste) - developer at [DegenScore](https://twitter.com/DegenScore)
