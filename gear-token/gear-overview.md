@@ -35,7 +35,7 @@ As a result of community members performing [on-chain sleuthing](https://gov.gea
 
 ### Community Portion: \~58%. No vesting.
 
-* **DAO Treasury Multisig**: originally 51.00%. Up to DAO to decide, managed by the DAO-enacted [treasury multisig](../governance/setup/multisigs.md#financial-treasury-multisig-or-5-9). Address[: 0x7b065fcb0760df0cea8cfd144e08554f3cea73d1](https://etherscan.io/address/0x7b065fcb0760df0cea8cfd144e08554f3cea73d1).
+* **DAO Treasury Multisig**: originally 51.00%. Up to DAO to decide, managed by the DAO-enacted [treasury multisig](../governance/setup/guards-multisigs.md#financial-treasury-multisig-or-5-9). Address[: 0x7b065fcb0760df0cea8cfd144e08554f3cea73d1](https://etherscan.io/address/0x7b065fcb0760df0cea8cfd144e08554f3cea73d1).
   * Out of that, 2.766% to [DAO Round Part 1](https://gov.gearbox.fi/t/gip-10-strategic-dao-funding-proposal-part-1/1315/17). Lockup ends on July 15 of 2023, upon which 1 year of linear vesting will take place throughout 365 days, until July 2024.
   * Out of that, 1.057% to [DAO Round Part 2](https://gov.gearbox.fi/t/gip-18-dao-round-part-2-community-proposal/1374/112). Lockup ends on September 15 of 2023, upon which 1 year of linear vesting throughout 365 days, until September 2024.
   * Out of that, 0.1% to [VIBES metaDAO](https://gov.gearbox.fi/t/gip-13-vibes-internal-metadao-focusing-on-onboarding-marketing/1387) committee for marketing Q3+ 2022.

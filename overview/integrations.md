@@ -8,7 +8,7 @@ description: Offer leverage to your users with Gearbox, or fully integrate.
 See [dev docs](https://dev.gearbox.fi/) for technical documentation and guidance.
 {% endhint %}
 
-### List of currently integrated protocols by Gearbox DAO
+### List of currently integrated protocols by Gearbox DAO:
 
 {% content-ref url="credit-account/allowedlist-policy.md" %}
 [allowedlist-policy.md](credit-account/allowedlist-policy.md)

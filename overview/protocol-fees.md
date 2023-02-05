@@ -4,6 +4,10 @@ description: To stay self-sustainable, the protocol takes fees for different ope
 
 # Protocol Fees
 
+{% hint style="info" %}
+The fees explained below can also be improed or increased. For example, introducing fees in the other parts of the user lifecycle: on opening, closing, or some other action. Any of that is conceptually possible if decided by the DAO and implemented.
+{% endhint %}
+
 ### **Liquidation Fee**
 
 If a Credit Account is liquidated, some percentage goes to a third-party liquidator who liquidated the account - and some percentage goes to Gearbox Protocol.
@@ -23,5 +27,5 @@ The protocol takes spread as a fee between the APY which liquidity providers rec
 {% endcontent-ref %}
 
 {% hint style="success" %}
-All protocol fees go to [governance](../governance/setup/multisigs.md#financial-treasury-multisig-or-5-7) and nothing is assumed for the core contributors or the foundation. The protocol is fully operated by a DAO community.
+All protocol fees go to [governance](../governance/setup/guards-multisigs.md#financial-treasury-multisig-or-5-7) and nothing is assumed for the core contributors or the foundation. The protocol is fully operated by a DAO community.
 {% endhint %}

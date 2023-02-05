@@ -15,8 +15,8 @@ description: Useful links about many things in the Gearbox ecosystem.
 * GitHub: [https://github.com/Gearbox-protocol](https://github.com/Gearbox-protocol)
 * Twitter: [https://twitter.com/GearboxProtocol](https://twitter.com/GearboxProtocol)
 * Dune: [https://dune.com/apeir99n/gearbox-protocol-dashboard](https://dune.com/apeir99n/gearbox-protocol-dashboard)****
-* **Notion** where initiatives and expenses are reported: [https://gearboxprotocol.notion.site/gearboxprotocol/Gearbox-DAO-23966f122ae4421492819242b30a0e7a](https://gearboxprotocol.notion.site/gearboxprotocol/Gearbox-DAO-23966f122ae4421492819242b30a0e7a)
+* **Notion** where DAO initiatives and expenditures are reported: [https://gearboxprotocol.notion.site/gearboxprotocol/Gearbox-DAO-23966f122ae4421492819242b30a0e7a](https://gearboxprotocol.notion.site/gearboxprotocol/Gearbox-DAO-23966f122ae4421492819242b30a0e7a)
 
 {% embed url="https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a" %}
-Notion pages set up to streamline DAO work and contributions.
+Notion pages set up to streamline DAO initiatives and contributions.
 {% endembed %}

@@ -20,11 +20,7 @@ Gearbox Protocol allows anyone to take DeFi-native leverage and then use it acro
 
 ### **Where is the DAO, how can I contribute?**
 
-Gearbox is a DAO, run by various contributors and teams. The protocol and assets are never in custody of any one single person. You can be in a DAO but not be 24/7 active, which is totally okay. There are different ways to get involved and get rewarded for your time and skills.&#x20;
-
-* **Core contributors**: those who day and/or night work on different tasks as core contributors, ranging from marketing to coding. DAO contributors are split among different sub-projects and can decide to work on something specific, or a few tasks at a time. [See Notion](https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a).&#x20;
-* **Delegates**: members who stay on top of protocol strategic ideas and plans, but don’t have the 24/7 to really get hands-on operational tasks. They can become delegates and lead how [governance](governance/setup/) decides on protocol vital things.&#x20;
-* **Shitposters**: you can meme, learn, and discuss DeFi in [Discord](https://discord.com/invite/gearbox). We’ll like you ;) In fact, there is a _VIBES_ community program for the best posters, check it out [here](https://medium.com/gearbox-protocol/vibes-community-program-is-starting-welcome-to-the-1st-stage-e64a03f4c025).
+Gearbox is a DAO, run by various contributors and initiatives. The protocol and assets are never in custody of any one single person. You can be in a DAO but not be 24/7 active, which is totally okay. There are different ways to get involved and get rewarded for your time and skills. See more:
 
 {% embed url="https://gearboxprotocol.notion.site/gearboxprotocol/Gearbox-DAO-Working-Sheet-23966f122ae4421492819242b30a0e7a" %}
 
@@ -49,8 +45,4 @@ With V2, Gearbox Protocol has become cooler & faster! It now has its own **new m
 * **Community-driven.** Gearbox Protocol does not have a company responsible for the protocol or on-chain actions. The goal is to make the protocol work based on how the community wants it.&#x20;
 * You can check how from _day -1_ the focus has been on community-first [launch-phases](overview/launch-phases/ "mention").
 
-{% embed url="https://gearboxprotocol.notion.site/gearboxprotocol/Gearbox-DAO-23966f122ae4421492819242b30a0e7a" %}
-Notion pages set up to streamline DAO work and contributions.
-{% endembed %}
-
-MarketMake ETHGlobal 2021 hackathon finalist 🎆
+_MarketMake ETHGlobal 2021 hackathon finalist_ 🎆

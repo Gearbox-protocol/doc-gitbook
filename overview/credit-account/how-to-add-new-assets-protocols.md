@@ -1,12 +1,10 @@
 ---
 description: >-
-  Want to see your favorite protocol or asset be added to Gearbox? Here is what
-  you need to know.
+  Want to see your favorite protocol or asset be added to Gearbox Protocol? Here
+  is what you need to know.
 ---
 
 # How to add new Contracts & Assets to AllowedList
-
-
 
 {% hint style="info" %}
 Composability is at the heart of Gearbox Protocol's ethos as well as its modular architecture. It's imperative to grow the Allowed List Policy to allow traders & farmers to create composable positions across DeFi and other sectors. While the protocol is growing, there are some technical boundaries in place with regard to things like oracles when it comes to assets as well as contracts - to understand those better, please see some wishlist for Gearbox DAO below. If it checks out, go ahead and ask DAO to add it!&#x20;
@@ -15,11 +13,13 @@ Composability is at the heart of Gearbox Protocol's ethos as well as its modular
 * Discord chat to ask tech questions is [here](https://discord.gg/JZgvmaenwn).
 
 If you would like to have an adapter and believe you don't have enough resources to build it yourself, please just ping on Discord & let's collab together on a grant to have an external or internal developer help with such a task! Cooperation is welcome :-)
-
-**It is the work of the risk committee to review everything**. [See more in Notion board](https://gearboxprotocol.notion.site/Risk-Math-Product-Integrations-ab54ac636dcf41e5b18c09ebba334819).
 {% endhint %}
 
-### Add new Contracts / Protocols
+This article can give you an insight on how you can potentially access a collateral / protocol:
+
+{% embed url="https://medium.com/gearbox-protocol/risk-committee-daos-framework-for-accessing-assets-contracts-3d4deea83537" %}
+
+## Add new Contracts / Protocols
 
 #### Technical Requirements
 
@@ -44,7 +44,7 @@ If you would like to have an adapter and believe you don't have enough resources
 Prior to the forum posts, feel free to ping on [Discord](https://discord.gg/JssNVvxscK) to ask for help!
 {% endhint %}
 
-### Add new Assets / Tokens&#x20;
+## Add new Assets / Tokens&#x20;
 
 #### Technical Requirements
 

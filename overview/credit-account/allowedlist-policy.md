@@ -18,10 +18,10 @@ Gearbox architecture is very modular, so it's not just that there is an allowed 
 
 If you want to check and see the list of deployed contracts, go here:
 
-{% embed url="https://dev.gearbox.fi/docs/documentation/deployments/deployed-contracts" %}
+{% embed url="https://dev.gearbox.fi/" %}
 
 {% hint style="success" %}
-Decision on the assets and contracts as per [GIP-19](https://gov.gearbox.fi/t/gip-19-v2-discussion-pools-assets-and-allowedlist-policy-for-v2/1438).
+Decision on the assets and contracts as per [GIP-19](https://gov.gearbox.fi/t/gip-19-v2-discussion-pools-assets-and-allowedlist-policy-for-v2/1438). And further GIPs.
 {% endhint %}
 
 ### Allowed Contracts List

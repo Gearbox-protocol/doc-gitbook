@@ -8,7 +8,7 @@ Earning with Gearbox is as simple as lending on Compound or Aave. Next to that, 
 
 Your assets never end up in custody of any one person or company.
 
-The asset you supply to the protocol would be able to be utilized, aka borrowed for leverage, by traders & farmers who would be actively rebalancing their positions or using some other strategies within the [allowed list](../overview/credit-account/#allowed-list-policy) which a [Credit Account](../overview/credit-account/) allows. As borrowers, they will be required by the protocol to pay interest rates which accrues to the underlying pools of those assets.&#x20;
+The asset you supply to the protocol would be able to be utilized, aka borrowed for leverage, by traders & farmers who would be actively rebalancing their positions or using some other strategies within the [AllowedList](../overview/credit-account/#allowed-list-policy) which a [Credit Account](../overview/credit-account/) allows. As borrowers, they will be required by the protocol to pay interest rates which accrues to the underlying pools of those assets.&#x20;
 
 ![](<../.gitbook/assets/Screenshot 2021-08-07 at 22.49.25.png>)
 

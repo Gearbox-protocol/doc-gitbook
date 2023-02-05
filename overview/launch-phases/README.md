@@ -74,8 +74,8 @@ The roles of multisigs were set up to a financial-treasury one (receiving protoc
 
 Delegates were set up at this stage to streamline community work & power.
 
-{% content-ref url="../../governance/setup/multisigs.md" %}
-[multisigs.md](../../governance/setup/multisigs.md)
+{% content-ref url="../../governance/setup/guards-multisigs.md" %}
+[guards-multisigs.md](../../governance/setup/guards-multisigs.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}

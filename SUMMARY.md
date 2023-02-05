@@ -48,7 +48,7 @@
 ## GOVERNANCE | DAO <a href="#governance" id="governance"></a>
 
 * [Governance Model](governance/setup/README.md)
-  * [Multisigs](governance/setup/multisigs.md)
+  * [Guards \[Multisigs\]](governance/setup/guards-multisigs.md)
 * [Community Delegates](governance/community-delegates.md)
 
 ## GEAR Token

@@ -1,19 +1,13 @@
 ---
-description: 'Early governance: forum + snapshot + multisigs.'
+description: 'Early governance: forum + snapshot. Get involved!'
 ---
 
 # Governance Model
 
 {% hint style="info" %}
-****
-
 **Where is the DAO, how can I contribute?**
 
-You can be in a DAO but not be 24/7 active, which is totally okay. There are different ways to get involved and get rewarded for your time and skills.&#x20;
-
-* **Core contributors**: those who day and/or night work on different tasks as core contributors, ranging from marketing to coding. DAO contributors are split among different sub-projects and can decide to work on something specific, or a few tasks at a time. [See Notion](https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a).&#x20;
-* **Delegates**: members who stay on top of protocol strategic ideas and plans, but don’t have the 24/7 to really get hands-on operational tasks. They can become delegates and lead how [governance](./) decides on protocol vital things.&#x20;
-* **Shitposters**: you can meme, learn, and discuss DeFi in [Discord](https://discord.com/invite/gearbox). We’ll like you ;)
+You can be in a DAO but not be 24/7 active, which is totally okay. There are different ways to get involved and get rewarded for your time and skills. Head over to the Notion page and discover what initiaitve you can contribute to, and who gets the funding:
 {% endhint %}
 
 {% embed url="https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a" %}
@@ -42,7 +36,7 @@ It's important to note that all distribution vestings and other parameters were 
 
 ## Governance discussion process
 
-**1. Ideation process, usually in Discord.**
+**1. Ideation process, sometimes in Discord.**
 
 This can occur in any chat really. Discord, forum, wherever. It's best to outline the voting parameters (WHAT are you actually voting for: YES or NO question, for instance) during this process so you would have a better understanding of what to propose on forum.
 
@@ -52,17 +46,17 @@ DAO working groups and coordination
 
 **2. Forum proposal and temperature check: first in Main, then in Proposals.**
 
-After some initial feedback for an idea was received informally, a semi-formal proposal must be put on forum with concrete explanation of the proposed idea. A temperature check can be used on forum via a voting poll. Such things can easily be gamed, of course, so this temperature check should be met with a degree of scrutiny.&#x20;
+After some initial feedback for an idea was received informally, a semi-formal proposal must be put on the governance forum with concrete explanation of the proposed idea. A temperature check can be used on forum via a voting poll if you want to. Such things can easily be gamed, of course, so this temperature check should be met with a degree of scrutiny.&#x20;
 
 {% embed url="https://gov.gearbox.fi/t/start-here-forum-rules/17" %}
 
 **3. Actual formal proposal on snapshot.**&#x20;
 
-It should be put up for voting on the snapshot page, including the transaction details the DAO would be voting for, to avoid any multisig subjectivity later. This means that a proposer should seek technical help to prepare such a transaction prior to submitting a snapshot proposal. A quorum must be bet in such case.
+It should be put up for voting on the snapshot page, including the transaction details the DAO would be voting for, to avoid any multisig subjectivity later. This means that a proposer should seek technical help to prepare such a transaction prior to submitting a snapshot proposal. A quorum must be bet in such case. For quorum details, see more at the bottom of this page
 
 {% embed url="https://snapshot.org/#/gearbox.eth" %}
 
-**4. Multisig execution.**
+**4. Guards \[multisig] execution.**
 
 Multisig must execute whatever proposal reaches winning quorum. Given that multisig are members previously enacted by token holders, meaning the DAO, are semi-public people with big reputation - in _extreme_ cases they could voice against implementing some proposal. However, that could breach _trust_ in the governance model and require immediate action and restructuring.&#x20;
 
@@ -157,14 +151,11 @@ gearbox.eth
 
 Given that snapshot voting is off-chain (yet trustless and verifiable) - some parameters allow for flexibility, which is how such a model as described above is possible. However, that also means there is a degree of human intervention required in order to facilitate this.&#x20;
 
-#### Admin role to update multipliers of the reduced voting weights
+**NEW**: please pay attention to the voting intervention proposed in [GIP-42](https://snapshot.org/#/gearbox.eth/proposal/0xa24c9910bdd6bdbe81a5584768b65e9cbe10dd3f0ab7fecda249c698a5a6c873).
 
-The weights, as described, shift higher for A and B in case the DAO does more distributions. That is to replicate the fact that DAO ensures more distributions and grants, and as such it's acceptable to have early contributors voting weights increase to their normal level slowly as the community portion increases. However, a few points need to be taken into account:
+#### Admin role to potentially update multipliers of the reduced voting weights
 
-* What happens after 1 year, when vesting begins? If a new governance system is introduced then, to take into account liquid tokens only, then there will be a period when initial core members and contributors have close to 0% voting weights, which makes it dangerous. So a new system should take a few months period into consideration.
-* What if a new system is implemented about half a year into the protocol life, how will the weights be adjusted then? The DAO should be able to vote and find an equilibrium in that case, to balance out the weights. As long ad the original ethos of having a level playing field is maintained (prior to a fully unlocked supply model) - it should be acceptable.
-
-As such, the weight multiplier from x0.125 will be manually updated monthly at the snapshot level to replicate this Reverse Escrow Model change when needed. However, in the first weeks, this action is not necessary as the portions won't drastically change.
+The weights, as described, shift higher for A and B in case the DAO does more distributions. That is to replicate the fact that DAO ensures more distributions and grants, and as such it's acceptable to have early contributors voting weights increase to their normal level slowly as the community portion increases. As such, the weight multiplier from x0.125 will be manually updated monthly at the snapshot level to replicate this Reverse Escrow Model change when needed or if needed. However, in the first weeks, this action is not necessary as the portions won't drastically change.
 
 {% hint style="info" %}
 Because some parameters have to be adjusted at the snapshot level, like total number to calculate quorum - a deviation of 3-5% from the available number (which is less than 1% of overall power) here and there can happen, in order to avoid daily multisig work. As such, bi-weekly or monthly can be chosen in order to keep the numbers in check.

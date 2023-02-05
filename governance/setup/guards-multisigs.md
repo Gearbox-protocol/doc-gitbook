@@ -1,8 +1,8 @@
 ---
-description: Information about multisig signers.
+description: Information about guards initiative, also known as multisig signers.
 ---
 
-# Multisigs
+# Guards \[Multisigs]
 
 Multisig roles were split into a financial-treasury and technical. Both multisigs were created prior to the deployment ceremony by previous initial core members, as contracts needed to know the wallet addresses. Then, multisig members and a signer count requirement were added after **DAO voting procedures**. All this can be verified on-chain and Etherscan in logs of respective contracts.
 
@@ -13,7 +13,6 @@ Multisig must execute whatever proposal reaches winning quorum. Given that multi
 ### Technical Multisig | 6/10
 
 * Ethereum Address: [0xA7D5DDc1b8557914F158076b228AA91eF613f1D5](https://etherscan.io/address/0xA7D5DDc1b8557914F158076b228AA91eF613f1D5)
-* Forum Discussion: [https://gov.gearbox.fi/t/gip-17-multisig-reshuffle-pausable-admin/1447](https://gov.gearbox.fi/t/gip-17-multisig-reshuffle-pausable-admin/1447)
 
 List of members on the multisig:
 
@@ -35,22 +34,21 @@ Technical Multisig will not have a timelock function just yet, for security purp
 ### Financial-Treasury Multisig | 5/9
 
 * Ethereum Address: [0x7b065Fcb0760dF0CEA8CFd144e08554F3CeA73D1](https://etherscan.io/address/0x7b065Fcb0760dF0CEA8CFd144e08554F3CeA73D1)
-* Forum Discussion: [https://gov.gearbox.fi/t/gip-17-multisig-reshuffle-pausable-admin/1447](https://gov.gearbox.fi/t/gip-17-multisig-reshuffle-pausable-admin/1447)
 
 List of members on the multisig:
 
 1. [Stani](https://twitter.com/StaniKulechov) - founder of [Aave](https://twitter.com/AaveAave), venture partner at [Variant Fund](https://twitter.com/VariantFund)
 2. [Amplice](https://twitter.com/astr0bas3d) - [lobsterdao](https://twitter.com/10b57e6da0) member & core DAO contributor on marketing
 3. [Pepo](https://twitter.com/0xPEPO) - contributor of [Wonderland](https://twitter.com/defi\_wonderland) & [DeFi LATAM](https://twitter.com/defi\_latam)
-4. [Larry Cermak](https://twitter.com/lawmaster) - VP of Research at [TheBlock](https://twitter.com/TheBlock\_\_)
-5. [Sergey](https://t.me/icodrops\_sergey) - founder of [ICODrops](https://twitter.com/ICODrops)
-6. [Allan](https://twitter.com/niemerg) - founder of [Yield](https://twitter.com/yield)
-7. [apeir99n](https://twitter.com/apeir99n) - original math & product at Gearbox \[on behalf of Gearbox Protocol Limited]
-8. [Nikitakle](https://twitter.com/NOstroymov) - core DAO contributor on marketing & community
-9. [Amantay](https://gov.gearbox.fi/u/amantay/summary)  - core DAO contributor on risk & analytics
+4. [Sergey](https://t.me/icodrops\_sergey) - founder of [ICODrops](https://twitter.com/ICODrops)
+5. [Allan](https://twitter.com/niemerg) - founder of [Yield](https://twitter.com/yield)
+6. [apeir99n](https://twitter.com/apeir99n) - original math & product at Gearbox \[on behalf of Gearbox Protocol Limited]
+7. [Nikitakle](https://twitter.com/NOstroymov) - core DAO contributor on marketing & community
+8. [Amantay](https://gov.gearbox.fi/u/amantay/summary)  - core DAO contributor on risk & analytics
+9. [duckdegen.eth](https://twitter.com/DuckDegen) - devrel, ex-Connext \[[GIP-40](https://gov.gearbox.fi/t/gip-40-financial-multisig-reshuffle/2204/5)]
 
 {% hint style="info" %}
-Information on technical multisig transactions as well as votes (all representing changes to the technical architecture) will be communicated on Discord here:
+Information on technical multisig transactions as well as votes (all representing changes to the technical architecture) will be often communicated on Discord here:
 {% endhint %}
 
 {% embed url="https://discord.gg/J53N5WYfR3" %}
