@@ -55,49 +55,51 @@ Each column is the pool denomination asset, so the % LTV values per different as
 If working with the raw numbers, [LT](../liquidations/#liquidation-threshold) for stables would work as follows: a swap from a stablecoin to a stablecoin would cause your [Health Factor](../../traders-and-farmers/credit-account-dashboard-overview/kak-ne-byt-rekt.md#what-i-can-do-if-my-health-factor-is-close-to-1-to-keep-my-credit-account-alive) to decrease, that is because stables are not always stable from the price feed and risks perspective. It's not safe to assume a stable is 1:1 to another one, so there are more [complex calculations being done](../liquidations/#threshold-weighted-value) which account for possible slippage, chainlink price tick, and other factors.
 {% endhint %}
 
-| Token                  | USDC | DAI  | WETH | wstETH | WBTC |
-| ---------------------- | ---- | ---- | ---- | ------ | ---- |
-| WETH                   | 85   | 85   | 94.5 | 90     | 85   |
-| stETH                  | 82.5 | 82.5 | 90   | 94.5   | 82.5 |
-| WBTC                   | 85   | 85   | 85   | 85     | 94.5 |
-| USDC                   | 94.5 | 92   | 82.5 | 82.5   | 82.5 |
-| DAI                    | 92   | 94.5 | 82.5 | 82.5   | 82.5 |
-| USDT                   | 90   | 90   | 82.5 | 82.5   | 82.5 |
-| sUSD                   | 90   | 90   | 82.5 | 82.5   | 82.5 |
-| FRAX                   | 90   | 90   | 82.5 | 82.5   | 82.5 |
-| gUSD                   | 90   | 90   | 82.5 | 82.5   | 82.5 |
-| LUSD                   | 90   | 90   | 82.5 | 82.5   | 82.5 |
-| steCRV                 | 82.5 | 82.5 | 90   | 90     | 82.5 |
-| cvxsteCRV              | 82.5 | 82.5 | 90   | 90     | 82.5 |
-| stkcvxsteCRV           | 82.5 | 82.5 | 90   | 90     | 82.5 |
-| FRAX3CRV-f             | 90   | 90   | 80   | 80     | 80   |
-| cvxFRAX3CRV-f          | 90   | 90   | 80   | 80     | 80   |
-| stkcvxFRAX3CRV         | 90   | 90   | 80   | 80     | 80   |
-| 3Crv                   | 90   | 90   | 80   | 80     | 80   |
-| cvx3Crv                | 90   | 90   | 80   | 80     | 80   |
-| stkcvx3Crv             | 90   | 90   | 80   | 80     | 80   |
-| LUSD3CRV-f             | 90   | 90   | 80   | 80     | 80   |
-| cvxLUSD3CRV-f          | 90   | 90   | 80   | 80     | 80   |
-| stkcvxLUSD3CRV         | 90   | 90   | 80   | 80     | 80   |
-| crvPlain3andSUSD       | 90   | 90   | 80   | 80     | 80   |
-| cvxcrvPlain3andSUSD    | 90   | 90   | 80   | 80     | 80   |
-| stkcvxcrvPlain3andSUSD | 90   | 90   | 80   | 80     | 80   |
-| gusd3CRV               | 90   | 90   | 80   | 80     | 80   |
-| cvxgusd3CRV            | 90   | 90   | 80   | 80     | 80   |
-| stkcvxgusd3CRV         | 90   | 90   | 80   | 80     | 80   |
-| FraxUsdc               | 90   | 90   | 80   | 80     | 80   |
-| yvDAI                  | 90   | 90   | 80   | 80     | 80   |
-| yvUSDC                 | 90   | 90   | 80   | 80     | 80   |
-| yvWETH                 | 82.5 | 82.5 | 90   | 90     | 80   |
-| yvWBTC                 | 82.5 | 82.5 | 80   | 80     | 90   |
-| yvCurve-stETH          | 82.5 | 82.5 | 90   | 90     | 82.5 |
-| yvCurve-FRAX           | 90   | 90   | 80   | 80     | 80   |
-| CVX                    | 25   | 25   | 25   | 25     | 25   |
-| FXS                    | 25   | 25   | 25   | 25     | 25   |
-| LQTY                   | 0    | 0    | 0    | 0      | 0    |
-| CRV                    | 25   | 25   | 25   | 25     | 25   |
-| LDO                    | 0    | 0    | 0    | 0      | 0    |
-| SNX                    | 25   | 25   | 25   | 25     | 25   |
+
+
+| Token                  | USDC | DAI  | WETH | wstETH | WBTC | FRAX |
+| ---------------------- | ---- | ---- | ---- | ------ | ---- | ---- |
+| WETH                   | 85   | 85   | 94.5 | 90     | 85   | 85   |
+| stETH                  | 82.5 | 82.5 | 90   | 94.5   | 82.5 | 82.5 |
+| WBTC                   | 85   | 85   | 85   | 85     | 94.5 | 85   |
+| USDC                   | 94.5 | 92   | 82.5 | 82.5   | 82.5 | 92   |
+| DAI                    | 92   | 94.5 | 82.5 | 82.5   | 82.5 | 92   |
+| USDT                   | 90   | 90   | 82.5 | 82.5   | 82.5 | 94.5 |
+| sUSD                   | 90   | 90   | 82.5 | 82.5   | 82.5 | 90   |
+| FRAX                   | 90   | 90   | 82.5 | 82.5   | 82.5 | 90   |
+| gUSD                   | 90   | 90   | 82.5 | 82.5   | 82.5 | 90   |
+| LUSD                   | 90   | 90   | 82.5 | 82.5   | 82.5 | 90   |
+| steCRV                 | 82.5 | 82.5 | 90   | 90     | 82.5 | 82.5 |
+| cvxsteCRV              | 82.5 | 82.5 | 90   | 90     | 82.5 | 82.5 |
+| stkcvxsteCRV           | 82.5 | 82.5 | 90   | 90     | 82.5 | 90   |
+| FRAX3CRV-f             | 90   | 90   | 80   | 80     | 80   | 90   |
+| cvxFRAX3CRV-f          | 90   | 90   | 80   | 80     | 80   | 90   |
+| stkcvxFRAX3CRV         | 90   | 90   | 80   | 80     | 80   | 90   |
+| 3Crv                   | 90   | 90   | 80   | 80     | 80   | 90   |
+| cvx3Crv                | 90   | 90   | 80   | 80     | 80   | 90   |
+| stkcvx3Crv             | 90   | 90   | 80   | 80     | 80   | 90   |
+| LUSD3CRV-f             | 90   | 90   | 80   | 80     | 80   | 90   |
+| cvxLUSD3CRV-f          | 90   | 90   | 80   | 80     | 80   | 90   |
+| stkcvxLUSD3CRV         | 90   | 90   | 80   | 80     | 80   | 90   |
+| crvPlain3andSUSD       | 90   | 90   | 80   | 80     | 80   | 90   |
+| cvxcrvPlain3andSUSD    | 90   | 90   | 80   | 80     | 80   | 90   |
+| stkcvxcrvPlain3andSUSD | 90   | 90   | 80   | 80     | 80   | 90   |
+| gusd3CRV               | 90   | 90   | 80   | 80     | 80   | 90   |
+| cvxgusd3CRV            | 90   | 90   | 80   | 80     | 80   | 90   |
+| stkcvxgusd3CRV         | 90   | 90   | 80   | 80     | 80   | 90   |
+| FraxUsdc               | 90   | 90   | 80   | 80     | 80   | 90   |
+| yvDAI                  | 90   | 90   | 80   | 80     | 80   | 90   |
+| yvUSDC                 | 90   | 90   | 80   | 80     | 80   | 90   |
+| yvWETH                 | 82.5 | 82.5 | 90   | 90     | 80   | 82.5 |
+| yvWBTC                 | 82.5 | 82.5 | 80   | 80     | 90   | 82.5 |
+| yvCurve-stETH          | 82.5 | 82.5 | 90   | 90     | 82.5 | 82.5 |
+| yvCurve-FRAX           | 90   | 90   | 80   | 80     | 80   | 90   |
+| CVX                    | 25   | 25   | 25   | 25     | 25   | 25   |
+| FXS                    | 25   | 25   | 25   | 25     | 25   | 25   |
+| LQTY                   | 0    | 0    | 0    | 0      | 0    | 0    |
+| CRV                    | 25   | 25   | 25   | 25     | 25   | 25   |
+| LDO                    | 0    | 0    | 0    | 0      | 0    | 0    |
+| SNX                    | 25   | 25   | 25   | 25     | 25   | 25   |
 
 {% hint style="info" %}
 The information about V1 Credit Managers \[Allowed List of contracts & assets] was scraped out from the docs to not confuse new users. Those CMs are still on-chain and exist, but only with the option to trade out of CA positions and close, not borrow or open new ones. If you are looking for old numbers, [check on forum](https://gov.gearbox.fi/t/pre-gip-2-3-start-gearbox-allowed-tokens-and-protocols/152/37).
