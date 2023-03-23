@@ -15,7 +15,7 @@ USDC: $1.00
 4. Wait until the price of DAI returns to peg of 1:1.
 5. Close your Credit Account and fix profits.&#x20;
 
-Not taking slippage and interest rate into account, 900K DAI swapped to USDC at the price of $1.05 would be 945M USDC and when closing the account - essentially 50K profits in arbitrage.&#x20;
+Not taking slippage and interest rate into account, 900K DAI swapped to USDC at the price of $1.05 would be 945K USDC and when closing the account - essentially 50K profits in arbitrage.&#x20;
 
 Same strategy works for the case DAI < USDC. The only difference is that you should open a Credit Account denominated in USDC. Such strategy also can apply to WBTC, or other pegged assets.&#x20;
 
