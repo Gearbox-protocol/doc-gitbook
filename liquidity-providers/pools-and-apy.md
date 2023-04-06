@@ -34,6 +34,7 @@ Getting Diesel tokens is super easy, you can try it out by [supplying liquidity 
 | wstETH                                                                            | [0xB8cf3Ed326bB0E51454361Fb37E9E8df6DC5C286](https://etherscan.io/address/0xB8cf3Ed326bB0E51454361Fb37E9E8df6DC5C286) |
 | USDC                                                                              | [0x86130bDD69143D8a4E5fc50bf4323D48049E98E4](https://etherscan.io/address/0x86130bDD69143D8a4E5fc50bf4323D48049E98E4) |
 | DAI                                                                               | [0x24946bCbBd028D5ABb62ad9B635EB1b1a67AF668](https://etherscan.io/address/0x24946bCbBd028D5ABb62ad9B635EB1b1a67AF668) |
+| FRAX                                                                              | [0x79012c8d491dcf3a30db20d1f449b14caf01da6c](https://etherscan.io/address/0x79012c8d491dcf3a30db20d1f449b14caf01da6c) |
 | WBTC                                                                              | [0xB2A015c71c17bCAC6af36645DEad8c572bA08A08](https://etherscan.io/address/0xB2A015c71c17bCAC6af36645DEad8c572bA08A08) |
 
 ## How to calculate APY?
@@ -56,11 +57,12 @@ This model is similar to how Aave works.
 | ---------- | ---- | ---- | ---- | ----- |
 | USDC       | 0    | 1.5  | 100  | 85    |
 | DAI        | 0    | 1.5  | 100  | 85    |
+| FRAX       | 0    | 1.5  | 100  | 85    |
 | wstETH     | 0    | 1    | 60   | 85    |
 | ETH        | 0    | 2.5  | 60   | 85    |
 | WBTC       | 0    | 2.5  | 60   | 85    |
 
-****[**Latest update**](https://gov.gearbox.fi/t/gip-20-update-fees-interest-rate-curves/1571): governance voting to change pool interest rate curve parameters and make the curve more flat as a bootstrap mechanism for V2 Leverage Ninja launch. See the [logic](https://gov.gearbox.fi/t/gip-20-update-fees-interest-rate-curves/1571).
+[**Latest update**](https://gov.gearbox.fi/t/gip-20-update-fees-interest-rate-curves/1571): governance voting to change pool interest rate curve parameters and make the curve more flat as a bootstrap mechanism for V2 Leverage Ninja launch. See the [logic](https://gov.gearbox.fi/t/gip-20-update-fees-interest-rate-curves/1571).
 
 ### Current Pool Caps as per latest GIP voting
 
@@ -68,8 +70,9 @@ This model is similar to how Aave works.
 | ------ | -------- | --------------- | --------------- |
 | USDC   | N/A      | 100,000 USDC    | 1,000,000 USDC  |
 | DAI    | N/A      | 100,000 DAI     | 1,000,000 DAI   |
+| FRAX   | N/A      | 100,000 FRAX    | 1,000,000 FRAX  |
 | wstETH | N/A      | 75 wstETH       | 600 wstETH      |
 | WETH   | N/A      | 75 WETH         | 600 WETH        |
 | WBTC   | N/A      | 5.5 WBTC        | 50 WBTC         |
 
-****[**Latest update**](https://gov.gearbox.fi/t/gip-20-update-fees-interest-rate-curves/1571)**:** pool limits are effectively lifted. Any actual caps are just required by the architecture to have \*some\* number and can be lifted without a vote if the TVL approaches them. As for the min-max personal borrow limits, they have been established by another vote: [GIP-21](https://gov.gearbox.fi/t/gip-21-leverage-ninja-mode-limits-for-v2/1572).
+[**Latest update**](https://gov.gearbox.fi/t/gip-20-update-fees-interest-rate-curves/1571)**:** pool limits are effectively lifted. Any actual caps are just required by the architecture to have \*some\* number and can be lifted without a vote if the TVL approaches them. As for the min-max personal borrow limits, they have been established by another vote: [GIP-21](https://gov.gearbox.fi/t/gip-21-leverage-ninja-mode-limits-for-v2/1572).
