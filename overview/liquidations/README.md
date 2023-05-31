@@ -19,7 +19,7 @@ Anyone can check the health factor and liquidate positions with a health factor 
 ![](<../../.gitbook/assets/Screenshot 2021-10-18 at 21.48.21.png>)
 
 {% hint style="warning" %}
-As a user with a leverage position, you need to watch out for your health factor. Having it just above 1 puts you in risk of getting liquidated. Learn how to avoid liquidations. ****&#x20;
+As a user with a leverage position, you need to watch out for your health factor. Having it just above 1 puts you in risk of getting liquidated. Learn how to avoid liquidations.&#x20;
 {% endhint %}
 
 {% content-ref url="../../traders-and-farmers/credit-account-dashboard-overview/kak-ne-byt-rekt.md" %}

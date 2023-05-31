@@ -26,7 +26,7 @@ There are 4 tabs inside a Credit Account that let you operate and utilise it to 
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-&#x20;**** 3.  **Connect:** Connect is what enables you to use native interfaces of the integrated protocols, thanks to Wallet Connect. You can use them if you like the familiarity but Single Click Strategies and the Farm option already have them available with way more convenience.&#x20;
+&#x20;3\.  **Connect:** Connect is what enables you to use native interfaces of the integrated protocols, thanks to Wallet Connect. You can use them if you like the familiarity but Single Click Strategies and the Farm option already have them available with way more convenience.&#x20;
 
 {% content-ref url="connect-wallet-connect.md" %}
 [connect-wallet-connect.md](connect-wallet-connect.md)

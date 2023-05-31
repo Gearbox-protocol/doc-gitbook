@@ -26,26 +26,7 @@ Decision on the assets and contracts as per [GIP-19](https://gov.gearbox.fi/t/gi
 
 ### Allowed Contracts List
 
-| Pool                            | LP Token Address                                                                                                      |
-| ------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| Curve ETH+stETH                 | [0x06325440D014e39736583c165C2963BA99fAf14E](https://etherscan.io/address/0x06325440D014e39736583c165C2963BA99fAf14E) |
-| Convex Curve ETH+stETH          | [0x9518c9063eB0262D791f38d8d6Eb0aca33c63ed0](https://etherscan.io/address/0x9518c9063eB0262D791f38d8d6Eb0aca33c63ed0) |
-| Curve FRAX+3Crv                 | [0xd632f22692FaC7611d2AA1C0D552930D43CAEd3B](https://etherscan.io/address/0xd632f22692FaC7611d2AA1C0D552930D43CAEd3B) |
-| Convex Curve FRAX+3Crv          | [0xbE0F6478E0E4894CFb14f32855603A083A57c7dA](https://etherscan.io/address/0xbE0F6478E0E4894CFb14f32855603A083A57c7dA) |
-| Curve 3pool (DAI+USDC+USDT)     | [0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490](https://etherscan.io/address/0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490) |
-| Convex 3pool (DAI+USDC+USDT)    | [0x30D9410ED1D5DA1F6C8391af5338C93ab8d4035C](https://etherscan.io/address/0x30D9410ED1D5DA1F6C8391af5338C93ab8d4035C) |
-| Curve LUSD+3Crv                 | [0xEd279fDD11cA84bEef15AF5D39BB4d4bEE23F0cA](https://etherscan.io/address/0xEd279fDD11cA84bEef15AF5D39BB4d4bEE23F0cA) |
-| Convex Curve LUSD+3Crv          | [0xFB9B2f06FDb404Fd3E2278E9A9edc8f252F273d0](https://etherscan.io/address/0xFB9B2f06FDb404Fd3E2278E9A9edc8f252F273d0) |
-| Curve DAI+USDC+USDT+sUSD        | [0xC25a3A3b969415c80451098fa907EC722572917F](https://etherscan.io/address/0xC25a3A3b969415c80451098fa907EC722572917F) |
-| Convex Curve DAI+USDC+USDT+sUSD | [0x11D200ef1409cecA8D6d23e6496550f707772F11](https://etherscan.io/address/0x11D200ef1409cecA8D6d23e6496550f707772F11) |
-| Curve GUSD+3Crv                 | [0xD2967f45c4f384DEEa880F807Be904762a3DeA07](https://etherscan.io/address/0xD2967f45c4f384DEEa880F807Be904762a3DeA07) |
-| Convex Curve GUSD+3Crv          | [0x15c2471ef46Fa721990730cfa526BcFb45574576](https://etherscan.io/address/0x15c2471ef46Fa721990730cfa526BcFb45574576) |
-| USDC yVault                     | [0xa354F35829Ae975e850e23e9615b11Da1B3dC4DE](https://etherscan.io/address/0xa354F35829Ae975e850e23e9615b11Da1B3dC4DE) |
-| DAI yVault                      | [0xdA816459F1AB5631232FE5e97a05BBBb94970c95](https://etherscan.io/address/0xdA816459F1AB5631232FE5e97a05BBBb94970c95) |
-| WETH yVault                     | [0xa258C4606Ca8206D8aA700cE2143D7db854D168c](https://etherscan.io/address/0xa258C4606Ca8206D8aA700cE2143D7db854D168c) |
-| WBTC yVault                     | [0xA696a63cc78DfFa1a63E9E50587C197387FF6C7E](https://etherscan.io/address/0xA696a63cc78DfFa1a63E9E50587C197387FF6C7E) |
-| Curve stETH Pool yVault         | [0xdCD90C7f6324cfa40d7169ef80b12031770B4325](https://etherscan.io/address/0xdCD90C7f6324cfa40d7169ef80b12031770B4325) |
-| Curve FRAX Pool yVault          | [0xB4AdA607B9d6b2c9Ee07A275e9616B84AC560139](https://etherscan.io/address/0xB4AdA607B9d6b2c9Ee07A275e9616B84AC560139) |
+<table><thead><tr><th width="297">Pool</th><th>LP Token Address</th></tr></thead><tbody><tr><td>Curve ETH+stETH</td><td><a href="https://etherscan.io/address/0x06325440D014e39736583c165C2963BA99fAf14E">0x06325440D014e39736583c165C2963BA99fAf14E</a></td></tr><tr><td>Convex Curve ETH+stETH</td><td><a href="https://etherscan.io/address/0x9518c9063eB0262D791f38d8d6Eb0aca33c63ed0">0x9518c9063eB0262D791f38d8d6Eb0aca33c63ed0</a></td></tr><tr><td>Curve FRAX+3Crv</td><td><a href="https://etherscan.io/address/0xd632f22692FaC7611d2AA1C0D552930D43CAEd3B">0xd632f22692FaC7611d2AA1C0D552930D43CAEd3B</a></td></tr><tr><td>Convex Curve FRAX+3Crv</td><td><a href="https://etherscan.io/address/0xbE0F6478E0E4894CFb14f32855603A083A57c7dA">0xbE0F6478E0E4894CFb14f32855603A083A57c7dA</a></td></tr><tr><td>Curve 3pool (DAI+USDC+USDT)</td><td><a href="https://etherscan.io/address/0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490">0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490</a></td></tr><tr><td>Convex 3pool (DAI+USDC+USDT)</td><td><a href="https://etherscan.io/address/0x30D9410ED1D5DA1F6C8391af5338C93ab8d4035C">0x30D9410ED1D5DA1F6C8391af5338C93ab8d4035C</a></td></tr><tr><td>Curve LUSD+3Crv</td><td><a href="https://etherscan.io/address/0xEd279fDD11cA84bEef15AF5D39BB4d4bEE23F0cA">0xEd279fDD11cA84bEef15AF5D39BB4d4bEE23F0cA</a></td></tr><tr><td>Convex Curve LUSD+3Crv</td><td><a href="https://etherscan.io/address/0xFB9B2f06FDb404Fd3E2278E9A9edc8f252F273d0">0xFB9B2f06FDb404Fd3E2278E9A9edc8f252F273d0</a></td></tr><tr><td>Curve DAI+USDC+USDT+sUSD</td><td><a href="https://etherscan.io/address/0xC25a3A3b969415c80451098fa907EC722572917F">0xC25a3A3b969415c80451098fa907EC722572917F</a></td></tr><tr><td>Convex Curve DAI+USDC+USDT+sUSD</td><td><a href="https://etherscan.io/address/0x11D200ef1409cecA8D6d23e6496550f707772F11">0x11D200ef1409cecA8D6d23e6496550f707772F11</a></td></tr><tr><td>Curve GUSD+3Crv</td><td><a href="https://etherscan.io/address/0xD2967f45c4f384DEEa880F807Be904762a3DeA07">0xD2967f45c4f384DEEa880F807Be904762a3DeA07</a></td></tr><tr><td>Convex Curve GUSD+3Crv</td><td><a href="https://etherscan.io/address/0x15c2471ef46Fa721990730cfa526BcFb45574576">0x15c2471ef46Fa721990730cfa526BcFb45574576</a></td></tr><tr><td>USDC yVault</td><td><a href="https://etherscan.io/address/0xa354F35829Ae975e850e23e9615b11Da1B3dC4DE">0xa354F35829Ae975e850e23e9615b11Da1B3dC4DE</a></td></tr><tr><td>DAI yVault</td><td><a href="https://etherscan.io/address/0xdA816459F1AB5631232FE5e97a05BBBb94970c95">0xdA816459F1AB5631232FE5e97a05BBBb94970c95</a></td></tr><tr><td>WETH yVault</td><td><a href="https://etherscan.io/address/0xa258C4606Ca8206D8aA700cE2143D7db854D168c">0xa258C4606Ca8206D8aA700cE2143D7db854D168c</a></td></tr><tr><td>WBTC yVault</td><td><a href="https://etherscan.io/address/0xA696a63cc78DfFa1a63E9E50587C197387FF6C7E">0xA696a63cc78DfFa1a63E9E50587C197387FF6C7E</a></td></tr><tr><td>Curve stETH Pool yVault</td><td><a href="https://etherscan.io/address/0xdCD90C7f6324cfa40d7169ef80b12031770B4325">0xdCD90C7f6324cfa40d7169ef80b12031770B4325</a></td></tr><tr><td>Curve FRAX Pool yVault</td><td><a href="https://etherscan.io/address/0xB4AdA607B9d6b2c9Ee07A275e9616B84AC560139">0xB4AdA607B9d6b2c9Ee07A275e9616B84AC560139</a></td></tr></tbody></table>
 
 ### Allowed Assets List
 
@@ -57,49 +38,7 @@ If working with the raw numbers, [LT](../liquidations/#liquidation-threshold) fo
 
 
 
-| Token                  | USDC | DAI  | WETH | wstETH | WBTC | FRAX |
-| ---------------------- | ---- | ---- | ---- | ------ | ---- | ---- |
-| WETH                   | 85   | 85   | 94.5 | 90     | 85   | 85   |
-| stETH                  | 82.5 | 82.5 | 90   | 94.5   | 82.5 | 82.5 |
-| WBTC                   | 85   | 85   | 85   | 85     | 94.5 | 85   |
-| USDC                   | 94.5 | 92   | 82.5 | 82.5   | 82.5 | 92   |
-| DAI                    | 92   | 94.5 | 82.5 | 82.5   | 82.5 | 92   |
-| USDT                   | 90   | 90   | 82.5 | 82.5   | 82.5 | 94.5 |
-| sUSD                   | 90   | 90   | 82.5 | 82.5   | 82.5 | 90   |
-| FRAX                   | 90   | 90   | 82.5 | 82.5   | 82.5 | 90   |
-| gUSD                   | 90   | 90   | 82.5 | 82.5   | 82.5 | 90   |
-| LUSD                   | 90   | 90   | 82.5 | 82.5   | 82.5 | 90   |
-| steCRV                 | 82.5 | 82.5 | 90   | 90     | 82.5 | 82.5 |
-| cvxsteCRV              | 82.5 | 82.5 | 90   | 90     | 82.5 | 82.5 |
-| stkcvxsteCRV           | 82.5 | 82.5 | 90   | 90     | 82.5 | 90   |
-| FRAX3CRV-f             | 90   | 90   | 80   | 80     | 80   | 90   |
-| cvxFRAX3CRV-f          | 90   | 90   | 80   | 80     | 80   | 90   |
-| stkcvxFRAX3CRV         | 90   | 90   | 80   | 80     | 80   | 90   |
-| 3Crv                   | 90   | 90   | 80   | 80     | 80   | 90   |
-| cvx3Crv                | 90   | 90   | 80   | 80     | 80   | 90   |
-| stkcvx3Crv             | 90   | 90   | 80   | 80     | 80   | 90   |
-| LUSD3CRV-f             | 90   | 90   | 80   | 80     | 80   | 90   |
-| cvxLUSD3CRV-f          | 90   | 90   | 80   | 80     | 80   | 90   |
-| stkcvxLUSD3CRV         | 90   | 90   | 80   | 80     | 80   | 90   |
-| crvPlain3andSUSD       | 90   | 90   | 80   | 80     | 80   | 90   |
-| cvxcrvPlain3andSUSD    | 90   | 90   | 80   | 80     | 80   | 90   |
-| stkcvxcrvPlain3andSUSD | 90   | 90   | 80   | 80     | 80   | 90   |
-| gusd3CRV               | 90   | 90   | 80   | 80     | 80   | 90   |
-| cvxgusd3CRV            | 90   | 90   | 80   | 80     | 80   | 90   |
-| stkcvxgusd3CRV         | 90   | 90   | 80   | 80     | 80   | 90   |
-| FraxUsdc               | 90   | 90   | 80   | 80     | 80   | 90   |
-| yvDAI                  | 90   | 90   | 80   | 80     | 80   | 90   |
-| yvUSDC                 | 90   | 90   | 80   | 80     | 80   | 90   |
-| yvWETH                 | 82.5 | 82.5 | 90   | 90     | 80   | 82.5 |
-| yvWBTC                 | 82.5 | 82.5 | 80   | 80     | 90   | 82.5 |
-| yvCurve-stETH          | 82.5 | 82.5 | 90   | 90     | 82.5 | 82.5 |
-| yvCurve-FRAX           | 90   | 90   | 80   | 80     | 80   | 90   |
-| CVX                    | 25   | 25   | 25   | 25     | 25   | 25   |
-| FXS                    | 25   | 25   | 25   | 25     | 25   | 25   |
-| LQTY                   | 0    | 0    | 0    | 0      | 0    | 0    |
-| CRV                    | 25   | 25   | 25   | 25     | 25   | 25   |
-| LDO                    | 0    | 0    | 0    | 0      | 0    | 0    |
-| SNX                    | 25   | 25   | 25   | 25     | 25   | 25   |
+<table><thead><tr><th width="210">Token</th><th width="91">USDC</th><th width="82">DAI</th><th width="90">WETH</th><th width="90">wstETH</th><th width="85">WBTC</th><th>FRAX</th></tr></thead><tbody><tr><td>WETH</td><td>85</td><td>85</td><td>94.5</td><td>90</td><td>85</td><td>85</td></tr><tr><td>stETH</td><td>82.5</td><td>82.5</td><td>90</td><td>94.5</td><td>82.5</td><td>82.5</td></tr><tr><td>WBTC</td><td>85</td><td>85</td><td>85</td><td>85</td><td>94.5</td><td>85</td></tr><tr><td>USDC</td><td>94.5</td><td>92</td><td>82.5</td><td>82.5</td><td>82.5</td><td>92</td></tr><tr><td>DAI</td><td>92</td><td>94.5</td><td>82.5</td><td>82.5</td><td>82.5</td><td>92</td></tr><tr><td>USDT</td><td>90</td><td>90</td><td>82.5</td><td>82.5</td><td>82.5</td><td>94.5</td></tr><tr><td>sUSD</td><td>90</td><td>90</td><td>82.5</td><td>82.5</td><td>82.5</td><td>90</td></tr><tr><td>FRAX</td><td>90</td><td>90</td><td>82.5</td><td>82.5</td><td>82.5</td><td>90</td></tr><tr><td>gUSD</td><td>90</td><td>90</td><td>82.5</td><td>82.5</td><td>82.5</td><td>90</td></tr><tr><td>LUSD</td><td>90</td><td>90</td><td>82.5</td><td>82.5</td><td>82.5</td><td>90</td></tr><tr><td>steCRV</td><td>82.5</td><td>82.5</td><td>90</td><td>90</td><td>82.5</td><td>82.5</td></tr><tr><td>cvxsteCRV</td><td>82.5</td><td>82.5</td><td>90</td><td>90</td><td>82.5</td><td>82.5</td></tr><tr><td>stkcvxsteCRV</td><td>82.5</td><td>82.5</td><td>90</td><td>90</td><td>82.5</td><td>90</td></tr><tr><td>FRAX3CRV-f</td><td>90</td><td>90</td><td>80</td><td>80</td><td>80</td><td>90</td></tr><tr><td>cvxFRAX3CRV-f</td><td>90</td><td>90</td><td>80</td><td>80</td><td>80</td><td>90</td></tr><tr><td>stkcvxFRAX3CRV</td><td>90</td><td>90</td><td>80</td><td>80</td><td>80</td><td>90</td></tr><tr><td>3Crv</td><td>90</td><td>90</td><td>80</td><td>80</td><td>80</td><td>90</td></tr><tr><td>cvx3Crv</td><td>90</td><td>90</td><td>80</td><td>80</td><td>80</td><td>90</td></tr><tr><td>stkcvx3Crv</td><td>90</td><td>90</td><td>80</td><td>80</td><td>80</td><td>90</td></tr><tr><td>LUSD3CRV-f</td><td>90</td><td>90</td><td>80</td><td>80</td><td>80</td><td>90</td></tr><tr><td>cvxLUSD3CRV-f</td><td>90</td><td>90</td><td>80</td><td>80</td><td>80</td><td>90</td></tr><tr><td>stkcvxLUSD3CRV</td><td>90</td><td>90</td><td>80</td><td>80</td><td>80</td><td>90</td></tr><tr><td>crvPlain3andSUSD</td><td>90</td><td>90</td><td>80</td><td>80</td><td>80</td><td>90</td></tr><tr><td>cvxcrvPlain3andSUSD</td><td>90</td><td>90</td><td>80</td><td>80</td><td>80</td><td>90</td></tr><tr><td>stkcvxcrvPlain3andSUSD</td><td>90</td><td>90</td><td>80</td><td>80</td><td>80</td><td>90</td></tr><tr><td>gusd3CRV</td><td>90</td><td>90</td><td>80</td><td>80</td><td>80</td><td>90</td></tr><tr><td>cvxgusd3CRV</td><td>90</td><td>90</td><td>80</td><td>80</td><td>80</td><td>90</td></tr><tr><td>stkcvxgusd3CRV</td><td>90</td><td>90</td><td>80</td><td>80</td><td>80</td><td>90</td></tr><tr><td>FraxUsdc</td><td>90</td><td>90</td><td>80</td><td>80</td><td>80</td><td>90</td></tr><tr><td>yvDAI</td><td>90</td><td>90</td><td>80</td><td>80</td><td>80</td><td>90</td></tr><tr><td>yvUSDC</td><td>90</td><td>90</td><td>80</td><td>80</td><td>80</td><td>90</td></tr><tr><td>yvWETH</td><td>82.5</td><td>82.5</td><td>90</td><td>90</td><td>80</td><td>82.5</td></tr><tr><td>yvWBTC</td><td>82.5</td><td>82.5</td><td>80</td><td>80</td><td>90</td><td>82.5</td></tr><tr><td>yvCurve-stETH</td><td>82.5</td><td>82.5</td><td>90</td><td>90</td><td>82.5</td><td>82.5</td></tr><tr><td>yvCurve-FRAX</td><td>90</td><td>90</td><td>80</td><td>80</td><td>80</td><td>90</td></tr><tr><td>CVX</td><td>25</td><td>25</td><td>25</td><td>25</td><td>25</td><td>25</td></tr><tr><td>FXS</td><td>25</td><td>25</td><td>25</td><td>25</td><td>25</td><td>25</td></tr><tr><td>LQTY</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>CRV</td><td>25</td><td>25</td><td>25</td><td>25</td><td>25</td><td>25</td></tr><tr><td>LDO</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>SNX</td><td>25</td><td>25</td><td>25</td><td>25</td><td>25</td><td>25</td></tr></tbody></table>
 
 {% hint style="info" %}
 The information about V1 Credit Managers \[Allowed List of contracts & assets] was scraped out from the docs to not confuse new users. Those CMs are still on-chain and exist, but only with the option to trade out of CA positions and close, not borrow or open new ones. If you are looking for old numbers, [check on forum](https://gov.gearbox.fi/t/pre-gip-2-3-start-gearbox-allowed-tokens-and-protocols/152/37).

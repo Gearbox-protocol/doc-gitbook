@@ -8,7 +8,7 @@ description: >-
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-10-27 at 22.18.55.png" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts/strategies/list">https://app.gearbox.fi/accounts/strategies/list</a></p></figcaption></figure>
 
-One-click strategies **** do what the name suggests: open leveraged positions in your preferred pool/vault/protocol in just one transaction. Multicall feature of Gearbox essentially bundles all the complex \[swap->LP->deposit] operations into just 1 transaction, also saving you a bunch of gas.
+One-click strategies do what the name suggests: open leveraged positions in your preferred pool/vault/protocol in just one transaction. Multicall feature of Gearbox essentially bundles all the complex \[swap->LP->deposit] operations into just 1 transaction, also saving you a bunch of gas.
 
 But not just that, One Click Strategies let you **go from having no Credit Account -> to having a Credit Account open and already aping into a strategy you choose**. You choose the leverage, the debt asset, the risk… And you can always ape out as easily!
 

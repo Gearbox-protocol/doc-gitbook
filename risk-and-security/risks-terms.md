@@ -38,7 +38,7 @@ It can happen that stablecoin issuers introduce boundaries as to who can use the
 
 #### Liquidations and black-swan events
 
-[Liquidations](../overview/liquidations/) do not depend on the protocol or any member involved. Liquidators are third-party workers open to anyone. It can happen that liquidators malfunction or do not perform, despite [economic incentives for liquidators](../overview/liquidations/) being in place. This can under-collateralize the protocol and make [LPs](../liquidity-providers/pools-and-apy.md) lose their capital. To prevent that, DAO can implement token-backed backstops, increase[ Reserve Fund](../overview/liquidations/insurance-fund.md), onboard more professional liquidators, and so on.&#x20;
+[Liquidations](../overview/liquidations/) do not depend on the protocol or any member involved. Liquidators are third-party workers open to anyone. It can happen that liquidators malfunction or do not perform, despite [economic incentives for liquidators](../overview/liquidations/) being in place. This can under-collateralize the protocol and make [LPs](../lending-market/pools-and-apy.md) lose their capital. To prevent that, DAO can implement token-backed backstops, increase[ Reserve Fund](../overview/liquidations/insurance-fund.md), onboard more professional liquidators, and so on.&#x20;
 
 #### Risks of allowed tokens / contracts lists
 
@@ -46,7 +46,7 @@ It can happen that stablecoin issuers introduce boundaries as to who can use the
 
 #### Can't withdraw capital as LP due to the entire LP pool being in use
 
-While the protocol can remain sane and over-collateralized, if the entire [LP](../liquidity-providers/pools-and-apy.md) pool is borrowed, as an LP you would not be able to pull out your capital in that moment. This is the same scenario that Aave, Compound, or other protocols have in common and is pretty standard.
+While the protocol can remain sane and over-collateralized, if the entire [LP](../lending-market/pools-and-apy.md) pool is borrowed, as an LP you would not be able to pull out your capital in that moment. This is the same scenario that Aave, Compound, or other protocols have in common and is pretty standard.
 
 {% hint style="warning" %}
 Usually, in DeFi protocols forced liquidation is not implemented. This creates the risk of insufficient liquidity for the withdrawal operation. To mitigate this risk, the parameters for managing the interest rate curve of the pool are introduced (interest rate depends on utilization ratio of the pool). If the utilization of the pool is too high, the Governance can increase these parameters and thereby make lending more expensive. This will encourage borrowers to close loans and thereby reduce pool utilization.

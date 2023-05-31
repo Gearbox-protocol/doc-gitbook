@@ -6,7 +6,7 @@ description: Generalized Leverage Protocol ⚙ Built with composability in mind 
 
 ![](.gitbook/assets/IMG\_7234.PNG)
 
-Gearbox is a generalized leverage protocol. It has two sides to it: passive liquidity providers who earn low-risk APY by [providing single-asset liquidity](liquidity-providers/manage-liquidity.md); and active farmers, firms, or even other protocols who borrow those assets to [trade or farm with even x10 leverage](overview/credit-account/). See [how-it-works.md](overview/how-it-works.md "mention").
+Gearbox is a generalized leverage protocol. It has two sides to it: passive lenders who earn low-risk APY by lending[ single-asset](lending-market/manage-liquidity.md)s; and active farmers, firms, or even other protocols who borrow those assets to [trade or farm with even x10 leverage](overview/credit-account/). See [how-it-works.md](overview/how-it-works.md "mention").
 
 Gearbox Protocol allows anyone to take DeFi-native leverage and then use it across various (DeFi & more) protocols. This enables you to compose your position as you want. **You take leverage with Gearbox and then use it on other protocols you already love: Uniswap, Curve, Convex, Lido**, etc. For example, you can leverage trade on Uniswap, leverage farm on Yearn, make delta-neutral strategies, hedge your exposure, get Leverage-as-a-Service for your structured product, and more... Thanks to the [Credit Accounts](overview/credit-account/) primitive!
 
@@ -24,7 +24,7 @@ Gearbox is a DAO, run by various contributors and initiatives. The protocol and 
 
 {% embed url="https://gearboxprotocol.notion.site/gearboxprotocol/Gearbox-DAO-Working-Sheet-23966f122ae4421492819242b30a0e7a" %}
 
-<figure><img src=".gitbook/assets/IMG_0418.png" alt=""><figcaption><p><strong></strong><a href="https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a"><strong>https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a</strong></a><strong></strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/IMG_0418.png" alt=""><figcaption><p><a href="https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a"><strong>https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a</strong></a></p></figcaption></figure>
 
 ## **Cool Features**
 

@@ -40,10 +40,10 @@
   * [Arbitrage of correlated assets](traders-and-farmers/strategies/arb-correlated-assets.md)
 * [PRO: Leverage Bible](traders-and-farmers/pro-leverage-bible.md)
 
-## Liquidity providers
+## Lending Market
 
-* [Pools & APY](liquidity-providers/pools-and-apy.md)
-* [LP Dashboard - How to supply or withdraw liquidity](liquidity-providers/manage-liquidity.md)
+* [Pools & APY](lending-market/pools-and-apy.md)
+* [Lending Dashboard - How to supply or withdraw assets](lending-market/manage-liquidity.md)
 
 ## GOVERNANCE | DAO <a href="#governance" id="governance"></a>
 

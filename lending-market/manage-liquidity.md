@@ -1,12 +1,12 @@
 ---
 description: >-
-  By providing liquidity, you can earn APY in the same asset plus any additional
+  By lending passively, you can earn APY in the same asset plus any additional
   boost of GEAR APY if it is incentivised by the DAO.
 ---
 
-# LP Dashboard - How to supply or withdraw liquidity
+# Lending Dashboard - How to supply or withdraw assets
 
-## Supplying liquidity
+## Lending Assets
 
 **Step 1.** Go to [Passive Pools](https://app.gearbox.fi/pools) page and click _Supply_ on the asset you want to supply.
 

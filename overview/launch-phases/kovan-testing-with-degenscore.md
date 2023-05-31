@@ -74,7 +74,7 @@ To really test the product, it's better to have users try all the options in dif
 8. Try to borrow more if possible or add more collateral.
 9. Check your health factor and other stats again.
 10. Try to close your Credit Account with either of the options presented.
-11. ****[**Tell in Discord about your experience**](https://discord.gg/pj7xSrp8WE)! Send the bugs, what you liked or disliked about the app, what things worked poorly, what was not clear, and so on. Please be explicit.&#x20;
+11. [**Tell in Discord about your experience**](https://discord.gg/pj7xSrp8WE)! Send the bugs, what you liked or disliked about the app, what things worked poorly, what was not clear, and so on. Please be explicit.&#x20;
 
 Here is some information that can help get to your issue as fast as possible:
 

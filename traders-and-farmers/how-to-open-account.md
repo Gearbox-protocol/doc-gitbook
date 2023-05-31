@@ -9,7 +9,7 @@ Learn what a [Credit Account](../overview/credit-account/) is and how it works.
 {% endhint %}
 
 {% hint style="info" %}
-**NOTE:** At the moment, Credit Accounts are in "Leverage Ninja" Mode as we initially test in prod: a list of addresses having access to V2 leverage. You can post your address on the [**gov forum**](https://gov.gearbox.fi/t/gip-21-leverage-ninja-mode-limits-for-v2/1572/11) **** with a few links. If you don't want your twitter and address to be connected publicly, you can drop a message to any of the contributors on [**Discord**](https://discord.com/invite/gearbox)**:**&#x20;
+**NOTE:** At the moment, Credit Accounts are in "Leverage Ninja" Mode as we initially test in prod: a list of addresses having access to V2 leverage. You can post your address on the [**gov forum**](https://gov.gearbox.fi/t/gip-21-leverage-ninja-mode-limits-for-v2/1572/11) with a few links. If you don't want your twitter and address to be connected publicly, you can drop a message to any of the contributors on [**Discord**](https://discord.com/invite/gearbox)**:**&#x20;
 {% endhint %}
 
 {% embed url="https://medium.com/gearbox-protocol/leverage-ninja-mode-gearbox-v2-is-open-for-business-in-a-few-hours-bf471e588033" %}
@@ -44,8 +44,8 @@ Your Credit Account is now open!&#x20;
 
 The limits on Credit Accounts are enforced on the contract level by minimum borrow and maximum borrow limits, as per the DAO governance process - those can change. Check the latest here:
 
-{% content-ref url="../liquidity-providers/pools-and-apy.md" %}
-[pools-and-apy.md](../liquidity-providers/pools-and-apy.md)
+{% content-ref url="../lending-market/pools-and-apy.md" %}
+[pools-and-apy.md](../lending-market/pools-and-apy.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}

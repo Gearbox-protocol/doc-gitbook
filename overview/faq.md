@@ -22,7 +22,7 @@ Do you feel like some question is missing? [Send it on Discord](https://discord.
 
 Since Gearbox Protocol has two sides to it, the fees you are paying depend on what user type you are. **If you are a passive Liquidity Provider, there is no direct fee for becoming one**.
 
-If you are a leverage user, you are paying a borrow interest fee (which fluctuates depending on [utilization ratio](../liquidity-providers/pools-and-apy.md#how-to-calculate-apy) similar to Aave) + [liquidation fees to the protocol and a liquidator](protocol-fees.md#trader-farmer-fees). The latter you pay only if you are liquidated. All these fees are configurable by [DAO](../governance/setup/). See in [protocol-fees.md](protocol-fees.md "mention").
+If you are a leverage user, you are paying a borrow interest fee (which fluctuates depending on [utilization ratio](../lending-market/pools-and-apy.md#how-to-calculate-apy) similar to Aave) + [liquidation fees to the protocol and a liquidator](protocol-fees.md#trader-farmer-fees). The latter you pay only if you are liquidated. All these fees are configurable by [DAO](../governance/setup/). See in [protocol-fees.md](protocol-fees.md "mention").
 
 #### - What are dTokens like dUSDC and dWBTC?&#x20;
 
@@ -30,7 +30,7 @@ Diesel Tokens are like cTokens of Compound. These tokens automatically earn inte
 
 #### - Will my APY for supplying liquidity go down or up?&#x20;
 
-The APY is variable and depends on the [utilization ratio](../liquidity-providers/pools-and-apy.md#how-to-calculate-apy) formula which is configurable by [DAO](../governance/setup/).
+The APY is variable and depends on the [utilization ratio](../lending-market/pools-and-apy.md#how-to-calculate-apy) formula which is configurable by [DAO](../governance/setup/).
 
 #### - What is a Health Factor and what can I do with it?&#x20;
 
@@ -38,9 +38,9 @@ The APY is variable and depends on the [utilization ratio](../liquidity-provider
 
 #### - Сan I always withdraw liquidity?
 
-Depending on the [utilization ratio](../liquidity-providers/pools-and-apy.md#how-to-calculate-apy) of pools, if it is high - not all the liquidity can be withdrawn at once. It doesn't mean that the protocol lost money or is insolvent - it's just that the liquidity is utilized in Credit Accounts. In such cases where available liquidity is low (which you can check in the app analytics page per pool) - the APY goes higher as to attract more capital providers and attempt to find an equilibrium. This is more or less standard among all lending-type protocols and has happened both in Compound & Aave before. _Gearbox DAO can adjust the utilization curve parameters to force certain behavior of the protocol in case weird situations occur._
+Depending on the [utilization ratio](../lending-market/pools-and-apy.md#how-to-calculate-apy) of pools, if it is high - not all the liquidity can be withdrawn at once. It doesn't mean that the protocol lost money or is insolvent - it's just that the liquidity is utilized in Credit Accounts. In such cases where available liquidity is low (which you can check in the app analytics page per pool) - the APY goes higher as to attract more capital providers and attempt to find an equilibrium. This is more or less standard among all lending-type protocols and has happened both in Compound & Aave before. _Gearbox DAO can adjust the utilization curve parameters to force certain behavior of the protocol in case weird situations occur._
 
-See more in [#withdrawing-liquidity](../liquidity-providers/manage-liquidity.md#withdrawing-liquidity "mention").
+See more in [#withdrawing-liquidity](../lending-market/manage-liquidity.md#withdrawing-liquidity "mention").
 
 #### - **Why can't I borrow more?**
 
