@@ -9,6 +9,7 @@ description: Useful links about many things in the Gearbox ecosystem.
 * Mainnet dApp: [https://app.gearbox.fi/](https://app.gearbox.fi/)
 * General Docs: [https://docs.gearbox.finance/](https://docs.gearbox.finance/)
 * Developer Docs: [https://dev.gearbox.fi/](https://dev.gearbox.fi/)
+* Telegram: [https://t.me/GearboxProtocol](https://t.me/GearboxProtocol)
 * Governance Forum: [https://gov.gearbox.fi/t/start-here-forum-rules/](https://gov.gearbox.fi/t/start-here-forum-rules/)
 * Snapshot Voting: [https://snapshot.org/#/gearbox.eth](https://snapshot.org/#/gearbox.eth)
 * Medium Blog: [https://medium.com/gearbox-protocol](https://medium.com/gearbox-protocol)
