@@ -30,6 +30,12 @@ This pool is approximately 50%-50% in FRAX and USDC.
 You can then put those Curve LP tokens either in Convex or Yearn. This will give you some \[boosted] CRV rewards as well as CVX rewards, next to trading fees of the pool.
 {% endhint %}
 
+### MiM Brew
+
+#### Curve and Convex MiM3CRV pool
+
+MiM is Abracadabra’s stable coin that is backed by multiple interest bearing tokens as collateral. The MiM3CRV pool, like the FRAX pool, pairs 1 MiM asset with the 3CRV pool token. While the APYs on the pool are lucrative, the protocol could be argued to still have potentially about 5.5% bad debt. If MiM is still your choice of stable, you can opt for it's Convex or Curve strategy and access leverage on it through Gearbox.&#x20;
+
 ### LUSD flavour
 
 #### Curve LUSD3CRV

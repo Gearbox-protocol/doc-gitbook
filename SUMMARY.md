@@ -20,6 +20,7 @@
   * [Kovan testing with DegenScore & lobsterdao](overview/launch-phases/kovan-testing-with-degenscore.md)
   * [Credit Account Mining](overview/launch-phases/credit-account-mining.md)
   * [Early Testers and Discord](overview/launch-phases/early-drop.md)
+* [Subsequent Upgrades](overview/subsequent-upgrades.md)
 * [FAQ](overview/faq.md)
 
 ## Traders & farmers
@@ -35,6 +36,7 @@
   * [One-Click Strategies](traders-and-farmers/strategies/one-click-strategies.md)
   * [Leveraged liquid staking](traders-and-farmers/strategies/leveraged-liquid-staking.md)
   * [Leveraged stablecoin farming](traders-and-farmers/strategies/leveraged-stablecoin-farming.md)
+  * [Leveraged Curve V2 and Convex](traders-and-farmers/strategies/leveraged-curve-v2-and-convex.md)
   * [Leveraged vanilla yVaults](traders-and-farmers/strategies/leveraged-vanilla-yvaults.md)
   * [Farming Long/Short or "Free Leverage Position"](traders-and-farmers/strategies/long.md)
   * [Arbitrage of correlated assets](traders-and-farmers/strategies/arb-correlated-assets.md)
@@ -57,5 +59,7 @@
 
 ## Risk & security
 
+* [Gearbox V2.1](risk-and-security/gearbox-v2.1.md)
+* [Gearbox Risk Foundation](risk-and-security/gearbox-risk-foundation.md)
 * [Risks and T\&C](risk-and-security/risks-terms.md)
 * [Audits & Bug Bounty](risk-and-security/audits-bug-bounty.md)

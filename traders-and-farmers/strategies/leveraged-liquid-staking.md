@@ -47,3 +47,7 @@ Yield: a mix of LDO, CRV, staking yields, and trading fees of Curve pool.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts">https://app.gearbox.fi/accounts</a></p></figcaption></figure>
+
+### cbETH
+
+Like stETH, cbETH or Coinbase Wrapped Staked ETH is an ERC20 based liquid representation of a customer’s staked-ETH. cbETH has grown over time to become the second biggest LSD service after LIDO. The addition of the&#x20;

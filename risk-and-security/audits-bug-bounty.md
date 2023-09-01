@@ -55,7 +55,7 @@ If you need more information on the protocol, please check:&#x20;
 
 Rewards are distributed according to the impact of the vulnerability. The final decision on the payout amount will be determined by the Gearbox DAO at its discretion.
 
-<table><thead><tr><th>Severity</th><th>Payment in USDC / other stablecoin</th><th data-hidden></th></tr></thead><tbody><tr><td>Low</td><td>Up to $6,500</td><td></td></tr><tr><td>Medium</td><td>Up to $13’000</td><td></td></tr><tr><td>High</td><td>Up to $65’000</td><td></td></tr><tr><td>Critical</td><td>Up to $200’000 + GEAR</td><td></td></tr></tbody></table>
+<table><thead><tr><th>Severity</th><th>Payment in USDC / other stablecoin</th><th data-hidden></th></tr></thead><tbody><tr><td>Low</td><td>Up to $6,500</td><td></td></tr><tr><td>Medium</td><td>Up to $13,000</td><td></td></tr><tr><td>High</td><td>Up to $65,000</td><td></td></tr><tr><td>Critical</td><td>Up to $200,000 + GEAR</td><td></td></tr></tbody></table>
 
 ### Disclosures and Multisig Actions
 
