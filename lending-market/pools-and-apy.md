@@ -39,14 +39,17 @@ Borrow APY is calculated according to formula
 $$
 r(t) = 
     \begin{cases}
-        r_0 + \frac{U(t)}{U_*}\left(r_1-r_0\right), & U(t) \le U_*\\
-        r_1 + \left(U(t)-U_*\right)\frac{r_2-r_1}{1-U_*}, & U(t) > U_*.\\
+        r_0 + \frac{U(t)}{U_1}\left(r_1-r_0\right), & U(t) \le U_1\\
+        r_1 + \left(U(t)-U_2\right)\frac{r_2-r_1}{U_2-U_1}, & U(t) \in (U_1,U_2].\\
+        r_2 + \left(U(t)-U_2\right)\frac{r_3-r_2}{1-U_2}, & U(t) > U_2.\\
     \end{cases}
 $$
 
-This model is similar to how Aave works.
+This model is similar to how Aave works, but with two points. Motivation to use it is described at [GIP-76](https://snapshot.org/#/gearbox.eth/proposal/0x78615ba387512748a189cfdc39f1d3a7e835d1ce151b53049e42eff411fbee73).
 
-<table><thead><tr><th width="167">Asset pool</th><th width="150">r_0</th><th width="150">r_1</th><th width="150">r_2</th><th>U_*</th></tr></thead><tbody><tr><td>USDC</td><td>0</td><td>1.5</td><td>100</td><td>85</td></tr><tr><td>DAI</td><td>0</td><td>1.5</td><td>100</td><td>85</td></tr><tr><td>FRAX</td><td>0</td><td>1.5</td><td>100</td><td>85</td></tr><tr><td>wstETH</td><td>0</td><td>1</td><td>60</td><td>85</td></tr><tr><td>ETH</td><td>0</td><td>2.5</td><td>60</td><td>85</td></tr><tr><td>WBTC</td><td>0</td><td>2.5</td><td>60</td><td>85</td></tr></tbody></table>
+<table><thead><tr><th width="167">Asset pool</th><th width="150">r_0</th><th width="150">r_1</th><th width="150">r_2</th><th data-type="number">r_3</th><th>U_1</th><th>U_2</th></tr></thead><tbody><tr><td>USDC</td><td>0</td><td>1</td><td>1.25</td><td>100</td><td>70</td><td>90</td></tr><tr><td>DAI</td><td>0</td><td>1</td><td>1.25</td><td>100</td><td>70</td><td>90</td></tr><tr><td>FRAX</td><td>0</td><td>1</td><td>1.25</td><td>100</td><td>70</td><td>90</td></tr><tr><td>wstETH</td><td>0</td><td>2</td><td>2.5</td><td>60</td><td>70</td><td>90</td></tr><tr><td>ETH</td><td>0</td><td>2</td><td>2.5</td><td>60</td><td>70</td><td>90</td></tr><tr><td>WBTC</td><td>0</td><td>2</td><td>2.5</td><td>60</td><td>70</td><td>90</td></tr></tbody></table>
+
+[**Latest update 2**](https://snapshot.org/#/gearbox.eth/proposal/0x78615ba387512748a189cfdc39f1d3a7e835d1ce151b53049e42eff411fbee73): governance updated interest rate curve to two-point model.&#x20;
 
 [**Latest update**](https://gov.gearbox.fi/t/gip-20-update-fees-interest-rate-curves/1571): governance voting to change pool interest rate curve parameters and make the curve more flat as a bootstrap mechanism for V2 Leverage Ninja launch. See the [logic](https://gov.gearbox.fi/t/gip-20-update-fees-interest-rate-curves/1571).
 
