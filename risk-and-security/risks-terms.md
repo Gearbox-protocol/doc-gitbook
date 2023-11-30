@@ -1,18 +1,16 @@
 ---
-description: >-
-  Protocol and Interface risks every user must be aware of. Nothing is ever
-  fully safe!
+description: Protocol and Interface risks every user must be aware of.
 ---
 
 # Risks and T\&C
 
-It is important to distinguish between an interface (application) that is operated by a normal web2 company - and the on-chain protocol where all the logic is and that is not controlled by anyone. While the company can block its interface and prohibit its use, the protocol is fully in the hands of governance and is not managed by any single person or entity.&#x20;
+It is important to distinguish between an interface (application) that is operated by a normal web2 company - and the onchain protocol where all the logic is and that is not controlled by anyone. While the company can block its interface and prohibit its use, the protocol is fully in the hands of governance and is not managed by any single person or entity.&#x20;
 
 {% hint style="success" %}
 It's crucial for the DAO to find robust solutions and keep innovating, seeking to improve Gearbox security. You can find more information on such efforts in the [**Audits**](audits-bug-bounty.md) section.
 {% endhint %}
 
-The company has its own legal disclaimer and risks associated, which you must go through and accept if you use the interface. **For instance, you must understand that an interface not being accessible can become an obstacle to you managing your position. But it doesn't mean that you cannot access your position or assets via smart contract directly or some other interface.**
+Companies have their own legal disclaimers and risks associated, which you must go through and accept if you use the interface. **For instance, you must understand that an interface not being accessible can become an obstacle to you managing your position. But it doesn't mean that you cannot access your position or assets via smart contract directly or some other interface.**
 
 {% hint style="danger" %}
 This section is dedicated to explaining risks related to Gearbox Protocol on the contract level and conceptually. **We believe that outlining risks explicitly creates stronger accountability in the community and gives power back to the users of the protocol.** The risks presented below are general across many DeFi protocols. Ask more on [Discord](https://discord.gg/JssNVvxscK).
@@ -30,7 +28,7 @@ In its current stage, Gearbox Protocol uses Chainlink Price Feeds. While the ind
 
 #### Sandwich attacks and MEV
 
-No traders on Ethereum are safe from MEV attacks, and this is not something unique to Gearbox Protocol either. The DAO can find solutions and cooperate with protocols who provide MEV protection. Users should exercise trades with caution and watch out for their slippage.
+No traders on Ethereum are safe from MEV attacks, and this is not something unique to Gearbox Protocol either. The DAO can find solutions and cooperate with protocols who provide MEV protection. Users should exercise trades with caution and watch out for their slippage. And for example, select better RPCs that protect you from being sandwhiched.
 
 #### De-peg of base assets or stablecoin risks
 
@@ -42,14 +40,14 @@ It can happen that stablecoin issuers introduce boundaries as to who can use the
 
 #### Risks of allowed tokens / contracts lists
 
-[Allowed lists](../overview/credit-account/#allowed-list-policy) define where Gearbox Protocol users can deploy their leverage funds into. Wrong liquidation thresholds or hacks on the side of those assets can result in the insolvency of LP pools.&#x20;
+[AllowedList](../overview/credit-account/#allowed-list-policy) defines where Gearbox Protocol users can deploy their leverage funds into. Wrong liquidation thresholds or hacks on the side of those assets can result in the insolvency of LP pools.&#x20;
 
 #### Can't withdraw capital as LP due to the entire LP pool being in use
 
 While the protocol can remain sane and over-collateralized, if the entire [LP](../lending-market/pools-and-apy.md) pool is borrowed, as an LP you would not be able to pull out your capital in that moment. This is the same scenario that Aave, Compound, or other protocols have in common and is pretty standard.
 
 {% hint style="warning" %}
-Usually, in DeFi protocols forced liquidation is not implemented. This creates the risk of insufficient liquidity for the withdrawal operation. To mitigate this risk, the parameters for managing the interest rate curve of the pool are introduced (interest rate depends on utilization ratio of the pool). If the utilization of the pool is too high, the Governance can increase these parameters and thereby make lending more expensive. This will encourage borrowers to close loans and thereby reduce pool utilization.
+Usually, in DeFi protocols forced liquidation is not implemented. This can lead to cases of insufficient liquidity for a withdrawal operation. To mitigate this risk, the parameters for managing the interest rate curve of the pool are introduced (interest rate depends on utilization ratio of the pool). If the utilization of the pool stays too high, the Governance can further increase these parameters and thereby make lending more expensive. This will encourage borrowers to close loans and thereby make liquidity available.
 {% endhint %}
 
 #### Issues with wallets and signing transactions

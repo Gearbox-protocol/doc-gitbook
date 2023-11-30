@@ -10,8 +10,8 @@ See [dev docs](https://dev.gearbox.fi/) for technical documentation and guidance
 
 ### List of currently integrated protocols by Gearbox DAO:
 
-{% content-ref url="credit-account/allowedlist-policy.md" %}
-[allowedlist-policy.md](credit-account/allowedlist-policy.md)
+{% content-ref url="../credit-account/allowedlist-policy/" %}
+[allowedlist-policy](../credit-account/allowedlist-policy/)
 {% endcontent-ref %}
 
 For the technical implementation and contracts, see:
@@ -28,7 +28,7 @@ The goal of Gearbox is to be integrated with existing and new protocols in an op
 
 ### How to integrate on a contract level
 
-The integration process looks pretty simple: it is required to inherit an abstract contract (Credit Account Manager or Pool) and add specific business logic with set parameters. To be integrated with deployed contracts, the integration should be approved by Gearbox [governance](../governance/setup/).
+The integration process looks pretty simple: it is required to inherit an abstract contract (Credit Account Manager or Pool) and add specific business logic with set parameters. To be integrated with deployed contracts, the integration should be approved by Gearbox [governance](../../governance/setup/).
 
 Simple integration processes open up new opportunities for collaborations with other protocols, providing leverage to their operations and making Gearbox protocol composable. Overall, Gearbox aims to increase capital efficiency in the DeFi space.&#x20;
 

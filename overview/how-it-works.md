@@ -33,8 +33,8 @@ All trades and operations happen on third-party protocols: Uniswap, Curve, Yearn
 
 Integrations possibilities are very broad, as Gearbox is built with composability at its core:
 
-{% content-ref url="integrations.md" %}
-[integrations.md](integrations.md)
+{% content-ref url="integrations/" %}
+[integrations](integrations/)
 {% endcontent-ref %}
 
 The positions which traders and farmers take should be liquidated by third-party [liquidators](liquidations/) before the assets of liquidity providers would start being exposed to the downside. As such, the protocol returns the liquidity providers’ assets to the pools if all functions correctly and liquidators do their job. This is how Gearbox is able to provide composable leverage.&#x20;

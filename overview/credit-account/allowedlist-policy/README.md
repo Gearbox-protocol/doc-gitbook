@@ -4,7 +4,7 @@ description: Constantly updated list of Allowed Tokens and Contracts.
 
 # AllowedList Policy
 
-Composability of Gearbox Protocol is possible via forever-increasing list of Allowed Tokens and Allowed Contracts. By allowing users to access more trade routes, deposits, farms, interactions - the [composability](../../leverage-2.0-is-composable.md) of Gearbox Protocol can really shine! This page is dedicated to keeping an up-to-date list of Allowed Tokens and Allowed Contracts.
+Composability of Gearbox Protocol is possible via forever-increasing list of Allowed Tokens and Allowed Contracts. By allowing users to access more trade routes, deposits, farms, interactions - the [composability](../../../leverage-2.0-is...-composable.md) of Gearbox Protocol can really shine! This page is dedicated to keeping an up-to-date list of Allowed Tokens and Allowed Contracts.
 
 {% hint style="info" %}
 Gearbox architecture is very modular, so it's not just that there is an allowed asset for the entire protocol - there are different pools and **can even be multiple pools for the same asset**. There can be **different Credit Managers with different Allowed List policies**, etc. The information below is just an easy-to-grasp understanding for product users. Developers should dive into the tech section in Gearbox Dev docs and understand the intricacies. Namely, the tree goes as follows:
@@ -33,7 +33,7 @@ Decision on the assets and contracts as per [GIP-19](https://gov.gearbox.fi/t/gi
 Each column is the pool denomination asset, so the % LTV values per different asset are specific to each pool. As such, leverage factor on correlated assets \[stable to stable] can be higher! Links to all the ERC20 contracts can be found [here](https://gov.gearbox.fi/t/gip-19-v2-discussion-pools-assets-and-allowedlist-policy-for-v2/1438), they do not fit into gitbook table format.
 
 {% hint style="info" %}
-If working with the raw numbers, [LT](../liquidations/#liquidation-threshold) for stables would work as follows: a swap from a stablecoin to a stablecoin would cause your [Health Factor](../../traders-and-farmers/credit-account-dashboard-overview/kak-ne-byt-rekt.md#what-i-can-do-if-my-health-factor-is-close-to-1-to-keep-my-credit-account-alive) to decrease, that is because stables are not always stable from the price feed and risks perspective. It's not safe to assume a stable is 1:1 to another one, so there are more [complex calculations being done](../liquidations/#threshold-weighted-value) which account for possible slippage, chainlink price tick, and other factors.
+If working with the raw numbers, [LT](../../liquidations/#liquidation-threshold) for stables would work as follows: a swap from a stablecoin to a stablecoin would cause your [Health Factor](../../../traders-and-farmers/credit-account-dashboard-overview/kak-ne-byt-rekt.md#what-i-can-do-if-my-health-factor-is-close-to-1-to-keep-my-credit-account-alive) to decrease, that is because stables are not always stable from the price feed and risks perspective. It's not safe to assume a stable is 1:1 to another one, so there are more [complex calculations being done](../../liquidations/#threshold-weighted-value) which account for possible slippage, chainlink price tick, and other factors.
 {% endhint %}
 
 

@@ -2,7 +2,7 @@
 description: DeFi Primitive for composable leverage 2.0
 ---
 
-# Credit Account
+# Credit Accounts
 
 ![](<../../.gitbook/assets/Screenshot 2021-08-07 at 22.49.38.png>)
 
@@ -12,7 +12,7 @@ A Credit Account is an isolated smart contract which contains both the user fund
 
 Funds on Credit Accounts are used as collateral for debt, and users can operate these funds by sending financial orders to their Credit Accounts. That could be: margin trading on Uniswap or Sushiswap; leverage farming on Yearn; arbitraging pegged assets on Curve, and more!
 
-See the list of [integrations](../integrations.md).
+See the list of [integrations](../integrations/).
 
 ## Allowed List policy
 
@@ -23,8 +23,8 @@ Operations available to users are restricted by two policies:
 
 Both policies are managed by [governance](../../governance/setup/) and can grow to enable more assets and protocol.
 
-{% content-ref url="allowedlist-policy.md" %}
-[allowedlist-policy.md](allowedlist-policy.md)
+{% content-ref url="allowedlist-policy/" %}
+[allowedlist-policy](allowedlist-policy/)
 {% endcontent-ref %}
 
 Gearbox architecture is very modular, so it's not just that there is an allowed asset for the entire protocol - there are different pools and **can even be multiple pools for the same asset**. There can be **different Credit Managers with different AllowedList policies**, etc. The information below is just an easy-to-grasp understanding for product users. Developers should dive into the tech section in Gearbox Dev docs and understand the intricacies. Namely, the tree goes as follows:
@@ -46,4 +46,3 @@ Next to that, Credit Accounts are not deployed by users every time as separate s
 With V2, Gearbox Protocol also got Multicall, making it all even more gas efficient! See more:
 
 {% embed url="https://medium.com/gearbox-protocol/product-evolution-v2-gearbox-protocol-from-1-to-2-going-further-dcedf3b5d959" %}
-

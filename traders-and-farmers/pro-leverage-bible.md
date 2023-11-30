@@ -37,7 +37,7 @@ There is the [#credit-account-min-max-borrow-limits](how-to-open-account.md#cred
 
 ### How to calculate max leverage?
 
-First of all, you need to understand how [Health Factor](../overview/liquidations/#what-is-a-health-factor) works. In a nutshell, all of the assets on your Credit Account are denominated in the debt asset you took as a borrowable asset. In other words, all the assets on your Credit Account in total act as collateral. Whether you have some ERC20s on your CA or farming positions - all of them have LTVs with respect to the debt asset you have chosen. [See all of the LTVs on this page](../overview/credit-account/allowedlist-policy.md#allowed-assets-list). For the calculations below, convert them from %.
+First of all, you need to understand how [Health Factor](../overview/liquidations/#what-is-a-health-factor) works. In a nutshell, all of the assets on your Credit Account are denominated in the debt asset you took as a borrowable asset. In other words, all the assets on your Credit Account in total act as collateral. Whether you have some ERC20s on your CA or farming positions - all of them have LTVs with respect to the debt asset you have chosen. [See all of the LTVs on this page](../overview/credit-account/allowedlist-policy/#allowed-assets-list). For the calculations below, convert them from %.
 
 {% hint style="info" %}
 In case you want simple liquidation levels, you can isolate positions per different debt assets. Like: stablecoin farm vs stablecoin debt asset. Or ETH Lido farms with wstETH or WETH as debt. Then it's much simpler for you to know the liquidation prices. In case you cross-margin a few positions with different assets within a single Credit Account, it becomes harder. But maybe that's your goal after all, like those trying to go delta-neutral or get _paying_ longs [long.md](strategies/long.md "mention").
@@ -49,7 +49,7 @@ $$
 1 / (1 – LT)
 $$
 
-Let's say you go into Convex GUSD3crv farm \[stkcvxgusd3CRV] with debt as USDC. If [LTV](../overview/credit-account/allowedlist-policy.md#allowed-assets-list) for that is 90, the max leverage would be: 1/(1-0,90) = 10x. Let's do yvCurve-stETH \[Yearn farm for stETH/ETH Curve pool] with WETH as debt. The LTV for either is 90 right now. That means 1/(1-0,90) = 10x as well. _If LTVs for some farms become higher, more leverage could be applied._
+Let's say you go into Convex GUSD3crv farm \[stkcvxgusd3CRV] with debt as USDC. If [LTV](../overview/credit-account/allowedlist-policy/#allowed-assets-list) for that is 90, the max leverage would be: 1/(1-0,90) = 10x. Let's do yvCurve-stETH \[Yearn farm for stETH/ETH Curve pool] with WETH as debt. The LTV for either is 90 right now. That means 1/(1-0,90) = 10x as well. _If LTVs for some farms become higher, more leverage could be applied._
 
 That's technically the max leverage you can take which will make your HF = 1. If the deviations in assets within a farm \[assets on your Credit Account acting as collateral] never occur - then you can remain as is, but that's VERY risky. It's better to count in some fluctuations.
 
@@ -65,7 +65,7 @@ These tips are for traders & farmers who are absolutely degenerate. Maximum leve
 Keep in mind that in reality you could encounter slippage, fast price changes, and other scenarios - so don't try to squueze every last drop unless you are a MEV guru. It's better to be safe and reduce your desired leverage factor by at least a factor of 0.25 or 0.5 to account for those. It still keeps you maxed out but [helps avoid a liquidation](credit-account-dashboard-overview/kak-ne-byt-rekt.md).&#x20;
 {% endhint %}
 
-Let's say you want to go into FRAX3Crv. Out of all the assets inside, you might think that FRAX has some perceived risk. Maybe yes maybe no, doesn't matter for this exercise. Your debt asset is USDC, and you just wanna max out this farm. Let's say [LTV](../overview/credit-account/allowedlist-policy.md#allowed-assets-list) is 90. The formula is:
+Let's say you want to go into FRAX3Crv. Out of all the assets inside, you might think that FRAX has some perceived risk. Maybe yes maybe no, doesn't matter for this exercise. Your debt asset is USDC, and you just wanna max out this farm. Let's say [LTV](../overview/credit-account/allowedlist-policy/#allowed-assets-list) is 90. The formula is:
 
 $$
 N = 1 / (1-LT*p)

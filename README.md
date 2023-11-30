@@ -12,7 +12,7 @@ Gearbox Protocol allows anyone to take DeFi-native leverage and then use it acro
 
 > Some compare composable leverage as a primitive to DeFi-native prime brokerage.
 >
-> The core vision is to become a **leverage middle layer**. You can envision building your own DeFi protocol and just making a “take leverage with Gearbox” as a button. And _bam_ - your users are now more capital efficient. Or integrate Gearbox into a platform like Zerion or Zapper. Check this page to understand why [composable leverage 2.0 is cool](leverage-2.0-is-composable.md)!
+> The core vision is to become a **leverage middle layer**. You can envision building your own DeFi protocol and just making a “take leverage with Gearbox” as a button. And _bam_ - your users are now more capital efficient. Or integrate Gearbox into a platform like Zerion or Zapper. Check this page to understand why [composable leverage 2.0 is cool](leverage-2.0-is...-composable.md)!
 
 **Developer docs can be found here:**
 

@@ -26,5 +26,5 @@ This is also where you claim your LDO, CVX, CRV, and other rewards from farms:
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-11-09 at 15.58.58.png" alt=""><figcaption><p>Go to the Farm tab inside your Credit Account view</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2022-11-09 at 16.00.40.png" alt=""><figcaption><p>Claim the rewards, done. See their LTVs in <a href="../../overview/credit-account/allowedlist-policy.md#allowed-assets-list">Allowed List</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2022-11-09 at 16.00.40.png" alt=""><figcaption><p>Claim the rewards, done. See their LTVs in <a href="../../overview/credit-account/allowedlist-policy/#allowed-assets-list">Allowed List</a></p></figcaption></figure>
 

@@ -56,16 +56,16 @@ As the protocol has gone live just recently - nobody knows what PMF (product-mar
 
 Gearbox Protocol is DAO-operated, so it should be a joint community decision. That's one. If users need Gearbox - it's fine to deploy anywhere, because user-first approach.&#x20;
 
-But it's not practical being on chains where there are not many other protocols to tap into. You see, Gearbox sources liquidity from other DeFi protocols: [trading on Uniswap and Curve, farming in Yearn](integrations.md) & etc. If a chain only has a Uniswap (original or fork) and a Curve (original or fork) it is \[1] less safe usually \[2] what is more important - it makes the product of Gearbox be inferior. If there is not much liquidity or you can't build composable positions, there isn't much to do on that chain.
+But it's not practical being on chains where there are not many other protocols to tap into. You see, Gearbox sources liquidity from other DeFi protocols: [trading on Uniswap and Curve, farming in Yearn](integrations/) & etc. If a chain only has a Uniswap (original or fork) and a Curve (original or fork) it is \[1] less safe usually \[2] what is more important - it makes the product of Gearbox be inferior. If there is not much liquidity or you can't build composable positions, there isn't much to do on that chain.
 
 So in the future there is no worry with it, but current ecosystems need to develop more and have more safe and liquid protocols to justify time and development costs. Which is likely possible, and is something to altogether discuss in 2022. See some ideas at the bottom of [this article](https://medium.com/gearbox-protocol/wen-v2-next-steps-leading-up-to-e80ec39eefe4).
 
 #### - **Why can't I trade ETH on DEXes via Wallet Connect? Only WETH?**
 
-Because ETH is not an ERC20 token by itself, so you can't _operate_ it like an ERC20 token which is a must-have for Gearbox Protocol and safe operations. Within the Credit Account, ETH is converted to WETH. So if you [connect via Wallet Connect](../traders-and-farmers/credit-account-dashboard-overview/connect-wallet-connect.md) or see your Credit Account on Etherscan - and check for ETH, you will see WETH only. After liquidation or closing your account, it is converted back to ETH, so liquidity providers don't need to think through this too much.
+Because ETH is not an ERC20 token by itself, so you can't _operate_ it like an ERC20 token which is a must-have for Gearbox Protocol and safe operations. Within the Credit Account, ETH is converted to WETH. So if you [connect via Wallet Connect](broken-reference) or see your Credit Account on Etherscan - and check for ETH, you will see WETH only. After liquidation or closing your account, it is converted back to ETH, so liquidity providers don't need to think through this too much.
 
 #### - Why does a trade even from stable to stable decrease my HF (health factor)?
 
 Due to how [Threshold Weighted Values](liquidations/#threshold-weighted-value) are calculated taking into account a possible price drop and a price feed tick, a stablecoin is not actually a stablecoin for the protocol contracts. They are not 1:1. Stablecoins tend to de-peg, which must be taken into account. This keeps the protocol more secure, but also causes _max leverage_ parameter to be lower. As such, this is up to the risk appetite of Gearbox [DAO](../governance/setup/) to decide on such things.&#x20;
 
-See the LTVs per asset-debt in [allowedlist-policy.md](credit-account/allowedlist-policy.md "mention").
+See the LTVs per asset-debt in [allowedlist-policy](credit-account/allowedlist-policy/ "mention").

@@ -10,9 +10,9 @@ Multisig roles were split into a financial-treasury and technical. Both multisig
 Multisig must execute whatever proposal reaches winning quorum. Given that multisig are members previously enacted by token holders, meaning the DAO, and are semi-public people with big reputation - in _extreme_ cases they could voice against implementing some proposal. However, that could breach _trust_ in the governance model and require immediate action and restructuring. This must be exercised carefully.
 {% endhint %}
 
-### Technical Multisig | 6/10
+## Technical Guard | 6/10
 
-* Ethereum Address: [0xA7D5DDc1b8557914F158076b228AA91eF613f1D5](https://etherscan.io/address/0xA7D5DDc1b8557914F158076b228AA91eF613f1D5)
+Ethereum Address: [0xA7D5DDc1b8557914F158076b228AA91eF613f1D5](https://etherscan.io/address/0xA7D5DDc1b8557914F158076b228AA91eF613f1D5)
 
 List of members on the multisig:
 
@@ -27,13 +27,17 @@ List of members on the multisig:
 9. [Alex](https://gov.gearbox.fi/t/multisig-ceremony-apply/95/30) - ex-Neutrino, a lobster and a builder
 10. [Alex](https://twitter.com/0xAlexEuler) - CTO of [Mellow Protocol](https://twitter.com/Mellowprotocol)
 
+#### Veto / Unpause role
+
 {% hint style="warning" %}
 Technical Multisig will not have a timelock function just yet, for security purposes. The pause function was awarded to [2 analytical addresses](https://gov.gearbox.fi/t/gip-17-multisig-reshuffle-pausable-admin/1447), while the unpause function is in the hands of the same technical multisig, but a 3/10 for better response time. That is [0xbb803559b4d58b75e12dd74641ab955e8b0df40e](https://gnosis-safe.io/app/eth:0xbb803559B4D58b75E12dd74641AB955e8B0Df40E).
+
+
 {% endhint %}
 
-### Financial-Treasury Multisig | 5/9
+## Treasury Guard | 5/9
 
-* Ethereum Address: [0x7b065Fcb0760dF0CEA8CFd144e08554F3CeA73D1](https://etherscan.io/address/0x7b065Fcb0760dF0CEA8CFd144e08554F3CeA73D1)
+Ethereum Address: [0x7b065Fcb0760dF0CEA8CFd144e08554F3CeA73D1](https://etherscan.io/address/0x7b065Fcb0760dF0CEA8CFd144e08554F3CeA73D1)
 
 List of members on the multisig:
 
@@ -46,6 +50,8 @@ List of members on the multisig:
 7. [Nikitakle](https://twitter.com/NOstroymov) - core DAO contributor on marketing & community
 8. [Amantay](https://gov.gearbox.fi/u/amantay/summary)  - core DAO contributor on risk & analytics
 9. [duckdegen.eth](https://twitter.com/DuckDegen) - devrel, ex-Connext \[[GIP-40](https://gov.gearbox.fi/t/gip-40-financial-multisig-reshuffle/2204/5)]
+
+#### Fee Temporary Guard
 
 {% hint style="info" %}
 Information on technical multisig transactions as well as votes (all representing changes to the technical architecture) will be often communicated on Discord here:

@@ -12,9 +12,11 @@ Keep in mind that no number of audits can guarantee full safety. There are alway
 
 <figure><img src="../.gitbook/assets/gearbox audits.jpeg" alt=""><figcaption></figcaption></figure>
 
+* **ChainSecurity** (): full V3 coverage, report
+* **ABDK** (): full V3 coverage, report
 * **ChainSecurity** (23/02/2022 - 19/10/2022): full V2 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2022%20Oct%20-%20ChainSecurity%20report.pdf)
 * **Consensys Diligence** (25/07/2022 - 12/08/2022): full V2 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2022%20Sep%20-%20Consensys%20Diligence.pdf)
-* **Sigma Prime** (21/02/2022 - 06/08/2022): almost full V2 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2022%20Aug%20-%20SigmaPrime\_Gearbox\_Smart\_Contract\_Security\_Assessment\_Report\_v2.pdf)
+* **Sigma Prime** (21/02/2022 - 06/08/2022): partial V2 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2022%20Aug%20-%20SigmaPrime\_Gearbox\_Smart\_Contract\_Security\_Assessment\_Report\_v2.pdf)
 * **Consensys** **Diligence** Fuzzing (04/10/2021 - 13/12/2021): V1 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2021%20Dec%20-%20ConsensysDiligence%20\_Fuzzing\_report.pdf)
 * **ChainSecurity** (31/08/2021 - 13/12/2021): V1 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2021%20Dec%20-%20ChainSecurity\_Gearbox\_audit.pdf)
 * **MixBytes** (06/07/2021 - 22/12/2021): V1 coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2021%20Dec%20-%20MixBytes\_security\_audit\_report.pdf)
@@ -22,7 +24,7 @@ Keep in mind that no number of audits can guarantee full safety. There are alway
 * Peckshield (09/04/2021 - 03/05/2021): first iteration coverage, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2021%20May%20-%20Peckshield-03.05.2021.pdf)
 
 {% hint style="info" %}
-Since Gearbox Protocol is modular, full protocol re-deployment is not required during changes. Enacted [multisig](../governance/setup/guards-multisigs.md#technical-multisig-or-6-10) can simply take pieces in-and-out. What it means for audits is that not every protocol change has to be re-audited fully. For example, in V2 Credit Accounts stay the same. Also, pools stay the same, so liquidity providers do not need to migrate! As a result with all the audits, pools codebase has been covered with every single full audit since summer 2021, so 6 in total. As for Credit Managers and new parts in V2, those have been covered by 3 new fresh audits including the older parts.
+Since Gearbox Protocol is modular, full protocol re-deployment is not required during changes. If approved by [governance](../governance/setup/), enacted [multisig](../governance/setup/guards-multisigs.md#technical-multisig-or-6-10) can take pieces in-and-out.
 {% endhint %}
 
 ## Bug Bounty
@@ -37,8 +39,9 @@ Join the Bug Bounty with Immunefi! Help Gearbox stay safe and be rewarded for it
 
 The scope of the bug bounty refers to the core contracts available in these repositories:
 
-1. [https://github.com/Gearbox-protocol/core-v2](https://github.com/Gearbox-protocol/core-v2)
-2. [https://github.com/Gearbox-protocol/integrations-v2](https://github.com/Gearbox-protocol/integrations-v2)
+1. [https://github.com/Gearbox-protocol/core-v3](https://github.com/Gearbox-protocol/core-v3)
+2. [https://github.com/Gearbox-protocol/integrations-v3](https://github.com/Gearbox-protocol/integrations-v3)
+3. [https://github.com/Gearbox-protocol/oracles-v3](https://github.com/Gearbox-protocol/oracles-v3) (whatever is in scope)
 
 {% hint style="success" %}
 If you have found a bug that you think is within the security interests of the protocol but is outside of the scope of the repository above, please do notify us then anyway. We can decide ad-hoc together with you. 1/1 payouts has been done before based on this.
@@ -59,9 +62,9 @@ Rewards are distributed according to the impact of the vulnerability. The final 
 
 ### Disclosures and Multisig Actions
 
-As a report for transparency on the actions of the multisig, as well as the disclosures related to certain actions, you can keep an eye on this specific Discord announcement channel:&#x20;
+As a report for transparency on the actions of the multisig, as well as the disclosures related to certain actions, you can keep an eye on this transparency tool which details all that's going on:&#x20;
 
-{% embed url="https://discord.gg/J53N5WYfR3" %}
+{% embed url="https://risk.gearbox.foundation/updates" %}
 
 More info can also be found on GitHub:&#x20;
 
