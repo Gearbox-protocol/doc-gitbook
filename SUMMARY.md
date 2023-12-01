@@ -43,7 +43,7 @@
   * [Arbitrage of correlated assets](traders-and-farmers/strategies/arb-correlated-assets.md)
 * [PRO: Leverage Bible](traders-and-farmers/pro-leverage-bible.md)
 
-## Lending Market
+## Lending Markets <a href="#lending-market" id="lending-market"></a>
 
 * [Pools & APY](lending-market/pools-and-apy.md)
 * [Lending Dashboard - How to supply or withdraw assets](lending-market/manage-liquidity.md)

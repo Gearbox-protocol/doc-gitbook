@@ -2,20 +2,29 @@
 description: Useful links about many things in the Gearbox ecosystem.
 ---
 
-# Link Tree
+# Link Tree & Dev Docs
+
+#### Dev information
+
+* Developer docs: [https://dev.gearbox.fi/](https://dev.gearbox.fi/)
+* Monitoring Tool: [https://risk.gearbox.foundation/updates](https://risk.gearbox.foundation/updates)
+* GitHub: [https://github.com/Gearbox-protocol](https://github.com/Gearbox-protocol)
+
+#### dApps
+
+* Main website: [https://gearbox.fi/](https://gearbox.fi/)
+* Extended dApp: [https://app.gearbox.fi/](https://app.gearbox.fi/)
+* Trading dApp:&#x20;
+* Analytics: [https://charts.gearbox.finance/](https://charts.gearbox.finance/)
+
+#### Socials and DAO
 
 * Discord 👾 [https://discord.com/invite/gearbox](https://discord.com/invite/gearbox)
-* Main website: [https://gearbox.fi/](https://gearbox.fi/)
-* Mainnet dApp: [https://app.gearbox.fi/](https://app.gearbox.fi/)
-* General Docs: [https://docs.gearbox.finance/](https://docs.gearbox.finance/)
-* Developer Docs: [https://dev.gearbox.fi/](https://dev.gearbox.fi/)
+* Forum (Inside Discord): [https://discord.com/invite/gearbox](https://discord.com/invite/gearbox)
 * Telegram: [https://t.me/GearboxProtocol](https://t.me/GearboxProtocol)
-* Governance Forum: [https://gov.gearbox.fi/t/start-here-forum-rules/](https://gov.gearbox.fi/t/start-here-forum-rules/)
-* Snapshot Voting: [https://snapshot.org/#/gearbox.eth](https://snapshot.org/#/gearbox.eth)
-* Medium Blog: [https://medium.com/gearbox-protocol](https://medium.com/gearbox-protocol)
-* GitHub: [https://github.com/Gearbox-protocol](https://github.com/Gearbox-protocol)
 * Twitter: [https://twitter.com/GearboxProtocol](https://twitter.com/GearboxProtocol)
-* Dune: [https://dune.com/apeir99n/gearbox-protocol-dashboard](https://dune.com/apeir99n/gearbox-protocol-dashboard)
+* Blog: [https://blog.gearbox.fi/](https://blog.gearbox.fi/)
+* DAO Voting: [https://snapshot.org/#/gearbox.eth](https://snapshot.org/#/gearbox.eth)
 * **Notion** where DAO initiatives and expenditures are reported: [https://gearboxprotocol.notion.site/gearboxprotocol/Gearbox-DAO-23966f122ae4421492819242b30a0e7a](https://gearboxprotocol.notion.site/gearboxprotocol/Gearbox-DAO-23966f122ae4421492819242b30a0e7a)
 
 {% embed url="https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a" %}
