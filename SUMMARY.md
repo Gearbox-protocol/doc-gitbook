@@ -27,6 +27,7 @@
 
 ## Traders & farmers
 
+* [What can you do with leverage?](traders-and-farmers/what-can-you-do-with-leverage.md)
 * [How to open a Credit Account](traders-and-farmers/how-to-open-account.md)
 * [Inside a Credit Account](traders-and-farmers/credit-account-dashboard-overview/README.md)
   * [Trade: swapping assets](traders-and-farmers/credit-account-dashboard-overview/trade-swapping-assets.md)
@@ -62,6 +63,5 @@
 
 ## Security & Risks <a href="#risk-and-security" id="risk-and-security"></a>
 
-* [Gearbox V2.1](risk-and-security/gearbox-v2.1.md)
 * [Risks and T\&C](risk-and-security/risks-terms.md)
 * [Audits & Bug Bounty](risk-and-security/audits-bug-bounty.md)

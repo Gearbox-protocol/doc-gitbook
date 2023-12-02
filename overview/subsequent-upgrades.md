@@ -18,7 +18,7 @@ Gearbox V2 upgrade took place in October'22 and led to a $120M+ TVL increase. Po
 This led to 14 more strategies becoming available to the users to leverage farm on. At the same time though, V1 required users to hop through multiple protocols to deploy a position. V2 was built with UX and ease of use in mind. This was brought on by:
 
 1. **Multicall:** Multicall enabled users to open CA, perform required swaps, deploy in farm and receive LP tokens in a single transaction. While the farming happened natively on the integrated protocol, the need to leave Gearbox UI or click multiple buttons was removed.&#x20;
-2. **Upto 10x Leverage:** V1 offered leverage upto 4x, this was upgraded by V2 with pools being able to offer as much as 10x leverage. This increased the max APYs a pool could produce significantly.&#x20;
+2. **Up to 10x Leverage:** V1 offered leverage up to 4x, this was upgraded by V2 with pools being able to offer as much as 10x leverage. This increased the max APYs a pool could produce significantly.&#x20;
 
 The 2 factors together enabled V2 to bring leveraged farming to life. You can read more about it in the article below.
 
