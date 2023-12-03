@@ -39,11 +39,11 @@ Transactions related to technical changes and protocol improvements are behind a
 
 ### Veto / Unpause role | 4/12
 
-Ethereum Address:&#x20;
+Ethereum Address: [0xbb803559B4D58b75E12dd74641AB955e8B0Df40E](https://etherscan.io/address/0xbb803559B4D58b75E12dd74641AB955e8B0Df40E)
 
 A multisig with the same set of singers as the Technical Guard, but a lower 4/12 for faster response.
 
-The unpause role is at a lower threshold in order to not stall unpauses. The veto role is related to the ability to circumvent malicious proposals and transactions, if those are detected. It can only do that.
+The veto role is related to the ability to circumvent malicious proposals and transactions, it can only say "no" basically, but can't propose or push anything by itself. The unpause role relates to unpausing.
 
 {% hint style="warning" %}
 The pause function was granted to [2 analytical addresses](https://gov.gearbox.fi/t/gip-17-multisig-reshuffle-pausable-admin/1447) 1/1. They can only pause the protocol, in case their monitoring tools detect issues, in an attempt to stop the protocol from being fully exploited. In case that is possible and the time onchain gives that window.
