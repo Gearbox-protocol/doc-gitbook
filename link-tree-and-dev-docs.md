@@ -4,7 +4,7 @@ description: Useful links about many things in the Gearbox ecosystem.
 
 # Link Tree & Dev Docs
 
-#### Dev information
+#### Dev Information
 
 * Developer docs: [https://dev.gearbox.fi/](https://dev.gearbox.fi/)
 * Monitoring Tool: [https://risk.gearbox.foundation/updates](https://risk.gearbox.foundation/updates)

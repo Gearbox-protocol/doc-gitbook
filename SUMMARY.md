@@ -18,11 +18,10 @@
 * [Integrations](overview/integrations/README.md)
   * [How to add new Contracts & Assets to AllowedList](overview/integrations/how-to-add-new-contracts-and-assets-to-allowedlist.md)
 * [History: DAO-First Launch](overview/launch-phases/README.md)
-  * [Birth at ETHGlobal MarketMake 2021 & 1st Contributors](overview/launch-phases/birth-at-ethglobal-marketmake-and-first-contributors.md)
+  * [Birth at ETHGlobal MarketMake 2021](overview/launch-phases/birth-at-ethglobal-marketmake-and-first-contributors.md)
   * [Kovan testing with DegenScore & lobsterdao](overview/launch-phases/kovan-testing-with-degenscore.md)
   * [Credit Account Mining](overview/launch-phases/credit-account-mining.md)
   * [Early Testers and Discord](overview/launch-phases/early-drop.md)
-* [Subsequent Upgrades](overview/subsequent-upgrades.md)
 * [FAQ](overview/faq.md)
 
 ## Traders & farmers
