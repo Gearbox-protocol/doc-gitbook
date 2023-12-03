@@ -6,36 +6,57 @@ description: Information about guards initiative, also known as multisig signers
 
 Multisig roles were split into a financial-treasury and technical. Both multisigs were created prior to the deployment ceremony by previous initial core members, as contracts needed to know the wallet addresses. Then, multisig members and a signer count requirement were added after **DAO voting procedures**. All this can be verified on-chain and Etherscan in logs of respective contracts.
 
-{% hint style="success" %}
+{% hint style="info" %}
 Multisig must execute whatever proposal reaches winning quorum. Given that multisig are members previously enacted by token holders, meaning the DAO, and are semi-public people with big reputation - in _extreme_ cases they could voice against implementing some proposal. However, that could breach _trust_ in the governance model and require immediate action and restructuring. This must be exercised carefully.
 {% endhint %}
 
-## Technical Guard | 6/10
+## Technical Guard | 6/12
+
+Executes proposals which have reached quorum related to technical changes and the protocol.
 
 Ethereum Address: [0xA7D5DDc1b8557914F158076b228AA91eF613f1D5](https://etherscan.io/address/0xA7D5DDc1b8557914F158076b228AA91eF613f1D5)
 
 List of members on the multisig:
 
 1. [zefram.eth](https://twitter.com/boredGenius) - Building [88mphapp](https://twitter.com/88mphapp), sudoswap, and more. Member of MetaCartel.
-2. [0xngmi](https://twitter.com/0xngmi) - lead developer at [DefiLlama](https://defillama.com/)
-3. [0xmikko](https://twitter.com/0xmikko\_eth) - original inventor of Gearbox \[on behalf of Gearbox Protocol Limited]
-4. [Alex Smirnov](https://twitter.com/AlexSmirnov\_\_) - co-founder of [deBridge](https://twitter.com/deBridgeFinance)
-5. [MacLane Wilkison](https://twitter.com/MacLaneWilkison) - co-founder of [NuCypher](https://twitter.com/NuCypher) & [Threshold](https://twitter.com/TheTNetwork)
-6. [Simone](https://twitter.com/kronosimste) - developer at [DegenScore](https://twitter.com/DegenScore)
-7. [Lewi](https://twitter.com/lewifree) - OG degenerate & ESD summoner
-8. [Klim](https://twitter.com/milkyklim) - data analytics and [YFI](https://twitter.com/iearnfinance) Maximalist
-9. [Alex](https://gov.gearbox.fi/t/multisig-ceremony-apply/95/30) - ex-Neutrino, a lobster and a builder
-10. [Alex](https://twitter.com/0xAlexEuler) - CTO of [Mellow Protocol](https://twitter.com/Mellowprotocol)
+2. [Ignacio](https://twitter.com/iicc\_eth) - Co-Founder of Stakely
+3. van0k - Gearbox protocol developer
+4. [0xmikko](https://twitter.com/0xmikko\_eth) - original inventor of Gearbox \[on behalf of Gearbox Protocol Limited]
+5. [Alex Smirnov](https://twitter.com/AlexSmirnov\_\_) - co-founder of [deBridge](https://twitter.com/deBridgeFinance)
+6. [MacLane Wilkison](https://twitter.com/MacLaneWilkison) - co-founder of [NuCypher](https://twitter.com/NuCypher) & [Threshold](https://twitter.com/TheTNetwork)
+7. [Simone](https://twitter.com/kronosimste) - developer at [DegenScore](https://twitter.com/DegenScore)
+8. [Lewi](https://twitter.com/lewifree) - OG degenerate & ESD summoner
+9. [Klim](https://twitter.com/milkyklim) - data analytics and [YFI](https://twitter.com/iearnfinance) Maximalist
+10. [Alex](https://gov.gearbox.fi/t/multisig-ceremony-apply/95/30) - ex-Neutrino, a lobster and a builder
+11. [Alex](https://twitter.com/0xAlexEuler) - CTO of [Mellow Protocol](https://twitter.com/Mellowprotocol)
+12. [Lekhovitsky](https://twitter.com/lekhovitsky) - Gearbox protocol developer
 
-#### Veto / Unpause role
-
-{% hint style="warning" %}
-Technical Multisig will not have a timelock function just yet, for security purposes. The pause function was awarded to [2 analytical addresses](https://gov.gearbox.fi/t/gip-17-multisig-reshuffle-pausable-admin/1447), while the unpause function is in the hands of the same technical multisig, but a 3/10 for better response time. That is [0xbb803559b4d58b75e12dd74641ab955e8b0df40e](https://gnosis-safe.io/app/eth:0xbb803559B4D58b75E12dd74641AB955e8B0Df40E).
-
-
+{% hint style="success" %}
+Transactions related to technical changes and protocol improvements are behind a 2-day timelock, and you can transparently observe every stage and queue in the [Risk Framework](https://risk.gearbox.foundation/updates):&#x20;
 {% endhint %}
 
-## Treasury Guard | 5/9
+{% embed url="https://risk.gearbox.foundation/updates" %}
+
+### Veto / Unpause role | 4/12
+
+Ethereum Address:&#x20;
+
+A multisig with the same set of singers as the Technical Guard, but a lower 4/12 for faster response.
+
+The unpause role is at a lower threshold in order to not stall unpauses. The veto role is related to the ability to circumvent malicious proposals and transactions, if those are detected. It can only do that.
+
+{% hint style="warning" %}
+The pause function was granted to [2 analytical addresses](https://gov.gearbox.fi/t/gip-17-multisig-reshuffle-pausable-admin/1447) 1/1. They can only pause the protocol, in case their monitoring tools detect issues, in an attempt to stop the protocol from being fully exploited. In case that is possible and the time onchain gives that window.
+
+* 0xD5C96E5c1E1C84dFD293473fC195BbE7FC8E4840
+* 0x65b384cecb12527da51d52f15b4140ed7fad7308
+{% endhint %}
+
+***
+
+## Treasury Guard | 5/10
+
+Executes proposals which have reached quorum related to spending, grants, and the treasury overall.
 
 Ethereum Address: [0x7b065Fcb0760dF0CEA8CFd144e08554F3CeA73D1](https://etherscan.io/address/0x7b065Fcb0760dF0CEA8CFd144e08554F3CeA73D1)
 
@@ -45,18 +66,19 @@ List of members on the multisig:
 2. [Amplice](https://twitter.com/astr0bas3d) - [lobsterdao](https://twitter.com/10b57e6da0) member & core DAO contributor on marketing
 3. [Pepo](https://twitter.com/0xPEPO) - contributor of [Wonderland](https://twitter.com/defi\_wonderland) & [DeFi LATAM](https://twitter.com/defi\_latam)
 4. [Sergey](https://t.me/icodrops\_sergey) - founder of [ICODrops](https://twitter.com/ICODrops)
-5. [Allan](https://twitter.com/niemerg) - founder of [Yield](https://twitter.com/yield)
+5. [NDW](https://twitter.com/cryptondee) - Castle Capital member and a DeFi degen
 6. [apeir99n](https://twitter.com/apeir99n) - original math & product at Gearbox \[on behalf of Gearbox Protocol Limited]
 7. [Nikitakle](https://twitter.com/NOstroymov) - core DAO contributor on marketing & community
 8. [Amantay](https://gov.gearbox.fi/u/amantay/summary)  - core DAO contributor on risk & analytics
 9. [duckdegen.eth](https://twitter.com/DuckDegen) - devrel, ex-Connext \[[GIP-40](https://gov.gearbox.fi/t/gip-40-financial-multisig-reshuffle/2204/5)]
+10. [Vadym](https://twitter.com/0x\_vadym) - developer at Kolibrio
 
-#### Fee Temporary Guard
+Spending and grants paid out can be seen in monthly DAO reports:
 
-{% hint style="info" %}
-Information on technical multisig transactions as well as votes (all representing changes to the technical architecture) will be often communicated on Discord here:
-{% endhint %}
+{% embed url="https://gearboxprotocol.notion.site/Monthly-Reports-6849871a9bae44dfb903531c0a997e8f" %}
 
-{% embed url="https://discord.gg/J53N5WYfR3" %}
-voting and multisig report channel
-{% endembed %}
+### Fee Temporary Guard 5/10
+
+Ethereum Address: [0x3E965117A51186e41c2BB58b729A1e518A715e5F](https://etherscan.io/address/0x3E965117A51186e41c2BB58b729A1e518A715e5F)
+
+A temporary multisig with the same set of singers as the Treasury Guard. It is created to separate funds from the [DAO rounds](../../gear-token/supply-information.md#early-backers-and-dao-round-2022) which are used for the development of the protocol. This Fee Guard collects all the [fees from the protocol](../../overview/protocol-fees.md) and can later on give control over it to an initiative which will focus on staking programs, or whatever else the DAO decides to do. It's a holder of fees for now.
