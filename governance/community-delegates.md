@@ -24,7 +24,7 @@ It takes literally 1 minute!
 
 ![https://docs.google.com/spreadsheets/d/1p7Ff6UdyBEo3086rc3EqftnSVxGw2-8q1qJFQDcKqxU/edit?usp=sharing](<../.gitbook/assets/Screenshot 2022-07-12 at 12.48.35.png>)
 
-2\. Go to [https://snapshot.org/#/delegate/gearbox.eth](https://snapshot.org/#/delegate/gearbox.eth) and connect the wallet where you have your [GEAR](broken-reference). Don’t worry, just connecting is safe. Or if you have Curve LP with GEAR-ETH or whatever other strategy that snapshot governance currently supports based on the latest improvements.
+2\. Go to [https://snapshot.org/#/delegate/gearbox.eth](https://snapshot.org/#/delegate/gearbox.eth) and connect the wallet where you have your [GEAR](broken-reference). Or if you have Curve LP with GEAR-ETH or whatever other strategy that snapshot governance currently supports based on the latest improvements. Don’t worry, just connecting is safe.
 
 3\. Insert a delegate's address or ENS and click **confirm**. This will cost a little bit of gas. This is just a delegate function, you are not giving any approvals or other scary things. Besides, your GEAR is not locked. You can undelegate or move them freely. But if you do either one of these things, your delegate will lose the corresponding number of votes, of course.
 

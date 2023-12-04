@@ -16,6 +16,10 @@ About 4% a year from the supply (DAO portion holding > 40%) goes into different 
 All distributions beyond the initial starting point can be found in [monthly-quarterly DAO reports](https://gearboxprotocol.notion.site/Monthly-Reports-6849871a9bae44dfb903531c0a997e8f) in Notion. There is no inflation in GEAR - only DAO grants and rewards for different activities: liquidity mining, stakers, and contributors. All at a relatively low rate.
 {% endhint %}
 
+
+
+***
+
 ## Initial Supply Information
 
 GEAR supply has been split according to a many different contributor roles:
