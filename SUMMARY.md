@@ -2,7 +2,7 @@
 
 * [Overview ](README.md)
 * [Link Tree & Dev Docs](link-tree-and-dev-docs.md)
-* [Leverage 2.0 is... composable?](leverage-2.0-is...-composable.md)
+* [What can you do with leverage 2.0?](what-can-you-do-with-leverage-2.0.md)
 
 ## Protocol overview <a href="#overview" id="overview"></a>
 
@@ -26,7 +26,6 @@
 
 ## Traders & farmers
 
-* [What can you do with leverage?](traders-and-farmers/what-can-you-do-with-leverage.md)
 * [How to open a Credit Account](traders-and-farmers/how-to-open-account.md)
 * [Inside a Credit Account](traders-and-farmers/credit-account-dashboard-overview/README.md)
   * [Trade: swapping assets](traders-and-farmers/credit-account-dashboard-overview/trade-swapping-assets.md)
