@@ -50,9 +50,9 @@
 
 ## GOVERNANCE | DAO <a href="#governance" id="governance"></a>
 
+* [Quotas and Gauges](governance/quotas-and-gauges.md)
 * [Governance Model](governance/setup/README.md)
   * [Guards \[Multisigs\]](governance/setup/guards-multisigs.md)
-* [Quotas and Gauges](governance/quotas-and-gauges.md)
 * [Community Delegates](governance/community-delegates.md)
 
 ## GEAR Token

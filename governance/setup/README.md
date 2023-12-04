@@ -1,5 +1,5 @@
 ---
-description: 'Early governance: forum + snapshot. Get involved!'
+description: Get involved!
 ---
 
 # Governance Model
@@ -18,41 +18,27 @@ Gearbox Protocol did not have a core team from day 0, no central authority! Init
 
 _Governance is one of the most complex things which requires tedious research. MakerDAO, Element Finance, Yearn, Coordinape and other protocols have advanced this process forward also by making data on voter apathy and activity. The goal is to figure Gearbox governance step-by-step and have users be in control of the protocol. Have the community decide and iterate!_
 
-{% hint style="success" %}
-You can [discuss governance models on Discord](https://discord.gg/kPejWrzfTw) and [governance forum](https://gov.gearbox.fi/c/main/). See [Notion](https://gearboxprotocol.notion.site/gearboxprotocol/Gearbox-DAO-Working-Sheet-23966f122ae4421492819242b30a0e7a).
-{% endhint %}
-
-Protocols should be given away to communities as soon as possible, to let a movement start from the roots. But with such a decision comes big responsibility - ensuring proper and adequate governance rails for new members to coordinate, judge things, and decide on the future. And while fully on-chain governance models like [Governor Alpha](https://medium.com/tally-blog/the-case-for-governor-alpha-15c1362d49eb) are seen as one of the staples that projects should aspire to - it's practically impossible to achieve that in the first weeks of a protocol life, because there are so many unknowns with regard to PMF, pools, and other factors.&#x20;
-
-Given that, Gearbox Protocol governance DAO was set up in a flexible yet accountable way, innovating on some of the features to ensure a more streamlined environment.&#x20;
-
 {% hint style="info" %}
 It's important to note that all distribution vestings and other parameters were hard-coded in smart contracts no ensure no requirement for trust from day 0. Everything communicated was in code, verified, and audited. But make sure to know the [risks](../../risk-and-security/risks-terms.md).
 {% endhint %}
-
-#### PROPOSAL TEMPLATE
-
-{% embed url="https://gov.gearbox.fi/t/template-proposal-for-managing-gearbox-protocol-parameters/100" %}
 
 ## Governance discussion process
 
 **1. Ideation process, sometimes in Discord.**
 
-This can occur in any chat really. Discord, forum, wherever. It's best to outline the voting parameters (WHAT are you actually voting for: YES or NO question, for instance) during this process so you would have a better understanding of what to propose on forum.
+This can occur in any chat really. It's best to outline the voting parameters (WHAT are you actually voting for: YES or NO question, for instance) during this process so you would have a better understanding of what to propose on forum. Discord place for that:
 
-{% embed url="https://gearboxprotocol.notion.site/gearboxprotocol/Gearbox-DAO-Working-Sheet-23966f122ae4421492819242b30a0e7a" %}
-DAO working groups and coordination
-{% endembed %}
+{% embed url="https://discord.com/channels/841203475606011905/1118847490045792317" %}
 
-**2. Forum proposal and temperature check: first in Main, then in Proposals.**
+**2. Proposal and Snapshot**
 
-After some initial feedback for an idea was received informally, a semi-formal proposal must be put on the governance forum with concrete explanation of the proposed idea. A temperature check can be used on forum via a voting poll if you want to. Such things can easily be gamed, of course, so this temperature check should be met with a degree of scrutiny.&#x20;
+After some initial feedback for an idea was received informally, a formal proposal must be put out with concrete explanation of the proposed idea. It should be put up for voting on the snapshot page, including the transaction details the DAO would be voting for, to avoid any multisig subjectivity later. This means that a proposer should seek technical help to prepare such a transaction prior to submitting a snapshot proposal. A quorum must be bet in such case.
 
-{% embed url="https://gov.gearbox.fi/t/start-here-forum-rules/17" %}
+Proposal to be made here, as a formal GIP:
 
-**3. Actual formal proposal on snapshot.**&#x20;
+{% embed url="https://discord.com/channels/841203475606011905/1118843131643838504" %}
 
-It should be put up for voting on the snapshot page, including the transaction details the DAO would be voting for, to avoid any multisig subjectivity later. This means that a proposer should seek technical help to prepare such a transaction prior to submitting a snapshot proposal. A quorum must be bet in such case. For quorum details, see more at the bottom of this page
+Snapshot is here:
 
 {% embed url="https://snapshot.org/#/gearbox.eth" %}
 
@@ -60,9 +46,9 @@ It should be put up for voting on the snapshot page, including the transaction d
 
 Multisig must execute whatever proposal reaches winning quorum. Given that multisig are members previously enacted by token holders, meaning the DAO, are semi-public people with big reputation - in _extreme_ cases they could voice against implementing some proposal. However, that could breach _trust_ in the governance model and require immediate action and restructuring.&#x20;
 
-{% hint style="info" %}
-[Discord](https://discord.gg/kPejWrzfTw) and [governance forum](https://gov.gearbox.fi/c/main/). Also see [Notion](https://gearboxprotocol.notion.site/gearboxprotocol/Gearbox-DAO-Working-Sheet-23966f122ae4421492819242b30a0e7a).
-{% endhint %}
+
+
+***
 
 ## Initial Governance Specifications
 
@@ -141,22 +127,10 @@ Proposals on the forum which violate basic human decency like "let's cause damag
 If a snapshot vote was not submitted correctly, for example less than 3 days window for voting - it technically does not count as legitimate and can be taken down by snapshot page admins (the DAO). It is always better to ask for guidance in Discord about how to properly present the voting choices in order to make sure it is worded correctly.
 {% endhint %}
 
-
-
 ## Practical point with regard to the snapshot
 
 {% embed url="https://snapshot.org/#/gearbox.eth" %}
 gearbox.eth
 {% endembed %}
 
-Given that snapshot voting is off-chain (yet trustless and verifiable) - some parameters allow for flexibility, which is how such a model as described above is possible. However, that also means there is a degree of human intervention required in order to facilitate this.&#x20;
-
-**NEW**: please pay attention to the voting intervention proposed in [GIP-42](https://snapshot.org/#/gearbox.eth/proposal/0xa24c9910bdd6bdbe81a5584768b65e9cbe10dd3f0ab7fecda249c698a5a6c873).
-
-#### Admin role to potentially update multipliers of the reduced voting weights
-
-The weights, as described, shift higher for A and B in case the DAO does more distributions. That is to replicate the fact that DAO ensures more distributions and grants, and as such it's acceptable to have early contributors voting weights increase to their normal level slowly as the community portion increases. As such, the weight multiplier from x0.125 will be manually updated monthly at the snapshot level to replicate this Reverse Escrow Model change when needed or if needed. However, in the first weeks, this action is not necessary as the portions won't drastically change.
-
-{% hint style="info" %}
-Because some parameters have to be adjusted at the snapshot level, like total number to calculate quorum - a deviation of 3-5% from the available number (which is less than 1% of overall power) here and there can happen, in order to avoid daily multisig work. As such, bi-weekly or monthly can be chosen in order to keep the numbers in check.
-{% endhint %}
+Given that snapshot voting is off-chain (yet trustless and verifiable) - some parameters allow for flexibility, which is how such a model as described above is possible. However, that also means there is a degree of human intervention required in order to facilitate this.
