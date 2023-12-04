@@ -43,7 +43,7 @@ Ethereum Address: [0xbb803559B4D58b75E12dd74641AB955e8B0Df40E](https://etherscan
 
 A multisig with the same set of singers as the Technical Guard, but a lower 4/12 for faster response.
 
-The veto role is related to the ability to circumvent malicious proposals and transactions, it can only say "no" basically, but can't propose or push anything by itself. The unpause role relates to unpausing.
+The veto role is related to the ability to circumvent malicious proposals and transactions, it can only say "no" basically, but can't propose or push anything. The unpause role relates to unpausing.
 
 {% hint style="warning" %}
 The pause function was granted to [2 analytical addresses](https://gov.gearbox.fi/t/gip-17-multisig-reshuffle-pausable-admin/1447) 1/1. They can only pause the protocol, in case their monitoring tools detect issues, in an attempt to stop the protocol from being fully exploited. In case that is possible and the time onchain gives that window.
@@ -81,4 +81,4 @@ Spending and grants paid out can be seen in monthly DAO reports:
 
 Ethereum Address: [0x3E965117A51186e41c2BB58b729A1e518A715e5F](https://etherscan.io/address/0x3E965117A51186e41c2BB58b729A1e518A715e5F)
 
-A temporary multisig with the same set of singers as the Treasury Guard. It is created to separate funds from the [DAO rounds](../../gear-token/supply-information.md#early-backers-and-dao-round-2022) which are used for the development of the protocol. This Fee Guard collects all the [fees from the protocol](../../overview/protocol-fees.md) and can later on give control over it to an initiative which will focus on staking programs, or whatever else the DAO decides to do. It's a holder of fees for now.
+A temporary multisig with the same set of singers as the Treasury Guard. It is created to separate funds from the [DAO rounds](../../gear-token/supply-information.md#early-backers-and-dao-round-2022) which are used for the development of the protocol. This Fee Guard collects all [fees from the protocol](../../overview/protocol-fees.md) and can later on give control over to an initiative which will focus on staking programs, or whatever else the DAO decides to do. It's a holder of fees for now.

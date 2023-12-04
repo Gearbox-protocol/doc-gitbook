@@ -6,11 +6,13 @@ description: Useful links about many things in the Gearbox ecosystem.
 
 #### Dev Information
 
-* Developer docs: [https://dev.gearbox.fi/](https://dev.gearbox.fi/)
 * Monitoring Tool: [https://risk.gearbox.foundation/updates](https://risk.gearbox.foundation/updates)
 * GitHub: [https://github.com/Gearbox-protocol](https://github.com/Gearbox-protocol)
+* Developer docs: [https://dev.gearbox.fi/](https://dev.gearbox.fi/)
 
-#### dApps
+{% embed url="https://dev.gearbox.fi/" %}
+
+dApps
 
 * Main website: [https://gearbox.fi/](https://gearbox.fi/)
 * Extended dApp: [https://app.gearbox.fi/](https://app.gearbox.fi/)

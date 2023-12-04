@@ -6,8 +6,8 @@ description: High-level technical overview of Gearbox Protocol.
 
 Gearbox protocol has two sides to it:
 
-* **Passive lenders** - **asset** **lenders** who seek passive yield and prefer lower risks. This can be seen similar to providing liquidity to Compound and getting cTokens back. Lenders' assets are utilized by others, for which they get APY. Any one can be a liquidity provider on Gearbox.
-* **Borrowers** - **active** **traders, farmers, and even protocols** who wish to increase their position by borrowing liquidity from the protocol at multiples of their collateral. The liquidity they borrow can be 10x of what their notional size is. This is the leverage power!
+* **Passive lenders:** **asset** **lenders** who seek passive yield and prefer lower risks. This can be seen similar to providing liquidity to Compound and getting cTokens back. Lenders' assets are utilized by others, for which they get APY. Any one can be a liquidity provider on Gearbox. [See how](../lending-market/manage-liquidity.md).
+* **Borrowers** - **active** **traders, farmers, and even protocols** who wish to increase their position by borrowing liquidity from the protocol at multiples of their collateral. The liquidity they borrow can be 10x of what their notional size is. This is the leverage power! [See how](../traders-and-farmers/strategies/).
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
@@ -17,7 +17,7 @@ Gearbox protocol has two sides to it:
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
-## Core parts of Gearbox Protocol
+## Core Parts of Gearbox Protocol
 
 <figure><img src="../.gitbook/assets/Screenshot 2021-08-07 at 22.53.18.png" alt=""><figcaption></figcaption></figure>
 
@@ -29,7 +29,7 @@ One of the key aspects which actually makes this DeFi primitive possible are [Cr
 
 **Gearbox does not silo the assets within its protocol.**&#x20;
 
-All trades and operations happen on third-party protocols: Uniswap, Curve, Yearn, etc. **Your assets never end up in custody of any one person or company**. As such, Gearbox Protocol is not a trading platform / protocol. The protocol does not have its own order books, or control the secondary market liquidity. Therefore, there are no funding rates.
+All trades and farming operations happen on third-party protocols: Uniswap, Curve, Yearn, etc. **Your assets never end up in custody of any one person or company**. As such, Gearbox Protocol is not a trading platform / protocol. The protocol does not have its own order books, or control the secondary market liquidity. Therefore, there are no funding rates.
 
 Integrations possibilities are very broad, as Gearbox is built with composability at its core:
 
@@ -47,7 +47,7 @@ The liquidations are based on the **health factor and the threshold weighted val
 
 ![](<../.gitbook/assets/Screenshot 2021-08-07 at 22.49.59.png>)
 
-The protocol [takes fees](protocol-fees.md) for different operations, where a part goes to [Reserve Fund](liquidations/insurance-fund.md) and part to different protocol operations. All parameters and spending depend on the [governance](../governance/setup/). Learn more:
+The protocol [takes fees](protocol-fees.md) for different operations, where a part goes to [Reserve Fund](liquidations/insurance-fund.md) and part to different protocol operations. All parameters and spending depend on [governance](../governance/setup/). Learn more:
 
 {% content-ref url="protocol-fees.md" %}
 [protocol-fees.md](protocol-fees.md)
