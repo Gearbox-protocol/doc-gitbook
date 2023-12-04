@@ -44,8 +44,8 @@ Your Credit Account is now open!&#x20;
 
 The limits on Credit Accounts are enforced on the contract level by minimum borrow and maximum borrow limits, as per the DAO governance process - those can change. Check the latest here:
 
-{% content-ref url="../lending-market/pools-and-apy.md" %}
-[pools-and-apy.md](../lending-market/pools-and-apy.md)
+{% content-ref url="../lending-market/pools-and-apy/" %}
+[pools-and-apy](../lending-market/pools-and-apy/)
 {% endcontent-ref %}
 
 {% hint style="info" %}

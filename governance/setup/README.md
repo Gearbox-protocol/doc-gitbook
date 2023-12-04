@@ -24,13 +24,13 @@ It's important to note that all distribution vestings and other parameters were 
 
 ## Governance discussion process
 
-**1. Ideation process, sometimes in Discord.**
+**1. Ideation process in Discord.**
 
 This can occur in any chat really. It's best to outline the voting parameters (WHAT are you actually voting for: YES or NO question, for instance) during this process so you would have a better understanding of what to propose on forum. Discord place for that:
 
 {% embed url="https://discord.com/channels/841203475606011905/1118847490045792317" %}
 
-**2. Proposal and Snapshot**
+**2. Proposal and Snapshot.**
 
 After some initial feedback for an idea was received informally, a formal proposal must be put out with concrete explanation of the proposed idea. It should be put up for voting on the snapshot page, including the transaction details the DAO would be voting for, to avoid any multisig subjectivity later. This means that a proposer should seek technical help to prepare such a transaction prior to submitting a snapshot proposal. A quorum must be bet in such case.
 
@@ -42,7 +42,7 @@ Snapshot is here:
 
 {% embed url="https://snapshot.org/#/gearbox.eth" %}
 
-**4. Guards \[multisig] execution.**
+**3. Guard \[multisig] execution.**
 
 Multisig must execute whatever proposal reaches winning quorum. Given that multisig are members previously enacted by token holders, meaning the DAO, are semi-public people with big reputation - in _extreme_ cases they could voice against implementing some proposal. However, that could breach _trust_ in the governance model and require immediate action and restructuring.&#x20;
 

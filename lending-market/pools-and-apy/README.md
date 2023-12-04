@@ -8,31 +8,31 @@ Earning with Gearbox is as simple as lending on Compound or Aave. Next to that, 
 
 With Gearbox's CA model, your assets never end up in custody of any one person or company. They are held on an isolated smart contract after they are borrowed.&#x20;
 
-The asset you lend to the protocol would be able to be utilized, aka borrowed for leverage, by traders & farmers who would be actively rebalancing their positions or using some other strategies within the [AllowedList](../overview/credit-account/#allowed-list-policy) which a [Credit Account](../overview/credit-account/) allows. As borrowers, they will be required by the protocol to pay interest rates which accrues to the underlying pools of those assets.&#x20;
+The asset you lend to the protocol would be able to be utilized, aka borrowed for leverage, by traders & farmers who would be actively rebalancing their positions or using some other strategies within the [AllowedList](../../overview/credit-account/#allowed-list-policy) which a [Credit Account](../../overview/credit-account/) allows. As borrowers, they will be required by the protocol to pay interest rates which accrues to the underlying pools of those assets.&#x20;
 
-![](<../.gitbook/assets/Screenshot 2021-08-07 at 22.49.25.png>)
+![](<../../.gitbook/assets/Screenshot 2021-08-07 at 22.49.25.png>)
 
-The positions which traders and farmers take should be liquidated by third-party [liquidators](../overview/liquidations/) before the assets of liquidity providers would start being exposed to the downside. As such, the protocol returns the liquidity providers’ assets to the pools. This is how Gearbox is able to provide composable leverage.
+The positions which traders and farmers take should be liquidated by third-party [liquidators](../../overview/liquidations/) before the assets of liquidity providers would start being exposed to the downside. As such, the protocol returns the liquidity providers’ assets to the pools. This is how Gearbox is able to provide composable leverage.
 
 {% hint style="info" %}
-Keep in mind that earning on Gearbox entails certain [risks](../risk-and-security/risks-terms.md), especially related to third party liquidators doing their job right. The risks presented are also general across DeFi.&#x20;
+Keep in mind that earning on Gearbox entails certain [risks](../../risk-and-security/risks-terms.md), especially related to third party liquidators doing their job right. The risks presented are also general across DeFi.&#x20;
 {% endhint %}
 
 ## What is a Diesel Token?
 
 When you supply capital to a pool, you get Diesel Tokens, also known as dTokens, back. These tokens automatically earn interest & fees proportional to your share of the pool [like cTokens on Compound](https://compound.finance/docs/ctokens) or Yearn LP tokens. You don’t need to claim interest or perform any other actions, your Diesel Tokens grow in value. _This is if the pool doesn't suffer losses from incorrect liquidations._
 
-Getting Diesel tokens is super easy, you can try it out by [supplying liquidity to Gearbox Protocol](manage-liquidity.md#supplying-liquidity).
+Getting Diesel tokens is super easy, you can try it out by [supplying liquidity to Gearbox Protocol](../manage-liquidity.md#supplying-liquidity).
 
-{% content-ref url="manage-liquidity.md" %}
-[manage-liquidity.md](manage-liquidity.md)
+{% content-ref url="../manage-liquidity.md" %}
+[manage-liquidity.md](../manage-liquidity.md)
 {% endcontent-ref %}
 
-<table><thead><tr><th width="244.78357926598557">Asset</th><th>Contract Address</th></tr></thead><tbody><tr><td>ETH (<a href="../overview/faq.md#why-cant-i-trade-eth-on-dexes-via-wallet-connect">WETH</a>)</td><td><a href="https://etherscan.io/address/0xB03670c20F87f2169A7c4eBE35746007e9575901">0xB03670c20F87f2169A7c4eBE35746007e9575901</a></td></tr><tr><td>wstETH</td><td><a href="https://etherscan.io/address/0xB8cf3Ed326bB0E51454361Fb37E9E8df6DC5C286">0xB8cf3Ed326bB0E51454361Fb37E9E8df6DC5C286</a></td></tr><tr><td>USDC</td><td><a href="https://etherscan.io/address/0x86130bDD69143D8a4E5fc50bf4323D48049E98E4">0x86130bDD69143D8a4E5fc50bf4323D48049E98E4</a></td></tr><tr><td>DAI</td><td><a href="https://etherscan.io/address/0x24946bCbBd028D5ABb62ad9B635EB1b1a67AF668">0x24946bCbBd028D5ABb62ad9B635EB1b1a67AF668</a></td></tr><tr><td>FRAX</td><td><a href="https://etherscan.io/address/0x79012c8d491dcf3a30db20d1f449b14caf01da6c">0x79012c8d491dcf3a30db20d1f449b14caf01da6c</a></td></tr><tr><td>WBTC</td><td><a href="https://etherscan.io/address/0xB2A015c71c17bCAC6af36645DEad8c572bA08A08">0xB2A015c71c17bCAC6af36645DEad8c572bA08A08</a></td></tr></tbody></table>
+<table><thead><tr><th width="244.78357926598557">Asset</th><th>Contract Address</th></tr></thead><tbody><tr><td>ETH (<a href="../../overview/faq.md#why-cant-i-trade-eth-on-dexes-via-wallet-connect">WETH</a>)</td><td><a href="https://etherscan.io/address/0xB03670c20F87f2169A7c4eBE35746007e9575901">0xB03670c20F87f2169A7c4eBE35746007e9575901</a></td></tr><tr><td>wstETH</td><td><a href="https://etherscan.io/address/0xB8cf3Ed326bB0E51454361Fb37E9E8df6DC5C286">0xB8cf3Ed326bB0E51454361Fb37E9E8df6DC5C286</a></td></tr><tr><td>USDC</td><td><a href="https://etherscan.io/address/0x86130bDD69143D8a4E5fc50bf4323D48049E98E4">0x86130bDD69143D8a4E5fc50bf4323D48049E98E4</a></td></tr><tr><td>DAI</td><td><a href="https://etherscan.io/address/0x24946bCbBd028D5ABb62ad9B635EB1b1a67AF668">0x24946bCbBd028D5ABb62ad9B635EB1b1a67AF668</a></td></tr><tr><td>FRAX</td><td><a href="https://etherscan.io/address/0x79012c8d491dcf3a30db20d1f449b14caf01da6c">0x79012c8d491dcf3a30db20d1f449b14caf01da6c</a></td></tr><tr><td>WBTC</td><td><a href="https://etherscan.io/address/0xB2A015c71c17bCAC6af36645DEad8c572bA08A08">0xB2A015c71c17bCAC6af36645DEad8c572bA08A08</a></td></tr></tbody></table>
 
 ## How to calculate APY?
 
-Capital is required for traders and farmers to get leverage for their financial operations. For this, there are Liquidity Pools: anyone can become a liquidity provider by supplying assets in the Liquidity Pool. The profitability of LPs depends on the pool utilization ratio _U_ - the higher utilization, the higher interest rate. See a bit more on the [protocol-fees.md](../overview/protocol-fees.md "mention") page.
+Capital is required for traders and farmers to get leverage for their financial operations. For this, there are Liquidity Pools: anyone can become a liquidity provider by supplying assets in the Liquidity Pool. The profitability of LPs depends on the pool utilization ratio _U_ - the higher utilization, the higher interest rate. See a bit more on the [protocol-fees.md](../../overview/protocol-fees.md "mention") page.
 
 Borrow APY is calculated according to formula
 

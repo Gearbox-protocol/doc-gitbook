@@ -5,7 +5,7 @@ description: Previous versions since launch of V1 in 2021, to V2 in 2022, to V2.
 # OLD: V1 and V2
 
 {% hint style="info" %}
-Gearbox architecture is very modular, so it's not just that there is an allowed asset for the entire protocol - there are [different pools](../../../lending-market/pools-and-apy.md) and **can even be multiple pools for the same asset**. There can be **different Credit Managers with different Allowed List policies**, etc. The information below is just an easy-to-grasp understanding for product users. Developers should dive into the tech section in [Gearbox Dev](https://dev.gearbox.fi/) docs and understand the intricacies.&#x20;
+Gearbox architecture is very modular, so it's not just that there is an allowed asset for the entire protocol - there are [different pools](../../../lending-market/pools-and-apy/) and **can even be multiple pools for the same asset**. There can be **different Credit Managers with different Allowed List policies**, etc. The information below is just an easy-to-grasp understanding for product users. Developers should dive into the tech section in [Gearbox Dev](https://dev.gearbox.fi/) docs and understand the intricacies.&#x20;
 
 Namely, the tree goes as follows:
 

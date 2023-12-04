@@ -16,7 +16,7 @@ description: >-
 
 <figure><img src="../.gitbook/assets/screenshot-app-gearbox-fi-pools-add-0x86130bdd69143d8a4e5fc50bf4323d48049e9-1666806906672.png" alt=""><figcaption></figcaption></figure>
 
-**Step 3.** First click _Approve_ and wait for the transaction to be confirmed. Then, click _Supply_ and wait for the confirmation. When a transaction is confirmed, you will receive [diesel tokens](pools-and-apy.md#what-is-diesel-token).&#x20;
+**Step 3.** First click _Approve_ and wait for the transaction to be confirmed. Then, click _Supply_ and wait for the confirmation. When a transaction is confirmed, you will receive [diesel tokens](pools-and-apy/#what-is-diesel-token).&#x20;
 
 <figure><img src="../.gitbook/assets/screenshot-app-gearbox-fi-pools-add-0x86130bdd69143d8a4e5fc50bf4323d48049e9-1666806993400.png" alt=""><figcaption><p>Approve the asset you want to supply</p></figcaption></figure>
 

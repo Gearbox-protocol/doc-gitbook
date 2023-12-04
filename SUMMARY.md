@@ -44,7 +44,8 @@
 
 ## Lending Markets <a href="#lending-market" id="lending-market"></a>
 
-* [Pools & APY](lending-market/pools-and-apy.md)
+* [Pools & APY](lending-market/pools-and-apy/README.md)
+  * [OLD: V2-V1 Pools](lending-market/pools-and-apy/old-v2-v1-pools.md)
 * [Lending Dashboard - How to supply or withdraw assets](lending-market/manage-liquidity.md)
 
 ## GOVERNANCE | DAO <a href="#governance" id="governance"></a>

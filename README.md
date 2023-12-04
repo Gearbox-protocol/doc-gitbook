@@ -8,7 +8,7 @@ description: Generalized Leverage Protocol ⚙ Built with composability in mind 
 
 Gearbox Protocol brings you composable leverage, allowing anyone to margin trade on Uniswap, leverage farm on Curve, leverage stake on Lido, and use 10X more capital on protocols you love. Making decentralized leverage a reality thanks to Credit Account abstraction, bringing together lending and prime brokerage in the same protocol.&#x20;
 
-* Lenders deposit assets to [earn passive yield](lending-market/manage-liquidity.md), single-asset, no impermanent loss/
+* Lenders deposit assets to [earn passive yield](lending-market/manage-liquidity.md), single-asset, no impermanent loss.
 * Meanwhile, the leverage side users borrow these assets to create spot leverage positions, which can be used across DeFi. That could be margin trading on Uniswap, farming on Curve and Balancer, leverage staking on Lido, running delta-neutral complex strategies, and more. All of that is made possible with Gearbox’s innovative [Credit Account](overview/credit-account/) abstraction.
 
 > The core vision is to become a **leverage / credit layer**. You can envision building your own DeFi protocol and just making a “take leverage with Gearbox” as a button. And _bam_ - your users are now more capital efficient. Check this page to understand why [composable leverage 2.0 is cool](what-can-you-do-with-leverage-2.0.md)!
@@ -36,10 +36,10 @@ With V3, Gearbox Protocol has become cooler & faster! It has its own **multicall
 * **Leverage as a Service.** Other protocols can offer leverage to their users with the help of Gearbox Protocol, without modifying anything in their own architecture.
 * **Permissionless within safety.** Positions and trades within Credit Accounts can be extended to include complex strategies, for example, making a short position farm in Yearn; or having LP tokens as collateral for more composable actions. In fact, you can make all of these complex things easier to ape into, by using Gearbox's unique multicall features.
 
-### DAO-First Approach to Building
+### Decentralization at heart
 
 * **Decentralized.** CEXes subjectively define leverage parameters and also keep custody of your funds. With Gearbox, you are always in control of your funds. It's all transparent.
 * **Community-driven.** Gearbox Protocol does not have a company responsible for the protocol or on-chain actions. The goal is to make the protocol work based on how the community wants it.&#x20;
-* Аrom _day 0_ the focus has been on community-first [launch-phases](overview/launch-phases/ "mention").
+* From _day 0_ the focus has been on community-first [launch-phases](overview/launch-phases/ "mention").
 
 _MarketMake ETHGlobal 2021 hackathon finalist_ 🎆
