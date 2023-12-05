@@ -71,7 +71,7 @@ List of members on the multisig:
 7. [Nikitakle](https://twitter.com/NOstroymov) - core DAO contributor on marketing & community
 8. [Amantay](https://gov.gearbox.fi/u/amantay/summary)  - core DAO contributor on risk & analytics
 9. [duckdegen.eth](https://twitter.com/DuckDegen) - devrel, ex-Connext \[[GIP-40](https://gov.gearbox.fi/t/gip-40-financial-multisig-reshuffle/2204/5)]
-10. [Vadym](https://twitter.com/0x\_vadym) - developer at Kolibrio
+10. [Vadym](https://twitter.com/0x\_vadym) - head of product at Kolibrio
 
 Spending and grants paid out can be seen in monthly DAO reports:
 
