@@ -19,7 +19,7 @@ A quota is reserved by every leverage user themselves, “_how much of any X col
 
 An implementation of collateral limits basically.
 
-<figure><img src="../../.gitbook/assets/GEAR Gauges Quotas.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/GEAR fair yield distribution.jpeg" alt=""><figcaption></figcaption></figure>
 
 ## G**auges**
 
@@ -28,8 +28,6 @@ Interest rate paid by user for using quotas are defined by Gauges on a per-epoch
 But **Gearbox gauges are not like inflationary gauges** in Curve, nono, quite the opposite.&#x20;
 
 > Gauges are the instruments with which it is decided how much for every quota is paid. GEAR stakers freeze their tokens (against governance attacks) and then vote.
-
-<figure><img src="../../.gitbook/assets/GEAR fair yield distribution.jpeg" alt=""><figcaption></figcaption></figure>
 
 Quotas interest rate change happens on a per epoch basis - after epoch starts, quota interest rate for users doesn’t change until next epoch, while voters can change their votes continuously.
 

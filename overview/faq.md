@@ -4,16 +4,18 @@ description: Quick answers-links to the most frequently asked questions.
 
 # FAQ
 
-This section can help you find answers to the most quick questions. The other answers you can likely find by reading the page names of the docs on the left, each section explaining the topics.
+This section can help you find answers to the most common questions. The other answers you can likely find by reading the page names of the docs on the left, each section explaining the topics.
 
-* How to add new collateral / protocol? What is the framework? - [here](https://docs.gearbox.finance/overview/credit-account/how-to-add-new-assets-protocols).
-* GEAR token contract and vestings? - [here](https://docs.gearbox.finance/gear-token/gear-overview).
-* Funding rounds and initial supporters? - at the bottom of the page [here](https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a).
-* Current and previous DAO contributors? - at the bottom of the page [here](https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a).
+* Where is the GEAR token contract and vestings? - [here](https://docs.gearbox.finance/gear-token/gear-overview).
+* Funding rounds and early backers? - at the bottom of the page [here](../gear-token/supply-information.md#early-backers-and-dao-round-2022).
+* Is the team anon? Who are DAO contributors? - at the bottom of the page [here](https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a).
+* What is GEAR token utility, can I stake it? - [here](../gear-token/utility-and-staking.md).
 * How does the DAO work and how to join an initiative? - [here](https://gearboxprotocol.notion.site/DAO-Initiatives-Cycles-57dea693c7f44c3d9d4d818e5b0ac88b).
 * How much capital does the treasury have and where it goes? - [here](https://gearboxprotocol.notion.site/Monthly-Reports-6849871a9bae44dfb903531c0a997e8f).
+* How to add new collateral / protocol? What is the framework? - [here](https://docs.gearbox.finance/overview/credit-account/how-to-add-new-assets-protocols).
+* What does Gearbox Protocol do? - bro, you are in the docs, read up <3
 
-{% hint style="info" %}
+{% hint style="success" %}
 Do you feel like some question is missing? [Send it on Discord](https://discord.com/invite/gearbox)!
 {% endhint %}
 
@@ -31,7 +33,7 @@ V3, in order to give rewards to passive lenders, stakes those dTokens into the s
 
 #### - Will my APY for supplying liquidity go down or up?&#x20;
 
-The APY is variable and depends on the [utilization ratio](../lending-market/pools-and-apy/#how-to-calculate-apy) formula which is configurable by [DAO](../governance/setup/).
+The APY is variable and depends on the [utilization ratio](../lending-market/pools-and-apy/#how-to-calculate-apy) formula which is configurable by [DAO](../governance/setup/). It also depends on Quota Fees. The interface makes it all simpole, details can be found in [protocol-fees.md](protocol-fees.md "mention").
 
 #### - What is a Health Factor and what can I do with it?&#x20;
 
@@ -39,9 +41,7 @@ The APY is variable and depends on the [utilization ratio](../lending-market/poo
 
 #### - Сan I always withdraw liquidity?
 
-Depending on the [utilization ratio](../lending-market/pools-and-apy/#how-to-calculate-apy) of pools, if it is high - not all the liquidity can be withdrawn at once. It doesn't mean that the protocol lost money or is insolvent - it's just that the liquidity is utilized in Credit Accounts. In such cases where available liquidity is low (which you can check in the app analytics page per pool) - the APY goes higher as to attract more capital providers and attempt to find an equilibrium. This is more or less standard among all lending-type protocols and has happened both in Compound & Aave before. _Gearbox DAO can adjust the utilization curve parameters to force certain behavior of the protocol in case weird situations occur._
-
-See more in [#withdrawing-liquidity](../lending-market/manage-liquidity.md#withdrawing-liquidity "mention").
+Depending on the utilization ratio of pools, if it is high - not all the liquidity can be withdrawn at once. It doesn't mean that the protocol lost money or is insolvent - it's just that the liquidity is utilized in Credit Accounts. In such cases where available liquidity is low (which you can check in the app analytics page per pool) - the APY goes higher as to attract more capital providers and attempt to find an equilibrium. This is more or less standard among all lending-type protocols and has happened both in Compound & Aave before. _Gearbox DAO can adjust the utilization curve parameters to force certain behavior of the protocol in case weird situations occur._
 
 #### - **Why can't I borrow more?**
 
@@ -57,16 +57,6 @@ As the protocol has gone live just recently - nobody knows what PMF (product-mar
 
 Gearbox Protocol is DAO-operated, so it should be a joint community decision. That's one. If users need Gearbox - it's fine to deploy anywhere, because user-first approach.&#x20;
 
-But it's not practical being on chains where there are not many other protocols to tap into. You see, Gearbox sources liquidity from other DeFi protocols: [trading on Uniswap and Curve, farming in Yearn](integrations/) & etc. If a chain only has a Uniswap (original or fork) and a Curve (original or fork) it is \[1] less safe usually \[2] what is more important - it makes the product of Gearbox be inferior. If there is not much liquidity or you can't build composable positions, there isn't much to do on that chain.
-
-So in the future there is no worry with it, but current ecosystems need to develop more and have more safe and liquid protocols to justify time and development costs. Which is likely possible, and is something to altogether discuss in 2022. See some ideas at the bottom of [this article](https://medium.com/gearbox-protocol/wen-v2-next-steps-leading-up-to-e80ec39eefe4).
-
-#### - **Why can't I trade ETH on DEXes via Wallet Connect? Only WETH?**
-
-Because ETH is not an ERC20 token by itself, so you can't _operate_ it like an ERC20 token which is a must-have for Gearbox Protocol and safe operations. Within the Credit Account, ETH is converted to WETH. So if you [connect via Wallet Connect](broken-reference) or see your Credit Account on Etherscan - and check for ETH, you will see WETH only. After liquidation or closing your account, it is converted back to ETH, so liquidity providers don't need to think through this too much.
-
 #### - Why does a trade even from stable to stable decrease my HF (health factor)?
 
-Due to how [Threshold Weighted Values](liquidations/#threshold-weighted-value) are calculated taking into account a possible price drop and a price feed tick, a stablecoin is not actually a stablecoin for the protocol contracts. They are not 1:1. Stablecoins tend to de-peg, which must be taken into account. This keeps the protocol more secure, but also causes _max leverage_ parameter to be lower. As such, this is up to the risk appetite of Gearbox [DAO](../governance/setup/) to decide on such things.&#x20;
-
-See the LTVs per asset-debt in [allowedlist-policy](credit-account/allowedlist-policy/ "mention").
+Due to how [Threshold Weighted Values](liquidations/#threshold-weighted-value) are calculated taking into account a possible price drop and a price feed tick, a stablecoin is not actually a stablecoin for the protocol contracts. They are not 1:1. Stablecoins tend to de-peg, which must be taken into account. This keeps the protocol more secure, but also causes _max leverage_ parameter to be lower. As such, this is up to the risk appetite of Gearbox DAO to decide on such things.&#x20;
