@@ -5,7 +5,7 @@ description: Defining liquidations, health factor, and weighted thresholds.
 # Liquidations
 
 {% hint style="info" %}
-A new liquidator code for V2 written in typescript: [https://github.com/Gearbox-protocol/liquidator-v2](https://github.com/Gearbox-protocol/liquidator-v2). Also here is a sample liquidation bot in RUST for V1: [https://github.com/Gearbox-protocol/liquidation-bot](https://github.com/Gearbox-protocol/liquidation-bot). Some tips and tricks [here](https://twitter.com/0xmikko\_eth/status/1580963422317203457).
+A new liquidator code for V3 written in typescript:
 {% endhint %}
 
 #### How does the protocol ensure over-collaterization while allowing users leveraged operations?
@@ -78,5 +78,5 @@ $$
 Gearbox Protocol uses statistics of 5-min, 15-min, 1h change of i-th asset's price (price is in the underlying asset) for the last 180 days.&#x20;
 
 {% hint style="info" %}
-Anybody can run a liquidator bot and secure the protocol. You can chat about setting up your bot and other liquidator-things in [Discord](https://discord.gg/wmydr8JfcP). Help users minimize the [risks](../../risk-and-security/risks-terms.md)!
+Anybody can run a liquidator bot and secure the protocol. You can chat about setting up your bot and other liquidator-things in [Discord](https://discord.gg/wmydr8JfcP).
 {% endhint %}

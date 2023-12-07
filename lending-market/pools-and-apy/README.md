@@ -86,6 +86,8 @@ Those pools are not separately isolated, but are rather "built on top" of an exi
 
 This helps isolate risks without fragmenting liquidity. The extra APY in the Alpha pool would be at minimum (as a rule) the base APY of the Main pool + base APY of the Alpha pool + the extra fees taken from the quotas. As such, Alpha pools will earn the minimum of the Main pool + extra.
 
+<figure><img src="../../.gitbook/assets/Modular Gearbox Pools.png" alt=""><figcaption></figcaption></figure>
+
 In the future, there can be Pool N or other pools like the Alpha pool… modularity doesn’t have to stop. This modularity overall helps granularize risks while allowing for growth. Such a pool setup doesn’t fractionalize liquidity which is also quite important for lending-like protocols.
 
 {% hint style="info" %}

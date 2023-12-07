@@ -19,11 +19,11 @@ For the technical implementation and contracts, see:
 {% embed url="https://github.com/Gearbox-protocol/integrations-v2" %}
 
 {% hint style="success" %}
-Gearbox protocol has a flexible, adaptable, and scalable architecture.&#x20;
+Gearbox protocol has a modular architecture.&#x20;
 
-The main business logic is encapsulated in the core layer which supports operations for both protocol sides. It allows connecting customized pools with Credit Account managers without changing the internal codebase, and thus simplifying integrations.
+The main logic is encapsulated in the core layer which supports operations for both protocol sides. It allows connecting customized pools with Credit Account managers without changing the internal codebase, and thus simplifying integrations.
 
-The goal of Gearbox is to be integrated with existing and new protocols in an open-source manner and provide leverage across many user bases. The architecture allows integration on both sides: both by protocols that are interested in granting leveraged access to their operations as well as by protocols that could provide supply-side lending liquidity like Aave, Compound, Frax, etc.
+The goal of Gearbox is to be integrated with existing and new protocols in an open-source manner and provide leverage across many user bases and products. Because of its modularity, leverage can be given to even long-tail assets without increasing risks. There could be segmentation of risks, personalized rates, collateral limits, and other mechanisms which allow modularity to shine and Gearbox to service different user groups. That could be farming, trading, sophisticated LP-ing, NFT and RWA leveraging, and so on.
 {% endhint %}
 
 ### How to integrate on a contract level

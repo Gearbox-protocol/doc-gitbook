@@ -1,5 +1,5 @@
 ---
-description: Generalized Leverage Protocol ⚙ Built with composability in mind <3
+description: Composable Leverage Protocol ⚙ Built with composability in mind <3
 ---
 
 # Overview&#x20;
@@ -15,7 +15,7 @@ Gearbox Protocol brings you composable leverage, allowing anyone to margin trade
 
 > The core vision is to become a **leverage / credit layer**. You can envision building your own DeFi protocol and just making a “take leverage with Gearbox” as a button. And _bam_ - your users are now more capital efficient. Check this page to understand why [composable leverage 2.0 is cool](what-can-you-do-with-leverage-2.0.md)!
 
-***
+<figure><img src=".gitbook/assets/Gearbox Primitive Onchain Credit.png" alt=""><figcaption></figcaption></figure>
 
 ## **Cool Features**
 
@@ -46,5 +46,3 @@ _MarketMake ETHGlobal 2021 hackathon finalist_ 🎆
 Gearbox is a DAO, run by various contributors and initiatives. The protocol and assets are never in custody of any one single person. You can be in a DAO but not be 24/7 active, which is okay. There are different ways to get involved and get rewarded for your time and skills. See more:
 
 {% embed url="https://gearboxprotocol.notion.site/gearboxprotocol/Gearbox-DAO-Working-Sheet-23966f122ae4421492819242b30a0e7a" %}
-
-<figure><img src=".gitbook/assets/IMG_0418.png" alt=""><figcaption><p><a href="https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a"><strong>https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a</strong></a></p></figcaption></figure>

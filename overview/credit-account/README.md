@@ -42,7 +42,3 @@ Gearbox architecture is very modular, so it's not just that there is an allowed 
 Due to the architecture and design of Gearbox Protocol being modular, users each have their own Credit Account(s) instead of executing trades via a giant joint pool of liquidity with virtual balances of each user (how protocols usually do). Therefore, the gas costs overhead is minimized.&#x20;
 
 Next to that, Credit Accounts are not deployed by users every time as separate smart contracts, but are "borrowed" from the protocol by users like if you were to get an Uber: you use a car and then give it back once finished. This way, the deployment costs are kept to zero for new users.
-
-With V2, Gearbox Protocol also got Multicall, making it all even more gas efficient! See more:
-
-{% embed url="https://medium.com/gearbox-protocol/product-evolution-v2-gearbox-protocol-from-1-to-2-going-further-dcedf3b5d959" %}

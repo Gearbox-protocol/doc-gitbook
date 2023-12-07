@@ -2,9 +2,11 @@
 description: Quick overview of what is possible with Gearbox Protocol's Credit Accounts.
 ---
 
-# Leverage 2.0 is composable!
+# What can you do with leverage 2.0?
 
-The way we are used to leverage is having a _"short BTC" button_ on an exchange, where you put your assets as collateral and get a liquidation price which you can adjust by adding funds or closing the position. That's cool and easy, everyone knows it, but then... that's it? Feels too restricted. Your short is just sitting there and you can't utilize the position further.
+The way we are used to leverage is having a _"short BTC" button_ on an exchange, where you put your assets as collateral and get a liquidation price which you can adjust by adding funds or closing the position. That's ok, everyone knows it, but then... that's it? Feels too restricted.
+
+> Your short is just sitting there and you can't utilize the position further... Sucks!
 
 ### _**...what if you could do more with leverage?**_
 
