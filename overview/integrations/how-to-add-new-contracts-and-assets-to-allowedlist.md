@@ -16,6 +16,10 @@ This article can give you an insight on how you can potentially access a collate
 
 {% embed url="https://medium.com/gearbox-protocol/risk-committee-daos-framework-for-accessing-assets-contracts-3d4deea83537" %}
 
+Dev docs will help you fully understand the architecture:
+
+{% embed url="https://dev.gearbox.fi/" %}
+
 ## Add new Contracts / Protocols
 
 #### Technical Requirements

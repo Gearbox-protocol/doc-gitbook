@@ -64,9 +64,9 @@ Previously, when a new Credit Account was opened or closed to utilization 1-tick
 
 <table><thead><tr><th width="211">Asset pool</th><th width="86">r_0</th><th width="80">r_1</th><th width="87">r_2</th><th width="79" data-type="number">r_3</th><th width="83">U_1</th><th>U_2</th></tr></thead><tbody><tr><td>USDC</td><td>0</td><td>1</td><td>1.25</td><td>100</td><td>70</td><td>90</td></tr><tr><td>ETH</td><td>0</td><td>2</td><td>2.5</td><td>60</td><td>70</td><td>90</td></tr><tr><td>WBTC</td><td>0</td><td>2</td><td>2.5</td><td>60</td><td>70</td><td>90</td></tr></tbody></table>
 
-#### 2. Quota Fees
+#### 2. Gauges
 
-The above was the only source of organic yield previously. With V3, there are also Quota fees. Those quota fees are shared between passive lender pools (thus making APYs higher) as well as the DAO. If you are trying to calculate the passive lending organic APY, take quota fees into account.
+The above was the only source of organic yield previously. With V3, there are also Gauges for Quotas. They establish extra interest rates on top of the regular ones. Then those are shared between passive lender pools (thus making APYs higher) as well as the DAO. See more in:
 
 {% content-ref url="../../overview/protocol-fees.md" %}
 [protocol-fees.md](../../overview/protocol-fees.md)
@@ -82,11 +82,11 @@ Check the interface for the latest information. Those are accruing to your **sta
 
 V3 brings an extra logic possible with passive pools: inherited, or alpha, pools.
 
+<figure><img src="../../.gitbook/assets/Modular Gearbox Pools.png" alt=""><figcaption></figcaption></figure>
+
 Those pools are not separately isolated, but are rather "built on top" of an existing pool. With the use of Alpha pools, passive lenders of the Main pool would be able to opt-in to passive lend into these as well. Therefore, Alpha pools can have their liquidity work in two places at the same time. That is due to the fact that Alpha pool liquidity, if not utilized, is used in the Main pool it's essentially attached to.
 
 This helps isolate risks without fragmenting liquidity. The extra APY in the Alpha pool would be at minimum (as a rule) the base APY of the Main pool + base APY of the Alpha pool + the extra fees taken from the quotas. As such, Alpha pools will earn the minimum of the Main pool + extra.
-
-<figure><img src="../../.gitbook/assets/Modular Gearbox Pools.png" alt=""><figcaption></figcaption></figure>
 
 In the future, there can be Pool N or other pools like the Alpha pool… modularity doesn’t have to stop. This modularity overall helps granularize risks while allowing for growth. Such a pool setup doesn’t fractionalize liquidity which is also quite important for lending-like protocols.
 
