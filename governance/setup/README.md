@@ -44,9 +44,13 @@ Snapshot is here:
 
 **3. Guard \[multisig] execution.**
 
-Multisig must execute whatever proposal reaches winning quorum. Given that multisig are members previously enacted by token holders, meaning the DAO, are semi-public people with big reputation - in _extreme_ cases they could voice against implementing some proposal. However, that could breach _trust_ in the governance model and require immediate action and restructuring.&#x20;
+Multisig must execute whatever proposal reaches winning quorum. Given that multisig are members previously enacted by token holders, meaning the DAO, are semi-public people with big reputation - in _extreme_ cases they could voice against implementing some proposal. There is a Veto role for that.
 
+Check the members of the guards and their functions:
 
+{% content-ref url="guards-multisigs.md" %}
+[guards-multisigs.md](guards-multisigs.md)
+{% endcontent-ref %}
 
 ***
 
