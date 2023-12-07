@@ -7,7 +7,7 @@ description: 'Passive lending on Gearbox Protocol: supply & earn APY.'
 
 
 {% hint style="success" %}
-Non-custodial. No impermanent loss. Isolated. Multiple earn streams. No liquidations.
+Non-custodial. No impermanent loss. Isolated. Organic rates. No liquidations.
 {% endhint %}
 
 * Earning with Gearbox is as simple as lending on Compound or Aave. Next to that, pools are semi-isolated. Lend liquidity in the asset you choose and start earning APY! No impermanent loss.

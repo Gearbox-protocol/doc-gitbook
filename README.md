@@ -6,7 +6,9 @@ description: Generalized Leverage Protocol ⚙ Built with composability in mind 
 
 ![](.gitbook/assets/IMG\_7234.PNG)
 
-Gearbox Protocol brings you composable leverage, allowing anyone to margin trade on Uniswap, leverage farm on Curve, leverage stake on Lido, and use 10X more capital on protocols you love. Making decentralized leverage a reality thanks to Credit Account abstraction, bringing together lending and prime brokerage in the same protocol.&#x20;
+Gearbox Protocol brings you composable leverage, allowing anyone to margin trade on Uniswap, leverage farm on Curve, leverage stake on Lido, and use 10X more capital on other protocols you love. Making decentralized leverage a reality thanks to Credit Account abstraction, bringing together lending and prime brokerage in the same protocol.&#x20;
+
+> The leverage you get with Gearbox doesn't get isolated inside its own pools. You can deploy this leverage into protocols and assets you already love. Composability & modularity!
 
 * Lenders deposit assets to [earn passive yield](lending-market/manage-liquidity.md), single-asset, no impermanent loss.
 * Meanwhile, the leverage side users borrow these assets to create spot leverage positions, which can be used across DeFi. That could be margin trading on Uniswap, farming on Curve and Balancer, leverage staking on Lido, running delta-neutral complex strategies, and more. YOU decide! All of that is made possible with Gearbox’s innovative [Credit Account](overview/credit-account/) abstraction.
@@ -15,18 +17,10 @@ Gearbox Protocol brings you composable leverage, allowing anyone to margin trade
 
 ***
 
-### **Where is the DAO, how can I contribute?**
-
-Gearbox is a DAO, run by various contributors and initiatives. The protocol and assets are never in custody of any one single person. You can be in a DAO but not be 24/7 active, which is okay. There are different ways to get involved and get rewarded for your time and skills. See more:
-
-{% embed url="https://gearboxprotocol.notion.site/gearboxprotocol/Gearbox-DAO-Working-Sheet-23966f122ae4421492819242b30a0e7a" %}
-
-<figure><img src=".gitbook/assets/IMG_0418.png" alt=""><figcaption><p><a href="https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a"><strong>https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a</strong></a></p></figcaption></figure>
-
 ## **Cool Features**
 
-{% hint style="info" %}
-With V3, Gearbox Protocol has become cooler & faster! It has its own **multicall** for complex 1-click transactions, **smart router** for the best automated routing of trades & deposits, **integrations** with Curve + Yearn + Convex + Lido, segmented pools, rates, and more...
+{% hint style="success" %}
+With V3, Gearbox Protocol has become cooler! It has its own **multicall** for complex 1-click transactions, **smart router** automated routing, **integrations** with Curve + Yearn + Convex + Lido + Maker, segmented pools, increased rates, isolated risks, and more...
 {% endhint %}
 
 {% embed url="https://blog.gearbox.fi/gearbox-protocol-v3-the-onchain-credit-layer/" %}
@@ -43,3 +37,13 @@ With V3, Gearbox Protocol has become cooler & faster! It has its own **multicall
 * From _day 0_ the focus has been on community-first [launch-phases](overview/launch-phases/ "mention").
 
 _MarketMake ETHGlobal 2021 hackathon finalist_ 🎆
+
+***
+
+### **Where is the DAO, how can I contribute?**
+
+Gearbox is a DAO, run by various contributors and initiatives. The protocol and assets are never in custody of any one single person. You can be in a DAO but not be 24/7 active, which is okay. There are different ways to get involved and get rewarded for your time and skills. See more:
+
+{% embed url="https://gearboxprotocol.notion.site/gearboxprotocol/Gearbox-DAO-Working-Sheet-23966f122ae4421492819242b30a0e7a" %}
+
+<figure><img src=".gitbook/assets/IMG_0418.png" alt=""><figcaption><p><a href="https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a"><strong>https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a</strong></a></p></figcaption></figure>
