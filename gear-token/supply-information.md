@@ -4,14 +4,14 @@ description: GEAR token contract and distribution information.
 
 # Supply Information
 
-GEAR token is an ERC20 utility token, starting off as a governance token for the protocol - and then possibly taking any other new function the DAO could envision for it. The supply of GEAR is capped at 10,000,000,000 (10 billion) which can't be technically changed. See in source code.
+GEAR token is an ERC20 utility token, starting as a governance token for the protocol - and then possibly taking any other new function the DAO could envision for it. The supply of GEAR is capped at 10,000,000,000 (10 billion) which can't be technically changed. See in source code.
 
 Token contract ERC-20: [0xba3335588d9403515223f109edc4eb7269a9ab5d](https://etherscan.io/token/0xba3335588d9403515223f109edc4eb7269a9ab5d)\
 Decimals: 18\
 Symbol: $GEAR
 
 {% hint style="success" %}
-Approximately 4% of the total supply per year (from. the DAO portion holding > 40%) goes into different initiatives and liquidity mining. The goal is to bring that number down as much as possible. All distributions beyond the initial can be found in [monthly-quarterly DAO reports](https://gearboxprotocol.notion.site/Monthly-Reports-6849871a9bae44dfb903531c0a997e8f) in Notion. **There is no new inflation in GEAR:** only DAO grants and rewards for different activities: liquidity mining, stakers, and contributors. All at a relatively low rate.
+Approximately 4% of the total supply per year (from the DAO portion holding > 40%) goes into different initiatives & liquidity mining. The goal is to bring that number down as much as possible. All distributions beyond the initial can be found in [monthly-quarterly DAO reports](https://gearboxprotocol.notion.site/Monthly-Reports-6849871a9bae44dfb903531c0a997e8f) in Notion. **There is no new inflation in GEAR:** only DAO grants and rewards for different activities: liquidity mining, stakers, and contributors. All at a relatively low rate.
 {% endhint %}
 
 
@@ -48,17 +48,19 @@ GEAR supply has been split according to a many different contributor roles:
 _Launch time_ is technically TGE, when the DAO was formed: December 15, 2021. If you read this in December 2023 & beyond, keep in mind that all seed vestings have ended.
 {% endhint %}
 
-### Initial External Contributors: 1.28%. Locked > 1 year + vesting.
+### Initial external contributors: 1.28%. Locked > 1 year + vesting.
 
-These are some amazing people who have contributed to the technical development but weren't committing capital, yet we wanted to incentivize them to work further. Lockup: 12 months since token deployment (launch), and then linear vesting over 18 months. Ends in June 2024.
+These are some amazing people who have contributed to the technical development but weren't committing capital, yet were incentivized to work further. Lockup: 12 months since token deployment (launch), and then linear vesting over 18 months. Ends in June 2024.
 
-### Initial сore contributors: 29.20%. Locked > 1 year + vesting.
-
-**Initial core members 20%** (usually referred to as "team" but here the DAO took over during the launch time, so that naming wouldn't make sense). Lockup: 12 months since token deployment (launch), and then linear vesting over 18 months. Ends in June 2024.
+### Early backers: 9.20%. Locked > 1 year + vesting.
 
 **Initial contributors 9.20%** (usually referred to as "investors" but here they were all forced to put a lot of time, so that naming wouldn't make sense - see at the bottom of the page for details). Lockup: 12 months since token deployment (launch), and then linear vesting over 12 months. Vesting ended already! See their contributions and work over 2021 clearly here:
 
 {% embed url="https://medium.com/gearbox-protocol/product-evolution-from-an-idea-to-an-app-0-to-1-contributors-united-832154e3c7ba" %}
+
+### Initial core contributors: 20%. Locked > 1 year + vesting.
+
+**Initial core members 20%** (usually referred to as "team" but here the DAO took over during the launch time, so that naming wouldn't make sense). Lockup: 12 months since token deployment (launch), and then linear vesting over 18 months. Ends in June 2024.
 
 ### Initial company wallet: 11.52%. Locked > 1 year + vesting.
 
@@ -81,6 +83,6 @@ All of the vestings can be verified on-chain, no trust required. Community retai
 
 <figure><img src="../.gitbook/assets/gearbox dao investors backers.jpg" alt=""><figcaption><p>The information on rounds, aka early contributors with vested GEAR, was taken from the main <a href="https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a">Notion page</a>.</p></figcaption></figure>
 
-* $1.585M DAO Round Part 2 in September 2022 at $150M valuation FDV with 1 year lockup and 1 year linear vesting after, ending in September 2024. [Read more here](https://gov.gearbox.fi/t/gip-18-dao-round-part-2-community-proposal/1374).
-* $4.15M DAO Round Part 1 in August 2022 at $150M valuation FDV with 1 year lockup and 1 year linear vesting after, ending in July 2024. [Read more here](https://medium.com/gearbox-protocol/dao-monthly-update-july-2022-4ce73c8fac6). The list of names: [Placeholder](https://twitter.com/placeholdervc?lang=en), [Zee Prime](https://twitter.com/ZeePrimeCap), [LedgerPrime](https://twitter.com/ledger\_prime), [Polymorphic](https://twitter.com/polymorphiccap) and [GCR](https://twitter.com/Globalcoinrsrch). See [Blockworks](https://blockworks.co/gearbox-shifts-into-v2-with-4m-funding-boost/) piece.
-* $2.3M pre-DAO Contributor Round in summer 2021. [Read here](https://medium.com/gearbox-protocol/product-evolution-from-an-idea-to-an-app-0-to-1-contributors-united-832154e3c7ba) how **these legends have actually helped Gearbox Protocol development**! The focus was on founders and angels who could help refine as well as push the product out there. [Variant Fund](https://twitter.com/variantfund), [1kx](https://twitter.com/1kxnetwork), [Lido Finance](https://twitter.com/LidoFinance) \[[P2P](https://twitter.com/P2Pvalidator)], [Focus Labs](https://twitter.com/fcslabs), [eGirl Capital](https://twitter.com/egirl\_capital), [Igor Barinov](https://twitter.com/barinov) of xDai ([zkBob](https://www.google.com/search?q=zkbob\&oq=zkbob\&aqs=chrome..69i57j69i59l2j69i60l2j69i61l2j69i60.771j0j7\&sourceid=chrome\&ie=UTF-8) & [Gnosis Chain](https://twitter.com/gnosischain)), Maker Mafia (ex & current MKR devs), [Stani Kulechov](https://twitter.com/StaniKulechov) of [Aave](https://twitter.com/AaveAave), [Anton](https://twitter.com/k06a) & [Sergey](https://twitter.com/deacix) of [1inch](https://twitter.com/1inch), [Cobie](https://twitter.com/cobie), [Launchub](https://twitter.com/LAUNCHub), [Fiskantes](https://twitter.com/Fiskantes) & [Zee Prime](https://twitter.com/zeeprimecap?lang=en), [Darren](https://twitter.com/Darrenlautf) & [Daryl](https://twitter.com/Daryllautk) Lau, [DegenScore](https://twitter.com/DegenScore), Sergey of [ICODrops](https://twitter.com/ICODrops), [Elias Simos](https://twitter.com/eliasimos) of [Rated](https://twitter.com/ratedw3b), [Santiago Santos](https://twitter.com/santiagoroel), [Larry Cermak](https://twitter.com/lawmaster) of [The Block](https://twitter.com/TheBlock\_\_), [Encode Club](https://twitter.com/encodeclub), and others. _All lockups have ended in December 2023._
+* $1.585M DAO Round Part 2 in September 2022 at $150M valuation FDV with 1 year lockup and 1 year linear vesting after, ending in September 2024. [Read more here](https://gov.gearbox.fi/t/gip-18-dao-round-part-2-community-proposal/1374). _1.05% of supply._
+* $4.15M DAO Round Part 1 in August 2022 at $150M valuation FDV with 1 year lockup and 1 year linear vesting after, ending in July 2024. [Read more here](https://medium.com/gearbox-protocol/dao-monthly-update-july-2022-4ce73c8fac6). The list of names: [Placeholder](https://twitter.com/placeholdervc?lang=en), [Zee Prime](https://twitter.com/ZeePrimeCap), [LedgerPrime](https://twitter.com/ledger\_prime), [Polymorphic](https://twitter.com/polymorphiccap) and [GCR](https://twitter.com/Globalcoinrsrch). See [Blockworks](https://blockworks.co/gearbox-shifts-into-v2-with-4m-funding-boost/) piece. _2.767% of supply._
+* $2.3M pre-DAO Contributor Round in summer 2021. [Read here](https://medium.com/gearbox-protocol/product-evolution-from-an-idea-to-an-app-0-to-1-contributors-united-832154e3c7ba) how **these legends have actually helped Gearbox Protocol development**! The focus was on founders and angels who could help refine as well as push the product out there. [Variant Fund](https://twitter.com/variantfund), [1kx](https://twitter.com/1kxnetwork), [Lido Finance](https://twitter.com/LidoFinance) \[[P2P](https://twitter.com/P2Pvalidator)], [Focus Labs](https://twitter.com/fcslabs), [eGirl Capital](https://twitter.com/egirl\_capital), [Igor Barinov](https://twitter.com/barinov) of xDai ([zkBob](https://www.google.com/search?q=zkbob\&oq=zkbob\&aqs=chrome..69i57j69i59l2j69i60l2j69i61l2j69i60.771j0j7\&sourceid=chrome\&ie=UTF-8) & [Gnosis Chain](https://twitter.com/gnosischain)), Maker Mafia (ex & current MKR devs), [Stani Kulechov](https://twitter.com/StaniKulechov) of [Aave](https://twitter.com/AaveAave), [Anton](https://twitter.com/k06a) & [Sergey](https://twitter.com/deacix) of [1inch](https://twitter.com/1inch), [Cobie](https://twitter.com/cobie), [Launchub](https://twitter.com/LAUNCHub), [Fiskantes](https://twitter.com/Fiskantes) & [Zee Prime](https://twitter.com/zeeprimecap?lang=en), [Darren](https://twitter.com/Darrenlautf) & [Daryl](https://twitter.com/Daryllautk) Lau, [DegenScore](https://twitter.com/DegenScore), Sergey of [ICODrops](https://twitter.com/ICODrops), [Elias Simos](https://twitter.com/eliasimos) of [Rated](https://twitter.com/ratedw3b), [Santiago Santos](https://twitter.com/santiagoroel), [Larry Cermak](https://twitter.com/lawmaster) of [The Block](https://twitter.com/TheBlock\_\_), [Encode Club](https://twitter.com/encodeclub). _All lockups have ended in December 2023. 9.20% of supply._

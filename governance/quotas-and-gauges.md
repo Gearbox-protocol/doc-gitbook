@@ -15,15 +15,15 @@ See a proper technical explanation here:
 
 {% embed url="https://dev.gearbox.fi/core/quota#quota-interest" %}
 
-A quota is reserved by every leverage user themselves, “_how much of any X collateral asset on my Credit Account I want to go towards the total Health Factor_”. Obviously, as much as possible. But anyway, see it as a technical implementation. It helps harmonize the distribution of limited collaterals between leverage users in a more democratic way, on the contract level.
+A quota is reserved by every leverage user themselves, “_how much of any X collateral asset on my Credit Account I want to go towards the total Health Factor_”. Probably, as much as possible. But anyway, see it as a technical implementation. It helps harmonize the distribution of limited collaterals between leverage users in a more democratic way, on the contract level. An implementation of collateral limits basically.
 
 ## G**auges**
 
 <figure><img src="../.gitbook/assets/GEAR Gauges Quotas.png" alt=""><figcaption></figcaption></figure>
 
-Interest rate paid by user for using quotas are defined by Gauge on a per-epoch basis by GEAR stakers (similar to how Curve Gauge distributes CRV rewards between different pools depending on veCRV votes). Gauges are basically a tool for “what extra APY rates on top of the usual utilization curve, for every asset separately, is being paid by a borrower every epoch” (an epoch is 7 days but could be longer). This is how the protocol bills extra for quotas, essentially.&#x20;
+Interest rate paid by user for using quotas are defined by Gauges on a per-epoch basis by GEAR stakers (similar to how Curve Gauge distributes CRV rewards between different pools depending on veCRV votes). Gauges are basically a tool for “what extra APY rates on top of the usual utilization curve, for every asset separately, is being paid by a borrower every epoch” (an epoch is 7 days but could be longer). This is how the protocol bills extra for quotas, essentially.&#x20;
 
-But Gearbox gauges are not like inflationary gauges in Curve, nono, quite the opposite.&#x20;
+But **Gearbox gauges are not like inflationary gauges** in Curve, nono, quite the opposite.&#x20;
 
 > Gauges are the instruments with which it is decided how much for every quota is paid. GEAR stakers freeze their tokens (against governance attacks) and then vote.
 
@@ -32,11 +32,15 @@ But Gearbox gauges are not like inflationary gauges in Curve, nono, quite the op
 Quotas interest rate change happens on a per epoch basis - after epoch starts, quota interest rate for users doesn’t change until next epoch, while voters can change their votes continuously.
 
 {% hint style="info" %}
-In order to be able to vote for different Quotas, user should stake his GEAR into Gauge. He can stake to Gauge his GEAR any- time, he can re-vote for different assets anytime (even if this assets in different Gauges), while withdraw from Gauge system has 4-epoch lock.
+In order to be able to vote for different Quotas, a user should stake his GEAR into Gauge. They can stake to Gauge their GEAR any time, can re-vote for assets anytime (even if their assets are in different Gauges). Withdrawing from the Gauge system has a 4-epoch lock. One epoch currently is 1 week, so that is 28 days to unstake. Done for safety.
 {% endhint %}
 
-The logic behind Quotas is that user pays additional interest rate for using quotas (goes both to LPs and DAO) and that there is cumulative maximum Quota for each asset. See more in:
+The logic behind Quotas is that users pay additional interest rate for using quotas (goes both to LPs and DAO) and that there is cumulative maximum Quota for each asset. See more in:
 
 {% content-ref url="../overview/protocol-fees.md" %}
 [protocol-fees.md](../overview/protocol-fees.md)
 {% endcontent-ref %}
+
+{% hint style="success" %}
+These exra fees are accummulated in a [Fee Guard](setup/guards-multisigs.md#fee-temporary-guard-5-10) and can be voted on to be distributed. Check the [Utility & Staking page](../gear-token/utility-and-staking.md) to see more on how GEAR holders can vote on it.
+{% endhint %}

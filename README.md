@@ -9,7 +9,7 @@ description: Generalized Leverage Protocol ⚙ Built with composability in mind 
 Gearbox Protocol brings you composable leverage, allowing anyone to margin trade on Uniswap, leverage farm on Curve, leverage stake on Lido, and use 10X more capital on protocols you love. Making decentralized leverage a reality thanks to Credit Account abstraction, bringing together lending and prime brokerage in the same protocol.&#x20;
 
 * Lenders deposit assets to [earn passive yield](lending-market/manage-liquidity.md), single-asset, no impermanent loss.
-* Meanwhile, the leverage side users borrow these assets to create spot leverage positions, which can be used across DeFi. That could be margin trading on Uniswap, farming on Curve and Balancer, leverage staking on Lido, running delta-neutral complex strategies, and more. All of that is made possible with Gearbox’s innovative [Credit Account](overview/credit-account/) abstraction.
+* Meanwhile, the leverage side users borrow these assets to create spot leverage positions, which can be used across DeFi. That could be margin trading on Uniswap, farming on Curve and Balancer, leverage staking on Lido, running delta-neutral complex strategies, and more. YOU decide! All of that is made possible with Gearbox’s innovative [Credit Account](overview/credit-account/) abstraction.
 
 > The core vision is to become a **leverage / credit layer**. You can envision building your own DeFi protocol and just making a “take leverage with Gearbox” as a button. And _bam_ - your users are now more capital efficient. Check this page to understand why [composable leverage 2.0 is cool](what-can-you-do-with-leverage-2.0.md)!
 
