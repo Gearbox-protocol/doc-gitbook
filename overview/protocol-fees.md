@@ -7,7 +7,7 @@ description: The protocol takes fees for different operations.
 {% hint style="success" %}
 1. All protocol fees that the DAO earns go to the [fee guard](../governance/setup/guards-multisigs.md#fee-temporary-guard-5-10). Nothing is assumed for the core contributors or the foundation. The protocol is fully operated by holders.
 2. Because Gearbox is modular, fees are not protocol-wide. They can be different from one Credit Manager to another, depending on the liquidity of a given asset and type.
-3. Most of the fees are static and are voted in via the [main governance process](../governance/setup/), however, [Quota fees with Gauges](../governance/quotas-and-gauges.md) are voted on separately onchain every epoch.
+3. Most of the fees are static and are voted in via the [main governance process](../governance/setup/), however, [Quota fees with Gauges](../governance/quotas-and-gauges/) are voted on separately onchain every epoch.
 {% endhint %}
 
 ### **Liquidation Fee**

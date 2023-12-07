@@ -21,7 +21,7 @@ Do you feel like some question is missing? [Send it on Discord](https://discord.
 
 Since Gearbox Protocol has two sides to it, the fees you are paying depend on what user type you are. **If you are a passive lender, there is no direct fee for becoming one**.
 
-If you are a leverage user, you are paying a borrow interest fee (which fluctuates depending on [utilization ratio](../lending-market/pools-and-apy/#how-to-calculate-apy)) + [Quotas](../governance/quotas-and-gauges.md) which are also dynamic + [liquidation fees to the protocol and a liquidator](protocol-fees.md#trader-farmer-fees). The latter you pay only if you are liquidated. All fees are configurable by [DAO](../governance/setup/), see [protocol-fees.md](protocol-fees.md "mention").
+If you are a leverage user, you are paying a borrow interest fee (which fluctuates depending on [utilization ratio](../lending-market/pools-and-apy/#how-to-calculate-apy)) + [Quotas](../governance/quotas-and-gauges/) which are also dynamic + [liquidation fees to the protocol and a liquidator](protocol-fees.md#trader-farmer-fees). The latter you pay only if you are liquidated. All fees are configurable by [DAO](../governance/setup/), see [protocol-fees.md](protocol-fees.md "mention").
 
 #### - What are dTokens like dUSDC and dWBTC?&#x20;
 

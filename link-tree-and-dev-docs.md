@@ -14,15 +14,15 @@ description: Useful links about many things in the Gearbox ecosystem.
 
 #### dApps
 
-* Main website: [https://gearbox.fi/](https://gearbox.fi/)
 * Extended dApp: [https://app.gearbox.fi/](https://app.gearbox.fi/)
-* Trading dApp:&#x20;
+* Trading dApp: [https://pure.gearbox.fi/ ](https://pure.gearbox.fi/)
 * Analytics: [https://charts.gearbox.finance/](https://charts.gearbox.finance/)
 
 #### Socials and DAO
 
+* Main website: [https://gearbox.fi/](https://gearbox.fi/)
 * Discord 👾 [https://discord.com/invite/gearbox](https://discord.com/invite/gearbox)
-* Forum (Inside Discord): [https://discord.com/invite/gearbox](https://discord.com/invite/gearbox)
+* Forum (in Discord): [https://discord.com/invite/gearbox](https://discord.com/invite/gearbox)
 * Telegram: [https://t.me/GearboxProtocol](https://t.me/GearboxProtocol)
 * Twitter: [https://twitter.com/GearboxProtocol](https://twitter.com/GearboxProtocol)
 * Blog: [https://blog.gearbox.fi/](https://blog.gearbox.fi/)

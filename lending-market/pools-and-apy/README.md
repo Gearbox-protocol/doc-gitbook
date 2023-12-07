@@ -44,7 +44,7 @@ As for the GEAR or any other extra token yields, those are accruing to your **st
 The yield comes from multiple sources:
 
 1. Borrowers pay fees according to the regular utilization curve (explained below). The more the liquidity in the pools is utilized, the higher the rate. This is similar to other lending protocols.
-2. Borrowers pay extra fees according to the quota fees (see in [Protocol Fees](../../overview/protocol-fees.md)). These fees can be configured by GEAR stakers and vary from epoch to epoch. See the [Gauges page](../../governance/quotas-and-gauges.md) for more.
+2. Borrowers pay extra fees according to the quota fees (see in [Protocol Fees](../../overview/protocol-fees.md)). These fees can be configured by GEAR stakers and vary from epoch to epoch. See the [Gauges page](../../governance/quotas-and-gauges/) for more.
 3. Any extra rewards in the form of GEAR or other tokens that are being available.
 
 #### 1. Two-Tick Utilization Curve

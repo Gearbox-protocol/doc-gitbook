@@ -34,10 +34,10 @@ The V3 interface features an extended view. It helps you see what assets borrowe
 
 <figure><img src="../.gitbook/assets/GEAR Gauge Passive Pool.png" alt=""><figcaption></figcaption></figure>
 
-This transparency dashboard helps you better assess risks in different pools. For example, you can be comfortable that borrowers are leverage staking in Lido - but not comfortable that they are trading APE with leverage. As a result, if risk segmentation allows for it, you can choose a different pool to lend to. Or even better, you can stake the GEAR you earned to [vote in gauges](../governance/quotas-and-gauges.md) and increase the rates APE traders are paying to you. This way, you increase your R/R because you bill them higher!
+This transparency dashboard helps you better assess risks in different pools. For example, you can be comfortable that borrowers are leverage staking in Lido - but not comfortable that they are trading APE with leverage. As a result, if risk segmentation allows for it, you can choose a different pool to lend to. Or even better, you can stake the GEAR you earned to [vote in gauges](../governance/quotas-and-gauges/) and increase the rates APE traders are paying to you. This way, you increase your R/R because you bill them higher!
 
 * Vote on the quota limits and collateral limits being lower or higher with [main voting](../governance/setup/);
-* Vote on the quota fees being lower or higher with [Gauges](../governance/quotas-and-gauges.md).
+* Vote on the quota fees being lower or higher with [Gauges](../governance/quotas-and-gauges/).
 
 {% hint style="info" %}
 Conceptually, because Gearbox has a modular architecture, risks are very much isolated and are not shared across different pools. You can envision a Gearbox with totally personalized lender exposure down the line. If there will be demand for it, it can be done!

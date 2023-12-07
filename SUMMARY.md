@@ -53,7 +53,8 @@
 * [Main DAO Governance](governance/setup/README.md)
   * [Guards \[Multisigs\]](governance/setup/guards-multisigs.md)
   * [Community Delegates](governance/setup/community-delegates.md)
-* [Quotas and Gauges](governance/quotas-and-gauges.md)
+* [Quotas and Gauges](governance/quotas-and-gauges/README.md)
+  * [Gauges Voting Dashboard](governance/quotas-and-gauges/gauges-voting-dashboard.md)
 
 ## GEAR Token
 
