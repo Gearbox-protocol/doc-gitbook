@@ -54,7 +54,7 @@
   * [Guards \[Multisigs\]](governance/setup/guards-multisigs.md)
   * [Community Delegates](governance/setup/community-delegates.md)
 * [Quotas and Gauges](governance/quotas-and-gauges/README.md)
-  * [Gauges Voting Dashboard](governance/quotas-and-gauges/gauges-voting-dashboard.md)
+  * [Dashboard: Gauge Voting](governance/quotas-and-gauges/dashboard-gauge-voting.md)
 
 ## GEAR Token
 

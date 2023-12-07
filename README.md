@@ -23,7 +23,8 @@ Gearbox Protocol brings you composable leverage, allowing anyone to margin trade
 With V3, Gearbox Protocol has become cooler! It has its own **multicall** for complex 1-click transactions, **smart router** automated routing, **integrations** with Curve + Yearn + Convex + Lido + Maker, segmented pools, increased rates, isolated risks, and more...
 {% endhint %}
 
-* **Composable.** Gearbox does not have its own order book or trading environment. The leverage you get - is used across multiple DeFi protocols and assets, fully composable!
+* **Modularity.** Gearbox Protocol is not just a couple of pools, it's an entire architecture of smart contracts which are all plug-and-play enabled. Depending on use cases and risk segmentation, different pieces can be reassembled to enable new features without much extra work.
+* **Composability.** Gearbox does not have its own order book or trading environment. The leverage you get - is used across multiple DeFi protocols and assets, fully composable!
 * **0% Funding Rates**. The leverage offered is not based on derivative positions but is instead executed with real assets on third-party protocols. Because Gearbox does not create its own trading pairs, there is no short/long ratio that needs to be maintained with funding rates.&#x20;
 * **Leverage as a Service.** Other protocols can offer leverage to their users with the help of Gearbox Protocol, without modifying anything in their own architecture.
 * **Permissionless within safety.** Positions and trades within Credit Accounts can be extended to include complex strategies, for example, making a short position farm in Yearn; or having LP tokens as collateral for more composable actions. In fact, you can make all of these complex things easier to ape into, by using Gearbox's unique multicall features.
