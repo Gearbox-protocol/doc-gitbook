@@ -14,6 +14,10 @@ By default, accrued fees are used to cover losses of the pools in case a the Cre
 
 Of course, such a design has limitations: the maximum amount of losses compensated by the Reserve Fund is limited by the valuation of LP tokens owned by the DAO Treasury. By default, all payments that DAO Treasury receives from the protocol are made in LP tokens. However, DAO can manage it by withdrawing part of the funds from the pool (thus, instead of LP tokens, Treasury will receive the usual underlying asset of the pool aka idle assets). This way, the DAO can limit itself depending on how much it wants its earnings to be exposed to the Reserve Fund.
 
+> Essentially the Gearbox dTokens inside this Fee Guard are the Insurance Fund. Anything that is not in dTokens has likely been voted to be unwrapped and kept as non Insurance Fund. Any other tokens are not counted towards the Insurance Fund size. And this only applies to V3 contracts.
+>
+> [https://debank.com/profile/0x3e965117a51186e41c2bb58b729a1e518a715e5f](https://debank.com/profile/0x3e965117a51186e41c2bb58b729a1e518a715e5f)
+
 {% hint style="warning" %}
 This Reserve Fund model doesn't relate to actual software hacks. It specifically covers cases of under-collateralization due to incorrect liquidations. See what [risks](../../risk-and-security/risks-terms.md#protocol-technical-disclosure) there are.
 {% endhint %}
