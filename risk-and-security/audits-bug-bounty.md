@@ -10,7 +10,7 @@ Keep in mind that no number of audits can guarantee full safety. There are alway
 
 ## Audits
 
-<figure><img src="../.gitbook/assets/gearbox audits.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Gearbox Protocol GEAR audits ABDK Chain Security Sigma Prime MixBytes (1).PNG" alt=""><figcaption></figcaption></figure>
 
 * **ChainSecurity** (): full V3 coverage, report
 * **ABDK** (): full V3 coverage, report
