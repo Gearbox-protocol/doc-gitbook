@@ -2,7 +2,7 @@
 description: Get involved!
 ---
 
-# Governance Model
+# Main DAO Governance
 
 {% hint style="info" %}
 **Where is the DAO, how can I contribute?**
@@ -91,8 +91,8 @@ This way, **community voices are over x2 bigger in its voting power than early c
 
 Snapshot page delegation is turned on for delegators from the community to unite and allow smaller holders get their voice. Anyone can delegate to any delegator or multiple delegators at once, including initial core members and contributors. But their votes are reduced, to even out the playing field. See the point above for all the details. This is done on the snapshot page.
 
-{% content-ref url="../community-delegates.md" %}
-[community-delegates.md](../community-delegates.md)
+{% content-ref url="community-delegates.md" %}
+[community-delegates.md](community-delegates.md)
 {% endcontent-ref %}
 
 ### A minimum of 3 days period must be selected on the snapshot

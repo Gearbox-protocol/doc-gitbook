@@ -12,7 +12,7 @@ Currently, it seems that GEAR has a few different ways to be used, and those can
 
 ### Main DAO Governance: Snapshot
 
-Directing protocol treasury and grants, voting on parameters, onboarding assets and protocols, and so on. That happens on snapshot, see how on [governance page](../governance/setup/). You can vote on proposals or propose yourself even if you don't hold idle GEAR but have them in the GEAR-ETH Curve LP. Then your GEAR is taken into account, for [delegation](../governance/community-delegates.md) as well. Snapshot can expand its "strategies" to also account for [Quotas & Gauges](utility-and-staking.md#quotas-and-gauges) balances of stakers, and so on. It's configurable.
+Directing protocol treasury and grants, voting on parameters, onboarding assets and protocols, and so on. That happens on snapshot, see how on [governance page](../governance/setup/). You can vote on proposals or propose yourself even if you don't hold idle GEAR but have them in the GEAR-ETH Curve LP. Then your GEAR is taken into account, for [delegation](../governance/setup/community-delegates.md) as well. Snapshot can expand its "strategies" to also account for [Quotas & Gauges](utility-and-staking.md#quotas-and-gauges) balances of stakers, and so on. It's configurable.
 
 {% content-ref url="../governance/setup/" %}
 [setup](../governance/setup/)
