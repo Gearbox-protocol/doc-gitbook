@@ -46,7 +46,7 @@
 
 * [Pools & APY](lending-market/pools-and-apy/README.md)
   * [OLD: V1-V2 Pools](lending-market/pools-and-apy/old-v1-v2-pools.md)
-* [Dashbord: How to Earn](lending-market/manage-liquidity.md)
+* [Dashboard: How to Earn](lending-market/manage-liquidity.md)
 
 ## GOVERNANCE | DAO <a href="#governance" id="governance"></a>
 
