@@ -4,7 +4,7 @@ description: Some tips for skilled [degenerate] farmers and traders.
 
 # PRO: Leverage Bible
 
-### A different concept of "collateral"
+### A different understanding of "collateral"
 
 DeFi users are accustomed to think of collateral as "idle asset, sits there and changes my borrowing power for better or worse". With Gearbox, it's not exactly like that. That is because the entire composition of your Credit Account, whatever you have on it - be it WBTC or a farm token - acts as collateral to your debt at the same time - denominated in the debt asset, of course.&#x20;
 
@@ -32,12 +32,12 @@ The protocol works without any trust or off-chain mechanisms, so the values are 
 
 There is the [#credit-account-min-max-borrow-limits](how-to-open-account.md#credit-account-min-max-borrow-limits "mention") which can change per DAO voting. But let's imagine you are in-between and don't care of the absolute values.
 
-* Min leverage is only defined by the [minimum borrow amount](how-to-open-account.md#credit-account-min-max-borrow-limits). If $100K is the min: it can be an x2 position if you do it with $100K as collateral \[your collateral worth $100K where $100K is the minimum limit x2 leverage = $200K total] - or can be an x1.01 if your collateral amount is $10M.
+* Min leverage is only defined by the minimum borrow amount. If $100K is the min: it can be an x2 position if you do it with $100K as collateral \[your collateral worth $100K where $100K is the minimum limit x2 leverage = $200K total] - or can be an x1.01 if your collateral amount is $10M.
 * Now, the maximum leverage is more complex than that...
 
 ### How to calculate max leverage?
 
-First of all, you need to understand how [Health Factor](../overview/liquidations/#what-is-a-health-factor) works. In a nutshell, all of the assets on your Credit Account are denominated in the debt asset you took as a borrowable asset. In other words, all the assets on your Credit Account in total act as collateral. Whether you have some ERC20s on your CA or farming positions - all of them have LTVs with respect to the debt asset you have chosen. [See all of the LTVs on this page](../overview/credit-account/allowedlist-policy/#allowed-assets-list). For the calculations below, convert them from %.
+First of all, you need to understand how [Health Factor](../overview/liquidations/#what-is-a-health-factor) works. In a nutshell, all of the assets on your Credit Account are denominated in the debt asset you took as a borrowable asset. In other words, all the assets on your Credit Account in total act as collateral. Whether you have some ERC20s on your CA or farming positions - all of them have LTVs with respect to the debt asset you have chosen.
 
 {% hint style="info" %}
 In case you want simple liquidation levels, you can isolate positions per different debt assets. Like: stablecoin farm vs stablecoin debt asset. Or ETH Lido farms with wstETH or WETH as debt. Then it's much simpler for you to know the liquidation prices. In case you cross-margin a few positions with different assets within a single Credit Account, it becomes harder. But maybe that's your goal after all, like those trying to go delta-neutral or get _paying_ longs [long.md](strategies/long.md "mention").
@@ -49,7 +49,7 @@ $$
 1 / (1 – LT)
 $$
 
-Let's say you go into Convex GUSD3crv farm \[stkcvxgusd3CRV] with debt as USDC. If [LTV](../overview/credit-account/allowedlist-policy/#allowed-assets-list) for that is 90, the max leverage would be: 1/(1-0,90) = 10x. Let's do yvCurve-stETH \[Yearn farm for stETH/ETH Curve pool] with WETH as debt. The LTV for either is 90 right now. That means 1/(1-0,90) = 10x as well. _If LTVs for some farms become higher, more leverage could be applied._
+Let's say you go into Convex GUSD3crv farm \[stkcvxgusd3CRV] with debt as USDC. If LTV for that is 90, the max leverage would be: 1/(1-0,90) = 10x. Let's do yvCurve-stETH \[Yearn farm for stETH/ETH Curve pool] with WETH as debt. The LTV for either is 90 right now. That means 1/(1-0,90) = 10x as well. _If LTVs for some farms become higher, more leverage could be applied._
 
 That's technically the max leverage you can take which will make your HF = 1. If the deviations in assets within a farm \[assets on your Credit Account acting as collateral] never occur - then you can remain as is, but that's VERY risky. It's better to count in some fluctuations.
 
@@ -65,7 +65,7 @@ These tips are for traders & farmers who are absolutely degenerate. Maximum leve
 Keep in mind that in reality you could encounter slippage, fast price changes, and other scenarios - so don't try to squueze every last drop unless you are a MEV guru. It's better to be safe and reduce your desired leverage factor by at least a factor of 0.25 or 0.5 to account for those. It still keeps you maxed out but [helps avoid a liquidation](credit-account-dashboard-overview/kak-ne-byt-rekt.md).&#x20;
 {% endhint %}
 
-Let's say you want to go into FRAX3Crv. Out of all the assets inside, you might think that FRAX has some perceived risk. Maybe yes maybe no, doesn't matter for this exercise. Your debt asset is USDC, and you just wanna max out this farm. Let's say [LTV](../overview/credit-account/allowedlist-policy/#allowed-assets-list) is 90. The formula is:
+Let's say you want to go into FRAX3Crv. Out of all the assets inside, you might think that FRAX has some perceived risk. Maybe yes maybe no, doesn't matter for this exercise. Your debt asset is USDC, and you just wanna max out this farm. Let's say LTV is 90. The formula is:
 
 $$
 N = 1 / (1-LT*p)
@@ -94,9 +94,7 @@ $$
 That is max leverage factor you can apply if you are afraid of stETH ever revisiting its lows compared to the debt asset (ETH). In case you think the lows could be 0.90 relative to ETH, then the max leverage would be: 1/(1-0,90\*0,90) = 5.26. Still, pretty damn capital efficient to farm with such leverage! _FYI, Gearbox Protocol currently uses USD Chainlink price feeds, so the ETH debt calculations are using an extra hoop when it comes to conversions._
 
 {% hint style="warning" %}
-Check the oracles section below to understand that Gearbox uses Chainlink USD oracles, except for the composite oracle voted for in [GIP-28](https://gov.gearbox.fi/t/gip-28-update-steth-oracle/1975/11) that is used to avoid price feed discrepancies for ETH-correlated assets, such as stETH.
-
-Also, check [this article](https://medium.com/gearbox-protocol/product-evolution-v2-gearbox-protocol-from-1-to-2-going-further-dcedf3b5d959) about Yearn, Curve, & other oracles. And read code!
+Check [this article](https://medium.com/gearbox-protocol/product-evolution-v2-gearbox-protocol-from-1-to-2-going-further-dcedf3b5d959) about Yearn, Curve, & other oracles. And read code!
 {% endhint %}
 
 ### Where do price feeds come from?
@@ -105,7 +103,7 @@ Great question, degen! You probably want to leave a bit of a leeway for some pri
 
 With farming positions it's a bit more tricky. For the implementation of Curve pool oracles \[as such, Yearn & Convex positions for these assets respectively too], custom PriceFeeds look at _virtualprice \* Chainlink price of the cheapest asset inside the pool._ That is because in an event that any one asset inside a Curve pool goes down in price, the pool automatically trades into that asset. So while not a 100% will be traded into it immediately, for the safety of Gearbox Protocol, the worst case scenario is assumed when calculating the position value.
 
-\-> [You can check the price feeds on-chain](https://etherscan.io/address/0x6385892aCB085eaa24b745a712C9e682d80FF681#readContract). Other [contracts deployed are available here](https://dev.gearbox.fi/docs/documentation/deployments/deployed-contracts/).
+\-> [Contracts deployed are available here](https://dev.gearbox.fi/docs/documentation/deployments/deployed-contracts/).
 
 {% hint style="info" %}
 For the avoidance\* of Cream-like flash loan attacks, there is a min-max range applied to LP token price shares, which can be observed in the code/audits + mentioned in [here](https://medium.com/gearbox-protocol/product-evolution-v2-gearbox-protocol-from-1-to-2-going-further-dcedf3b5d959).
@@ -163,5 +161,3 @@ Now, go, degen -> [go into the world of composable leverage](https://app.gearbox
 {% hint style="warning" %}
 When exercising max leverage - you should keep in mind that even a few-minutes of interface not responding properly \[Infura/Alchemy downtime, bugs, whatever it is] can lead to liquidations. Everyone remembers the "oops maintaince mode" of BitMex? Well, in DeFi you can influence these cases, because the contracts are on-chain / verified - as such, you can interact with them directly without any interface. [See the contracts](https://dev.gearbox.fi/docs/documentation/deployments/deployed-contracts/).
 {% endhint %}
-
-See the [registry of contracts](https://dev.gearbox.fi/docs/documentation/deployments/deployed-contracts/) and understand how they work to be safer!
