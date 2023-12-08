@@ -4,13 +4,17 @@ description: Quick overview of what is possible with Gearbox Protocol's Credit A
 
 # What can you do with leverage 2.0?
 
-The way we are used to leverage is having a _"short BTC" button_ on an exchange, where you put your assets as collateral and get a liquidation price which you can adjust by adding funds or closing the position. That's ok, everyone knows it, but then... that's it? Feels too restricted.
+The way we are used to leverage is having a _"short BTC" button_ on an exchange, where you put your assets as collateral and get a liquidation price. You can adjust by adding funds or closing the position. That's ok, everyone knows it, but then... that's it? Feels too restricted. Feels very boomer...
 
-> Your short is just sitting there and you can't utilize the position further... Sucks!
+> Your short is just sitting there and you can't utilize the position further. Sucks!
 
 ### _**...what if you could do more with leverage?**_
 
-Gearbox Protocol doesn't give you 2 slick buttons "long" or "short". It gives you more capital to work with, which then YOU DECIDE where to deploy into. For example:
+Gearbox Protocol doesn't give you 2 slick buttons "long" or "short". It gives you more capital to work with, which then YOU DECIDE where to deploy into. The leverage you get with Gearbox doesn't get isolated inside its own pools. No perps in here!&#x20;
+
+> Your trades and farms are executed with the global DEX liquidity of other protocols.
+
+For example, you can get **an ETH short or long that farms at the same time**.
 
 ![You basically get a short which then makes you money yield farming, and the yield farming LP tokens you can potentially utilize for something else. The lego building blocks can all happen within Credit Accounts!](<.gitbook/assets/Screenshot 2021-10-19 at 00.41.47 (1).png>)
 
@@ -18,7 +22,7 @@ Gearbox Protocol doesn't give you 2 slick buttons "long" or "short". It gives yo
 [long.md](traders-and-farmers/strategies/long.md)
 {% endcontent-ref %}
 
-Gearbox only limits you within the boundaries of security according to [AllowedList policy](overview/credit-account/#allowed-list-policy), to make sure funds are not syphoned out. Apart from that, you as a user decide what complex strategies and trades you want to execute thanks to Gearbox leverage.&#x20;
+Gearbox only limits you within the boundaries of security (assets and protocols whitelisted) to make sure funds are not syphoned out. Apart from that, you as a user decide what complex strategies and trades you want to execute with Gearbox leverage. YOU are in charge!
 
 **Gearbox is your leveraged DeFi wallet. Continue doing what you love, but with more capital ❤**
 
@@ -30,9 +34,7 @@ Here is one more:
 [arb-correlated-assets.md](traders-and-farmers/strategies/arb-correlated-assets.md)
 {% endcontent-ref %}
 
-This is why we call it leverage 2.0 and value composability so highly!&#x20;
-
-If the value of social interactions also becomes liquid and tradeable, like some try to do with social tokens, then undercollateralized loans don't even need to exist per se: Gearbox would potentially be able to calculate the price of any such interaction.&#x20;
+This is why we call it leverage 2.0 and value composability so highly.
 
 {% hint style="success" %}
 This also **reimagines how undercollateralized loans can work**, because such a system can potentially calculate on-chain values of many things, be it: tokens you trade, LP positions, your reputation score if it's liquid, your vested investments, NFTs, RWA, and so on.
