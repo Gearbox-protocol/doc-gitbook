@@ -10,7 +10,7 @@
 * [Credit Accounts](overview/credit-account/README.md)
   * [AllowedList Policy](overview/credit-account/allowedlist-policy/README.md)
     * [OLD: V1 and V2](overview/credit-account/allowedlist-policy/old-v1-and-v2.md)
-  * [How to add new Contracts & Assets to CA AllowedList](overview/credit-account/how-to-add-new-contracts-and-assets-to-ca-allowedlist.md)
+  * [How to add new Contracts & Assets to CA AllowedList](overview/credit-account/how-to-add-new-assets-protocols.md)
 * [Liquidations](overview/liquidations/README.md)
   * [Reserve Fund](overview/liquidations/insurance-fund.md)
 * [Protocol Fees](overview/protocol-fees.md)
