@@ -20,14 +20,14 @@ The asset you lend to the protocol would be able to be utilized, aka borrowed fo
 The positions which traders and farmers take should be liquidated by third-party [liquidators](../../overview/liquidations/) before the assets of liquidity providers would start being exposed to the downside. As such, the protocol returns the liquidity providers’ assets to the pools. This is how Gearbox is able to provide composable leverage.
 
 {% hint style="info" %}
-Because Gearbox architecture is modular, there can exist multiple pools for the same asset. Each pool would then be isolated from one another and can have different [AllowedList](../../overview/credit-account/allowedlist-policy/).
-
-**Gearbox lending pools are ERC-4626.**
+Because Gearbox architecture is modular, there can exist multiple pools for the same asset. Each pool would then be isolated from one another and can have different [AllowedList](../../overview/credit-account/allowedlist-integrations/).
 {% endhint %}
 
 ## Pool tokens: (staked) Diesel Tokens
 
-When you supply capital to a pool, you get Diesel Tokens, also known as dTokens, back. These tokens automatically earn interest & fees proportional to your share of the pool [like cTokens on Compound](https://compound.finance/docs/ctokens) or Yearn LP tokens. You don’t need to claim interest or perform any other actions, your Diesel Tokens grow in value. _This is if the pool doesn't suffer losses from incorrect liquidations._
+**Gearbox lending pools are ERC-4626.**
+
+When you supply capital to a pool, you get Diesel Tokens, also known as dTokens. These tokens automatically earn interest & fees proportional to your share of the pool [like cTokens on Compound](https://compound.finance/docs/ctokens) or Yearn LP tokens. You don’t need to claim interest or perform any other actions, your Diesel Tokens grow in value. _This is if the pool doesn't suffer losses from incorrect liquidations._
 
 Getting Diesel tokens is super easy, you can try it out by [supplying liquidity to Gearbox Protocol](../manage-liquidity.md#supplying-liquidity).
 
@@ -43,8 +43,8 @@ As for the GEAR or any other extra token yields, those are accruing to your **st
 
 The yield comes from multiple sources:
 
-1. Borrowers pay fees according to the regular utilization curve (explained below). The more the liquidity in the pools is utilized, the higher the rate. This is similar to other lending protocols.
-2. Borrowers pay extra fees according to the quota fees (see in [Protocol Fees](../../overview/protocol-fees.md)). These fees can be configured by GEAR stakers and vary from epoch to epoch. See the [Gauges page](../../governance/quotas-and-gauges/) for more.
+1. Borrowers pay rates according to the regular utilization curve (explained below). The more the liquidity in the pools is utilized, the higher the rate. This is similar to other lending protocols.
+2. Borrowers pay extra rates according to gauges (see in [Protocol Fees](../../overview/protocol-fees.md#gauges-extra-apy-rate)). These rates can be configured by GEAR stakers and vary from epoch to epoch.
 3. Any extra rewards in the form of GEAR or other tokens that are being available.
 
 #### 1. Two-Tick Utilization Curve
@@ -66,7 +66,7 @@ Previously, when a new Credit Account was opened or closed to utilization 1-tick
 
 #### 2. Gauges
 
-The above was the only source of organic yield previously. With V3, there are also Gauges for Quotas. They establish extra interest rates on top of the regular ones. Then those are shared between passive lender pools (thus making APYs higher) as well as the DAO. See more in:
+The above was the only source of organic yield previously. With V3, there are also Gauges. They establish extra interest rates on top of the regular ones. Then those are shared between passive lending pools (thus making APYs higher) as well as the DAO. See more in:
 
 {% content-ref url="../../overview/protocol-fees.md" %}
 [protocol-fees.md](../../overview/protocol-fees.md)
@@ -82,14 +82,14 @@ Check the interface for the latest information. Those are accruing to your **sta
 
 V3 brings an extra logic possible with passive pools: inherited, or alpha, pools.
 
-<figure><img src="../../.gitbook/assets/Modular Gearbox Pools.png" alt=""><figcaption></figcaption></figure>
+This helps isolate risks without fragmenting liquidity. The extra APY in the Alpha pool would be at minimum (as a rule) the base APY of the Main pool + base APY of the Alpha pool + the extra fees taken from the quotas. As such, Alpha pools will earn the minimum of the Main pool + extra.
 
 Those pools are not separately isolated, but are rather "built on top" of an existing pool. With the use of Alpha pools, passive lenders of the Main pool would be able to opt-in to passive lend into these as well. Therefore, Alpha pools can have their liquidity work in two places at the same time. That is due to the fact that Alpha pool liquidity, if not utilized, is used in the Main pool it's essentially attached to.
 
-This helps isolate risks without fragmenting liquidity. The extra APY in the Alpha pool would be at minimum (as a rule) the base APY of the Main pool + base APY of the Alpha pool + the extra fees taken from the quotas. As such, Alpha pools will earn the minimum of the Main pool + extra.
+<figure><img src="../../.gitbook/assets/Modular Gearbox Pools.png" alt=""><figcaption></figcaption></figure>
 
 In the future, there can be Pool N or other pools like the Alpha pool… modularity doesn’t have to stop. This modularity overall helps granularize risks while allowing for growth. Such a pool setup doesn’t fractionalize liquidity which is also quite important for lending-like protocols.
 
 {% hint style="info" %}
-There are also things like max borrow limit, pool limits - for different Credit Managers. Check the [AllowedList Policy](../../overview/credit-account/allowedlist-policy/) page for the links to understand this better. Alternatively, the interface shows this information as well, in a minimalistic way. [See the explanation](../manage-liquidity.md).
+There are also things like max borrow limit, pool limits - for different Credit Managers. Check the [AllowedList Policy](../../overview/credit-account/allowedlist-integrations/) page for the links to understand this better. Alternatively, the interface shows this information as well, in a minimalistic way. [See the explanation](../manage-liquidity.md).
 {% endhint %}

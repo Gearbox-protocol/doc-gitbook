@@ -23,11 +23,11 @@ Operations available to users are restricted by two policies:
 
 Both policies are managed by [governance](../../governance/setup/) and can grow to enable more assets and protocol.
 
-{% content-ref url="allowedlist-policy/" %}
-[allowedlist-policy](allowedlist-policy/)
+{% content-ref url="allowedlist-integrations/" %}
+[allowedlist-integrations](allowedlist-integrations/)
 {% endcontent-ref %}
 
-Gearbox architecture is very modular, so it's not just that there is an allowed asset for the entire protocol - there are different pools and **can even be multiple pools for the same asset**. There can be **different Credit Managers with different AllowedList policies**, etc. The information below is just an easy-to-grasp understanding for product users. Developers should dive into the tech section in Gearbox Dev docs and understand the intricacies. Namely, the tree goes as follows:
+Gearbox architecture is very modular, so it's not just that there is an allowed asset for the entire protocol - there are different pools and **can even be multiple pools for the same asset**. There can be **different Credit Managers with different AllowedList policies**, etc. The information below is just an easy-to-grasp understanding for product users. Developers should dive into the tech section in Gearbox Dev docs and understand the intricacies.
 
 * Pool
   * Credit Manager
