@@ -55,12 +55,12 @@ Gearbox protocol has a modular architecture.&#x20;
 The main logic is encapsulated in the core layer which supports operations for both protocol sides. It allows connecting customized pools with Credit Account managers without changing the internal codebase, and thus simplifying integrations.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Gearbox Modular Archtecture.png" alt=""><figcaption></figcaption></figure>
-
 The goal of Gearbox is to be integrated with existing and new protocols in an open-source manner and provide leverage across many user bases and products. Because of its modularity, leverage can be given to even long-tail assets without increasing passive lending side risks.
 
 There could be segmentation of risks, personalized rates, collateral limits, and other mechanisms which allow modularity to shine and Gearbox to service different user groups. That could be farming, trading, sophisticated LP-ing, NFT and RWA leveraging, and so on.
 
-See in detail the developer explanation:
+<figure><img src="../.gitbook/assets/Gearbox Modular Archtecture.png" alt=""><figcaption></figcaption></figure>
+
+See a more detailed developer explanation:
 
 {% embed url="https://dev.gearbox.fi/credit/architecture" %}
