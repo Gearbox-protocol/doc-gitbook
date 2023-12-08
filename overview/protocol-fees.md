@@ -16,8 +16,8 @@ _Goes only to the DAO._
 
 If a Credit Account is liquidated, some percentage goes to a third-party liquidator who liquidated the account - and some percentage goes to Gearbox Protocol. These fees can vary from one Credit Manager to another, depending on how safe the margin for liquidation error should be.
 
-* Current liquidation fee going to the liquidator: 4%
-* Current liquidation fee going to the protocol: 1.5%
+* Fee going to the liquidator: 4%
+* Fee going to the protocol: 1.5%
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-12-08 at 11.40.56.png" alt=""><figcaption></figcaption></figure>
 
