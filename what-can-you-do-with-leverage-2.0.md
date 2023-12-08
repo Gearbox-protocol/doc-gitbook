@@ -18,9 +18,9 @@ Gearbox Protocol doesn't give you 2 slick buttons "long" or "short". It gives yo
 [long.md](traders-and-farmers/strategies/long.md)
 {% endcontent-ref %}
 
-Gearbox only limits you within the boundaries of security according to [AllowedList policy](overview/credit-account/#allowed-list-policy), to make sure funds are not syphoned out by [known](risk-and-security/risks-terms.md) attacks. Apart from that, you as a user decide what complex strategies and trades you want to execute thanks to Gearbox leverage.&#x20;
+Gearbox only limits you within the boundaries of security according to [AllowedList policy](overview/credit-account/#allowed-list-policy), to make sure funds are not syphoned out. Apart from that, you as a user decide what complex strategies and trades you want to execute thanks to Gearbox leverage.&#x20;
 
-> **Gearbox is your leveraged DeFi wallet. Continue doing what you love, but with more capital ❤**
+**Gearbox is your leveraged DeFi wallet. Continue doing what you love, but with more capital ❤**
 
 Here is one more:
 
@@ -32,7 +32,11 @@ Here is one more:
 
 This is why we call it leverage 2.0 and value composability so highly!&#x20;
 
-This also **reimagines how undercollateralized loans can work**, because such a system can potentially calculate on-chain values of many things, be it: tokens you trade, LP positions, your reputation score if it's liquid, your vested investments, and so on. If the value of social interactions also becomes liquid and tradeable, like some try to do with social tokens, then undercollateralized loans don't even need to exist per se: Gearbox would potentially be able to calculate the price of any such interaction. It's potentially a new way of how credit can be managed.&#x20;
+If the value of social interactions also becomes liquid and tradeable, like some try to do with social tokens, then undercollateralized loans don't even need to exist per se: Gearbox would potentially be able to calculate the price of any such interaction.&#x20;
+
+{% hint style="success" %}
+This also **reimagines how undercollateralized loans can work**, because such a system can potentially calculate on-chain values of many things, be it: tokens you trade, LP positions, your reputation score if it's liquid, your vested investments, NFTs, RWA, and so on.
+{% endhint %}
 
 Check out what more is possible:
 
