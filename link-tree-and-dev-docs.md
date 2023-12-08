@@ -1,5 +1,5 @@
 ---
-description: Useful links about many things in the Gearbox ecosystem.
+description: Useful links about Gearbox ecosystem.
 ---
 
 # Link Tree & Dev Docs
