@@ -4,15 +4,11 @@ description: A quick guide to your first Credit Account.
 
 # How to open a Credit Account
 
-{% hint style="info" %}
-Learn what a [Credit Account](../overview/credit-account/) is and how it works.
-{% endhint %}
+
 
 {% hint style="info" %}
 **NOTE:** At the moment, Credit Accounts are in "Leverage Ninja" Mode as we initially test in prod: a list of addresses having access to V2 leverage. You can post your address on the [**gov forum**](https://gov.gearbox.fi/t/gip-21-leverage-ninja-mode-limits-for-v2/1572/11) with a few links. If you don't want your twitter and address to be connected publicly, you can drop a message to any of the contributors on [**Discord**](https://discord.com/invite/gearbox)**:**&#x20;
 {% endhint %}
-
-{% embed url="https://medium.com/gearbox-protocol/leverage-ninja-mode-gearbox-v2-is-open-for-business-in-a-few-hours-bf471e588033" %}
 
 ## Two paths to opening a Credit Account
 

@@ -8,6 +8,8 @@ description: Some tips for skilled [degenerate] farmers and traders.
 
 DeFi users are accustomed to think of collateral as "idle asset, sits there and changes my borrowing power for better or worse". With Gearbox, it's not exactly like that. That is because the entire composition of your Credit Account, whatever you have on it - be it WBTC or a farm token - acts as collateral to your debt at the same time - denominated in the debt asset, of course.&#x20;
 
+<figure><img src="../.gitbook/assets/Gearbox Collateral Concept.png" alt=""><figcaption></figcaption></figure>
+
 _If you go in with ETH but then swap all your assets into a stablecoin farm - your collateral now is the ERC20 representation of that stablecoin farm. Your ETH became something else._
 
 {% hint style="info" %}
@@ -30,9 +32,7 @@ You lose some capital efficiency since not your entire position is "working", bu
 
 The protocol works without any trust or off-chain mechanisms, so the values are derived from on-chain. Even if the interface sometimes can show that your maximum leverage is reached - in reality, by interacting with the contracts on-chain, you could squeeze to the last bits!
 
-There is the [#credit-account-min-max-borrow-limits](how-to-open-account.md#credit-account-min-max-borrow-limits "mention") which can change per DAO voting. But let's imagine you are in-between and don't care of the absolute values.
-
-* Min leverage is only defined by the minimum borrow amount. If $100K is the min: it can be an x2 position if you do it with $100K as collateral \[your collateral worth $100K where $100K is the minimum limit x2 leverage = $200K total] - or can be an x1.01 if your collateral amount is $10M.
+* Min leverage is only defined by the minimum borrow amount. If $100K is the min: it can be an x2 position if you do it with $100K initial capital \[your capital worth $100K where $100K is the minimum limit x2 leverage = $200K total]; or can be an x6 if your initial capital is $20K \[your capital is worth $20K and at x6 it means your position will be $120K total, so $100K borrowed].
 * Now, the maximum leverage is more complex than that...
 
 ### How to calculate max leverage?
@@ -117,7 +117,7 @@ When swapping large amounts at once, you can encounter slippage. That is totally
 
 That is not really an issue if you are leverage farming, because your larger position also makes back larger APY (per each leverage factor). **On a medium to long-term timeline (or even short-term) this is practically negligible.** It's the same as if you did not use leverage!
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-11-01 at 22.03.59.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/slippage gearbox trading.png" alt=""><figcaption></figcaption></figure>
 
 It is less negligible if you are trading though. But, the same way slippage losses are not socialized - neither are your profits. You keep those all to yourself. Just don't... trade poorly, ok?!
 
@@ -141,16 +141,10 @@ The same goes for slippage numbers in the interface when you try to trade & swap
 
 The current logic doesn't automatically claim your unclaimed rewards, like from farming stables in Curve or Convex, so make sure to claim them before closing your Credit Account. These rewards would not be lost conceptually, but the next user of this particular CA might wake up with a nice present. _Unless you are playing a "take 100 bucks, or I double it and pass onto the next" - not recommended._ And the next user could be not you, so:
 
-* first claim your rewards from Curve / Convex / etc. in "[Farm](credit-account-dashboard-overview/farm-depositing-into-protocols.md)" tab
+* first claim your rewards from Curve / Convex / etc.
 * then close your Credit Account
 
-{% content-ref url="credit-account-dashboard-overview/farm-depositing-into-protocols.md" %}
-[farm-depositing-into-protocols.md](credit-account-dashboard-overview/farm-depositing-into-protocols.md)
-{% endcontent-ref %}
-
-{% hint style="info" %}
-This logic will be soon implemented by default, but might take some time, so just FYI!
-{% endhint %}
+***
 
 Now, go, degen -> [go into the world of composable leverage](https://app.gearbox.fi/accounts)!
 
