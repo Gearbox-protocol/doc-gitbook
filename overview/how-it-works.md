@@ -25,8 +25,8 @@ All trades and farming operations happen on third-party protocols: Uniswap, Curv
 
 Integrations possibilities are very broad, as Gearbox is built with composability at its core:
 
-{% content-ref url="integrations/" %}
-[integrations](integrations/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 The positions which traders and farmers take should be liquidated by third-party [liquidators](liquidations/) before the assets of liquidity providers would start being exposed to the downside. As such, the protocol returns the liquidity providers’ assets to the pools if all functions correctly and liquidators do their job. This is how Gearbox is able to provide composable leverage.&#x20;
@@ -57,7 +57,9 @@ The main logic is encapsulated in the core layer which supports operations for b
 
 <figure><img src="../.gitbook/assets/Gearbox Modular Archtecture.png" alt=""><figcaption></figcaption></figure>
 
-The goal of Gearbox is to be integrated with existing and new protocols in an open-source manner and provide leverage across many user bases and products. Because of its modularity, leverage can be given to even long-tail assets without increasing passive lending side risks. There could be segmentation of risks, personalized rates, collateral limits, and other mechanisms which allow modularity to shine and Gearbox to service different user groups. That could be farming, trading, sophisticated LP-ing, NFT and RWA leveraging, and so on.
+The goal of Gearbox is to be integrated with existing and new protocols in an open-source manner and provide leverage across many user bases and products. Because of its modularity, leverage can be given to even long-tail assets without increasing passive lending side risks.
+
+There could be segmentation of risks, personalized rates, collateral limits, and other mechanisms which allow modularity to shine and Gearbox to service different user groups. That could be farming, trading, sophisticated LP-ing, NFT and RWA leveraging, and so on.
 
 See in detail the developer explanation:
 

@@ -1,18 +1,18 @@
 ---
-description: DeFi Primitive for composable leverage 2.0
+description: DeFi primitive for composable leverage 2.0.
 ---
 
 # Credit Accounts
 
 ![](<../../.gitbook/assets/Screenshot 2021-08-07 at 22.49.38.png>)
 
-A Credit Account is an isolated smart contract which contains both the user funds and the borrowed funds. This is where your leverage is. After you open an account, all the operations go through this account and the assets stay on it as well. You can see a Credit Account as your automated DeFi wallet where you not only keep positions, but can also potentially program it the way you want. _You can at all times see transactions and assets on Etherscan, obviously._
+A Credit Account is an isolated smart contract which contains both the user funds and the borrowed funds. This is where your leverage is. After you open an account, all the operations go through this account and the assets stay on it as well. You can see a Credit Account as your automated leveraged DeFi wallet where you not only keep positions, but can also program it the way you want.&#x20;
+
+> Every user has their own Credit Account.
 
 ![](<../../.gitbook/assets/Screenshot 2021-08-07 at 23.07.53.png>)
 
-Funds on Credit Accounts are used as collateral for debt, and users can operate these funds by sending financial orders to their Credit Accounts. That could be: margin trading on Uniswap or Sushiswap; leverage farming on Yearn; arbitraging pegged assets on Curve, and more!
-
-See the list of [integrations](../integrations/).
+Funds on a Credit Account are used as collateral for debt, and users can operate these funds by sending orders to their Credit Accounts. That could be: margin trading on Uniswap or Sushiswap; leverage farming on Yearn; arbitraging pegged assets on Curve, and more!
 
 ## Allowed List policy
 

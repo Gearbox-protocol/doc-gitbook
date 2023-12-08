@@ -2,7 +2,7 @@
 description: Guidance for adding new assets and contracts to the AllowedList.
 ---
 
-# How to add new Contracts & Assets to AllowedList
+# How to add new Contracts & Assets to CA AllowedList
 
 {% hint style="info" %}
 Composability is at the heart of Gearbox Protocol's ethos as well as its modular architecture. It's imperative to grow the Allowed List Policy to allow traders & farmers to create composable positions across DeFi and other sectors. While the protocol is growing, there are some technical boundaries in place with regard to things like oracles when it comes to assets as well as contracts - to understand those better, please see some wishlist for Gearbox DAO below. If it checks out, go ahead and ask DAO to add it!&#x20;
@@ -19,6 +19,10 @@ This article can give you an insight on how you can potentially access a collate
 Dev docs will help you fully understand the architecture:
 
 {% embed url="https://dev.gearbox.fi/" %}
+
+GitHub repositories can show you examples of live integrations:
+
+{% embed url="https://github.com/Gearbox-protocol/integrations-v3" %}
 
 ## Add new Contracts / Protocols
 
