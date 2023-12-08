@@ -24,24 +24,22 @@ For example, you can get **an ETH short or long that farms at the same time**.
 
 Gearbox only limits you within the boundaries of security (assets and protocols whitelisted) to make sure funds are not syphoned out. Apart from that, you as a user decide what complex strategies and trades you want to execute with Gearbox leverage. YOU are in charge!
 
-**Gearbox is your leveraged DeFi wallet. Continue doing what you love, but with more capital ❤**
+Other things you can do:
 
-Here is one more:
-
-![Flash loans make it possible to arbitrage a peg within one block. Gearbox allows you to do so even if it takes more time. However, with stablecoins it's generally easier as there are other avenues to borrow from. But not for all pegged assets!](<.gitbook/assets/Screenshot 2021-10-19 at 00.42.00.png>)
-
-{% content-ref url="traders-and-farmers/strategies/arb-correlated-assets.md" %}
-[arb-correlated-assets.md](traders-and-farmers/strategies/arb-correlated-assets.md)
-{% endcontent-ref %}
-
-This is why we call it leverage 2.0 and value composability so highly.
-
-{% hint style="success" %}
-This also **reimagines how undercollateralized loans can work**, because such a system can potentially calculate on-chain values of many things, be it: tokens you trade, LP positions, your reputation score if it's liquid, your vested investments, NFTs, RWA, and so on.
-{% endhint %}
-
-Check out what more is possible:
+* Leveraged Farming: stablecoins, staked ETH, and more. You can go as high as 10x.
+* Basis Trading: short/long on Gearbox with no funding rates, meanwhile doing the opposite elsewhere. You can pocket the difference in rates delta-neutral.
+* Arbitrage of correlated assets with leverage, over mid to long time frames, and more...
 
 {% content-ref url="traders-and-farmers/strategies/" %}
 [strategies](traders-and-farmers/strategies/)
 {% endcontent-ref %}
+
+**Gearbox is your leveraged DeFi wallet. Continue doing what you love, but with more capital ❤**
+
+This is why we call it leverage 2.0 and value composability so highly.
+
+<figure><img src=".gitbook/assets/gearbox leveraged wallet (1).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="success" %}
+This also **reimagines how undercollateralized loans can work**, because such a system can potentially calculate on-chain values of many things, be it: tokens you trade, LP positions, your reputation score if it's liquid, your vested investments, NFTs, RWA, and so on.
+{% endhint %}
