@@ -19,7 +19,7 @@ Gearbox Protocol has two distinct user sides to it:
 
 The core vision is to become a **leverage / credit layer**. You can envision building your own DeFi protocol and just making a “take leverage with Gearbox” as a button. And _bam_ - your users are now more capital efficient. Check this page to understand why [composable leverage 2.0 is cool](what-can-you-do-with-leverage-2.0.md)!
 
-<figure><img src=".gitbook/assets/Gearbox Primitive Onchain Credit.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Gearbox onchain credit primitive composable leverage.png" alt=""><figcaption></figcaption></figure>
 
 ## **Cool Features**
 

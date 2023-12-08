@@ -59,7 +59,7 @@ The goal of Gearbox is to be integrated with existing and new protocols in an op
 
 There could be segmentation of risks, personalized rates, collateral limits, and other mechanisms which allow modularity to shine and Gearbox to service different user groups. That could be farming, trading, sophisticated LP-ing, NFT and RWA leveraging, and so on.
 
-<figure><img src="../.gitbook/assets/Gearbox Modular Archtecture.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Gearbox Modular Architecture Intents.png" alt=""><figcaption></figcaption></figure>
 
 See a more detailed developer explanation:
 
