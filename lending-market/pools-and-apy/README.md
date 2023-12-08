@@ -29,15 +29,19 @@ Because Gearbox architecture is modular, there can exist multiple pools for the 
 
 When you supply capital to a pool, you get Diesel Tokens, also known as dTokens. These tokens automatically earn interest & fees proportional to your share of the pool [like cTokens on Compound](https://compound.finance/docs/ctokens) or Yearn LP tokens. You don’t need to claim interest or perform any other actions, your Diesel Tokens grow in value. _This is if the pool doesn't suffer losses from incorrect liquidations._
 
+{% hint style="success" %}
+As for the GEAR or any other extra token yields, those are accruing to your **staked** dTokens too, but you need to claim them. _How often?_ - That's up to you to decide. Simply click on the rewards tab in the top right corner of the interface or do it onchain yourself.
+{% endhint %}
+
 Getting Diesel tokens is super easy, you can try it out by [supplying liquidity to Gearbox Protocol](../manage-liquidity.md#supplying-liquidity).
 
 {% content-ref url="../manage-liquidity.md" %}
 [manage-liquidity.md](../manage-liquidity.md)
 {% endcontent-ref %}
 
-{% hint style="success" %}
-As for the GEAR or any other extra token yields, those are accruing to your **staked** dTokens too, but you need to claim them. _How often?_ - That's up to you to decide. Simply click on the rewards tab in the top right corner of the interface or do it onchain yourself.
-{% endhint %}
+#### dTokens and staked sdTokens
+
+<table><thead><tr><th width="170.78357926598557">Asset</th><th>Contract Address</th></tr></thead><tbody><tr><td>ETH (WETH)</td><td></td></tr><tr><td>USDC</td><td></td></tr><tr><td>WBTC</td><td></td></tr><tr><td>sdETH</td><td></td></tr><tr><td>sdUSDC</td><td></td></tr><tr><td>sdWBTC</td><td></td></tr></tbody></table>
 
 ## Where does the yield come from?
 
