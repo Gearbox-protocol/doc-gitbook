@@ -117,7 +117,7 @@ When swapping large amounts at once, you can encounter slippage. That is totally
 
 That is not really an issue if you are leverage farming, because your larger position also makes back larger APY (per each leverage factor). **On a medium to long-term timeline (or even short-term) this is practically negligible.** It's the same as if you did not use leverage!
 
-<figure><img src="../.gitbook/assets/slippage gearbox trading.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/gearbox few words about slippage.png" alt=""><figcaption></figcaption></figure>
 
 It is less negligible if you are trading though. But, the same way slippage losses are not socialized - neither are your profits. You keep those all to yourself. Just don't... trade poorly, ok?!
 
@@ -139,19 +139,19 @@ The same goes for slippage numbers in the interface when you try to trade & swap
 
 ### Claim rewards before closing CA
 
-The current logic doesn't automatically claim your unclaimed rewards, like from farming stables in Curve or Convex, so make sure to claim them before closing your Credit Account. These rewards would not be lost conceptually, but the next user of this particular CA might wake up with a nice present. _Unless you are playing a "take 100 bucks, or I double it and pass onto the next" - not recommended._ And the next user could be not you, so:
+The current logic doesn't always perfectly claim your unclaimed rewards, like from farming stables in Curve or Convex, so make sure to claim them before closing your Credit Account. These rewards would not be lost conceptually, but the next user of this particular CA might wake up with a nice present. _Unless you are playing a "take 100 bucks, or I double it and pass onto the next" - not recommended._ And the next user could be not you, so:
 
 * first claim your rewards from Curve / Convex / etc.
 * then close your Credit Account
 
-***
+<figure><img src="../.gitbook/assets/gearbox claim farming rewards.png" alt=""><figcaption></figcaption></figure>
 
-Now, go, degen -> [go into the world of composable leverage](https://app.gearbox.fi/accounts)!
+Now, go, degen ->
 
 {% content-ref url="how-to-open-account.md" %}
 [how-to-open-account.md](how-to-open-account.md)
 {% endcontent-ref %}
 
-{% hint style="warning" %}
+{% hint style="info" %}
 When exercising max leverage - you should keep in mind that even a few-minutes of interface not responding properly \[Infura/Alchemy downtime, bugs, whatever it is] can lead to liquidations. Everyone remembers the "oops maintaince mode" of BitMex? Well, in DeFi you can influence these cases, because the contracts are on-chain / verified - as such, you can interact with them directly without any interface. [See the contracts](https://dev.gearbox.fi/docs/documentation/deployments/deployed-contracts/).
 {% endhint %}

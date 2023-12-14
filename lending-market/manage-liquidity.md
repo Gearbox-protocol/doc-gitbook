@@ -10,15 +10,15 @@ description: Earn APY in the same asset plus any additional GEAR APY or even oth
 
 {% embed url="https://app.gearbox.fi/pools" %}
 
-<figure><img src="../.gitbook/assets/Gearbox Lending Dashboard (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Gearbox passive lending main dapp.png" alt=""><figcaption></figcaption></figure>
 
 **Step 2.** Specify the amount you want to supply or just click on _MAX_.
 
-<figure><img src="../.gitbook/assets/Gearbox Lending Window.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/gearbox passive lending eth usdc dai wbtc.png" alt=""><figcaption></figcaption></figure>
 
 **Step 3.** First, click _Approve_ and wait for the transaction to be confirmed. Then, click _Supply_ and wait for the confirmation. When a transaction is confirmed, you will receive (staked) [diesel tokens](pools-and-apy/#what-is-diesel-token).&#x20;
 
-<figure><img src="../.gitbook/assets/Gearbox Passive Lending.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/gearbox passive lending supply approve.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Done! Now you have (staked) [diesel tokens](pools-and-apy/#what-is-diesel-token). The organic APY from borrow and quota fees is being compounded into it, so there is nothing you need to do. Just sit back and relax.&#x20;
@@ -30,7 +30,7 @@ As for the GEAR or any other extra token yields, those are accruing to your stak
 
 The V3 interface features an extended view. It helps you see what assets borrowers are trading and farming with. You don't necessarily need to care of this, because borrowers get liquidated in case their positions do not perform well - so the capital comes back to your pool anyway.
 
-<figure><img src="../.gitbook/assets/GEAR Gauge Passive Pool.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/gearbox extended dapp allowed tokens pools.png" alt=""><figcaption></figcaption></figure>
 
 This transparency dashboard helps you better assess risks in different pools. For example, you can be comfortable that borrowers are leverage staking in Lido - but not comfortable that they are trading APE with leverage. As a result, if risk segmentation allows for it, you can choose a different pool to lend to. Or even better, you can stake the GEAR you earned to [vote in gauges](../governance/quotas-and-gauges/) and increase the rates APE traders are paying to you. This way, you improve your R/R because you bill them more!
 

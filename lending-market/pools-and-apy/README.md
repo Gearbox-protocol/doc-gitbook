@@ -1,5 +1,5 @@
 ---
-description: 'Passive lending on Gearbox Protocol: supply & earn APY.'
+description: Passive lending on Gearbox Protocol.
 ---
 
 # Pools & APY
