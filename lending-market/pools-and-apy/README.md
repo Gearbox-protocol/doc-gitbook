@@ -15,9 +15,9 @@ Non-custodial. No impermanent loss. Isolated. Organic rates. No liquidations.
 
 ![](<../../.gitbook/assets/Screenshot 2021-08-07 at 22.49.25.png>)
 
-The asset you lend to the protocol would be able to be utilized, aka borrowed for leverage, by traders & farmers who would be actively rebalancing their positions or using some other strategies within the [AllowedList](../../overview/credit-account/#allowed-list-policy) which a [Credit Account](../../overview/credit-account/) allows. As borrowers, they will be required by the protocol to pay different fees which accrue to the underlying pools of those assets, the staked dTokens. See below.
+The asset you lend to the protocol would be able to be utilized, aka borrowed for leverage, by traders & farmers who would be actively rebalancing their positions or using some other strategies within the [AllowedList](../../overview/credit-account/#allowed-list-policy) which a [Credit Account](../../overview/credit-account/) allows. As borrowers, they will be required by the protocol to pay different fees which accrue to the underlying pools of those assets, dTokens. See below.
 
-The positions which traders and farmers take should be liquidated by third-party [liquidators](../../overview/liquidations/) before the assets of liquidity providers would start being exposed to the downside. As such, the protocol returns the liquidity providers’ assets to the pools. This is how Gearbox is able to provide composable leverage.
+The positions which traders and farmers take should be liquidated by third-party [liquidators](../../overview/liquidations/) before the assets of liquidity providers would start being exposed to the downside. As such, the protocol returns the liquidity providers’ assets. This is how Gearbox is able to provide composable leverage.
 
 {% hint style="info" %}
 Because Gearbox architecture is modular, there can exist multiple pools for the same asset. Each pool would then be isolated from one another and can have different [AllowedList](../../overview/credit-account/allowedlist-integrations/).
