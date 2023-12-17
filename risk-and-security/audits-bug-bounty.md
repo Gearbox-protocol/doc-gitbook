@@ -45,7 +45,8 @@ The scope of the bug bounty refers to the core contracts available in these repo
 
 1. [https://github.com/Gearbox-protocol/core-v3](https://github.com/Gearbox-protocol/core-v3)
 2. [https://github.com/Gearbox-protocol/integrations-v3](https://github.com/Gearbox-protocol/integrations-v3)
-3. [https://github.com/Gearbox-protocol/oracles-v3](https://github.com/Gearbox-protocol/oracles-v3) (whatever is in scope)
+3. [https://github.com/Gearbox-protocol/oracles-v3](https://github.com/Gearbox-protocol/oracles-v3)
+4. [https://github.com/Gearbox-protocol/governance](https://github.com/Gearbox-protocol/governance)&#x20;
 
 {% hint style="success" %}
 If you have found a bug that you think is within the security interests of the protocol but is outside of the scope of the repository above, please do notify us then anyway. We can decide ad-hoc together with you. 1/1 payouts has been done before based on this.
@@ -53,8 +54,8 @@ If you have found a bug that you think is within the security interests of the p
 
 If you need more information on the protocol, please check:&#x20;
 
-* Regular protocol documentation: [https://docs.gearbox.finance/ ](https://docs.gearbox.finance/)
-* Developer docs in progress: [https://dev.gearbox.fi/](https://dev.gearbox.fi/)
+* Regular protocol docs: [https://docs.gearbox.finance/ ](https://docs.gearbox.finance/)
+* Developer docs: [https://dev.gearbox.fi/](https://dev.gearbox.fi/)
 
 **NOTE**: for bugs related to the interface which are just referring to typos and non-security related issues, please feel free to report them in a community [Discord](https://discord.gg/5YuHH9tvms) pro bono - and Gearbox community can maybe send nice GIFs your way. In case a bug you found is related to the interface and is outside of the scope, but has serious security concerns, please do report it as well and a bounty can be also decided ad-hoc. Again, you can ask all your questions in [Discord](https://discord.gg/JZgvmaenwn).
 
@@ -62,7 +63,7 @@ If you need more information on the protocol, please check:&#x20;
 
 Rewards are distributed according to the impact of the vulnerability. The final decision on the payout amount will be determined by the Gearbox DAO at its discretion.
 
-<table><thead><tr><th>Severity</th><th>Payment in USDC / other stablecoin</th><th data-hidden></th></tr></thead><tbody><tr><td>Low</td><td>Up to $6,500</td><td></td></tr><tr><td>Medium</td><td>Up to $13,000</td><td></td></tr><tr><td>High</td><td>Up to $65,000</td><td></td></tr><tr><td>Critical</td><td>Up to $200,000 + GEAR</td><td></td></tr></tbody></table>
+<table><thead><tr><th>Severity</th><th>Payment in USDC / other stablecoin</th><th data-hidden></th></tr></thead><tbody><tr><td>Low</td><td>Up to $6,500</td><td></td></tr><tr><td>Medium</td><td>Up to $13,000</td><td></td></tr><tr><td>High</td><td>Up to $65,000</td><td></td></tr><tr><td>Critical</td><td>Up to $200,000 (+ GEAR)</td><td></td></tr></tbody></table>
 
 ### Disclosures and Multisig Actions
 

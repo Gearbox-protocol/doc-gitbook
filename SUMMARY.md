@@ -61,5 +61,5 @@
 
 ## Security & Risks <a href="#risk-and-security" id="risk-and-security"></a>
 
-* [Risks and T\&C](risk-and-security/risks-terms.md)
 * [Audits & Bug Bounty](risk-and-security/audits-bug-bounty.md)
+* [Risks and T\&C](risk-and-security/risks-terms.md)
