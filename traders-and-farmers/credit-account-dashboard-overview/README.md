@@ -2,7 +2,7 @@
 description: A walk-through the main functions on Gearbox app interface.
 ---
 
-# Inside a Credit Account
+# Tips for leverage users
 
 {% hint style="info" %}
 Learn [how to open a Credit Account](../how-to-open-account.md) if you have not done it yet.
@@ -18,8 +18,8 @@ There are 4 tabs inside a Credit Account that let you operate and utilise it to 
 
 1. **Trade:** This is where you can see the leveraged funds you have as well as swap them for a different assets. Swapping can affect your HF so take note of the same by monitoring the right side of the screen. Usually, the interface would give a preview of your HF change.
 
-{% content-ref url="trade-swapping-assets.md" %}
-[trade-swapping-assets.md](trade-swapping-assets.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 &#x20;2\.  **Farm:** Farm is where the real alpha lies. All the strategies for the biggest vaults and pools in DeFi that you want to ape into are available in farm without you having to hop protocol from protocol. You just need to select which pool/vault you want to go deploy in, and done.&#x20;
