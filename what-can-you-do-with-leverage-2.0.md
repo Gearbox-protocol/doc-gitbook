@@ -14,7 +14,7 @@ Gearbox Protocol doesn't give you 2 slick buttons "long" or "short". It gives yo
 
 > Your trades and farms are executed with the global DEX liquidity of other protocols.
 
-For example, you can get **an ETH short or long that is farming at the same time**.
+For example, you can get **an ETH short or long + that is farming at the same time**.
 
 ![You basically get a short which then makes you money yield farming, and the yield farming LP tokens you can potentially utilize for something else. The lego building blocks can all happen within Credit Accounts!](<.gitbook/assets/Screenshot 2021-10-19 at 00.41.47 (1).png>)
 

@@ -6,7 +6,7 @@ description: Earn APY in the same asset plus any additional GEAR APY or even oth
 
 ## Earning Passive APY
 
-**Step 1.** Go to the [Passive Pools](https://app.gearbox.fi/pools) page. Click on the asset pool you want to earn with.
+**Step 1.** Go to the [Passive Pools](https://app.gearbox.fi/pools) page. Then click on the asset pool you want to earn with.
 
 {% embed url="https://app.gearbox.fi/pools" %}
 
@@ -37,7 +37,7 @@ This transparency dashboard helps you better assess risks in different pools. Fo
 * Vote on the quota limits and collateral limits being lower or higher with [main voting](../governance/setup/);
 * Vote on the extra APY rates being lower or higher with [Gauges](../governance/quotas-and-gauges/).
 
-{% hint style="info" %}
+{% hint style="success" %}
 Conceptually, because Gearbox has a modular architecture, risks are isolated and are not shared across different pools. You can envision Gearbox with a totally personalized lender exposure down the line. If there will be demand for it, it can be done!
 {% endhint %}
 
@@ -49,8 +49,4 @@ Do the same steps as above, but simply click on the "withdraw liquidity" tab in 
 
 {% hint style="info" %}
 If the utilization of the pool is too high, governance can increase the lend-borrow parameters and thereby make lending more expensive to incentivize repayments of lender capital. This will encourage borrowers to close loans and thereby reduce pool utilization.
-{% endhint %}
-
-{% hint style="warning" %}
-Did you find a bug in the interface, something didn't work as you think it should have, or you have a suggestion on how to improve the user experience? - [Report on Discord](https://discord.gg/gearbox)!
 {% endhint %}

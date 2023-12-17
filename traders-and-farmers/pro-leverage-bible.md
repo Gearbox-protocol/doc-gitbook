@@ -6,11 +6,11 @@ description: Some tips for skilled [degenerate] farmers and traders.
 
 ### A different understanding of "collateral"
 
-DeFi users are accustomed to think of collateral as "idle asset, sits there and changes my borrowing power for better or worse". With Gearbox, it's not exactly like that. That is because the entire composition of your Credit Account, whatever you have on it - be it WBTC or a farm token - acts as collateral to your debt at the same time - denominated in the debt asset, of course.&#x20;
+DeFi users are accustomed to think of collateral as "idle asset, sits there and changes my borrowing power for better or worse". With Gearbox, it's not exactly like that. That is because the entire composition of your Credit Account, whatever you have on it - be it WBTC or a farm token - acts as collateral to your debt at the same time. Denominated in the debt asset, of course.&#x20;
 
 <figure><img src="../.gitbook/assets/Gearbox Collateral Concept.png" alt=""><figcaption></figcaption></figure>
 
-_If you go in with ETH but then swap all your assets into a stablecoin farm - your collateral now is the ERC20 representation of that stablecoin farm. Your ETH became something else._
+_If you go put in ETH and WBTC but then swap all your assets into a stablecoin farm - your collateral now is the ERC20 representation of that stablecoin farm. Your ETH became something else._
 
 {% hint style="info" %}
 Your starting asset(s) are usually not relevant. What is important is your debt asset - and then all of the assets on your Credit Account denominated in that debt asset.
@@ -18,7 +18,7 @@ Your starting asset(s) are usually not relevant. What is important is your debt 
 
 In case you want to keep your asset as truly collateral, for example you want to keep ETH yet borrow stables and grow your borrowing power, then you need to keep it idle on Credit Account:
 
-* Open a Credit Account with debt in stablecoin (USDC CA for example)
+* Open a Credit Account with debt in stablecoin (USDC, for example)
 * Put ETH in there as collateral and NOT sell it or not ape it into a position
 * Borrow more stables due to ETH borrowing power
 
@@ -113,13 +113,15 @@ For the avoidance\* of Cream-like flash loan attacks, there is a min-max range a
 
 ### A few words about slippage
 
-When swapping large amounts at once, you can encounter slippage. That is totally normal to have, like 0.1% on $1M is not unusual = $1K loss. But you have to keep in mind that you can't _socialize_ losses with the borrowed capital, so that loss is applied to your assets within the Credit Account only. _Otherwise it would be an attack vector that would let an attacker "lose" all Lender money._ What it means is that if you went x10 leverage on $100K of your capital, you will technically get a 1% loss on your capital, meaning -1% instantly. Sounds scary? Hold on!
+When swapping large amounts at once, you can encounter slippage. That is totally normal to have, like 0.05% on $1M is not unusual = $500 loss. But you have to keep in mind that you can't _socialize_ losses with the borrowed capital, so that loss is applied to your assets within the Credit Account only. _Otherwise it would be an attack vector that would let an attacker "lose" all lender money._
+
+What it means is that if you went x10 leverage on $100K of your capital, you will technically get a 1% loss on your capital, meaning -1% instantly. Sounds scary? Hold on!&#x20;
 
 That is not really an issue if you are leverage farming, because your larger position also makes back larger APY (per each leverage factor). **On a medium to long-term timeline (or even short-term) this is practically negligible.** It's the same as if you did not use leverage!
 
 <figure><img src="../.gitbook/assets/gearbox few words about slippage.png" alt=""><figcaption></figcaption></figure>
 
-It is less negligible if you are trading though. But, the same way slippage losses are not socialized - neither are your profits. You keep those all to yourself. Just don't... trade poorly, ok?!
+You keep all the profits to yourself. Just don't... trade poorly, ok?!
 
 {% hint style="success" %}
 This is all standard. Just don't be surprised when you ape with size! **The interface shows the worst case scenario, in reality you might have not lost anything at all.**
@@ -127,22 +129,22 @@ This is all standard. Just don't be surprised when you ape with size! **The inte
 
 ### Doomer interface numbers
 
-The above happens because the dApps \[both the [https://app.gearbox.fi/pools](https://app.gearbox.fi/pools) and [https://charts.gearbox.finance/pools](https://charts.gearbox.finance/pools)] use Chainlink oracles to calculate prices in the UI instead of spot prices, and those quite often deviate. So, **the interface presents an overly pessimistic scenario**. You can check Zapper instead for the prices and value of your Credit Account closer to reality. Just input your Credit Account address into [Zapper](https://zapper.fi/), and you can see all the positions there.
+The above happens because the dApps \[both the [https://app.gearbox.fi/](https://app.gearbox.fi/pools) and [https://charts.gearbox.finance/pools](https://charts.gearbox.finance/pools)] use Chainlink oracles to calculate prices in the UI instead of spot prices, and those quite often deviate. So, **the interface presents an overly pessimistic scenario**. You can check Nansen instead for the prices and value of your Credit Account closer to reality. Just input your Credit Account address into [Nansen](https://portfolio.nansen.ai/), and you can see all the positions there.
 
 An even better way is to check on-chain virtual price of the positions you are in. So, the loss you are seeing in the dApps is just an honest max-pessimism scenario. Reality is always better!
 
 {% hint style="success" %}
-The same goes for slippage numbers in the interface when you try to trade & swap assets. In those cases, the interface shows the maximum drop in case your slippage, let's say if it is selected as 0.5%. Try putting it lower, and the number will improve.
+The same goes for slippage numbers in the interface when you try to trade & swap assets. In those cases, the interface shows the maximum drop in case your slippage, let's say if it is selected as 0.2%. Try making it lower, and the number will improve.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-11-11 at 18.44.06.png" alt=""><figcaption></figcaption></figure>
 
-### Claim rewards before closing CA
+### Claim farming rewards before closing CA
 
-The current logic doesn't always perfectly claim your unclaimed rewards, like from farming stables in Curve or Convex, so make sure to claim them before closing your Credit Account. These rewards would not be lost conceptually, but the next user of this particular CA might wake up with a nice present. _Unless you are playing a "take 100 bucks, or I double it and pass onto the next" - not recommended._ And the next user could be not you, so:
+The interface logic doesn't always perfectly claim your unclaimed rewards efficiently, from Curve or Convex, so make sure to claim them before closing your Credit Account. These rewards would not be lost conceptually, but the next user of this particular CA might wake up with a nice present. _Unless you are playing a "take 100 bucks, or I double it and pass onto the next" - not recommended._
 
 * first claim your rewards from Curve / Convex / etc.
-* then close your Credit Account
+* then close your Credit Account, super easy
 
 <figure><img src="../.gitbook/assets/gearbox claim farming rewards.png" alt=""><figcaption></figcaption></figure>
 
@@ -153,5 +155,5 @@ Now, go, degen ->
 {% endcontent-ref %}
 
 {% hint style="info" %}
-When exercising max leverage - you should keep in mind that even a few-minutes of interface not responding properly \[Infura/Alchemy downtime, bugs, whatever it is] can lead to liquidations. Everyone remembers the "oops maintaince mode" of BitMex? Well, in DeFi you can influence these cases, because the contracts are on-chain / verified - as such, you can interact with them directly without any interface. [See the contracts](https://dev.gearbox.fi/docs/documentation/deployments/deployed-contracts/).
+When exercising max leverage - you should keep in mind that even a few-minutes of interface not responding properly \[Infura/Alchemy downtime, bugs, whatever it is] can lead to liquidations. Everyone remembers the "oops maintaince mode" of BitMex? Well, in DeFi you can control these cases, because the contracts are onchain / verified - as such, you can interact with them directly without any interface. [See the contracts](https://dev.gearbox.fi/docs/documentation/deployments/deployed-contracts/).
 {% endhint %}

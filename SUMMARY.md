@@ -15,22 +15,18 @@
   * [Reserve Fund](overview/liquidations/insurance-fund.md)
 * [Protocol Fees](overview/protocol-fees.md)
 * [Tech Paper](overview/whitepaper.md)
+* [FAQ](overview/faq.md)
 * [History: DAO-First Launch](overview/launch-phases/README.md)
   * [Birth at ETHGlobal MarketMake 2021](overview/launch-phases/birth-at-ethglobal-marketmake-and-first-contributors.md)
   * [Kovan testing with DegenScore & lobsterdao](overview/launch-phases/kovan-testing-with-degenscore.md)
   * [Credit Account Mining](overview/launch-phases/credit-account-mining.md)
   * [Early Testers and Discord](overview/launch-phases/early-drop.md)
-* [FAQ](overview/faq.md)
 
 ## Traders & farmers
 
 * [How to open a Credit Account](traders-and-farmers/how-to-open-account.md)
-* [Inside a Credit Account](traders-and-farmers/credit-account-dashboard-overview/README.md)
-  * [Trade: swapping assets](traders-and-farmers/credit-account-dashboard-overview/trade-swapping-assets.md)
-  * [Farm: depositing into protocols](traders-and-farmers/credit-account-dashboard-overview/farm-depositing-into-protocols.md)
-  * [How to avoid liquidations](traders-and-farmers/credit-account-dashboard-overview/kak-ne-byt-rekt.md)
-  * [How to close a Credit Account](traders-and-farmers/credit-account-dashboard-overview/how-to-close-account.md)
-* [Strategies](traders-and-farmers/strategies/README.md)
+* [PURE Margin Trading](traders-and-farmers/pure-margin-trading.md)
+* [Leverage Farming](traders-and-farmers/strategies/README.md)
   * [One-Click Strategies](traders-and-farmers/strategies/one-click-strategies.md)
   * [Leveraged liquid staking](traders-and-farmers/strategies/leveraged-liquid-staking.md)
   * [Leveraged stablecoin farming](traders-and-farmers/strategies/leveraged-stablecoin-farming.md)
@@ -38,6 +34,11 @@
   * [Leveraged vanilla yVaults](traders-and-farmers/strategies/leveraged-vanilla-yvaults.md)
   * [Farming Long/Short or "Free Leverage Position"](traders-and-farmers/strategies/long.md)
   * [Arbitrage of correlated assets](traders-and-farmers/strategies/arb-correlated-assets.md)
+* [Inside a Credit Account](traders-and-farmers/credit-account-dashboard-overview/README.md)
+  * [Trade: swapping assets](traders-and-farmers/credit-account-dashboard-overview/trade-swapping-assets.md)
+  * [Farm: depositing into protocols](traders-and-farmers/credit-account-dashboard-overview/farm-depositing-into-protocols.md)
+  * [How to avoid liquidations](traders-and-farmers/credit-account-dashboard-overview/kak-ne-byt-rekt.md)
+  * [How to close a Credit Account](traders-and-farmers/credit-account-dashboard-overview/how-to-close-account.md)
 * [PRO: Leverage Bible](traders-and-farmers/pro-leverage-bible.md)
 
 ## Lending Markets <a href="#lending-market" id="lending-market"></a>

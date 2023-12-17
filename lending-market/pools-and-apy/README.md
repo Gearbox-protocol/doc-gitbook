@@ -11,11 +11,11 @@ Non-custodial. No impermanent loss. Isolated. Organic rates. No liquidations.
 {% endhint %}
 
 * Earning with Gearbox is as simple as lending on Compound or Aave. Next to that, pools are semi-isolated. Lend liquidity in the asset you choose and start earning APY! No impermanent loss.
-* With Gearbox's Credit Account model, your assets never end up in custody of any one person or company. They are held on an isolated smart contract after they are borrowed.&#x20;
+* With Gearbox's Credit Accountы, your assets never end up in custody of any one person or company. They are held on an isolated smart contract after they are borrowed.&#x20;
 
 ![](<../../.gitbook/assets/Screenshot 2021-08-07 at 22.49.25.png>)
 
-The asset you lend to the protocol would be able to be utilized, aka borrowed for leverage, by traders & farmers who would be actively rebalancing their positions or using some other strategies within the [AllowedList](../../overview/credit-account/#allowed-list-policy) which a [Credit Account](../../overview/credit-account/) allows. As borrowers, they will be required by the protocol to pay different fees which accrue to the underlying pools of those assets, dTokens. See below.
+The asset you lend to the protocol woulв be utilized, aka borrowed for leverage, by traders & farmers who сould be actively rebalancing their positions. As borrowers, they will be required by the protocol to pay different fees which accrue to the underlying pools of those assets, dTokens.
 
 The positions which traders and farmers take should be liquidated by third-party [liquidators](../../overview/liquidations/) before the assets of liquidity providers would start being exposed to the downside. As such, the protocol returns the liquidity providers’ assets. This is how Gearbox is able to provide composable leverage.
 
@@ -27,7 +27,7 @@ Because Gearbox architecture is modular, there can exist multiple pools for the 
 
 **Gearbox lending pools are ERC-4626.**
 
-When you supply capital to a pool, you get Diesel Tokens, also known as dTokens. These tokens automatically earn interest & fees proportional to your share of the pool [like cTokens on Compound](https://compound.finance/docs/ctokens) or Yearn LP tokens. You don’t need to claim interest or perform any other actions, your Diesel Tokens grow in value. _This is if the pool doesn't suffer losses from incorrect liquidations._
+When you supply capital to a pool, you get Diesel Tokens, also known as dTokens. These tokens automatically earn interest & fees proportional to your share of the pool [like cTokens on Compound](https://compound.finance/docs/ctokens) or Yearn LP tokens. You don’t need to claim interest or perform any other actions, your Diesel Tokens grow in value фдд еру ешьу. _This is if the pool doesn't suffer losses from bad liquidations or hacks._
 
 {% hint style="success" %}
 As for the GEAR or any other extra token yields, those are accruing to your **staked** dTokens too, but you need to claim them. _How often?_ - That's up to you to decide. Simply click on the rewards tab in the top right corner of the interface or do it onchain yourself.
