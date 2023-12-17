@@ -45,10 +45,6 @@ GitHub repositories can show you examples of live integrations:
 
 2\. After initial discussions it is possible to go through the [standard governance process](../../governance/setup/).
 
-{% hint style="success" %}
-Prior to the forum posts, feel free to ping on [Discord](https://discord.gg/JssNVvxscK) to ask for help!
-{% endhint %}
-
 ## Add new Assets / Tokens&#x20;
 
 #### Technical Requirements
@@ -75,5 +71,5 @@ Risk requirements:&#x20;
 2. After initial discussions it is possible to go through the [standard governance process](../../governance/setup/).&#x20;
 
 {% hint style="success" %}
-Prior to the forum posts, feel free to ping on [Discord](https://discord.gg/JssNVvxscK) to ask for help!
+Prior to a formal proposal, feel free to ping on [Discord](https://discord.gg/JssNVvxscK) to ask for help!
 {% endhint %}
