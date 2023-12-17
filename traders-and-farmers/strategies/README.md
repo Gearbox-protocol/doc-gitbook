@@ -8,9 +8,9 @@ description: Ideas on how leverage could be used across DeFi.
 Before you go any further, just know that [https://app.gearbox.fi/accounts/strategies/list](https://app.gearbox.fi/accounts/strategies/list) has the list of strategies that ape for you in one click! That's right: you configure your collateral asset(s), debt asset, leverage factor... and it does all of it for you in one click. So if you just wanna do some vanilla farming - this could be the recipe for you. But keep reading to learn about other hot stuff possible with composable leverage.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Screenshot 2022-10-27 at 19.50.34.png" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts/strategies/list">https://app.gearbox.fi/accounts/strategies/list</a></p></figcaption></figure>
-
 While a developer can run all of the complex interactions onchain, executing these by going protocol to protocol is a tough task. Gearbox devs have worked this out, to have the dApp help non-technical users **ape into strategies with one click thanks to "One-Click Strategies"**.&#x20;
+
+<figure><img src="../../.gitbook/assets/Screenshot 2022-10-27 at 19.50.34.png" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts/strategies/list">https://app.gearbox.fi/accounts/strategies/list</a></p></figcaption></figure>
 
 What it enables in 1 go, is:
 
@@ -18,9 +18,7 @@ What it enables in 1 go, is:
 * Swap assets if needed to the ones needed for a specific farm you chose;
 * LP, stake, etc. to end up in that destination as you have chosen.
 
-Done! From assets X Y Z -> to taking leverage with Gearbox -> to swapping those into other assets -> to depositing and then staking in the protocols you chose. **All in one click thanks to Multicall + Smart Router!**
-
-
+Done! From assets X Y Z -> to taking leverage with Gearbox -> to swapping those into other assets -> to depositing and then staking in the protocols you chose. **All in one click!**
 
 ## Concrete Examples
 

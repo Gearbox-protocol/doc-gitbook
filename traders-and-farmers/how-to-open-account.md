@@ -7,7 +7,7 @@ description: A quick guide to your first Credit Account.
 Being able to leverage trade & farm starts with opening a Credit Account. Simply select an interface that fits your initial purpose (farming or trading), to simplify your user journey.
 
 {% hint style="info" %}
-Underneath, the protocol logic and contracts are the same! Different dApps simply help different user bases get to their desired positions quicker. After all, delta-neutral farming is not the same as a directional long/short on medium-tail assets.
+Underneath, the protocol logic and contracts are the same! Different dApps simply help different user bases get to their desired positions quicker.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/gearbox dapp leverage interface.png" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts">https://app.gearbox.fi/accounts</a></p></figcaption></figure>
@@ -19,7 +19,7 @@ Then you better go to the PURE interface which is supposed to look like a regula
 
 
 {% hint style="success" %}
-If you would want to get more out of margin trading, you can click on "Extended dApp" in the interface and configure your position further. For example, make your short or long - farm at the same time. Many of these [leverage 2.0 actions](../what-can-you-do-with-leverage-2.0.md) are possible, just dive in!
+If you would want to get more out of margin trading, you can later click on "Extended dApp" in the interface and configure your position further. For example, make your short or long - farm at the same time. Many of these [leverage 2.0 actions](../what-can-you-do-with-leverage-2.0.md) are possible, just dive in!
 {% endhint %}
 
 ### 2. "I want to leverage farm"&#x20;
@@ -32,7 +32,7 @@ _You can then change your leverage,, assets, add or remove debt, etc..._
 
 <figure><img src="../.gitbook/assets/gearbox leverage farming multicall.png" alt=""><figcaption><p><a href="https://app.gearbox.fi/strategies/list">https://app.gearbox.fi/strategies/list</a></p></figcaption></figure>
 
-### 3. "I am 180 IQ, I'll go manual"&#x20;
+### 3. "I am 180 IQ, I will go manual"&#x20;
 
 In this case, you might be better off following the steps by yourself: from selecting the debt asset to choosing leverage, to swapping some assets and LPing into Curve, to staking on Yearn and so on. In terms of _what_ you are doing, it's the same assets as above, but with customized steps in-between.
 
@@ -52,6 +52,12 @@ Before you begin, definitely check out [pro-leverage-bible.md](pro-leverage-bibl
 ## Credit Account min/max borrow limits
 
 The limits on Credit Accounts are enforced on the contract level by minimum borrow and maximum borrow limits. As per the DAO governance, those can change. The dApps will help you figure this out and show you the max available leverage.
+
+In case you want to know all the tiny details on limits and LTV, check the doc in here:
+
+{% content-ref url="../overview/credit-account/allowedlist-integrations/" %}
+[allowedlist-integrations](../overview/credit-account/allowedlist-integrations/)
+{% endcontent-ref %}
 
 {% hint style="warning" %}
 Did you find a bug with the interface, something didn't work as you think it should have, or you have a suggestion on how to improve the user experience? [Suggest](https://discord.gg/hF3QvX2vgt) on Discord!
