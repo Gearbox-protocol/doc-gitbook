@@ -1,7 +1,5 @@
 ---
-description: >-
-  How leveraged liquid staking strategies can work with LIDO and our new
-  adapter.
+description: How leveraged liquid staking strategies can work with LIDO and others.
 ---
 
 # Leveraged liquid staking

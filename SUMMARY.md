@@ -25,7 +25,7 @@
 ## Traders & farmers
 
 * [How to open a Credit Account](traders-and-farmers/how-to-open-account.md)
-* [PURE Margin Trading](traders-and-farmers/pure-margin-trading.md)
+* [Margin Trading - PURE](traders-and-farmers/margin-trading-pure.md)
 * [Leverage Farming](traders-and-farmers/strategies/README.md)
   * [One-Click Strategies](traders-and-farmers/strategies/one-click-strategies.md)
   * [Leveraged liquid staking](traders-and-farmers/strategies/leveraged-liquid-staking.md)

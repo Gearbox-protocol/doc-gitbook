@@ -4,8 +4,6 @@ description: A quick guide to your first Credit Account.
 
 # How to open a Credit Account
 
-## Easy paths to opening a Credit Account
-
 Being able to leverage trade & farm starts with opening a Credit Account. Simply select an interface that fits your initial purpose (farming or trading), to simplify your user journey.
 
 {% hint style="info" %}
@@ -16,7 +14,7 @@ Underneath, the protocol logic and contracts are the same! Different dApps simpl
 
 ### 1. "I want to margin trade"&#x20;
 
-Then you better go to the PURE interface which is supposed to look like a regular familiar leverage interface. You can select the trading pair, your leverage, slippage, and all the other important inputs. _Once you open it, you can further configure the position parameters like liquidation price and leverage factor._ The [**PURE**](pure-margin-trading.md) docs page can tell you more about what it is.
+Then you better go to the PURE interface which is supposed to look like a regular familiar leverage interface. You can select the trading pair, your leverage, slippage, and all the other important inputs. _Once you open it, you can further configure the position parameters like liquidation price and leverage factor._ The [**PURE**](margin-trading-pure.md) docs page can tell you more about what it is.
 
 
 
@@ -45,7 +43,7 @@ For this, click the small "open Credit Account" button in the Extended dApp.
 * Select leverage factor and slippage, and then approve transactions;
 * Once open, do the farm-trade operations as you choose.
 
-{% hint style="warning" %}
+{% hint style="info" %}
 Before you begin, definitely check out [pro-leverage-bible.md](pro-leverage-bible.md "mention") section to understand some of the intricacies on how max leverage works.
 {% endhint %}
 
@@ -53,12 +51,8 @@ Before you begin, definitely check out [pro-leverage-bible.md](pro-leverage-bibl
 
 ## Credit Account min/max borrow limits
 
-The limits on Credit Accounts are enforced on the contract level by minimum borrow and maximum borrow limits. As per the DAO governance, those can change. Check the latest here:
+The limits on Credit Accounts are enforced on the contract level by minimum borrow and maximum borrow limits. As per the DAO governance, those can change. The dApps will help you figure this out and show you the max available leverage.
 
-{% content-ref url="../overview/credit-account/allowedlist-integrations/" %}
-[allowedlist-integrations](../overview/credit-account/allowedlist-integrations/)
-{% endcontent-ref %}
-
-{% hint style="info" %}
+{% hint style="warning" %}
 Did you find a bug with the interface, something didn't work as you think it should have, or you have a suggestion on how to improve the user experience? [Suggest](https://discord.gg/hF3QvX2vgt) on Discord!
 {% endhint %}

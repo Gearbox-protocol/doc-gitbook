@@ -1,7 +1,7 @@
 # OLD: V1-V2 Pools
 
 {% hint style="danger" %}
-This page refers to the information about the old pools of V1-V2.1 pools.
+This page refers to the information about old V1-V2.1 pools.
 {% endhint %}
 
 {% content-ref url="../manage-liquidity.md" %}

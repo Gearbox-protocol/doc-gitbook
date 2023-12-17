@@ -64,7 +64,7 @@ These fees are also different from one Credit Manager to another. For example, a
 That is why you can kind of see it as a trading fee, but the second example provided above shows that it's not always about trading. **It's about "buying quota allocation".**
 
 {% hint style="info" %}
-For the exact math behind the fees and the split, see the Tech Paper page:
+For the exact math behind the fees and the split, see Tech Paper:
 {% endhint %}
 
 {% content-ref url="whitepaper.md" %}
