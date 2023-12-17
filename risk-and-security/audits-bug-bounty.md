@@ -12,8 +12,8 @@ Keep in mind that no number of audits can guarantee full safety. There are alway
 
 <figure><img src="../.gitbook/assets/Gearbox Protocol GEAR audits ABDK Chain Security Sigma Prime MixBytes (1).PNG" alt=""><figcaption></figcaption></figure>
 
-* **ChainSecurity** (Q2-Q4 2023): full V3 coverage, report
-* **ABDK** (Q2-Q4 2023): full V3 coverage, report
+* **ChainSecurity** (Q2-Q4 2023): full V3 coverage, [reports](https://github.com/Gearbox-protocol/security/tree/main/audits) (see multiple files)
+* **ABDK** (Q2-Q4 2023): full V3 coverage, [reports](https://github.com/Gearbox-protocol/security/tree/main/audits) (see multiple files)
 * **Decurity** (08/11/2023 - 20/11/2023): governor audit, [report](https://github.com/Gearbox-protocol/security/blob/main/audits/2023%20Dec%20-%20Decurity\_Governor\_Report.pdf)
 
 Previous versions, including audits of many of the V3 contracts:
