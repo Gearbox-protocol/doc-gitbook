@@ -8,9 +8,9 @@
 
 * [How it works](overview/how-it-works.md)
 * [Credit Accounts](overview/credit-account/README.md)
-  * [AllowedList - Integrations](overview/credit-account/allowedlist-integrations/README.md)
+  * [AllowedList: Integrations](overview/credit-account/allowedlist-integrations/README.md)
     * [OLD: V1 and V2](overview/credit-account/allowedlist-integrations/old-v1-and-v2.md)
-  * [How to add new Contracts & Assets to CA AllowedList](overview/credit-account/how-to-add-new-assets-protocols.md)
+  * [How to add new Contracts & Assets to AllowedList](overview/credit-account/how-to-add-new-assets-protocols.md)
 * [Liquidations](overview/liquidations/README.md)
   * [Reserve Fund](overview/liquidations/insurance-fund.md)
 * [Protocol Fees](overview/protocol-fees.md)
@@ -25,7 +25,7 @@
 ## Traders & farmers
 
 * [How to open a Credit Account](traders-and-farmers/how-to-open-account.md)
-* [Margin Trading - PURE](traders-and-farmers/margin-trading-pure.md)
+* [Margin Trading: PURE](traders-and-farmers/margin-trading-pure.md)
 * [Leverage Farming](traders-and-farmers/strategies/README.md)
   * [One-Click Strategies](traders-and-farmers/strategies/one-click-strategies.md)
   * [Leveraged liquid staking](traders-and-farmers/strategies/leveraged-liquid-staking.md)
