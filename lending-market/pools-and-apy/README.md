@@ -41,7 +41,7 @@ Getting Diesel tokens is super easy, you can try it out by [supplying liquidity 
 
 #### dTokens and staked sdTokens
 
-<table><thead><tr><th width="170.78357926598557">Asset</th><th>Contract Address</th></tr></thead><tbody><tr><td>ETH (WETH)</td><td></td></tr><tr><td>USDC</td><td></td></tr><tr><td>WBTC</td><td></td></tr><tr><td>sdETH</td><td></td></tr><tr><td>sdUSDC</td><td></td></tr><tr><td>sdWBTC</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="170.78357926598557">Asset</th><th>Contract Address</th></tr></thead><tbody><tr><td>dWETH (ETH)</td><td><a href="https://etherscan.io/address/0xda0002859B2d05F66a753d8241fCDE8623f26F4f">0xda0002859B2d05F66a753d8241fCDE8623f26F4f</a></td></tr><tr><td>dUSDC</td><td><a href="https://etherscan.io/address/0xda00000035fef4082F78dEF6A8903bee419FbF8E">0xda00000035fef4082F78dEF6A8903bee419FbF8E</a></td></tr><tr><td>dWBTC</td><td><a href="https://etherscan.io/address/0xda00010eDA646913F273E10E7A5d1F659242757d">0xda00010eDA646913F273E10E7A5d1F659242757d</a></td></tr><tr><td>sdWETH</td><td><a href="https://etherscan.io/address/0x0418fEB7d0B25C411EB77cD654305d29FcbFf685">0x0418fEB7d0B25C411EB77cD654305d29FcbFf685</a></td></tr><tr><td>sdUSDC</td><td><a href="https://etherscan.io/address/0x9ef444a6d7F4A5adcd68FD5329aA5240C90E14d2">0x9ef444a6d7F4A5adcd68FD5329aA5240C90E14d2</a></td></tr><tr><td>sdWBTC</td><td><a href="https://etherscan.io/address/0xA8cE662E45E825DAF178DA2c8d5Fae97696A788A">0xA8cE662E45E825DAF178DA2c8d5Fae97696A788A</a></td></tr></tbody></table>
 
 ## Where does the yield come from?
 
