@@ -24,7 +24,7 @@ If you would want to get more out of margin trading, you can later click on "Ext
 
 ### 2. "I want to leverage farm"&#x20;
 
-Then you can check [strategies](strategies/ "mention") and open a position in one click, thanks to _multicall_. That page lets you ape into Curve/Convex/Lido/Yearn farms with a single transaction, saving you gas costs as well!
+Then you can check [strategies](strategies/ "mention") and open a position in one click, thanks to _multicall_. That page lets you ape into Curve/Convex/Lido/Yearn farms with a single сдшсл, saving you gas costs!
 
 It's more applicable to farmers who don't want to have a bunch of complexities and steps, and who know what end strategies they want to sit and farm in. This approach opens a Credit Account for you and apes into a strategy right after, removing manual complexity from you as a user.
 
