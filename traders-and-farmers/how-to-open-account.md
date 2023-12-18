@@ -16,7 +16,7 @@ Underneath, the protocol logic and contracts are the same! Different dApps simpl
 
 Then you better go to the PURE interface which is supposed to look like a regular familiar leverage interface. You can select the trading pair, your leverage, slippage, and all the other important inputs. _Once you open it, you can further configure the position parameters like liquidation price and leverage factor._ The [**PURE**](margin-trading-pure.md) docs page can tell you more about what it is.
 
-
+<figure><img src="../.gitbook/assets/gearbox pure margin trading (1).png" alt=""><figcaption><p><a href="https://pure.gearbox.fi/">https://pure.gearbox.fi/</a></p></figcaption></figure>
 
 {% hint style="success" %}
 If you would want to get more out of margin trading, you can later click on "Extended dApp" in the interface and configure your position further. For example, make your short or long - farm at the same time. Many of these [leverage 2.0 actions](../what-can-you-do-with-leverage-2.0.md) are possible, just dive in!
@@ -38,10 +38,14 @@ In this case, you might be better off following the steps by yourself: from sele
 
 For this, click the small "open Credit Account" button in the Extended dApp.
 
+<figure><img src="../.gitbook/assets/gearbox manual credit account open.png" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts">https://app.gearbox.fi/accounts</a></p></figcaption></figure>
+
 * Select a Credit Manager based on what assets it allows for. Research the [Integrations](../overview/credit-account/allowedlist-integrations/) page to find out what specific Credit Manager you need;
 * Select your assets that you want to deposit into your Credit Account;
 * Select leverage factor and slippage, and then approve transactions;
 * Once open, do the farm-trade operations as you choose.
+
+<figure><img src="../.gitbook/assets/gearbox manual credit account opening.png" alt=""><figcaption><p>You can choose to deposit multiple assets at once as collateral. Then you can change your leverage factor: the higher the leverage, the lower your Health Factor. And then you can also reduce slippage. Once you open the Credit Account, you can decide to keep some of your assets as idle collateral or swap some (or all of them) into different assets. You decide!</p></figcaption></figure>
 
 {% hint style="info" %}
 Before you begin, definitely check out [pro-leverage-bible.md](pro-leverage-bible.md "mention") section to understand some of the intricacies on how max leverage works.

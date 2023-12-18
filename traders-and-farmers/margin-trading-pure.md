@@ -12,14 +12,15 @@ Underneath, the protocol logic and contracts are the same! Different dApps simpl
 
 The PURE margin trading interface helps you enter leverage positions quickly!
 
-1. You can either select how much of an asset you want to long - and then change your initial capital amount / leverage factor. Or choose how much initial capital you want to go into a position with - and then chance your leverage factor. The interface responds to either case.
-2. Check your liquidation price, leverage factor, borrow rate, slippage, and so on. You can later on fix these parameters as well, after the position is open. It's all customizable. The only thing that is staying in tact is your debt asset. That stays the same until you close the position.
+<figure><img src="../.gitbook/assets/gearbox pure margin trading (1).png" alt=""><figcaption><p><a href="https://pure.gearbox.fi/">https://pure.gearbox.fi/</a></p></figcaption></figure>
 
-
+1. You can either select how much of an asset you want to long - and then change your initial capital amount OR leverage factor. Or choose how much initial capital you want to go into a position with - and then chance your leverage factor. The interface responds to either case.
+2. Check your liquidation price, leverage factor, borrow rate, slippage, and so on. You can also change these parameters later, after the position is open. It's all customizable. The only thing that is staying in tact is your debt asset. That stays the same until you close the position.
+3. The chart will draw a line for you to show you the liquidation price. Once you adjust your collateral (add more or increase your debt instead) then the line will move accordingly to help you.
 
 ## Why is it PURE?
 
-<figure><img src="../.gitbook/assets/gearbox pure margin trading.png" alt=""><figcaption><p><a href="https://pure.gearbox.fi/">https://pure.gearbox.fi/</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/gearbox pure margin trading.png" alt=""><figcaption><p>Click the green button at the top right corner: <a href="https://pure.gearbox.fi/">https://pure.gearbox.fi/</a></p></figcaption></figure>
 
 The name PURE is not an abbreviation. It literally means _pure_ leverage. The reason why it's pure is because Gearbox leverage isn't about perpetuals or isolated liquidity. With Gearbox:
 
