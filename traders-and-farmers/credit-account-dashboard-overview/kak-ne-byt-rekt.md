@@ -26,9 +26,17 @@ Read about that in [pro-leverage-bible.md](../pro-leverage-bible.md "mention").
 
 1. **Add collateral**: the easiest method to improve your Health Factor is simply by adding more collateral in the form of the base asset that you opened your credit account in. If this isn't a possibility you can follow the below options.
 
-<figure><img src="../../.gitbook/assets/Add more collateral.png" alt=""><figcaption></figcaption></figure>
+<div>
 
-&#x20;2\.  **Change your strategy:** If you are in a strategy that has a directional trade that's leading to the HF dropping, a possible better idea could be to change to a strategy with stables or lesser volatile/base asset to preserve your Credit Account. That is, if your debt is stables. If your debt is ETH and you are short ETH in a bull market... _maybe join the ultrasound side, anon-kun._
+<figure><img src="../../.gitbook/assets/Farm addc.png" alt=""><figcaption><p>For farming</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/Leverage Add Collateral.png" alt=""><figcaption><p>For margin trading</p></figcaption></figure>
+
+</div>
+
+&#x20;2\.  **Change your strategy or farm:** If you are in a strategy that has a directional trade that's leading to the HF dropping, a possible better idea could be to change to a strategy with stables or lesser volatile/base asset to preserve your Credit Account. That is, if your debt is stables. If your debt is ETH and you are short ETH in a bull market... _maybe join the ultrasound side, anon-kun._
 
 &#x20;3\.  **Decrease debt:** Add some of the collateral back to the CA in the form of the base asset you borrowed, this will help you lower your leverage and thus improve your health factor
 
@@ -38,13 +46,19 @@ Read about that in [pro-leverage-bible.md](../pro-leverage-bible.md "mention").
 
 ### Checking Health Factor of your Credit Account
 
-In the [Credit Account's page](https://app.beta.gearbox.fi/accounts) you can check health factors of all your Credit Accounts:
+In the [Credit Account's page](https://app.beta.gearbox.fi/accounts) you can check health factors of all your farming position or leverage position by clicking on it and going to the manage tab:
 
-<figure><img src="../../.gitbook/assets/screenshot-app-goerli-gearbox-fi-accounts-1666402061955.png" alt=""><figcaption></figcaption></figure>
+<div>
 
-Also you can check health factor inside the Credit Account. _All of these stats are of course also fully on-chain and do not require any interfaces, just so you know_.
+<figure><img src="../../.gitbook/assets/Farm HF.png" alt=""><figcaption><p>For farming</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/screenshot-app-goerli-gearbox-fi-accounts-0x2ad4a2f1bdd815e285a22cdcc072fbb-1666400881484 (3).png" alt=""><figcaption></figcaption></figure>
+ 
+
+<figure><img src="../../.gitbook/assets/Leverage Health.png" alt=""><figcaption><p>For margin trading</p></figcaption></figure>
+
+</div>
+
+For Margin Trading, the liquidation point will also be visualised on the Chart. For farming, you can also check health factor inside the Credit Account. _All of these stats are of course also fully on-chain and do not require any interfaces, just so you know_.
 
 {% hint style="info" %}
 Anybody can run a liquidator bot and secure the protocol. You can chat about setting up your bot and other liquidator-things in [Discord](https://discord.gg/wmydr8JfcP). Help users minimize the [risks](../../risk-and-security/risks-terms.md)!

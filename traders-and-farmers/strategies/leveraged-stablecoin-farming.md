@@ -1,10 +1,12 @@
 ---
-description: Learn about the multiple stablecoin strategies we have coming up
+description: >-
+  Learn about the multiple stablecoin strategies we have available to leverage
+  farm
 ---
 
 # Leveraged stablecoin farming
 
-<figure><img src="../../.gitbook/assets/screenshot-app-gearbox-fi-accounts-strategies-list-1666803356826.png" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts/strategies/list">https://app.gearbox.fi/accounts/strategies/list</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Stables .jpg" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts/strategies/list">https://app.gearbox.fi/accounts/strategies/list</a></p></figcaption></figure>
 
 ### Curve 3Pool (USDC+USDT+DAI)
 
@@ -18,23 +20,13 @@ You can then put those Curve LP tokens either in Convex or Yearn. This will give
 
 ### FRAX flavour
 
-#### a. Curve FRAX3CRV
-
-The **FRAX3crv pool** is the type where a pool pairs 1 asset with the 3CRV Pool token. So by participating in this pool, you’re (very approximately) holding 50% FRAX and 50% 3CRV, which is made up of DAI, USDC, and USDT. If FRAX is your stablecoin of choice, then this Vault is a decent option for you to earn yield on FRAX as a stablecoin.
-
-b. **Curve** **FRAXUSDC**
+**Curve** **FRAXUSDC**
 
 This pool is approximately 50%-50% in FRAX and USDC.
 
 {% hint style="success" %}
 You can then put those Curve LP tokens either in Convex or Yearn. This will give you some \[boosted] CRV rewards as well as CVX rewards, next to trading fees of the pool.
 {% endhint %}
-
-### MiM Brew
-
-#### Curve and Convex MiM3CRV pool
-
-MiM is Abracadabra’s stable coin that is backed by multiple interest bearing tokens as collateral. The MiM3CRV pool, like the FRAX pool, pairs 1 MiM asset with the 3CRV pool token. While the APYs on the pool are lucrative, the protocol could be argued to still have potentially about 5.5% bad debt. If MiM is still your choice of stable, you can opt for it's Convex or Curve strategy and access leverage on it through Gearbox.&#x20;
 
 ### LUSD flavour
 
@@ -43,16 +35,6 @@ MiM is Abracadabra’s stable coin that is backed by multiple interest bearing t
 The **LUSD3crv pool** is another one of these pools with 1 asset + 3CRV. In this case, the 1 asset is LUSD, which again means that you’re holding 50% LUSD and 50% a mixture of DAI, USDC, and USDT. LUSD is generally viewed as one of the most decentralized and censorship resistant stablecoins (the design is similar to original design of DAI, where the only collateral used for LUSD is ETH). So if you’re a decentralization maxi but you still want to earn yield on stables, this LUSD pool might be a reasonably good solution for you.&#x20;
 
 _Just keep in mind that recently LUSD has been >$1 peg, so entering the pool (but so is exiting) yields slippage if you are using another stablecoin other than LUSD itself._
-
-{% hint style="success" %}
-You can then put those Curve LP tokens either in Convex or Yearn. This will give you some \[boosted] CRV rewards as well as CVX rewards, next to trading fees of the pool.
-{% endhint %}
-
-### GUSD flavour
-
-#### Curve GUSD3CRV
-
-Similar to the above 2, **GUSD3crv pool** on Curve also functions with 1 asset being clubbed with the 3CRV. GUSD is a 1:1 USD-backed stablecoin issued by Gemini.&#x20;
 
 {% hint style="success" %}
 You can then put those Curve LP tokens either in Convex or Yearn. This will give you some \[boosted] CRV rewards as well as CVX rewards, next to trading fees of the pool.

@@ -10,7 +10,7 @@ Before you go any further, just know that [https://app.gearbox.fi/accounts/strat
 
 While a developer can run all of the complex interactions onchain, executing these by going protocol to protocol is a tough task. Gearbox devs have worked this out, to have the dApp help non-technical users **ape into strategies with one click thanks to "One-Click Strategies"**.&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2022-10-27 at 19.50.34.png" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts/strategies/list">https://app.gearbox.fi/accounts/strategies/list</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot-v2-gearbox-fi-strategies-list-1702984880760.png" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts/strategies/list">https://app.gearbox.fi/accounts/strategies/list</a></p></figcaption></figure>
 
 What it enables in 1 go, is:
 

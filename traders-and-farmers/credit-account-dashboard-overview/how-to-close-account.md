@@ -4,13 +4,13 @@ description: Closing your account and avoiding liquidations.
 
 # How to close a Credit Account
 
-Before you close a Credit Account, the protocol would want you to pay back what you owe. That is the loan you took and the interest accrued to it over the time you used the Credit Account. You can see this amount in the [Credit Account Dashboard](./) section. There are two options to pay back:&#x20;
+Before you close a Credit Account, either while famring or margin trading, the protocol would want you to pay back what you owe. That is the loan you took and the interest accrued to it over the time you used the Credit Account. You can see this amount in the [Credit Account Dashboard](./) section. There are two options to pay back:&#x20;
 
 * Use the Credit Account's funds to repay the debt by automatically swapping all positions inside it to the underlying asset, from which the debt (notional loan + interest accrued) are subtracted and then the difference is given back to you. The better you traded, the more you will get.
-* Use your own funds to repay the debt in the underlying asset - and get all the assets from the Credit Account back to your wallet. You essentially prepay the debt, and then the Credit Account releases all the funds on its balance to your personal wallet. _This shall become available shortly after V2 launch, but not at the start. On contract level this is of course available, but interface didn't catch up to this functionality yet._
+* Use your own funds to repay the debt in the underlying asset - and get all the assets from the Credit Account back to your wallet. You essentially prepay the debt, and then the Credit Account releases all the funds on its balance to your personal wallet.&#x20;
 
 {% hint style="info" %}
-**Option number two is preferred in case you really like the assets** you have on your Credit Account and don't want to trade there-and-back and just want to keep the assets. Remember that keeping passive positions on a Credit Account still accrues the interest.
+**Option number two is preferred in case you really like the assets** you have on your Credit Account and don't want to trade there-and-back and just want to keep the assets. Remember that keeping passive positions on a Credit Account still accrues **interest**.
 
 Another reason why **option number two is preferred is because you as a user can slowly trade out of the positions instead of market-selling them**. In case your positions are large, some of the assets on your Credit Account could incur high slippage which the protocol will not allow you to perform such an action and will require you to input larger slippage tolerance.
 {% endhint %}
@@ -21,7 +21,7 @@ The protocol will exchange all the non-underlying asset funds to the underlying 
 
 **Step I-1.** Click _Close_ button
 
-<figure><img src="../../.gitbook/assets/Close credit account.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Farm close (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step I-2.** Choose the maximum size of the slippage that you will tolerate in the options page in the top right corner, and click _Swap and get tokens_ button. If the price falls by more than the slippage while your trade is being confirmed, the trade will be reverted.
 

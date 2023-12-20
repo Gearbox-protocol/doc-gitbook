@@ -4,7 +4,7 @@ description: Save gas and time by using multicall!
 
 # One-Click Strategies
 
-<figure><img src="../../.gitbook/assets/Screenshot 2022-10-27 at 22.18.55.png" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts/strategies/list">https://app.gearbox.fi/accounts/strategies/list</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot-v2-gearbox-fi-strategies-list-1702984880760.png" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts/strategies/list">https://app.gearbox.fi/accounts/strategies/list</a></p></figcaption></figure>
 
 One-click strategies do what the name suggests: open leveraged positions in your preferred pool/protocol in just one transaction. Multicall feature of Gearbox essentially bundles all the complex \[swap->LP->deposit] operations into just 1 transaction, also saving you a bunch of gas.
 
