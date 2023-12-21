@@ -148,6 +148,14 @@ The interface logic doesn't always perfectly claim your unclaimed rewards effici
 
 <figure><img src="../.gitbook/assets/gearbox claim farming rewards.png" alt=""><figcaption></figcaption></figure>
 
+### PURE liquidation price calculation
+
+Since PURE uses real assets, the slippage and liquidity requirement isn’t just limited to your collateral but the entirety of your position. This leads to the calculation of liquidation price being slightly different than what you are used to on perps, and hence needs more attention while opening a position. It's all visible in the dApp, we are just pointing this out so you are super aware of the differences.
+
+With this being the alpha version, we have been conservative with the LTVs, as the risk framework evolves, the UX on this too should improve. It’s not a protocol “issue”, just a precautionary risk management that should improve as we grow. Trade safe!
+
+***
+
 Now, go, degen ->
 
 {% content-ref url="how-to-open-account.md" %}

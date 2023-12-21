@@ -32,7 +32,7 @@
   * [Leveraged stablecoin farming](traders-and-farmers/strategies/leveraged-stablecoin-farming.md)
   * [Leveraged Curve V2 and Convex](traders-and-farmers/strategies/leveraged-curve-v2-and-convex.md)
   * [Leveraged vanilla yVaults](traders-and-farmers/strategies/leveraged-vanilla-yvaults.md)
-  * [Boosted Long/Short or "Free Leverage Position"](traders-and-farmers/strategies/long.md)
+  * [Boosted Long/Short or "Free Leverage"](traders-and-farmers/strategies/long.md)
   * [Arbitrage of correlated assets](traders-and-farmers/strategies/arb-correlated-assets.md)
 * [Tips for leverage users](traders-and-farmers/credit-account-dashboard-overview/README.md)
   * [How to avoid liquidations](traders-and-farmers/credit-account-dashboard-overview/kak-ne-byt-rekt.md)

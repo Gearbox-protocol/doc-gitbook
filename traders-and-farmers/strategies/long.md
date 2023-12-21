@@ -1,8 +1,10 @@
 ---
-description: How to go long or short on an asset and farm with it.
+description: How to go long or short and farm at the same time!
 ---
 
-# Boosted Long/Short or "Free Leverage Position"
+# Boosted Long/Short or "Free Leverage"
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ### Boosted Long: Free Leverage / Hedge
 
@@ -31,7 +33,3 @@ If you want to go short ETH to USD, you need to open a Credit Account denominate
 {% hint style="success" %}
 Depending on the interest rates in Gearbox Protocol and interest rates in Convex or another protocol, you can actually get a _self-repaying long or even a net-paying long_.
 {% endhint %}
-
-The same strategy goes for going short WBTC against ETH or some other asset available.
-
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
