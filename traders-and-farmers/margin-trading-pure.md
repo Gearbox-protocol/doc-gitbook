@@ -15,10 +15,10 @@ Underneath, the protocol logic and contracts are the same! Different dApps simpl
 The PURE margin trading interface helps you enter leverage positions quickly, without having to go through a complex Credit Account opening process. Here you can find:
 
 1. **Flexible Leverage:** You can either select how much of an asset you want to long - and then change your initial capital amount OR leverage factor. Or choose how much initial capital you want to go into a position with - and then chance your leverage factor.
-2. **Position Management:** Check your liquidation price, leverage factor, borrow rate, slippage, and so on. You can also change these parameters later, after the position is open. The only thing that is staying in tact is your debt asset. That stays the same until you close the position.
+2. **Position Management:** Check your liquidation price, leverage factor, borrow rate, slippage, and so on. You can also change these parameters later, after a position is open. The only thing that is staying in tact is your debt asset. That stays the same until you close that Credit Account.
 3. **Visualized Charts:** The chart will draw a line for you to show you the liquidation price. Once you adjust your collateral (add more or increase your debt instead), the line will move accordingly.
 
-## Why is it PURE?
+## Why is it PURE? What's cool here?
 
 <figure><img src="../.gitbook/assets/gearbox pure margin trading.png" alt=""><figcaption><p>Click the green button at the top right corner: <a href="https://pure.gearbox.fi/">https://pure.gearbox.fi/</a></p></figcaption></figure>
 

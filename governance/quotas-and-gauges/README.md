@@ -42,6 +42,8 @@ Gauges are basically a tool for _“what extra APY rates on top of the usual uti
 
 {% hint style="success" %}
 Gauges decide the extra APY a borrower pays for each asset. These rates are applied per-block like regular borrow rates. Voted by GEAR stakers onchain. See in [Fees](../../overview/protocol-fees.md).
+
+**New epochs start every Monday at 12:00 UTC.**
 {% endhint %}
 
 These extra rates are split with passive lenders and are accumulated in the [Fee Guard](../setup/guards-multisigs.md#fee-temporary-guard-5-10). Check the [Utility & Staking page](../../gear-token/utility-and-staking.md) to see more about how GEAR holders can vote for these extra rates.

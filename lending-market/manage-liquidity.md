@@ -21,7 +21,7 @@ description: Earn APY in the same asset plus any additional GEAR APY or even oth
 <figure><img src="../.gitbook/assets/gearbox passive lending supply approve.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
-Done! Now you have (staked) [diesel tokens](pools-and-apy/#what-is-diesel-token). The organic APY from borrow and quota fees is being compounded into it, so there is nothing you need to do. Just sit back and relax.&#x20;
+Done! Now you have (staked) [diesel tokens](pools-and-apy/#what-is-diesel-token). The organic APY from borrow and quota rates are being compounded into it, so there is nothing you need to do. Just sit back and relax.&#x20;
 {% endhint %}
 
 As for the GEAR or any other extra token yields, those are accruing to your staked dTokens too, but you need to claim them. _How often?_ - That's up to you to decide. You can claim the GEAR rewards either onchain via Etherscan, or simply click on the rewards tab in the top right corner of the interface.
