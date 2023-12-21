@@ -39,7 +39,7 @@
   * [How to close a Credit Account](traders-and-farmers/credit-account-dashboard-overview/how-to-close-account.md)
 * [PRO: Leverage Bible](traders-and-farmers/pro-leverage-bible.md)
 
-## Lending Markets <a href="#lending-market" id="lending-market"></a>
+## Passive Lending <a href="#lending-market" id="lending-market"></a>
 
 * [Pools & APY](lending-market/pools-and-apy/README.md)
   * [OLD: V1-V2 Pools](lending-market/pools-and-apy/old-v1-v2-pools.md)
