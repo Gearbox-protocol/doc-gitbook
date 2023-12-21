@@ -268,8 +268,10 @@ The following contracts are not directly in the scope of Gearbox v3, however new
 
 </details>
 
-{% hint style="success" %}
-If you have found a bug that you think is within the security interests of the protocol but is outside of the scope of the repository above, please do notify us then anyway. We can decide ad-hoc together with you. 1/1 payouts has been done before based on this.
+{% hint style="info" %}
+For all assets labeled as “Gearbox v1” or "Gearbox v2" and deployed on the Ethereum network, only Critical and High impacts are in-scope.
+
+If you have found a bug that you think is within the security interests of the protocol but is outside of the scope of the repository above, please do notify us then anyway. We can decide ad-hoc together with you. 1/1 payouts have been done before based on this.
 {% endhint %}
 
 ### Rewards&#x20;

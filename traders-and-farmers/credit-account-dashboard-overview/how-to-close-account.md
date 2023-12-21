@@ -4,7 +4,7 @@ description: Closing your account and avoiding liquidations.
 
 # How to close a Credit Account
 
-Before you close a Credit Account, either while famring or margin trading, the protocol would want you to pay back what you owe. That is the loan you took and the interest accrued to it over the time you used the Credit Account. You can see this amount in the [Credit Account Dashboard](./) section. There are two options to pay back:&#x20;
+Before you close a Credit Account, either while famring or margin trading, the protocol would want you to pay back what you owe. That is the loan you took and the interest accrued to it over the time you used the Credit Account. There are two options to pay back:&#x20;
 
 * Use the Credit Account's funds to repay the debt by automatically swapping all positions inside it to the underlying asset, from which the debt (notional loan + interest accrued) are subtracted and then the difference is given back to you. The better you traded, the more you will get.
 * Use your own funds to repay the debt in the underlying asset - and get all the assets from the Credit Account back to your wallet. You essentially prepay the debt, and then the Credit Account releases all the funds on its balance to your personal wallet.&#x20;
@@ -29,11 +29,7 @@ The protocol will exchange all the non-underlying asset funds to the underlying 
 
 ## Option 2: **C**lose a Credit Account by repaying the debt and keeping some assets
 
-You repay the loan with your own funds. This means you have more funds on your personal wallet. After repayment is done, the assets which were on your Credit Account will be sent to your wallet.
-
-{% hint style="success" %}
-This option is possible only if your personal wallet balance in the denominated asset is at least of the amount required for repaying the debt. Will become possible soon!
-{% endhint %}
+You repay the loan with your own funds. This means you have more funds on your personal wallet. After repayment is done, the assets which were on your Credit Account will be sent to your wallet. This option is possible only if your personal wallet balance in the denominated asset is at least of the amount required for repaying the debt.
 
 {% hint style="info" %}
 Did you find a bug with the interface, something didn't work as you think it should have, or you have a suggestion on how to improve the user experience? [Report](https://discord.gg/5YuHH9tvms) on Discord!

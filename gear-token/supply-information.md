@@ -8,13 +8,12 @@ GEAR token is an ERC20 utility token, starting as a governance token for the pro
 
 Token contract ERC-20: [0xba3335588d9403515223f109edc4eb7269a9ab5d](https://etherscan.io/token/0xba3335588d9403515223f109edc4eb7269a9ab5d)\
 Decimals: 18\
-Symbol: $GEAR
+Symbol: $GEAR\
+Coingecko: [https://www.coingecko.com/en/coins/gearbox](https://www.coingecko.com/en/coins/gearbox)
 
 {% hint style="success" %}
 Approximately 4% of the total supply per year (from the DAO portion holding \~40%) goes into different initiatives & liquidity mining. The goal is to bring that number down as much as possible. All distributions beyond the initial can be found in [monthly-quarterly DAO reports](https://gearboxprotocol.notion.site/Monthly-Reports-6849871a9bae44dfb903531c0a997e8f). **There is no new inflation in GEAR:** only DAO grants and rewards for different activities: liquidity mining, stakers, and contributors. All at a relatively low rate.
 {% endhint %}
-
-
 
 ***
 

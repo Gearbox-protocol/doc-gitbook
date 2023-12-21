@@ -4,10 +4,6 @@ description: Defining liquidations, health factor, and weighted thresholds.
 
 # Liquidations
 
-{% hint style="info" %}
-A new liquidator code for V3 written in typescript:
-{% endhint %}
-
 #### How does the protocol ensure over-collaterization while allowing users leveraged operations?
 
 When trading with Gearbox, your [Credit Account](../credit-account/) becomes the collateral for external protocols/actions: both your initial funds and the borrowed amount you got from the protocol. Gearbox Protocol sees which tokens your portfolio consists of and can determine its value at all times, which are always calculated in the underlying borrowed asset which you opened that Credit Account in.&#x20;

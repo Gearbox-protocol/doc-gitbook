@@ -14,7 +14,7 @@ Underneath, the protocol logic and contracts are the same! Different dApps simpl
 
 ### 1. "I want to margin trade"&#x20;
 
-Then you better go to the PURE interface which is supposed to look like a regular familiar leverage interface. You can select the trading pair, your leverage, slippage, and all the other important inputs. _Once you open it, you can further configure the position parameters like liquidation price and leverage factor._ The [**PURE**](margin-trading-pure.md) docs page can tell you more about what it is.
+Then you better go to the PURE interface which is supposed to look like a regular familiar leverage interface. You can select the trading pair, your leverage, slippage, and all the other important parameters. _Once you open it, you can further configure the position parameters like liquidation price and leverage factor._ The [**PURE**](margin-trading-pure.md) docs page can tell you more about what it is.
 
 <figure><img src="../.gitbook/assets/gearbox pure margin trading (1).png" alt=""><figcaption><p><a href="https://pure.gearbox.fi/">https://pure.gearbox.fi/</a></p></figcaption></figure>
 
@@ -24,11 +24,11 @@ If you would want to get more out of margin trading, you can later click on "Ext
 
 ### 2. "I want to leverage farm"&#x20;
 
-Then you can check [strategies](strategies/ "mention") and open a position in one click, thanks to _multicall_. That page lets you ape into Curve/Convex/Lido/Yearn farms with a single сдшсл, saving you gas costs!
+Then you can check [strategies](strategies/ "mention") and open a position in one click, thanks to _multicall_. That page lets you ape into Curve/Convex/Lido/Yearn farms with a single click, saving you gas costs!
 
-It's more applicable to farmers who don't want to have a bunch of complexities and steps, and who know what end strategies they want to sit and farm in. This approach opens a Credit Account for you and apes into a strategy right after, removing manual complexity from you as a user.
+It's more applicable to farmers who don't want to have a bunch of complexities and steps, and who know what strategies they want to sit and farm in. This interface opens a Credit Account for you and apes into a strategy right after, removing manual complexity from you as a user.
 
-_You can then change your leverage,, assets, add or remove debt, etc..._
+_You can then change your leverage, assets, add or remove debt, etc..._
 
 <figure><img src="../.gitbook/assets/gearbox leverage farming multicall.png" alt=""><figcaption><p><a href="https://app.gearbox.fi/strategies/list">https://app.gearbox.fi/strategies/list</a></p></figcaption></figure>
 

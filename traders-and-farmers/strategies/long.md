@@ -1,10 +1,10 @@
 ---
-description: How to go long or short on an asset and farm with it with the help of Gearbox.
+description: How to go long or short on an asset and farm with it.
 ---
 
-# Farming Long/Short or "Free Leverage Position"
+# Boosted Long/Short or "Free Leverage Position"
 
-### Farming Long: Free Leverage / Hedge
+### Boosted Long: Free Leverage / Hedge
 
 If you want to go long ETH to USDC, you need to open a Credit Account denominated in a stable coin. Then you can use those extra stables you got from leverage and buy more ETH with your Credit Account. The same strategy goes for going long ETH against BTC or some other asset.
 
@@ -18,7 +18,7 @@ If you want to go long ETH to USDC, you need to open a Credit Account denominate
 Depending on the interest rates in Gearbox Protocol and interest rates in Yearn or another protocol, you can actually get a _self-repaying long or even a net-paying long_.
 {% endhint %}
 
-### Farming Short: Free Leverage / Hedge
+### Boosted Short: Free Leverage / Hedge
 
 If you want to go short ETH to USD, you need to open a Credit Account denominated in ETH. Then you can sell all the ETH within your Credit Account to USDC. You can use those USDC to leverage farm or do something else then.&#x20;
 

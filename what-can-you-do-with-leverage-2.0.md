@@ -1,16 +1,16 @@
 ---
-description: Quick overview of what is possible with Gearbox Protocol's Credit Accounts.
+description: What is possible with the leverage you get on Gearbox...
 ---
 
 # What can you do with leverage 2.0?
 
-The way we are used to leverage is having a _"short BTC" button_ on an exchange, where you put your assets as collateral and get a liquidation price. You can adjust by adding funds or closing the position. That's ok, everyone knows it, but then... that's it? Feels too restricted. Feels very web2.
+The way we are used to leverage is having a _"short BTC" button_ on an exchange, where you put your assets as collateral and get a liquidation price. You can then manage leverage or closing the position. That's fine, everyone knows it, but then... that's it? Feels too restricted. Feels very web2.
 
-> Your short is just sitting there and you can't utilize the collateral. Not good!
+> Your position is just sitting there and you can't utilize the collateral. Not good...
 
 ### _**...but what if you could do more with leverage?**_
 
-Gearbox Protocol doesn't give you 2 slick buttons "long" or "short". It gives you more capital to work with, which then YOU DECIDE where to deploy into. The leverage you get with Gearbox doesn't get isolated inside its own pools. No perps in here! Only PURE assets.
+Gearbox Protocol doesn't just give you 2 buttons "long" or "short". It gives you more capital to work with, which then YOU DECIDE where to deploy it. The leverage you get with Gearbox doesn't get isolated inside its own pools. No perps in here! Only PURE assets.
 
 > Your trades and farms are executed with the global DEX liquidity of other protocols.
 

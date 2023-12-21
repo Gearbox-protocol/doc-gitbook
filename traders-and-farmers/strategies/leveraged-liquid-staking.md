@@ -4,7 +4,7 @@ description: How leveraged liquid staking strategies can work with LIDO and othe
 
 # Leveraged liquid staking
 
-With the Gearbox integration, you are able to lever up staking as per your risk and debt \[borrowed] asset preference to get access to true leveraged staking… But that’s just the tip of the iceberg. **Beyond the leveraged ETH, it’s the stETH you receive that enables composability across multiple more DeFi protocols**. And each protocol enables you to earn even more APY. Here are the possible strategies, **all available through One Click.**
+With Gearbox, you are able to lever up staking as per your risk and debt \[borrowed] asset preference to get access to true leveraged staking… But that’s just the tip of the iceberg. **Beyond the leveraged ETH, it’s the stETH you receive that enables composability across multiple more DeFi protocols**. And each protocol enables you to earn even more APY.
 
 ### Pure leveraged staking yields in stETH <a href="#a600" id="a600"></a>
 
@@ -25,16 +25,6 @@ Yield: a mix of CVX, LDO, boosted CRV, staking yields, and trading fees of Curve
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts">https://app.gearbox.fi/accounts</a></p></figcaption></figure>
-
-### Yearn stETHCrv <a href="#cc9e" id="cc9e"></a>
-
-Yearn has very similar sources of yield to Convex but unlike convex it sells off some of the rewards earned to then redeposit ETH/stETH into the vault. Without fees, usually has higher performance.
-
-{% hint style="success" %}
-Yield: a mix of CVX, LDO, boosted CRV, staking yields, and trading fees of Curve pool.
-{% endhint %}
-
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts">https://app.gearbox.fi/accounts</a></p></figcaption></figure>
 
 ### Curve stETH <a href="#471f" id="471f"></a>
 
