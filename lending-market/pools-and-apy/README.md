@@ -27,7 +27,7 @@ Because Gearbox architecture is modular, there can exist multiple pools for the 
 
 **Gearbox lending pools are ERC-4626.**
 
-When you supply capital to a pool, you get Diesel Tokens, also known as dTokens. These tokens automatically earn interest & fees proportional to your share of the pool [like cTokens on Compound](https://compound.finance/docs/ctokens) or Yearn LP tokens. You don’t need to claim interest or perform any other actions, your Diesel Tokens grow in value фдд еру ешьу. _This is if the pool doesn't suffer losses from bad liquidations or hacks._
+When you supply capital to a pool, you get Diesel Tokens, also known as dTokens. These tokens automatically earn interest & fees proportional to your share of the pool [like cTokens on Compound](https://compound.finance/docs/ctokens) or Yearn LP tokens. You don’t need to claim interest or perform any other actions, your Diesel Tokens grow in value over time. _This is if the pool doesn't suffer losses from bad liquidations or hacks._
 
 {% hint style="success" %}
 As for the GEAR or any other extra token yields, those are accruing to your **staked** dTokens too, but you need to claim them. _How often?_ - That's up to you to decide. Simply click on the rewards tab in the top right corner of the interface or do it onchain yourself.
