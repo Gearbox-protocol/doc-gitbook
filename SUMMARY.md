@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Overview ](README.md)
-* [Link Tree & Dev Docs](link-tree-and-dev-docs.md)
+* [Link Tree & Dev Docs](links.md)
 * [What can you do with leverage 2.0?](what-can-you-do-with-leverage-2.0.md)
 
 ## Protocol overview <a href="#overview" id="overview"></a>
