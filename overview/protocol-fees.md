@@ -48,7 +48,11 @@ Gauges are basically an extra interest rate applied to every different asset sep
 
 _Goes only to the DAO._
 
-This fee is similar to a trading fee, but not fully. It is applied whenever you buy a quota. That can when entering a position for the first time, rebalancing (trading) into different assets inside the already open position, or when increasing your leverage or borrowing power.&#x20;
+This fee is similar to a trading fee, but not fully. It is applied whenever you buy a quota. That can when entering a position for the first time, rebalancing (trading) into different assets inside the already open position, or when increasing your leverage or borrowing power.
+
+{% hint style="info" %}
+You can see this as a credit line: you open a credit line for a fixed amount at first, and then you can to increase or decrease it. Whenever you trade or increase/decrease leverage - the UI helps manage the quota at the same time at the optimal ratio.
+{% endhint %}
 
 These fees are also different from one Credit Manager to another. For example, a 0.01% fee can be taken for an ETH long/short, while a 0.03% could be taken for more risky assets. Here is how it works:
 
