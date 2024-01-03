@@ -27,7 +27,7 @@ _Split between passive lenders and the DAO._
 
 The protocol takes spread as a fee between the APY which lenders receive and the fee & farmers pay for borrowing their assets. The exact value of this fee is calculated as following:
 
-* Each pool has it’s interest rate curve. This interest rate curve represents borrow APY that lenders receive as a function of pool’s utilization r(u). See details and formulas at [dev docs](https://dev.gearbox.fi/docs/documentation/pools/intro/#rt---borrow-apy).
+* Each pool has it’s interest rate curve. This interest rate curve represents borrow APY that lenders receive as a function of pool’s utilization r(u). See details and formulas in [tech paper](whitepaper.md).
 * Borrowers pay borrow APY to liquidity providers and pay spread fee to DAO spreadFee. That means effective borrow rate for borrowers is calculated as r(u)\*(1+spreadFee). DAO receives r(u)\*spreadFee.
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-12-08 at 11.51.40.png" alt=""><figcaption></figcaption></figure>
@@ -59,7 +59,7 @@ These fees are also different from one Credit Manager to another. For example, a
 * Then, you don't trade into anything but that $100K position grows in value and you want to make sure its bigger size (the surplus) is counted towards Health Factor. Let's say it appreciated by $10K. You pay only on that $10K difference. That would be $1 in this case.
 * Alternatively, you decide to trade a part of that $100K into different assets of the same position size. As such, you pay another specific fee for entering into every different asset. Let's say those assets' quota fees are 0.03% and 0.05%. That means you pay $26 in this case.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-12-08 at 12.09.50.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-01-02 at 11.14.23.png" alt=""><figcaption></figcaption></figure>
 
 That is why you can kind of see it as a trading fee, but the second example provided above shows that it's not always about trading. **It's about "buying quota allocation".**
 
