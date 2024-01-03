@@ -32,11 +32,11 @@ The protocol takes spread as a fee between the APY which lenders receive and the
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-12-08 at 11.51.40.png" alt=""><figcaption></figcaption></figure>
 
-### Gauges: Extra APY Rate
+### Gauges: Quota APY Rate
 
 _Split between passive lenders and the DAO._
 
-Gauges are basically an extra interest rate applied to every different asset separately. It is taken per-block just like the regular interest rate. This rate is voted on separately from the main DAO voting and is not static. It changes every epoch with gauges voted on by GEAR stakers:
+Gauges help apply an extra quota interest rate applied to every different asset separately. Every asset your Credit Account has on its balance sheet - demands a separate extra quota interest rate to be paid. It is taken per-block just like the regular interest rate. This rate is voted on separately from the main DAO voting and is not static. It changes every epoch with gauges voted by GEAR stakers:
 
 {% content-ref url="../governance/quotas-and-gauges/" %}
 [quotas-and-gauges](../governance/quotas-and-gauges/)
@@ -44,17 +44,17 @@ Gauges are basically an extra interest rate applied to every different asset sep
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-12-08 at 12.11.26.png" alt=""><figcaption></figcaption></figure>
 
-### Quota Fee
+### Quota Flat Fee
 
 _Goes only to the DAO._
 
-This fee is similar to a trading fee, but not fully. It is applied whenever you buy a quota. That can when entering a position for the first time, rebalancing (trading) into different assets inside the already open position, or when increasing your leverage or borrowing power.
+This fee is similar to a trading fee, but not fully. It is applied whenever you buy a quota. That can happen when entering a position for the first time, rebalancing (trading) into different assets inside the already open position, or when increasing your leverage or borrowing power.
 
 {% hint style="info" %}
-You can see this as a credit line: you open a credit line for a fixed amount at first, and then you can to increase or decrease it. Whenever you trade or increase/decrease leverage - the UI helps manage the quota at the same time at the optimal ratio.
+You can see this as a credit line: you open a credit line for a fixed amount at first, and then you can to increase or decrease it. Whenever you trade or increase/decrease leverage - the interfaces help you manage the quota at the optimal ratio.
 {% endhint %}
 
-These fees are also different from one Credit Manager to another. For example, a 0.01% fee can be taken for an ETH long/short, while a 0.03% could be taken for more risky assets. Here is how it works:
+These fees are also different from one Credit Manager to another. For example, a 0.01% fee can be taken for an ETH long/short, while a 0.03% could be taken for medium-tail assets. For example:
 
 * Let's say, you open a position where you end up with $100,000 worth of ETH long or an ETH farm token, for example, [leverage staking](../traders-and-farmers/strategies/leveraged-liquid-staking.md). As such, you pay that specific fee on the entry into this position (buying a quota for it). For example, at 0.01% that is just $10.
 
@@ -65,7 +65,7 @@ These fees are also different from one Credit Manager to another. For example, a
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-01-02 at 11.14.23.png" alt=""><figcaption></figcaption></figure>
 
-That is why you can kind of see it as a trading fee, but the second example provided above shows that it's not always about trading. **It's about "buying quota allocation".**
+That is why you can kind of see it as a trading fee, but the second example provided above shows that it's not always about trading. **It's about "buying quota allocation" or "extending credit line".**
 
 {% hint style="info" %}
 For the exact math behind the fees and the split, see Tech Paper:
