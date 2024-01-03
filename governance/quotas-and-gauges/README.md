@@ -9,7 +9,7 @@ description: >-
 
 ## Quotas
 
-See them like individual collateral limits, applied per every Credit Account.
+> See them like individual collateral limits, applied per every Credit Account. In other words, it's like a credit line: you open it once for a fixed amount, and then it needs to change if you want to increase or decrease that credit line. Interfaces help you with that though!
 
 Quotas are a mechanism that Gearbox V3 uses to track exposure to a particular collateral asset, both on the level of a single Credit Account, and on the level of the entire pool. A quota is the maximum underlying equivalent of a quoted asset that is counted towards collateral of a CA. This means that:
 
