@@ -10,13 +10,12 @@ description: Useful links about Gearbox ecosystem.
 * Monitoring Tool: [https://risk.gearbox.foundation/updates](https://risk.gearbox.foundation/updates)
 * Developer docs: [https://dev.gearbox.fi/](https://dev.gearbox.fi/)
 
-{% embed url="https://dev.gearbox.fi/" %}
-
 #### dApps
 
 * Extended dApp: [https://app.gearbox.fi/](https://app.gearbox.fi/)
 * Trading dApp: [https://pure.gearbox.fi/ ](https://pure.gearbox.fi/)
 * Analytics: [https://charts.gearbox.finance/](https://charts.gearbox.finance/)
+* Older V2 interface: [https://v2.gearbox.fi/](https://v2.gearbox.fi/)
 
 #### Socials and DAO
 
