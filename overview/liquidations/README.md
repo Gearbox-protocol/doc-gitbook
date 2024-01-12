@@ -53,10 +53,12 @@ where c\_i - balance of i-th asset in credit account,  p\_i - price of i-th asse
 ### Threshold Weighted Value&#x20;
 
 $$
-TWV(t)=\sum{\;c_i(t)*p_i(t)*LT_i }
+TWV(t)=\sum{min(Q_i(t),\;c_i(t)*p_i(t)*LT_i) }
 $$
 
 where: \
+Q\_i - Quota amount for i-th asset in Credit Account (see [quotas-and-gauges](../../governance/quotas-and-gauges/ "mention")section),
+
 c\_i - balance of i-th asset in credit account, \
 p\_i - price of i-th asset calculated in underlying asset(from ChainLink oracle), \
 LT\_i - liquidation threshold, the credit account manager constant showing the maximum allowable ratio of [Loan-To-Value](https://www.investopedia.com/terms/l/loantovalue.asp) for the i-th asset**.**&#x20;
