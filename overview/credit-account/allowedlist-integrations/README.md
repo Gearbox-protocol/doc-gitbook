@@ -22,9 +22,9 @@ Also, Gearbox architecture is modular, so it's not just that there is an Allowed
     * allowed contracts
 * Credit Accounts
 
-The list is mostly kept up-to-date here:
+The list is mostly kept up-to-date here (click -> [link](https://docs.google.com/spreadsheets/d/1ZwMXyybpi5h2cy4ybie8G5KL\_hxlkESpp2qfKzj16BE/edit?usp=sharing)):
 
-> incoming link in a few days
+{% embed url="https://docs.google.com/spreadsheets/d/1ZwMXyybpi5h2cy4ybie8G5KL_hxlkESpp2qfKzj16BE/edit?usp=sharing" %}
 
 {% hint style="success" %}
 The AllowedList is basically a permission box, but within that box - all the actions are permissionless. You decide how to apply leverage, where to apply it, how to trade assets and when. There are no vaults or pre-made strategies here, you can manage it however you want within the Allowed List permissions. Extended dApp can be easier for complex operations. You can, of course, also manage it all fully onchain with your own infrastructure!
