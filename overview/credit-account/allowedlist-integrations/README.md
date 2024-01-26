@@ -22,7 +22,7 @@ Also, Gearbox architecture is modular, so it's not just that there is an Allowed
     * allowed contracts
 * Credit Accounts
 
-The list is mostly kept up-to-date here (click -> [link](https://docs.google.com/spreadsheets/d/1ZwMXyybpi5h2cy4ybie8G5KL\_hxlkESpp2qfKzj16BE/edit?usp=sharing)):
+The list is mostly kept up-to-date here (click -> [link](https://docs.google.com/spreadsheets/d/1ZwMXyybpi5h2cy4ybie8G5KL\_hxlkESpp2qfKzj16BE/edit?usp=sharing)). Please check the onchain contracts for the latest information as the sheet via the link might be updated with delays.
 
 {% embed url="https://docs.google.com/spreadsheets/d/1ZwMXyybpi5h2cy4ybie8G5KL_hxlkESpp2qfKzj16BE/edit?usp=sharing" %}
 
