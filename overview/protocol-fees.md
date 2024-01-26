@@ -44,7 +44,7 @@ Gauges help apply an extra quota interest rate applied to every different asset 
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-12-08 at 12.11.26.png" alt=""><figcaption></figcaption></figure>
 
-### Quota Flat Fee
+### Quota Rate: Flat Fee
 
 _Goes only to the DAO._
 
