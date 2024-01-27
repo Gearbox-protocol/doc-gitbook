@@ -21,7 +21,7 @@ If a Credit Account is liquidated, some percentage goes to a third-party liquida
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-12-08 at 11.40.56.png" alt=""><figcaption></figcaption></figure>
 
-### APY Spread Fee
+### Base APY Rate
 
 _Split between passive lenders and the DAO._
 
