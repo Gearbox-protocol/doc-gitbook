@@ -60,7 +60,7 @@ While these are about the tabs for a credit account, there are certain parameter
 
 ### Account Parameters
 
-At the top, you can see the balance of your Credit Account denominated in the underlying asset you opened your account in (it uses ChainLink oracle prices to calculate these values).
+At the top, you can see the balance of your Credit Account denominated in the underlying asset you opened your account in (it uses ChainLink/Redstone oracle prices to calculate these values).
 
 * **Health Factor** - Your Credit Account can be liquidated if it falls below 1
 * **Liquidation Price -** The price level at which your position will be liquidated
