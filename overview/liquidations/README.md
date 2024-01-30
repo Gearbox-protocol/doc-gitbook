@@ -48,7 +48,7 @@ $$
 TV(t)=\sum{\;c_i(t)*p_i(t)},
 $$
 
-where c\_i - balance of i-th asset in credit account,  p\_i - price of i-th asset calculated in underlying asset(from ChainLink oracle).
+where c\_i - balance of i-th asset in credit account,  p\_i - price of i-th asset calculated in underlying asset(from oracle).
 
 ### Threshold Weighted Value&#x20;
 
@@ -60,7 +60,7 @@ where: \
 Q\_i - Quota amount for i-th asset in Credit Account (see [quotas-and-gauges](../../governance/quotas-and-gauges/ "mention")section),
 
 c\_i - balance of i-th asset in credit account, \
-p\_i - price of i-th asset calculated in underlying asset(from ChainLink oracle), \
+p\_i - price of i-th asset calculated in underlying asset(from oracle), \
 LT\_i - liquidation threshold, the credit account manager constant showing the maximum allowable ratio of [Loan-To-Value](https://www.investopedia.com/terms/l/loantovalue.asp) for the i-th asset**.**&#x20;
 
 ### Liquidation Threshold
