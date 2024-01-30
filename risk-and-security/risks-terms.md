@@ -24,7 +24,7 @@ Some of the disclosures can mimic interface-related concerns below.
 
 #### Oracle Risk
 
-In its current stage, Gearbox Protocol uses Chainlink Price Feeds. While the industry in general uses the same service, it is imperative to understand that oracles are a crucial point of DeFi infrastructure. An oracle going rogue or reporting incorrect data, may cause cascading liquidations or incorrect protocol operations. This can result in bad debt and loss of user funds.&#x20;
+In its current stage, Gearbox Protocol uses Chainlink Price Feeds, Redstone Price Feeds as well as some [composite smart contract ](https://dev.gearbox.fi/oracle/overview)oracles. While the industry in general uses the same service, it is imperative to understand that oracles are a crucial point of DeFi infrastructure. An oracle going rogue or reporting incorrect data, may cause cascading liquidations or incorrect protocol operations. This can result in bad debt and loss of user funds.&#x20;
 
 #### Sandwich attacks and MEV
 
