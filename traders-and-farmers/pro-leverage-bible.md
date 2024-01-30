@@ -91,7 +91,7 @@ $$
 1/(1-0,90*0,935) = 6.3
 $$
 
-That is max leverage factor you can apply if you are afraid of stETH ever revisiting its lows compared to the debt asset (ETH). In case you think the lows could be 0.90 relative to ETH, then the max leverage would be: 1/(1-0,90\*0,90) = 5.26. Still, pretty damn capital efficient to farm with such leverage! _FYI, Gearbox Protocol currently uses USD Chainlink price feeds, so the ETH debt calculations are using an extra hoop when it comes to conversions._
+That is max leverage factor you can apply if you are afraid of stETH ever revisiting its lows compared to the debt asset (ETH). In case you think the lows could be 0.90 relative to ETH, then the max leverage would be: 1/(1-0,90\*0,90) = 5.26. Still, pretty damn capital efficient to farm with such leverage! _FYI, Gearbox Protocol currently uses USD Chainlink or Redstone price feeds, so the ETH debt calculations are using an extra hoop when it comes to conversions._
 
 {% hint style="warning" %}
 Check [this article](https://medium.com/gearbox-protocol/product-evolution-v2-gearbox-protocol-from-1-to-2-going-further-dcedf3b5d959) about Yearn, Curve, & other oracles. And read code!
@@ -99,9 +99,9 @@ Check [this article](https://medium.com/gearbox-protocol/product-evolution-v2-ge
 
 ### Where do price feeds come from?
 
-Great question, degen! You probably want to leave a bit of a leeway for some price fluctuations... Hold on, where do the prices come from? As a simple reply: currently, only Chainlink data price feeds. So this is where you should look for the source of truth, it's open to everyone on-chain.
+Great question, degen! You probably want to leave a bit of a leeway for some price fluctuations... Hold on, where do the prices come from? As a simple reply: currently, only from oracle privders like Chainlink and Redstone. So this is where you should look for the source of truth, it's open to everyone on-chain.
 
-With farming positions it's a bit more tricky. For the implementation of Curve pool oracles \[as such, Yearn & Convex positions for these assets respectively too], custom PriceFeeds look at _virtualprice \* Chainlink price of the cheapest asset inside the pool._ That is because in an event that any one asset inside a Curve pool goes down in price, the pool automatically trades into that asset. So while not a 100% will be traded into it immediately, for the safety of Gearbox Protocol, the worst case scenario is assumed when calculating the position value.
+With farming positions it's a bit more tricky. For the implementation of Curve pool oracles \[as such, Yearn & Convex positions for these assets respectively too], custom PriceFeeds look at _virtualprice \*  price of the cheapest asset inside the pool._ That is because in an event that any one asset inside a Curve pool goes down in price, the pool automatically trades into that asset. So while not a 100% will be traded into it immediately, for the safety of Gearbox Protocol, the worst case scenario is assumed when calculating the position value.
 
 \-> [Contracts deployed are available here](https://dev.gearbox.fi/docs/documentation/deployments/deployed-contracts/).
 
@@ -129,7 +129,7 @@ This is all standard. Just don't be surprised when you ape with size! **The inte
 
 ### Doomer interface numbers
 
-The above happens because the dApps \[both the [https://app.gearbox.fi/](https://app.gearbox.fi/pools) and [https://charts.gearbox.finance/pools](https://charts.gearbox.finance/pools)] use Chainlink oracles to calculate prices in the UI instead of spot prices, and those quite often deviate. So, **the interface presents an overly pessimistic scenario**. You can check Nansen instead for the prices and value of your Credit Account closer to reality. Just input your Credit Account address into [Nansen](https://portfolio.nansen.ai/), and you can see all the positions there.
+The above happens because the dApps \[both the [https://app.gearbox.fi/](https://app.gearbox.fi/pools) and [https://charts.gearbox.finance/pools](https://charts.gearbox.finance/pools)] use Chainlink or Redstone oracles to calculate prices in the UI instead of spot prices, and those quite often deviate. So, **the interface presents an overly pessimistic scenario**. You can check Nansen instead for the prices and value of your Credit Account closer to reality. Just input your Credit Account address into [Nansen](https://portfolio.nansen.ai/), and you can see all the positions there.
 
 An even better way is to check on-chain virtual price of the positions you are in. So, the loss you are seeing in the dApps is just an honest max-pessimism scenario. Reality is always better!
 
