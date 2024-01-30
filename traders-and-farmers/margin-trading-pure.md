@@ -27,7 +27,7 @@ The name PURE is not an abbreviation. It literally means _pure_ leverage. The re
 * **Real assets:** you trade with real spot assets, no perps or synthetics.
 * **Deep liquidity:** you trade with global DEX liquidity of Uniswap, Curve, Balancer, and other DEXes. Your trades literally happen on those DEXes, not inside Gearbox pools.
 * **No funding rates:** you have no funding rates, only borrow rates which are often cheaper.
-* **No price wicks:** you have no price wicks like on BitMex, because oracles are not inwards-looking. In case the third-party oracles (ChainLink) malfunction though, that is still a possibility.
+* **No price wicks:** you have no price wicks like on BitMex, because oracles are not inwards-looking. In case the third-party oracles (ChainLink, Redstone) malfunction though, that is still a possibility.
 * **Gearbots UX:** you can create any kind of limit orders and stop losses yourself, managing your trades fully onchain. You can do so without trusting any server, because those are fully onchain.
 * **Farm with your leveraged position:** you can utilise your leverage positions in farming and constructing interesting strategies if you want to do so, for example, you can read more about that on the [Leverage 2.0 page](../what-can-you-do-with-leverage-2.0.md). We call them boosted long/shorts.
 
