@@ -2,7 +2,7 @@
 description: Guidance for adding new assets and contracts to the AllowedList.
 ---
 
-# How to add new Contracts & Assets to CA AllowedList
+# How to add new Contracts & Assets to AllowedList
 
 {% hint style="info" %}
 Composability is at the heart of Gearbox Protocol's ethos as well as its modular architecture. It's imperative to grow the Allowed List Policy to allow traders & farmers to create composable positions across DeFi and other sectors. While the protocol is growing, there are some technical boundaries in place with regard to things like oracles when it comes to assets as well as contracts - to understand those better, please see some wishlist for Gearbox DAO below. If it checks out, go ahead and ask DAO to add it!&#x20;
@@ -50,7 +50,7 @@ GitHub repositories can show you examples of live integrations:
 #### Technical Requirements
 
 * It should be an ERC20 token.&#x20;
-* (required) Must have a [chainlink price feed oracle](https://docs.chain.link/docs/ethereum-addresses/) for the token. As you might have guessed, this is the oracle system Gearbox Protocol uses on Ethereum and in its current version.
+* (required) Must have a [chainlink price feed oracle](https://docs.chain.link/docs/ethereum-addresses/) or [Redstone price feed oracle ](https://app.redstone.finance/#/app/tokens)for the token. As you might have guessed, this is the oracle system Gearbox Protocol uses on Ethereum and in its current version.
 * (preferably) not possible to pause tokens fully or freeze individually.
 * (preferably) fee-on-transfer and rebase tokens to be avoided.
 * (preferably) the token must be liquid and have big depth on the secondary markets, specifically DEXes. This is one of the protections against the domino effect.
