@@ -12,8 +12,16 @@ Symbol: $GEAR\
 Coingecko: [https://www.coingecko.com/en/coins/gearbox](https://www.coingecko.com/en/coins/gearbox)
 
 {% hint style="success" %}
-Approximately 4% of the total supply per year (from the DAO portion holding \~40%) goes into different initiatives & liquidity mining. The goal is to bring that number down as much as possible. All distributions beyond the initial can be found in [monthly-quarterly DAO reports](https://gearboxprotocol.notion.site/Monthly-Reports-6849871a9bae44dfb903531c0a997e8f). **There is no new inflation in GEAR:** only DAO grants and rewards for different activities: liquidity mining, stakers, and contributors. All at a relatively low rate.
+Only \~3% of the total supply per year (from the DAO portion holding > 40%) goes into different initiatives & liquidity mining. The goal is to bring that number down as much as possible. All distributions beyond the initial can be found in [monthly-quarterly DAO reports](https://gearboxprotocol.notion.site/Monthly-Reports-6849871a9bae44dfb903531c0a997e8f). **There is no new inflation in GEAR:** only DAO grants and rewards for different activities: liquidity mining, stakers, and contributors. All at a relatively low rate.
 {% endhint %}
+
+#### Circulation Details
+
+Most vestings started back in 2022 and have almost ended going into 2024. The DAO started with > 55% and is currently at about 40% after multiple reward-farming stages for users and DAO members. See details below. There are barely any vestings left for 2024 as they have almost fully unlocked in 2023. Nearly full circulation has been achieved, so there is no new overhang in the token supply.
+
+You can consider circulating market cap to be \~50% of the entire 10B supply.
+
+All the details, vesting contracts, and names are below.
 
 ***
 
