@@ -43,10 +43,6 @@ With the current Ethereum block limit of 30M gas, there can be at maximum 12 Cre
 We apologize for such a design of the ceremony, but it was actually a calculated risk: if done differently, users would have to deploy and then throw away their Credit Accounts every single time, causing much more wasteful gas usage. With the model in place though, there is this one-time event which clogs the network, but at least after that users would be able to just rent Credit Accounts and thus make the network a bit less clogged.
 {% endhint %}
 
-The list of eligible addresses and the conversation was taking place here:
-
-{% embed url="https://gov.gearbox.fi/t/credit-account-mining-snapshot-list/18" %}
-
 ### Who is on the list?
 
 1. Lobsterdao NFT holders as an appreciation to the early community who have helped with ideas and support. We did not see people transferring NFTs to multiple wallets (in order to sybil) so there was no extra action taken yet to sort this out. Please cross-check. _No 10+txs requirement._

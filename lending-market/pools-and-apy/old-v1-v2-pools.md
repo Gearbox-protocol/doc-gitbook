@@ -29,10 +29,6 @@ $$
 
 <table><thead><tr><th width="167">Asset pool</th><th width="82">r_0</th><th width="80">r_1</th><th width="91">r_2</th><th width="83" data-type="number">r_3</th><th width="90">U_1</th><th>U_2</th></tr></thead><tbody><tr><td>USDC</td><td>0</td><td>1</td><td>1.25</td><td>100</td><td>70</td><td>90</td></tr><tr><td>DAI</td><td>0</td><td>1</td><td>1.25</td><td>100</td><td>70</td><td>90</td></tr><tr><td>FRAX</td><td>0</td><td>1</td><td>1.25</td><td>100</td><td>70</td><td>90</td></tr><tr><td>wstETH</td><td>0</td><td>2</td><td>2.5</td><td>60</td><td>70</td><td>90</td></tr><tr><td>ETH</td><td>0</td><td>2</td><td>2.5</td><td>60</td><td>70</td><td>90</td></tr><tr><td>WBTC</td><td>0</td><td>2</td><td>2.5</td><td>60</td><td>70</td><td>90</td></tr></tbody></table>
 
-[**Latest update 2**](https://snapshot.org/#/gearbox.eth/proposal/0x78615ba387512748a189cfdc39f1d3a7e835d1ce151b53049e42eff411fbee73): governance updated interest rate curve to two-point model.&#x20;
-
-[**Latest update**](https://gov.gearbox.fi/t/gip-20-update-fees-interest-rate-curves/1571): governance voting to change pool interest rate curve parameters and make the curve more flat as a bootstrap mechanism for V2 Leverage Ninja launch. See the [logic](https://gov.gearbox.fi/t/gip-20-update-fees-interest-rate-curves/1571).
-
 ### V2-V2.1 Pool Caps
 
 <table><thead><tr><th width="150">Asset</th><th width="113">Pool max</th><th width="150">Min pers borrow</th><th width="306">Max pers borrow</th></tr></thead><tbody><tr><td>USDC</td><td>N/A</td><td>60,000 USDC</td><td>1,000,000 USDC</td></tr><tr><td>DAI</td><td>N/A</td><td>60,000 DAI</td><td>1,000,000 DAI</td></tr><tr><td>FRAX</td><td>N/A</td><td>100,000 FRAX</td><td>1,000,000 FRAX</td></tr><tr><td>wstETH</td><td>N/A</td><td>75 wstETH</td><td>600 wstETH</td></tr><tr><td>WETH</td><td>N/A</td><td>30 WETH</td><td>600 WETH</td></tr><tr><td>WBTC</td><td>N/A</td><td>2 WBTC</td><td>50 WBTC</td></tr></tbody></table>

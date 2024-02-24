@@ -2,7 +2,7 @@
 description: The path to decentralization and community governance from summer 2021.
 ---
 
-# DAO-First Launch
+# History: DAO-First Launch
 
 _Gearbox is not just a product. Gearbox is a protocol, a DeFi primitive._&#x20;
 
@@ -85,8 +85,6 @@ At this point, the initial core team no longer had control over the protocol. Th
 #### 4. Voting for pools, parameters, and allowed lists&#x20;
 
 Core members were not in charge of deciding of what assets and protocols are first to be on Gearbox [AllowedList](../credit-account/#allowed-list-policy). Every financial parameter (collaterals, assets, protocols, liquidation thresholds, other parameters) were to be decided by the DAO with a minimum quorum. The discussions included forum proposals for temperature check, followed by snapshot page voting.
-
-{% embed url="https://gov.gearbox.fi/t/template-proposal-for-managing-gearbox-protocol-parameters/100" %}
 
 #### 5. Final deployment and launch on mainnet&#x20;
 

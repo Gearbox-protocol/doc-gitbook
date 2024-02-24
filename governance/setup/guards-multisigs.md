@@ -27,7 +27,7 @@ List of members on the multisig:
 7. [Simone](https://twitter.com/kronosimste) - developer at [DegenScore](https://twitter.com/DegenScore)
 8. [Lewi](https://twitter.com/lewifree) - OG degenerate & ESD summoner
 9. [Klim](https://twitter.com/milkyklim) - data analytics and [YFI](https://twitter.com/iearnfinance) Maximalist
-10. [Alex](https://gov.gearbox.fi/t/multisig-ceremony-apply/95/30) - ex-Neutrino, a lobster and a builder
+10. Alex - ex-Neutrino, a lobster and a builder
 11. [Alex](https://twitter.com/0xAlexEuler) - CTO of [Mellow Protocol](https://twitter.com/Mellowprotocol)
 12. [Lekhovitsky](https://twitter.com/lekhovitsky) - Gearbox protocol developer
 
@@ -69,7 +69,7 @@ List of members on the multisig:
 5. [NDW](https://twitter.com/cryptondee) - Castle Capital member and a DeFi degen
 6. [apeir99n](https://twitter.com/apeir99n) - original math & product at Gearbox \[on behalf of Gearbox Protocol Limited]
 7. [Nikitakle](https://twitter.com/NOstroymov) - core DAO contributor on marketing & community
-8. [Amantay](https://gov.gearbox.fi/u/amantay/summary)  - core DAO contributor on risk & analytics
+8. [Amantay](https://twitter.com/amantay\_a)  - core DAO contributor on risk & analytics
 9. [duckdegen.eth](https://twitter.com/DuckDegen) - devrel, ex-Connext \[[GIP-40](https://gov.gearbox.fi/t/gip-40-financial-multisig-reshuffle/2204/5)]
 10. [Vadym](https://twitter.com/0x\_vadym) - head of product at Kolibrio
 

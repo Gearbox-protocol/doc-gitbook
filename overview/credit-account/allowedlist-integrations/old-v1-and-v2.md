@@ -77,5 +77,5 @@ The 2 factors together enabled V2 to bring leveraged farming to life. You can re
 ### Gearbox V1: December 2021
 
 {% hint style="info" %}
-The information about V1 Credit Managers \[Allowed List of contracts & assets] was scraped out from the docs to not confuse new users. Those CMs are still on-chain and exist, but only with the option to trade out of CA positions and close, not borrow or open new ones. If you are looking for old numbers, [check on forum](https://gov.gearbox.fi/t/pre-gip-2-3-start-gearbox-allowed-tokens-and-protocols/152/37).
+The information about V1 Credit Managers \[Allowed List of contracts & assets] was scraped out from the docs to not confuse new users. Those CMs are still on-chain and exist, but only with the option to trade out of CA positions and close, not borrow or open new ones.
 {% endhint %}
