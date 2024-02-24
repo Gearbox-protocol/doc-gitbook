@@ -6,11 +6,11 @@ description: Staking and utility sinks that exist for GEAR.
 
 GEAR token is an ERC20 utility token. It started as a governance token for the protocol - and then could take any other new function the DAO could envision for it. [Supply information is here](supply-information.md).
 
-Tokenomics can be adjusted in different ways. What is crucial is that the protocol has had the fee switch turned on by the DAO back in 2022, check what [fee streams it currently has](../overview/protocol-fees.md).
+Tokenomics can be adjusted in different ways. What is crucial is that the protocol has had the fee switch turned on by the DAO back in 2022, check what [fee streams it currently has](../overview/protocol-fees.md). There are 4 fee streams, and they are all configurable to adjust to different use cases and integrations. Vote!
 
 ***
 
-### Main DAO Governance: Snapshot
+### 1. Main DAO Governance: Snapshot
 
 Directing protocol treasury and grants, voting on parameters, onboarding assets and protocols, and so on. That happens on snapshot, see how on [governance page](../governance/setup/). You can vote on proposals or propose yourself even if you don't hold idle GEAR but have them in the GEAR-ETH Curve LP. Then your GEAR is taken into account, for [delegation](../governance/setup/community-delegates.md) as well. Snapshot can expand its "strategies" to also account for [Quotas & Gauges](utility-and-staking.md#quotas-and-gauges) balances of stakers, and so on. It's configurable.
 
@@ -18,7 +18,7 @@ Directing protocol treasury and grants, voting on parameters, onboarding assets 
 [setup](../governance/setup/)
 {% endcontent-ref %}
 
-### Quotas and Gauges
+### 2. Quotas and Gauges
 
 GEAR stakers can freeze their tokens for 4 epochs (28 days) and vote on the extra rates borrowers are paying for every different asset. This is a very important protocol function, because it (1) creates better and more fair rate markets whereas (2) this extra fee is split between passive lenders to compensate them for their liquidity as well as the DAO (the fee goes into the [separate fee multisig](../governance/setup/guards-multisigs.md#fee-temporary-guard-5-10)).&#x20;
 
@@ -26,7 +26,7 @@ GEAR stakers can freeze their tokens for 4 epochs (28 days) and vote on the extr
 [quotas-and-gauges](../governance/quotas-and-gauges/)
 {% endcontent-ref %}
 
-### GEAR-ETH Curve Pool
+### 3. GEAR-ETH Curve Pool
 
 There is liquidity mining ongoing for the[ GEAR-ETH pair on Curve V2](https://curve.fi/#/ethereum/pools/factory-crypto-192/deposit). You take some impermanent loss on it potentially, but get an APR at the rate that might compensate for that and above. The rewards in GEAR accrued you need to claim yourself automatically, or go to Convex / Yearn for this.
 

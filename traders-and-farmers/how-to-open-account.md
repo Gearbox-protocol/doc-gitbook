@@ -2,7 +2,7 @@
 description: A quick guide to your first Credit Account.
 ---
 
-# How to open a Credit Account
+# Opening a Credit Account
 
 Being able to leverage trade & farm starts with opening a Credit Account. Simply select an interface that fits your initial purpose (farming or trading), to simplify your user journey.
 
@@ -10,11 +10,13 @@ Being able to leverage trade & farm starts with opening a Credit Account. Simply
 Underneath, the protocol logic and contracts are the same! Different dApps simply help different user bases get to their desired positions quicker.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/gearbox dapp leverage interface.png" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts">https://app.gearbox.fi/accounts</a></p></figcaption></figure>
+
+
+<figure><img src="../.gitbook/assets/gearbox dapp leverage.png" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts">https://app.gearbox.fi/accounts</a></p></figcaption></figure>
 
 ### 1. "I want to margin trade"&#x20;
 
-Then you better go to the PURE interface which is supposed to look like a regular familiar leverage interface. You can select the trading pair, your leverage, slippage, and all the other important parameters. _Once you open it, you can further configure the position parameters like liquidation price and leverage factor._ The [**PURE**](margin-trading-pure.md) docs page can tell you more about what it is.
+Then you better go to the PURE interface which is supposed to look like a regular familiar leverage interface. You can select the trading pair, your leverage, slippage, and all the other important parameters. _Once you open it, you can further configure the position parameters like liquidation price and leverage factor._ The [**PURE**](margin-trading-pure/) docs page can tell you more about what it is.
 
 <figure><img src="../.gitbook/assets/gearbox pure margin trading (1).png" alt=""><figcaption><p><a href="https://pure.gearbox.fi/">https://pure.gearbox.fi/</a></p></figcaption></figure>
 
@@ -30,9 +32,21 @@ It's more applicable to farmers who don't want to have a bunch of complexities a
 
 _You can then change your leverage, assets, add or remove debt, etc..._
 
-<figure><img src="../.gitbook/assets/gearbox leverage farming multicall.png" alt=""><figcaption><p><a href="https://app.gearbox.fi/strategies/list">https://app.gearbox.fi/strategies/list</a></p></figcaption></figure>
 
-### 3. "I am 180 IQ, I will go manual"&#x20;
+
+<figure><img src="../.gitbook/assets/gearbox dapp leverage farming (1).png" alt=""><figcaption><p><a href="https://app.gearbox.fi/strategies/list">https://app.gearbox.fi/strategies/list</a></p></figcaption></figure>
+
+### 3. "I need 'em points, give me the leverage restaking!"
+
+Those integrations have been put onto a separate page: Leverage Restaking & Leverage Points. With it, you can leverage points with EigenLayer, Renzo, EtherFi, and other avenues which enable this.
+
+The flow and the interface are pretty much identical to leverage farming. This interface opens a Credit Account for you and apes into a strategy right after, removing manual complexity from you as a user.
+
+_You can then change your leverage, assets, add or remove debt, etc..._
+
+<figure><img src="../.gitbook/assets/gearbox leverage restaking leverage points eigenlayer.png" alt=""><figcaption><p><a href="https://app.gearbox.fi/restaking/list">https://app.gearbox.fi/restaking/list</a></p></figcaption></figure>
+
+### 4. "I am 180 IQ, I will go manual"&#x20;
 
 In this case, you might be better off following the steps by yourself: from selecting the debt asset to choosing leverage, to swapping some assets and LPing into Curve, to staking on Yearn and so on. In terms of _what_ you are doing, it's the same assets as above, but with customized steps in-between.
 

@@ -13,7 +13,7 @@ If you want to go long ETH to USDC, you need to open a Credit Account denominate
 * Go to the [Credit Accounts](https://app.gearbox.fi/accounts) app page.
 * Open a USDC-denominated Credit Account. For example, 100.000 x 5 leverage = 500K USDC.
 * Swap all the USDC from your Credit Account to ETH. Bam, ETH long is open!
-* Now put that ETH into some farm which generates APY, see [leveraged-liquid-staking.md](leveraged-liquid-staking.md "mention").
+* Now put that ETH into some farm which generates APY, see [leveraged-liquid-staking.md](../strategies/leveraged-liquid-staking.md "mention").
 * You now have an ETH long that is paying you rewards rate (possibly) in higher numbers than the borrow rate on that USDC that you have to pay. It's a free leveraged trade!
 
 {% hint style="success" %}
@@ -27,7 +27,7 @@ If you want to go short ETH to USD, you need to open a Credit Account denominate
 * Go to the [Credit Accounts](https://app.gearbox.fi/accounts) app page.
 * Open an ETH-denominated Credit Account. For example, 50 x 5 leverage = 250 ETH.
 * Swap all the ETH from your Credit Account to USDC. Bam, ETH short is open!
-* Now put that USDC into some farm which, see [leveraged-stablecoin-farming.md](leveraged-stablecoin-farming.md "mention").
+* Now put that USDC into some farm which, see [leveraged-stablecoin-farming.md](../strategies/leveraged-stablecoin-farming.md "mention").
 * You now have an ETH short that is paying you rewards rate (possibly) in higher numbers than the borrow rate on that ETH that you have to pay. It's a free leveraged trade!
 
 {% hint style="success" %}

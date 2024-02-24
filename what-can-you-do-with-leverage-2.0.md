@@ -4,7 +4,7 @@ description: What is possible with the leverage you get on Gearbox...
 
 # What can you do with leverage 2.0?
 
-1. Margin trading on Uniswap, Curve, and other real spot DEXes: see [PURE](traders-and-farmers/margin-trading-pure.md).
+1. Margin trading on Uniswap, Curve, and other real spot DEXes: see [PURE](traders-and-farmers/margin-trading-pure/).
 2. Leverage farming stablecoins, ETH, and many delta-neutral strategies. [See here](traders-and-farmers/strategies/).
 3. Leverage restaking and leverage points specifically. See here.
 
@@ -26,8 +26,8 @@ For example, you can get **an ETH short or long + that is farming at the same ti
 
 ![You basically get a short which then makes you money yield farming, and the yield farming LP tokens you can potentially utilize for something else. The lego building blocks can all happen within Credit Accounts!](<.gitbook/assets/Screenshot 2021-10-19 at 00.41.47 (1).png>)
 
-{% content-ref url="traders-and-farmers/strategies/long.md" %}
-[long.md](traders-and-farmers/strategies/long.md)
+{% content-ref url="traders-and-farmers/margin-trading-pure/long.md" %}
+[long.md](traders-and-farmers/margin-trading-pure/long.md)
 {% endcontent-ref %}
 
 Other things you can do:

@@ -11,7 +11,7 @@ With Gearbox, you are able to lever up staking as per your risk and debt \[borro
 The stETH is what you receive when you stake ETH, with the ability to deploy directly on the [LIDO protocol](https://stake.lido.fi/). stETH ideally is supposed to maintain a _peg_ against ETH but market conditions can make it lose peg which can lead to your health factor dropping, this has previously happened and you should manage your risk accordingly. Depends on your debt asset too!
 
 {% hint style="success" %}
-The yield here is the rebasing stETH rewards you receive. If they are more than the borrow rates you receive, this fully makes sense. This also makes sense if you went ETH-long relative to stablecoin debt: [long.md](long.md "mention")
+The yield here is the rebasing stETH rewards you receive. If they are more than the borrow rates you receive, this fully makes sense. This also makes sense if you went ETH-long relative to stablecoin debt: [long.md](../margin-trading-pure/long.md "mention")
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts">https://app.gearbox.fi/accounts</a></p></figcaption></figure>

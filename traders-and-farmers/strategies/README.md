@@ -10,7 +10,7 @@ Before you go any further, just know that [https://app.gearbox.fi/accounts/strat
 
 While a developer can run all of the complex interactions onchain, executing these by going protocol to protocol is a tough task. Gearbox devs have worked this out, to have the dApp help non-technical users **ape into strategies with one click thanks to "One-Click Strategies"**.&#x20;
 
-<figure><img src="../../.gitbook/assets/screenshot-v2-gearbox-fi-strategies-list-1702984880760.png" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts/strategies/list">https://app.gearbox.fi/accounts/strategies/list</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gearbox dapp leverage farming (1).png" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts/strategies/list">https://app.gearbox.fi/accounts/strategies/list</a></p></figcaption></figure>
 
 What it enables in 1 go, is:
 
@@ -22,12 +22,16 @@ Done! From assets X Y Z -> to taking leverage with Gearbox -> to swapping those 
 
 ## Concrete Examples
 
-{% content-ref url="leveraged-liquid-staking.md" %}
-[leveraged-liquid-staking.md](leveraged-liquid-staking.md)
+{% content-ref url="../leverage-restaking-and-points.md" %}
+[leverage-restaking-and-points.md](../leverage-restaking-and-points.md)
 {% endcontent-ref %}
 
 {% content-ref url="leveraged-stablecoin-farming.md" %}
 [leveraged-stablecoin-farming.md](leveraged-stablecoin-farming.md)
+{% endcontent-ref %}
+
+{% content-ref url="leveraged-liquid-staking.md" %}
+[leveraged-liquid-staking.md](leveraged-liquid-staking.md)
 {% endcontent-ref %}
 
 {% content-ref url="leveraged-vanilla-yvaults.md" %}

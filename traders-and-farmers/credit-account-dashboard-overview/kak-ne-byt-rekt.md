@@ -19,12 +19,12 @@ Keep your health factor as high as possible. **Make sure it doesn't drop below 1
 ### What I can do if my Health Factor is close to 1?&#x20;
 
 {% hint style="success" %}
-In case you are in position which has correlated collateral to debt \[like stablecoin debt to a stablecoin farm [leveraged-stablecoin-farming.md](../strategies/leveraged-stablecoin-farming.md "mention"), or an ETH debt to leveraged liquid staking position [leveraged-liquid-staking.md](../strategies/leveraged-liquid-staking.md "mention") - you can take higher leverage as the LTVs of your position <> debt are essentially correlated and are high. As such, it allows you to take 10x leverage in some extreme cases. Then it's normal to have low HF.
+In case you are in position which has correlated collateral to debt \[like stablecoin debt to a stablecoin farm [leveraged-stablecoin-farming.md](../strategies/leveraged-stablecoin-farming.md "mention"), or an ETH debt to leveraged liquid staking position [leveraged-liquid-staking.md](../strategies/leveraged-liquid-staking.md "mention") - you can take higher leverage as the LTVs of your position <> debt are essentially correlated. As such, it allows you to take 9x+ leverage in some extreme cases. Still, beware that oracles can fluctuate, so don't max out.
 
 Read about that in [pro-leverage-bible.md](../pro-leverage-bible.md "mention").
 {% endhint %}
 
-1. **Add collateral**: the easiest method to improve your Health Factor is simply by adding more collateral in the form of the base asset that you opened your credit account in. If this isn't a possibility you can follow the below options.
+1. **Add collateral**: the easiest method to improve your Health Factor is by adding more collateral.
 
 <div>
 
@@ -36,9 +36,9 @@ Read about that in [pro-leverage-bible.md](../pro-leverage-bible.md "mention").
 
 </div>
 
-&#x20;2\.  **Change your strategy or farm:** If you are in a strategy that has a directional trade that's leading to the HF dropping, a possible better idea could be to change to a strategy with stables or lesser volatile/base asset to preserve your Credit Account. That is, if your debt is stables. If your debt is ETH and you are short ETH in a bull market... _maybe join the ultrasound side, anon-kun._
+&#x20;2\.  **Change your strategy or farm:** If you are in a strategy that has a directional trade that's leading to the HF dropping, a possible better idea could be to change to a strategy with lesser volatile/base asset to preserve your Credit Account. If your debt is ETH and you are short ETH in a bull market... _maybe join the ultrasound side, anon-kun._
 
-&#x20;3\.  **Decrease debt:** Add some of the collateral back to the CA in the form of the base asset you borrowed, this will help you lower your leverage and thus improve your health factor
+&#x20;3\.  **Decrease debt:** Add some of the collateral back to the Credit Account in the form of the base asset you borrowed, this will help you lower your leverage and thus improve your health factor
 
 {% content-ref url="how-to-close-account.md" %}
 [how-to-close-account.md](how-to-close-account.md)
@@ -58,7 +58,7 @@ In the [Credit Account's page](https://app.beta.gearbox.fi/accounts) you can che
 
 </div>
 
-For Margin Trading, the liquidation point will also be visualised on the Chart. For farming, you can also check health factor inside the Credit Account. _All of these stats are of course also fully on-chain and do not require any interfaces, just so you know_.
+For Margin Trading, the liquidation point will also be visualised on the Chart. For farming, you can also check health factor inside the Credit Account. _All of these stats are of course also fully onchain and do not require any trust, just so you know_. _You can count them in excel sheets or with your own tooling._
 
 {% hint style="info" %}
 Anybody can run a liquidator bot and secure the protocol. You can chat about setting up your bot and other liquidator-things in [Discord](https://discord.gg/wmydr8JfcP). Help users minimize the [risks](../../risk-and-security/risks-terms.md)!

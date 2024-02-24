@@ -24,15 +24,16 @@
 
 ## Traders & farmers
 
-* [How to open a Credit Account](traders-and-farmers/how-to-open-account.md)
-* [Margin Trading: PURE](traders-and-farmers/margin-trading-pure.md)
+* [Opening a Credit Account](traders-and-farmers/how-to-open-account.md)
+* [Margin Trading: PURE](traders-and-farmers/margin-trading-pure/README.md)
+  * [Boosted Long/Short or "Free Leverage"](traders-and-farmers/margin-trading-pure/long.md)
+* [Leverage Restaking & Points](traders-and-farmers/leverage-restaking-and-points.md)
 * [Leverage Farming](traders-and-farmers/strategies/README.md)
   * [One-Click Strategies](traders-and-farmers/strategies/one-click-strategies.md)
   * [Leveraged liquid staking](traders-and-farmers/strategies/leveraged-liquid-staking.md)
   * [Leveraged stablecoin farming](traders-and-farmers/strategies/leveraged-stablecoin-farming.md)
   * [Leveraged Curve V2 and Convex](traders-and-farmers/strategies/leveraged-curve-v2-and-convex.md)
   * [Leveraged vanilla yVaults](traders-and-farmers/strategies/leveraged-vanilla-yvaults.md)
-  * [Boosted Long/Short or "Free Leverage"](traders-and-farmers/strategies/long.md)
   * [Arbitrage of correlated assets](traders-and-farmers/strategies/arb-correlated-assets.md)
 * [Tips for leverage users](traders-and-farmers/credit-account-dashboard-overview/README.md)
   * [How to avoid liquidations](traders-and-farmers/credit-account-dashboard-overview/kak-ne-byt-rekt.md)

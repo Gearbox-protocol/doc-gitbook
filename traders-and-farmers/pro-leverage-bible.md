@@ -40,7 +40,7 @@ The protocol works without any trust or off-chain mechanisms, so the values are 
 First of all, you need to understand how [Health Factor](../overview/liquidations/#what-is-a-health-factor) works. In a nutshell, all of the assets on your Credit Account are denominated in the debt asset you took as a borrowable asset. In other words, all the assets on your Credit Account in total act as collateral. Whether you have some ERC20s on your CA or farming positions - all of them have LTVs with respect to the debt asset you have chosen.
 
 {% hint style="info" %}
-In case you want simple liquidation levels, you can isolate positions per different debt assets. Like: stablecoin farm vs stablecoin debt asset. Or ETH Lido farms with wstETH or WETH as debt. Then it's much simpler for you to know the liquidation prices. In case you cross-margin a few positions with different assets within a single Credit Account, it becomes harder. But maybe that's your goal after all, like those trying to go delta-neutral or get _paying_ longs [long.md](strategies/long.md "mention").
+In case you want simple liquidation levels, you can isolate positions per different debt assets. Like: stablecoin farm vs stablecoin debt asset. Or ETH Lido farms with wstETH or WETH as debt. Then it's much simpler for you to know the liquidation prices. In case you cross-margin a few positions with different assets within a single Credit Account, it becomes harder. But maybe that's your goal after all, like those trying to go delta-neutral or get _paying_ longs [long.md](margin-trading-pure/long.md "mention").
 {% endhint %}
 
 The math for max leverage works as follows:
