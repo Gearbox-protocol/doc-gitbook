@@ -4,13 +4,21 @@ description: What is possible with the leverage you get on Gearbox...
 
 # What can you do with leverage 2.0?
 
+1. Margin trading on Uniswap, Curve, and other real spot DEXes: see [PURE](traders-and-farmers/margin-trading-pure.md).
+2. Leverage farming stablecoins, ETH, and many delta-neutral strategies. [See here](traders-and-farmers/strategies/).
+3. Leverage restaking and leverage points specifically. See here.
+
+### How is Gearbox different from other leverage farming-trading protocols?
+
+> Gearbox Protocol allows you to do portfolio margining (prime brokerage) and deploy leverage on other protocols you already love. Different collaterals, different strategies - all at once or isolated, that's up to you how to do it. You can trade and farm from the same Credit Account, you can make composable positions, run delta-neutral strategies, etc. It's not about just a short-long, and not about a vault that does some trivial tasks for you... it's about being able to potentially **leverage anything**. We are turning leverage into a primitive for everyone! A credit layer infrastructure.
+
 The way we are used to leverage is having a _"short BTC" button_ on an exchange, where you put your assets as collateral and get a liquidation price. You can then manage leverage or closing the position. That's fine, everyone knows it, but then... that's it? Feels too restricted. Feels very web2.
 
-> Your position is just sitting there and you can't utilize the collateral. Not good...
+_Your position is just sitting there and you can't utilize the collateral. Not good..._
 
 ### _**...but what if you could do more with leverage?**_
 
-Gearbox Protocol doesn't just give you 2 buttons "long" or "short". It gives you more capital to work with, which then YOU DECIDE where to deploy it. The leverage you get with Gearbox doesn't get isolated inside its own pools. No perps in here! Only PURE assets.
+Gearbox Protocol doesn't just give you 2 buttons "long" or "short". It gives you more capital to work with, which then you decide where to deploy it. The leverage you get with Gearbox doesn't get isolated inside its own pools. No perps in here! Only PURE spot assets.
 
 > Your trades and farms are executed with the global DEX liquidity of other protocols.
 
@@ -36,7 +44,9 @@ Other things you can do:
 You decide leverage, where to use it, how to trade and when. There are no vaults or pre-made strategies, you can manage it however you want within the permissions.
 {% endhint %}
 
-Gearbox only limits you within the boundaries of security (assets and protocols whitelisted) to make sure funds are not syphoned out. Apart from that, you as a user decide what complex strategies and trades you want to execute with Gearbox leverage. YOU are in charge!
+Gearbox only limits you within the boundaries of security ([assets and protocols integrated](overview/credit-account/allowedlist-integrations/)) to make sure funds are not syphoned out. Apart from that, you as a user decide what complex strategies and trades you want to execute with Gearbox leverage. You are in charge!
+
+> Imagine having x10 the funds in your account abstraction wallet and doing things the same way you are used to. Supercharging your Metamask wallet with 10x, essentially... That's our goal!
 
 **Gearbox is your leveraged DeFi wallet.**
 

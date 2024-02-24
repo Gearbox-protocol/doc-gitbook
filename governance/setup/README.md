@@ -137,4 +137,4 @@ If a snapshot vote was not submitted correctly, for example less than 3 days win
 gearbox.eth
 {% endembed %}
 
-Given that snapshot voting is off-chain (yet trustless and verifiable) - some parameters allow for flexibility, which is how such a model as described above is possible. However, that also means there is a degree of human intervention required in order to facilitate this.
+Given that snapshot voting is off-chain (yet trustless and verifiable) - some parameters allow for flexibility, which is how such a model as described above is possible. Keep that in mind.

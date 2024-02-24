@@ -17,7 +17,7 @@ Only \~3% of the total supply per year (from the DAO portion holding > 40%) goes
 
 #### Circulation Details
 
-Most vestings started back in 2022 and have almost ended going into 2024. The DAO started with > 55% and is currently at about 40% after multiple reward-farming stages for users and DAO members. See details below. There are barely any vestings left for 2024 as they have almost fully unlocked in 2023. Nearly full circulation has been achieved, so there is no new overhang in the token supply.
+Most vestings started back in 2022 and have almost ended going into 2024. The DAO started with >55% and is currently at about 40% after multiple reward stages for users and DAO members. See details below. There are barely any vestings left for 2024 as they have almost fully unlocked in 2023. Nearly full circulation has been achieved, so there is no new overhang in the token supply.
 
 You can consider circulating market cap to be \~50% of the entire 10B supply.
 

@@ -4,14 +4,12 @@ description: Passive lending on Gearbox Protocol.
 
 # Pools & APY
 
-
-
 {% hint style="success" %}
 Non-custodial. No impermanent loss. Isolated. Organic rates. No liquidations.
 {% endhint %}
 
 * Earning with Gearbox is as simple as lending on Compound or Aave. Next to that, pools are semi-isolated. Lend liquidity in the asset you choose and start earning APY! No impermanent loss.
-* With Gearbox's Credit Accountы, your assets never end up in custody of any one person or company. They are held on an isolated smart contract after they are borrowed.&#x20;
+* With Gearbox's Credit Accounts, your assets never end up in custody of any one person or company. They are held on an isolated smart contract after they are borrowed.&#x20;
 
 ![](<../../.gitbook/assets/Screenshot 2021-08-07 at 22.49.25.png>)
 
@@ -82,7 +80,7 @@ Check the interface for the latest information. Those are accruing to your **sta
 
 ***
 
-## Future: Alpha \[Inherited] Pools
+## Future: Alpha Pools \[Inherited]
 
 V3 brings an extra logic possible with passive pools: inherited, or alpha, pools.
 

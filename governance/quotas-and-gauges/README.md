@@ -7,7 +7,7 @@ description: >-
 
 # Quotas and Gauges
 
-## Quotas
+## Quotas (Limits)
 
 > See them like individual collateral limits, applied per every Credit Account. In other words, it's like a credit line: you open it once for a fixed amount, and then it needs to change if you want to increase or decrease that credit line. Interfaces help you with that though!
 
@@ -26,7 +26,7 @@ A quota is reserved by every leverage user themselves, “_how much of any X col
 Quota Fees are decided by the main governance process, and are more or less static. They are taken every time you initially get or increase your quota for every asset. See in [Fees](../../overview/protocol-fees.md#quota-fee).
 {% endhint %}
 
-## G**auges**
+## G**auges (Extra Rates)**
 
 **Gearbox gauges are not like inflationary gauges** in Curve - nonno, quite the opposite.&#x20;
 
