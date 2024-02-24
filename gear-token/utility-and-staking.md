@@ -6,7 +6,7 @@ description: Staking and utility sinks that exist for GEAR.
 
 GEAR token is an ERC20 utility token. It started as a governance token for the protocol - and then could take any other new function the DAO could envision for it. [Supply information is here](supply-information.md).
 
-Currently, it seems that GEAR has a few different ways to be used, and those can expand.
+Tokenomics can be adjusted in different ways. What is crucial is that the protocol has had the fee switch turned on by the DAO back in 2022, check what [fee streams it currently has](../overview/protocol-fees.md).
 
 ***
 
