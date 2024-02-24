@@ -1,5 +1,5 @@
 ---
-description: GEAR Tokenomics: Staking and Utility Sinks
+description: Tokenomics, Staking and Utility Sinks
 ---
 
 # $GEAR Tokenomics: Utility & Staking
