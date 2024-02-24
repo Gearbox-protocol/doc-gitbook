@@ -1,8 +1,8 @@
 ---
-description: Staking and utility sinks that exist for GEAR.
+description: GEAR Tokenomics: Staking and Utility Sinks
 ---
 
-# Utility & Staking
+# $GEAR Tokenomics: Utility & Staking
 
 GEAR token is an ERC20 utility token. It started as a governance token for the protocol - and then could take any other new function the DAO could envision for it. [Supply information is here](supply-information.md).
 
