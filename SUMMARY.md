@@ -56,7 +56,7 @@
 ## GEAR Token
 
 * [Supply Information](gear-token/supply-information.md)
-* [Utility & Staking](gear-token/utility-and-staking.md)
+* [Tokenomics, Utility & Staking](gear-token/tokenomics-utility-and-staking.md)
 
 ## Security & Risks <a href="#risk-and-security" id="risk-and-security"></a>
 
