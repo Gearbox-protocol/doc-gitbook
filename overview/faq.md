@@ -15,7 +15,7 @@ More complex and in-depth user questions are on the [**PRO Leverage Bible page**
 * Is the team anon? Who are DAO contributors? - at the bottom of the page [here](https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a).
 * What is GEAR token utility, can I stake it? - [here](../gear-token/utility-and-staking.md).
 * How does the DAO work and how to join an initiative? - [here](https://gearboxprotocol.notion.site/DAO-Initiatives-Cycles-57dea693c7f44c3d9d4d818e5b0ac88b).
-* How much capital does the treasury have and where it goes? - [here](https://gearboxprotocol.notion.site/Monthly-Reports-6849871a9bae44dfb903531c0a997e8f).
+* How much capital does the treasury have and where does it go? - [here](https://gearboxprotocol.notion.site/Monthly-Reports-6849871a9bae44dfb903531c0a997e8f).
 * How to add new collateral / protocol? What is the framework? - [here](https://docs.gearbox.finance/overview/credit-account/how-to-add-new-assets-protocols).
 * What does Gearbox Protocol do? - bro, you are in the docs, read up <3
 
@@ -37,7 +37,7 @@ V3, in order to give rewards to passive lenders, stakes those dTokens into the s
 
 #### - Will my APY for supplying liquidity go down or up?&#x20;
 
-The APY is variable and depends on the [utilization ratio](../lending-market/pools-and-apy/#how-to-calculate-apy) formula which is configurable by [DAO](../governance/setup/). It also depends on Quota Fees. The interface makes it all simpole, details can be found in [protocol-fees.md](protocol-fees.md "mention").
+The APY is variable and depends on the [utilization ratio](../lending-market/pools-and-apy/#how-to-calculate-apy) formula which is configurable by [DAO](../governance/setup/). It also depends on Quota Rates. The interface makes it all simple, details can be found in [protocol-fees.md](protocol-fees.md "mention").
 
 #### - What is a Health Factor and what can I do with it?&#x20;
 
@@ -45,7 +45,9 @@ The APY is variable and depends on the [utilization ratio](../lending-market/poo
 
 #### - Сan I always withdraw liquidity?
 
-Depending on the utilization ratio of pools, if it is high - not all the liquidity can be withdrawn at once. It doesn't mean that the protocol lost money or is insolvent - it's just that the liquidity is utilized in Credit Accounts. In such cases where available liquidity is low (which you can check in the app analytics page per pool) - the APY goes higher as to attract more capital providers and attempt to find an equilibrium. This is more or less standard among all lending-type protocols and has happened both in Compound & Aave before. _Gearbox DAO can adjust the utilization curve parameters to force certain behavior of the protocol in case weird situations occur._
+Conceptually, yes.
+
+Depending on the utilization ratio of pools though, if it is high - not all the liquidity can be withdrawn at once. It doesn't mean that the protocol lost money or is insolvent - it's just that the liquidity is utilized in Credit Accounts. In such cases where available liquidity is low (which you can check in the app analytics page per pool) - the APY goes higher as to attract more capital providers and attempt to find an equilibrium. This is more or less standard among all lending-type protocols and has happened both in Compound & Aave before. _Gearbox DAO can adjust the utilization curve parameters to force certain behavior of the protocol in case weird situations occur._
 
 #### - **Why can't I borrow more?**
 
@@ -53,14 +55,10 @@ As the protocol has max leverage and max personal borrow parameters, which are c
 
 Those shall be updated every now and then after voting, in [credit-account](credit-account/ "mention").
 
-#### - **Why is mobile not accessible yet?**
-
-As the protocol has gone live just recently - nobody knows what PMF (product-market fit) Gearbox has. The app will likely take many iterations, and anybody can build their own. So while this search for users and market fit are ongoing, the effort on optimiizing 100 versions at once is minimized. Later on, as things become more clear - the mobile version will be optimized and turned on.
-
 #### - **Will Gearbox Protocol be on other chains/L2/rollups/EVM-compatible?**
 
-Gearbox Protocol is DAO-operated, so it should be a joint community decision. That's one. If users need Gearbox - it's fine to deploy anywhere, because user-first approach.&#x20;
+Gearbox Protocol is DAO-operated, so it should be a joint community decision. That's one. If users need Gearbox - it's fine to deploy anywhere, because we have user-first approach.&#x20;
 
 #### - Why does a trade even from stable to stable decrease my HF (health factor)?
 
-Due to how [Threshold Weighted Values](liquidations/#threshold-weighted-value) are calculated taking into account a possible price drop and a price feed tick, a stablecoin is not actually a stablecoin for the protocol contracts. They are not 1:1. Stablecoins tend to de-peg, which must be taken into account. This keeps the protocol more secure, but also causes _max leverage_ parameter to be lower. As such, this is up to the risk appetite of Gearbox DAO to decide on such things.&#x20;
+Due to how [Threshold Weighted Values](liquidations/#threshold-weighted-value) are calculated taking into account a possible price drop and a price feed tick, a stablecoin is not actually a stablecoin for the protocol contracts. They are not 1:1. Stablecoins tend to de-peg, which must be taken into account. This keeps the protocol more secure, but also causes _max leverage_ parameter to be lower. As such, this is up to the risk appetite of Gearbox DAO to decide on such things. Check [PRO Leverage Bible](../traders-and-farmers/pro-leverage-bible.md) for more context.

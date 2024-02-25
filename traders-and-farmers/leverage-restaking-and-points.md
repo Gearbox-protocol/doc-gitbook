@@ -41,7 +41,7 @@ Price and liquidity depth of an LRT (be it weETH, ezETH, or something else entir
 Gearbox' smart router helps you execute trades and farms in one-go (multicall), but the liquidity and prices are derived from DEXes. The depeer their liquidity is, the better the execution. Also, keep in mind things like sandwiching, so use [MEV blocker](https://mevblocker.io/).
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/leverage restaking window gearbox eigenlayer.png" alt=""><figcaption><p>This is the next window after choosing in <a href="https://app.gearbox.fi/restaking/list">https://app.gearbox.fi/restaking/list</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/leverage restaking window gearbox eigenlayer.png" alt=""><figcaption><p>This is the next window after choosing in <a href="https://app.gearbox.fi/restaking/list">https://app.gearbox.fi/restaking/list</a>.</p></figcaption></figure>
 
 What happens underneath is:
 
@@ -61,11 +61,11 @@ Gearbox is a superior offering compared to alternatives in many ways, because yo
 
 * You want to exit all leverage: When you go to "Close Credit Account" inside the dashboard, choose "keep 0-debt account". That means your Credit Account will still remain yours while you wait for the airdrops, but you won't be paying fees anymore. No locking you up, remain free.
 
-<figure><img src="../.gitbook/assets/zero debt gearbox credit account.png" alt=""><figcaption><p>see the third option if you want to keep your CA, but get the funds out and stop paying</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/zero debt gearbox credit account.png" alt=""><figcaption><p>See the third option if you want to keep your CA, but get the funds out and stop paying.</p></figcaption></figure>
 
 * You want to change the strategy: then don't close your Credit Account either, just exit the position inside the dashboard and ape into something else right in there. Either another LRT or maybe just [vanilla farming](strategies/). That way, you can keep farming something else while waiting. This way, you pay different yet lower fees depending on what other strategy you choose.
 
-<figure><img src="../.gitbook/assets/gearbox leverage farming window (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/gearbox leverage farming window (1).png" alt=""><figcaption><p>You can enter-exit farms from the same Credit Account, see it like your leveraged wallet.</p></figcaption></figure>
 
 ### Liquidations and risks
 
