@@ -69,7 +69,7 @@ Gearbox is a superior offering compared to alternatives in many ways, because yo
 
 ### Liquidations and risks
 
-When it comes to liquidations, your liquidation price is mentioned in the dApp when you open a position (on the right). You can also manually calculate it if you follow the steps from [here](pro-leverage-bible.md#how-to-max-out...-but-kinda-safely). Make sure to not max out the leverage, because oracle deviations might happen. You kind of only care about the weETH/ETH price (because ETH is your debt, so your position is somewhat correlated), but the oracle reports usd values first and then converts to ETH (fixing right now). These LRT assets are new, so depegs can happen during large swings. Keep it in mind and don't get liquidated.
+When it comes to liquidations, your liquidation price is mentioned in the dApp when you open a position (on the right). You can also manually calculate it if you follow the steps from [here](pro-leverage-bible.md#how-to-max-out...-but-kinda-safely). Make sure to not max out the leverage, because oracle deviations might happen. You kind of only care about the LRT/ETH price (because ETH is your debt, so your position is somewhat correlated), but the oracle reports usd values first and then converts to ETH (fixing right now). These LRT assets are new, so depegs can happen during large swings. Keep it in mind and don't get liquidated.
 
 * Check [how to avoid liquidations](credit-account-dashboard-overview/kak-ne-byt-rekt.md).
 * Check what [fees](../overview/protocol-fees.md) the protocol has (no quota flat fee for leverage restaking).

@@ -6,23 +6,23 @@ description: Some tips for skilled [degenerate] farmers and traders.
 
 ### A different understanding of "collateral"
 
-DeFi users are accustomed to think of collateral as "idle asset, sits there and affects my borrowing power for better or worse, but doesn't change". With Gearbox, it's not exactly like that. That is because the entire composition of your Credit Account, whatever you have on it - be it WBTC or a farm token - acts as collateral to your debt at the same time. Denominated in the debt asset, of course.&#x20;
-
-<figure><img src="../.gitbook/assets/Gearbox Collateral Concept.png" alt=""><figcaption></figcaption></figure>
-
-_If you go put in ETH and WBTC but then swap all your assets into a stablecoin farm - your collateral now is the ERC20 representation of that stablecoin farm. Your ETH became something else._
+DeFi users are accustomed to think of collateral as "my idle asset, sits there and affects my borrowing power for better or worse, but doesn't change". With Gearbox, it's not exactly like that. That is because the entire composition of your Credit Account, whatever you have on it - be it WBTC or a farm token - acts as collateral to your debt at the same time. Denominated in the debt asset, of course.&#x20;
 
 {% hint style="info" %}
 Your starting asset(s) are usually not relevant. What is important is your debt asset - and then all of the assets on your Credit Account denominated in that debt asset.
 {% endhint %}
 
-In case you want to keep your asset as truly collateral, for example you want to keep ETH yet borrow stables and grow your borrowing power, then you need to keep it idle on Credit Account:
+<figure><img src="../.gitbook/assets/Gearbox Collateral Concept.png" alt=""><figcaption></figcaption></figure>
+
+_If you go put in ETH and WBTC but then swap all your assets into a stablecoin farm - your collateral now is the ERC20 representation of that stablecoin farm. Your ETH became something else._
+
+In case you want to keep your asset as truly idle, for example you want to keep ETH yet borrow stables and grow your borrowing power, then you need to keep it idle on Credit Account:
 
 * Open a Credit Account with debt in stablecoin (USDC, for example)
 * Put ETH in there as collateral and NOT sell it or not ape it into a position
 * Borrow more stables due to ETH borrowing power
 
-<figure><img src="../.gitbook/assets/gearbox dapp collateral.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/gearbox dapp collateral.png" alt=""><figcaption><p>See that you can keep your initial deposit idle. And also see you can start with more than one asset! Or swap them all...</p></figcaption></figure>
 
 You lose some capital efficiency since not your entire position is "working", but that might be indeed your strategy. ETH goes up and u can borrow even more stables - that could work!
 
@@ -30,11 +30,19 @@ You lose some capital efficiency since not your entire position is "working", bu
 [strategies](strategies/)
 {% endcontent-ref %}
 
-### What is the minimum / maximum leverage?
+### What is the minimum / maximum borrow and leverage?
 
-The protocol works without any trust or off-chain mechanisms, so the values are derived from on-chain. Even if the interface sometimes can show that your maximum leverage is reached - in reality, by interacting with the contracts on-chain, you could squeeze to the last bits!
+The protocol works without any trust or off-chain mechanisms, so the values are derived from onchain. Even if the interface sometimes can show that your maximum leverage is reached - in reality, by interacting with the contracts onchain, you could squeeze to the last bits! _But maybe don't..._
 
-* Min leverage is only defined by the minimum borrow amount. If $100K is the min: it can be an x2 position if you do it with $100K initial capital \[your capital worth $100K where $100K is the minimum limit x2 leverage = $200K total]; or can be an x6 if your initial capital is $20K \[your capital is worth $20K and at x6 it means your position will be $120K total, so $100K borrowed].
+The dApps have a green sliding bar to help you figure this out.
+
+{% hint style="info" %}
+The reason why minimum borrow limits are in place is to ensure that liquidations work safely, so that no bad debt accrues to the protocol. The higher the minimum borrow limit, the more likely it that \~3% or so of the liquidator fee would make up for the gas fees and slippage they pay during a liquidation process. Check inside the [integrations page](../overview/credit-account/allowedlist-integrations/).
+{% endhint %}
+
+The limits on Credit Accounts are enforced on the contract level by minimum borrow and maximum borrow limits. As per the DAO governance, those can change. The dApps will help you figure this out and show you the max available leverage as well as the minimum amount to borrow.
+
+* Min leverage is only defined by the minimum borrow amount. If $20K is the min: it can be an x2 position if you do it with $20K initial capital \[your capital worth $20K where $20K is the minimum limit x2 leverage = $40K total]; or can be an x6 if your initial capital is $5K \[your capital is worth $5K and at x6 it means your position will be $30K total, so $25K borrowed].
 * Now, the maximum leverage is more complex than that...
 
 ### How to calculate max leverage?
@@ -42,7 +50,7 @@ The protocol works without any trust or off-chain mechanisms, so the values are 
 First of all, you need to understand how [Health Factor](../overview/liquidations/#what-is-a-health-factor) works. In a nutshell, all of the assets on your Credit Account are denominated in the debt asset you took as a borrowable asset. In other words, all the assets on your Credit Account in total act as collateral. Whether you have some ERC20s on your CA or farming positions - all of them have LTVs with respect to the debt asset you have chosen.
 
 {% hint style="info" %}
-In case you want simple liquidation levels, you can isolate positions per different debt assets. Like: stablecoin farm vs stablecoin debt asset. Or ETH Lido farms with wstETH or WETH as debt. Then it's much simpler for you to know the liquidation prices. In case you cross-margin a few positions with different assets within a single Credit Account, it becomes harder. But maybe that's your goal after all, like those trying to go delta-neutral or get _paying_ longs [long.md](margin-trading-pure/long.md "mention").
+In case you want simple liquidation levels, you can isolate positions per different debt assets. Like: stablecoin farm vs stablecoin debt asset. Or ETH Lido farms with WETH as borrowed asset (debt). Then it's much simpler for you to know the liquidation prices. In case you cross-margin a few positions with different assets within a single Credit Account, it becomes harder. But maybe that's your goal after all, like those trying to go delta-neutral or get _paying_ longs [long.md](margin-trading-pure/long.md "mention").
 {% endhint %}
 
 The math for max leverage works as follows:
@@ -59,12 +67,12 @@ That's technically the max leverage you can take which will make your HF = 1. If
 You don't have to assume the worst case scenario right away. You can simply rebalance and reduce leverage \[or debt] to [avoid liquidations](credit-account-dashboard-overview/kak-ne-byt-rekt.md). If you are active in DeFi, you can take changes after sensing a farm could be worsening. No requirement to do it from the start.
 {% endhint %}
 
-### How to max out... but kinda "safely"?
+### How to max out leverage... but kinda "safely"?
 
 These tips are for traders & farmers who are absolutely degenerate. Maximum leverage, maximum risk. Exercise with caution. It's better if you are able to understand Etherscan WRITE functions in case anything goes wrong with the interface. **Be careful and read the code!**
 
 {% hint style="warning" %}
-Keep in mind that in reality you could encounter slippage, fast price changes, and other scenarios - so don't try to squueze every last drop unless you are a MEV guru. It's better to be safe and reduce your desired leverage factor by at least a factor of 0.25 or 0.5 to account for those. It still keeps you maxed out but [helps avoid a liquidation](credit-account-dashboard-overview/kak-ne-byt-rekt.md).&#x20;
+Keep in mind that in reality you could encounter slippage, fast price changes, and other scenarios - so don't try to squueze every last drop unless you are a MEV guru. It's better to be safe and reduce your desired leverage factor by at least a factor of 0.5 to account for those. It still keeps you maxed out but [helps avoid a liquidation](credit-account-dashboard-overview/kak-ne-byt-rekt.md).&#x20;
 {% endhint %}
 
 Let's say you want to go into FRAX3Crv. Out of all the assets inside, you might think that FRAX has some perceived risk. Maybe yes maybe no, doesn't matter for this exercise. Your debt asset is USDC, and you just wanna max out this farm. Let's say LTV is 90. The formula is:
@@ -99,13 +107,11 @@ That is max leverage factor you can apply if you are afraid of stETH ever revisi
 Check [this article](https://medium.com/gearbox-protocol/product-evolution-v2-gearbox-protocol-from-1-to-2-going-further-dcedf3b5d959) about Yearn, Curve, & other oracles. And read code!
 {% endhint %}
 
-### Where do price feeds come from?
+### What oracles are used?
 
-Great question, degen! You probably want to leave a bit of a leeway for some price fluctuations... Hold on, where do the prices come from? As a simple reply: currently, only from oracle privders like Chainlink and Redstone. So this is where you should look for the source of truth, it's open to everyone on-chain.
+As a simple reply: currently, only from oracle providers like Chainlink and Redstone. So this is where you should look for the source of truth, it's onchain.
 
-With farming positions it's a bit more tricky. For the implementation of Curve pool oracles \[as such, Yearn & Convex positions for these assets respectively too], custom PriceFeeds look at _virtualprice \*  price of the cheapest asset inside the pool._ That is because in an event that any one asset inside a Curve pool goes down in price, the pool automatically trades into that asset. So while not a 100% will be traded into it immediately, for the safety of Gearbox Protocol, the worst case scenario is assumed when calculating the position value.
-
-\-> [Contracts deployed are available here](https://dev.gearbox.fi/docs/documentation/deployments/deployed-contracts/).
+With farming positions it's a bit more tricky. For the implementation of Curve pool oracles \[as such, Yearn & Convex positions for these assets respectively too], custom PriceFeeds look at _virtualprice \*  price of the cheapest asset inside the pool._ That is because in an event that any one asset inside a Curve pool goes down in price, the pool automatically trades into that asset. So while not a 100% will be traded into it immediately, for the safety of Gearbox Protocol, the worst case scenario is assumed when calculating the position value. -> [Contracts deployed are available here](https://dev.gearbox.fi/docs/documentation/deployments/deployed-contracts/).
 
 {% hint style="info" %}
 For the avoidance\* of Cream-like flash loan attacks, there is a min-max range applied to LP token price shares, which can be observed in the code/audits + mentioned in [here](https://medium.com/gearbox-protocol/product-evolution-v2-gearbox-protocol-from-1-to-2-going-further-dcedf3b5d959).
@@ -113,48 +119,51 @@ For the avoidance\* of Cream-like flash loan attacks, there is a min-max range a
 \*That is, unless a new attack vector is found. Security is important, [please verify](../risk-and-security/audits-bug-bounty.md).
 {% endhint %}
 
-### A few words about slippage
+### Slippage & price impact. Beware of MEV!
 
-When swapping large amounts at once, you can encounter slippage. That is totally normal to have, like 0.05% on $1M is not unusual = $500 loss. But you have to keep in mind that you can't _socialize_ losses with the borrowed capital, so that loss is applied to your assets within the Credit Account only. _Otherwise it would be an attack vector that would let an attacker "lose" all lender money._
+When swapping large amounts at once, you can encounter slippage. That is totally normal to have, like 0.05% on $1M is not unusual = $500 loss. But you have to keep in mind that you can't _socialize_ losses with the borrowed capital, so that loss is applied to your assets within the Credit Account. _Otherwise it would be an attack vector that would let an attacker "lose" all lender money._
 
 What it means is that if you went x10 leverage on $100K of your capital, you will technically get a 1% loss on your capital, meaning -1% instantly. Sounds scary? Hold on!&#x20;
 
 That is not really an issue if you are leverage farming, because your larger position also makes back larger APY (per each leverage factor). **On a medium to long-term timeline (or even short-term) this is practically negligible.** It's the same as if you did not use leverage!
 
+You might want to use MEV protection, something like [MEV blocker](https://mevblocker.io/).
+
 <figure><img src="../.gitbook/assets/gearbox few words about slippage.png" alt=""><figcaption></figcaption></figure>
 
 You keep all the profits to yourself. Just don't... trade poorly, ok?!
 
-{% hint style="success" %}
-This is all standard. Just don't be surprised when you ape with size! **The interface shows the worst case scenario, in reality you might have not lost anything at all.**
-{% endhint %}
-
 ### Doomer interface numbers
 
-The above happens because the dApps \[both the [https://app.gearbox.fi/](https://app.gearbox.fi/pools) and [https://charts.gearbox.finance/pools](https://charts.gearbox.finance/pools)] use Chainlink or Redstone oracles to calculate prices in the UI instead of spot prices, and those quite often deviate. So, **the interface presents an overly pessimistic scenario**. You can check Nansen instead for the prices and value of your Credit Account closer to reality. Just input your Credit Account address into [Nansen](https://portfolio.nansen.ai/), and you can see all the positions there.
+The above happens because the dApps \[both the [https://app.gearbox.fi/](https://app.gearbox.fi/pools) and [https://charts.gearbox.finance/pools](https://charts.gearbox.finance/pools)] use Chainlink or Redstone oracles to calculate prices in the UI instead of spot prices, and those quite often deviate. So, **the interface presents a pessimistic scenario**. You can check Nansen instead for the prices and value of your Credit Account closer to reality. Just input your Credit Account address into [Nansen](https://portfolio.nansen.ai/), and you can see all the positions there.
 
 An even better way is to check on-chain virtual price of the positions you are in. So, the loss you are seeing in the dApps is just an honest max-pessimism scenario. Reality is always better!
 
 {% hint style="success" %}
-The same goes for slippage numbers in the interface when you try to trade & swap assets. In those cases, the interface shows the maximum drop in case your slippage, let's say if it is selected as 0.2%. Try making it lower, and the number will improve.
+The same goes for slippage numbers in the interface when you try to trade & swap assets. In those cases, the interface shows the maximum drop in case your slippage, let's say if it is selected as 0.1%. Try making it lower, and the number will improve.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-11-11 at 18.44.06.png" alt=""><figcaption></figcaption></figure>
+
+
+<figure><img src="../.gitbook/assets/gearbpox doomer charts dapp.png" alt=""><figcaption><p>See <a href="https://charts.gearbox.finance/accounts/">https://charts.gearbox.finance/accounts/</a> to check what borrowers do.</p></figcaption></figure>
 
 ### Claim farming rewards before closing CA
 
 The interface logic doesn't always perfectly claim your unclaimed rewards efficiently, from Curve or Convex, so make sure to claim them before closing your Credit Account. These rewards would not be lost conceptually, but the next user of this particular CA might wake up with a nice present. _Unless you are playing a "take 100 bucks, or I double it and pass onto the next" - not recommended._
 
-* first claim your rewards from Curve / Convex / etc.
-* then close your Credit Account, super easy
+* Claim your rewards from Curve / Convex / etc.;
+* Sell them manually if you really want to be sure inside the "Swap" tab;
+* Or just skip the step above and simple close your Credit Account at once.
 
-<figure><img src="../.gitbook/assets/gearbox claim farming rewards.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/gearbox claim farming rewards.png" alt=""><figcaption><p>There is a claim section on the Dahboard main page of your Credit Account.</p></figcaption></figure>
 
-### PURE liquidation price calculation
+### PURE liquidation price being "bad"
 
 Since PURE uses real assets, the slippage and liquidity requirement isn’t just limited to your collateral but the entirety of your position. This leads to the calculation of liquidation price being slightly different than what you are used to on perps, and hence needs more attention while opening a position. It's all visible in the dApp, we are just pointing this out so you are super aware of the differences.
 
 With this being the alpha version, we have been conservative with the LTVs, as the risk framework evolves, the UX on this too should improve. It’s not a protocol “issue”, just a precautionary risk management that should improve as we grow. Trade safe!
+
+<figure><img src="../.gitbook/assets/screenshot-pure-gearbox-fi-trade-1708865208988.png" alt=""><figcaption><p>As you can see, mainnet LTVs and liquidation fees are not low due to having to account for higher gas fees. That results in the liquidation price being not very safe for high leverage. For smaller leverage, liquidation price is fine!</p></figcaption></figure>
 
 ***
 

@@ -75,20 +75,4 @@ For this, click the small "open Credit Account" button in the Extended dApp.
 Before you begin, definitely check out [pro-leverage-bible.md](pro-leverage-bible.md "mention") section to understand some of the intricacies on how max leverage works.
 {% endhint %}
 
-***
-
-## Credit Account min/max borrow limits
-
-The limits on Credit Accounts are enforced on the contract level by minimum borrow and maximum borrow limits. As per the DAO governance, those can change. The dApps will help you figure this out and show you the max available leverage as well as the minimum amount to borrow.
-
-{% hint style="info" %}
-The reason why minimum borrow limits are in place is to ensure that liquidations work safely, so that no bad debt accrues to the protocol. The higher the minimum borrow limit, the more likely it that \~3% or so of the liquidator fee would make up for the gas fees and slippage they pay during a liquidation process.
-{% endhint %}
-
-In case you want to know all the tiny details on limits and LTV, check the doc in here:
-
-{% content-ref url="../overview/credit-account/allowedlist-integrations/" %}
-[allowedlist-integrations](../overview/credit-account/allowedlist-integrations/)
-{% endcontent-ref %}
-
 Did you find a bug with the interface, something didn't work as you think it should have, or you have a suggestion on how to improve the user experience? [Suggest](https://discord.gg/hF3QvX2vgt) on Discord!
