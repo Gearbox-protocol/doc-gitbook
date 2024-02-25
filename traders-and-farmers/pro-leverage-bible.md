@@ -6,7 +6,7 @@ description: Some tips for skilled [degenerate] farmers and traders.
 
 ### A different understanding of "collateral"
 
-DeFi users are accustomed to think of collateral as "idle asset, sits there and changes my borrowing power for better or worse". With Gearbox, it's not exactly like that. That is because the entire composition of your Credit Account, whatever you have on it - be it WBTC or a farm token - acts as collateral to your debt at the same time. Denominated in the debt asset, of course.&#x20;
+DeFi users are accustomed to think of collateral as "idle asset, sits there and affects my borrowing power for better or worse, but doesn't change". With Gearbox, it's not exactly like that. That is because the entire composition of your Credit Account, whatever you have on it - be it WBTC or a farm token - acts as collateral to your debt at the same time. Denominated in the debt asset, of course.&#x20;
 
 <figure><img src="../.gitbook/assets/Gearbox Collateral Concept.png" alt=""><figcaption></figcaption></figure>
 
@@ -21,6 +21,8 @@ In case you want to keep your asset as truly collateral, for example you want to
 * Open a Credit Account with debt in stablecoin (USDC, for example)
 * Put ETH in there as collateral and NOT sell it or not ape it into a position
 * Borrow more stables due to ETH borrowing power
+
+<figure><img src="../.gitbook/assets/gearbox dapp collateral.png" alt=""><figcaption></figcaption></figure>
 
 You lose some capital efficiency since not your entire position is "working", but that might be indeed your strategy. ETH goes up and u can borrow even more stables - that could work!
 

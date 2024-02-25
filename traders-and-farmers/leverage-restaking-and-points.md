@@ -35,6 +35,12 @@ Go to [https://app.gearbox.fi/restaking/list](https://app.gearbox.fi/restaking/l
 * Check the liquidation price, all the details;
 * Sign the asset approval, and then the transaction itself. Done!
 
+{% hint style="warning" %}
+Price and liquidity depth of an LRT (be it weETH, ezETH, or something else entirely) is relevant not just from the depeg perspective for liquidations (more on that below), but also in the context of price slippage and price impact. When you trade with $500K size on spot DEXes even without leverage - the same things happen. Consider executing large sizes gradually, both when entering and exiting a position. Otherwise, large slippage and price impact can eat into your initial deposit and create a temporary loss.
+
+Gearbox' smart router helps you execute trades and farms in one-go (multicall), but the liquidity and prices are derived from DEXes. The depeer their liquidity is, the better the execution. Also, keep in mind things like sandwiching, so use [MEV blocker](https://mevblocker.io/).
+{% endhint %}
+
 <figure><img src="../.gitbook/assets/leverage restaking window gearbox eigenlayer.png" alt=""><figcaption><p>This is the next window after choosing in <a href="https://app.gearbox.fi/restaking/list">https://app.gearbox.fi/restaking/list</a></p></figcaption></figure>
 
 What happens underneath is:
