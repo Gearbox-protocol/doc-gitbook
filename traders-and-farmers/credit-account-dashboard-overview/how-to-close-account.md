@@ -21,7 +21,7 @@ You repay the loan with your own funds. This means you have more funds on your p
 ### Option 3: keep a 0-debt Credit Account
 
 {% hint style="success" %}
-This might be the best one, keep reading here!
+This might be the best one, keep reading!
 {% endhint %}
 
 This option might be amazing if you expect any airdops to your Credit Account. For example, you farmed points. This feature helps you keep your Credit Account but remove assets from it and pay no more fees. You basically remain liquid with your capital but keep the Credit Account to yourself. See:

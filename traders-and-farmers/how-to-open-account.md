@@ -40,7 +40,7 @@ _You can then change your leverage, assets, add or remove debt, etc..._
 
 <figure><img src="../.gitbook/assets/gearbox dapp leverage farming (1).png" alt=""><figcaption><p><a href="https://app.gearbox.fi/strategies/list">https://app.gearbox.fi/strategies/list</a></p></figcaption></figure>
 
-### 3. "I need 'em points, give me leverage restaking!"
+### 3. "I want 'em points, give me leverage restaking!"
 
 Those integrations have been put onto a separate page: Leverage Restaking & Leverage Points. With it, you can leverage points with EigenLayer, Renzo, EtherFi, and other avenues which enable this.
 
