@@ -7,14 +7,14 @@ description: Useful links about Gearbox ecosystem.
 #### Dev Information
 
 * GitHub: [https://github.com/Gearbox-protocol](https://github.com/Gearbox-protocol)
-* Monitoring Tool: [https://risk.gearbox.foundation/updates](https://risk.gearbox.foundation/updates)
 * Developer docs: [https://dev.gearbox.fi/](https://dev.gearbox.fi/)
+* Monitoring Tool: [https://risk.gearbox.foundation/updates](https://risk.gearbox.foundation/updates)
 
 #### dApps
 
-* Extended dApp: [https://app.gearbox.fi/](https://app.gearbox.fi/)
-* Trading dApp: [https://pure.gearbox.fi/ ](https://pure.gearbox.fi/)
-* Analytics: [https://charts.gearbox.finance/](https://charts.gearbox.finance/)
+* Farming dApp: [https://app.gearbox.fi/](https://app.gearbox.fi/)
+* Margin trading dApp: [https://pure.gearbox.fi/ ](https://pure.gearbox.fi/)
+* Analytics charts: [https://charts.gearbox.finance/](https://charts.gearbox.finance/)
 * Older V2 interface: [https://v2.gearbox.fi/](https://v2.gearbox.fi/)
 
 #### Socials and DAO

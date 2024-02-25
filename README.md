@@ -1,14 +1,16 @@
 ---
-description: Composable Leverage Protocol ⚙ Built with composability in mind <3
+description: Built with composability in mind ⚙
 ---
 
 # Overview&#x20;
 
 ![](.gitbook/assets/IMG\_7234.PNG)
 
-Gearbox Protocol brings you composable leverage. It allows anyone to margin trade on Uniswap, leverage farm on Curve, leverage liquid stake on Lido, and use 10X more capital on protocols you already love. Making decentralized leverage a reality thanks to Credit Account abstraction, bringing together lending and prime brokerage in the same protocol! See [how it works](overview/how-it-works.md).
+Gearbox Protocol brings you composable leverage. It allows anyone to margin trade on Uniswap, leverage farm on Curve, leverage liquid stake on Lido, leverage restake with EigenLayer derivatives, and use 10X more capital on protocols you already love. Making decentralized leverage a reality thanks to Credit Account abstraction, bringing together lending and prime brokerage in the same protocol!&#x20;
 
-> The leverage you get with Gearbox doesn't get isolated inside its own pools. No perps in here. Your trades and farms are executed with the global DEX liquidity of other protocols.
+See [how it works](overview/how-it-works.md).
+
+> The leverage you get with Gearbox doesn't get isolated inside its own pools. No perpetuals in here. Your trades and farms are executed with the global $6B+ DEX liquidity on other protocols.
 >
 > Composable & modular!
 

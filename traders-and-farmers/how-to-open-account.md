@@ -4,19 +4,21 @@ description: A quick guide to your first Credit Account.
 
 # Opening a Credit Account
 
-Being able to leverage trade & farm starts with opening a Credit Account. Simply select an interface that fits your initial purpose (farming or trading), to simplify your user journey.
+Being able to leverage trade and farm starts with opening a Credit Account. Simply select an interface that fits your initial purpose (farming or trading), to simplify your user journey.
 
 {% hint style="info" %}
 Underneath, the protocol logic and contracts are the same! Different dApps simply help different user bases get to their desired positions quicker.
 {% endhint %}
-
-
 
 <figure><img src="../.gitbook/assets/gearbox dapp leverage.png" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts">https://app.gearbox.fi/accounts</a></p></figcaption></figure>
 
 ### 1. "I want to margin trade"&#x20;
 
 Then you better go to the PURE interface which is supposed to look like a regular familiar leverage interface. You can select the trading pair, your leverage, slippage, and all the other important parameters. _Once you open it, you can further configure the position parameters like liquidation price and leverage factor._ The [**PURE**](margin-trading-pure/) docs page can tell you more about what it is.
+
+{% content-ref url="margin-trading-pure/" %}
+[margin-trading-pure](margin-trading-pure/)
+{% endcontent-ref %}
 
 <figure><img src="../.gitbook/assets/gearbox pure margin trading (1).png" alt=""><figcaption><p><a href="https://pure.gearbox.fi/">https://pure.gearbox.fi/</a></p></figcaption></figure>
 
@@ -32,11 +34,13 @@ It's more applicable to farmers who don't want to have a bunch of complexities a
 
 _You can then change your leverage, assets, add or remove debt, etc..._
 
-
+{% content-ref url="strategies/" %}
+[strategies](strategies/)
+{% endcontent-ref %}
 
 <figure><img src="../.gitbook/assets/gearbox dapp leverage farming (1).png" alt=""><figcaption><p><a href="https://app.gearbox.fi/strategies/list">https://app.gearbox.fi/strategies/list</a></p></figcaption></figure>
 
-### 3. "I need 'em points, give me the leverage restaking!"
+### 3. "I need 'em points, give me leverage restaking!"
 
 Those integrations have been put onto a separate page: Leverage Restaking & Leverage Points. With it, you can leverage points with EigenLayer, Renzo, EtherFi, and other avenues which enable this.
 
@@ -44,7 +48,13 @@ The flow and the interface are pretty much identical to leverage farming. This i
 
 _You can then change your leverage, assets, add or remove debt, etc..._
 
+{% content-ref url="leverage-restaking-and-points.md" %}
+[leverage-restaking-and-points.md](leverage-restaking-and-points.md)
+{% endcontent-ref %}
+
 <figure><img src="../.gitbook/assets/gearbox leverage restaking leverage points eigenlayer.png" alt=""><figcaption><p><a href="https://app.gearbox.fi/restaking/list">https://app.gearbox.fi/restaking/list</a></p></figcaption></figure>
+
+***
 
 ### 4. "I am 180 IQ, I will go manual"&#x20;
 
@@ -69,7 +79,11 @@ Before you begin, definitely check out [pro-leverage-bible.md](pro-leverage-bibl
 
 ## Credit Account min/max borrow limits
 
-The limits on Credit Accounts are enforced on the contract level by minimum borrow and maximum borrow limits. As per the DAO governance, those can change. The dApps will help you figure this out and show you the max available leverage.
+The limits on Credit Accounts are enforced on the contract level by minimum borrow and maximum borrow limits. As per the DAO governance, those can change. The dApps will help you figure this out and show you the max available leverage as well as the minimum amount to borrow.
+
+{% hint style="info" %}
+The reason why minimum borrow limits are in place is to ensure that liquidations work safely, so that no bad debt accrues to the protocol. The higher the minimum borrow limit, the more likely it that \~3% or so of the liquidator fee would make up for the gas fees and slippage they pay during a liquidation process.
+{% endhint %}
 
 In case you want to know all the tiny details on limits and LTV, check the doc in here:
 
@@ -77,6 +91,4 @@ In case you want to know all the tiny details on limits and LTV, check the doc i
 [allowedlist-integrations](../overview/credit-account/allowedlist-integrations/)
 {% endcontent-ref %}
 
-{% hint style="warning" %}
 Did you find a bug with the interface, something didn't work as you think it should have, or you have a suggestion on how to improve the user experience? [Suggest](https://discord.gg/hF3QvX2vgt) on Discord!
-{% endhint %}
