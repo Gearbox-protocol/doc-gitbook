@@ -1,5 +1,5 @@
 ---
-description: How to go long or short and farm at the same time!
+description: How to go long or short - and farm at the same time!
 ---
 
 # Boosted Long/Short or "Free Leverage"

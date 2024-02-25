@@ -6,6 +6,10 @@ description: Quick answers-links to the most frequently asked questions.
 
 This section can help you find answers to the most common questions. The other answers you can likely find by reading the page names of the docs on the left, each section explaining the topics.
 
+{% hint style="info" %}
+More complex and in-depth user questions are on the [**PRO Leverage Bible page**](../traders-and-farmers/pro-leverage-bible.md).
+{% endhint %}
+
 * Where is the GEAR token contract and vestings? - [here](https://docs.gearbox.finance/gear-token/gear-overview).
 * Funding rounds and early backers? - at the bottom of the page [here](../gear-token/supply-information.md#early-backers-and-dao-round-2022).
 * Is the team anon? Who are DAO contributors? - at the bottom of the page [here](https://gearboxprotocol.notion.site/Gearbox-DAO-23966f122ae4421492819242b30a0e7a).
@@ -21,7 +25,7 @@ Do you feel like some question is missing? [Send it on Discord](https://discord.
 
 #### **- What fees am I paying?**&#x20;
 
-Since Gearbox Protocol has two sides to it, the fees you are paying depend on what user type you are. **If you are a passive lender, there is no direct fee for becoming one**.
+Since Gearbox Protocol has two sides to it, the fees you are paying depend on what user type you are. **If you are a passive lender, there is no fee**. What you see is what you get, no added fees.
 
 If you are a leverage user, you are paying a borrow interest fee (which fluctuates depending on [utilization ratio](../lending-market/pools-and-apy/#how-to-calculate-apy)) + [Quotas](../governance/quotas-and-gauges/) which are also dynamic + [liquidation fees to the protocol and a liquidator](protocol-fees.md#trader-farmer-fees). The latter you pay only if you are liquidated. All fees are configurable by [DAO](../governance/setup/), see [protocol-fees.md](protocol-fees.md "mention").
 

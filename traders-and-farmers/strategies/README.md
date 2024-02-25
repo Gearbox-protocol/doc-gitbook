@@ -1,16 +1,18 @@
 ---
-description: Ideas on how leverage could be used across DeFi.
+description: Delta-neutral strategies across DeFi. Choose pre-made or build your own!
 ---
 
 # Leverage Farming
 
 {% hint style="success" %}
-Before you go any further, just know that [https://app.gearbox.fi/accounts/strategies/list](https://app.gearbox.fi/accounts/strategies/list) has the list of strategies that ape for you in one click! That's right: you configure your collateral asset(s), debt asset, leverage factor... and it does all of it for you in one click. So if you just wanna do some vanilla farming - this could be the recipe for you. But keep reading to learn about other hot stuff possible with composable leverage.
+Before you go any further, just know that [https://app.gearbox.fi/accounts/](https://app.gearbox.fi/strategies/list) has the list of strategies that ape for you in one click! That's right: you configure your collateral asset(s), debt asset, leverage factor... and it does all of it for you in one click. So if you just wanna do some vanilla farming - this could be the recipe for you.
+
+But keep reading to learn about other hot stuff possible with composable leverage.
 {% endhint %}
 
 While a developer can run all of the complex interactions onchain, executing these by going protocol to protocol is a tough task. Gearbox devs have worked this out, to have the dApp help non-technical users **ape into strategies with one click thanks to "One-Click Strategies"**.&#x20;
 
-<figure><img src="../../.gitbook/assets/gearbox dapp leverage farming (1).png" alt=""><figcaption><p><a href="https://app.gearbox.fi/accounts/strategies/list">https://app.gearbox.fi/accounts/strategies/list</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gearbox dapp leverage farming (1).png" alt=""><figcaption><p><a href="https://app.gearbox.fi/strategies/list">https://app.gearbox.fi/strategies/list</a></p></figcaption></figure>
 
 What it enables in 1 go, is:
 
