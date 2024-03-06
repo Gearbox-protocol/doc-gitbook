@@ -57,7 +57,7 @@ $$
 r(t) = 
     \begin{cases}
         r_0 + \frac{U(t)}{U_1}\left(r_1-r_0\right), & U(t) \le U_1\\
-        r_0+r_1 + \left(U(t)-U_2\right)\frac{r_2}{U_2-U_1}, & U(t) \in (U_1,U_2].\\
+        r_0+r_1 + \left(U(t)-U_1\right)\frac{r_2}{U_2-U_1}, & U(t) \in (U_1,U_2].\\
         r_0+r_1+r_2 + \left(U(t)-U_2\right)\frac{r_3}{1-U_2}, & U(t) > U_2.\\
     \end{cases}
 $$
