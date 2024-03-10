@@ -27,7 +27,7 @@
 * [Opening a Credit Account](traders-and-farmers/how-to-open-account.md)
 * [Margin Trading: PURE](traders-and-farmers/margin-trading-pure/README.md)
   * [Boosted Long/Short or "Free Leverage"](traders-and-farmers/margin-trading-pure/long.md)
-* [Leverage Restaking & Points](traders-and-farmers/leverage-restaking-and-points.md)
+* [Leverage Points & Restaking](traders-and-farmers/leverage-points-and-restaking.md)
 * [Leverage Farming](traders-and-farmers/strategies/README.md)
   * [One-Click Strategies](traders-and-farmers/strategies/one-click-strategies.md)
   * [Leveraged liquid staking](traders-and-farmers/strategies/leveraged-liquid-staking.md)

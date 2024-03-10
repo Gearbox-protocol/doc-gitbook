@@ -26,8 +26,8 @@ This might be the best one, keep reading!
 
 This option might be amazing if you expect any airdops to your Credit Account. For example, you farmed points. This feature helps you keep your Credit Account but remove assets from it and pay no more fees. You basically remain liquid with your capital but keep the Credit Account to yourself. See:
 
-{% content-ref url="../leverage-restaking-and-points.md" %}
-[leverage-restaking-and-points.md](../leverage-restaking-and-points.md)
+{% content-ref url="../leverage-points-and-restaking.md" %}
+[leverage-points-and-restaking.md](../leverage-points-and-restaking.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}

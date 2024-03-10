@@ -24,8 +24,8 @@ Done! From assets X Y Z -> to taking leverage with Gearbox -> to swapping those 
 
 ## Concrete Examples
 
-{% content-ref url="../leverage-restaking-and-points.md" %}
-[leverage-restaking-and-points.md](../leverage-restaking-and-points.md)
+{% content-ref url="../leverage-points-and-restaking.md" %}
+[leverage-points-and-restaking.md](../leverage-points-and-restaking.md)
 {% endcontent-ref %}
 
 {% content-ref url="leveraged-stablecoin-farming.md" %}

@@ -1,23 +1,23 @@
 ---
 description: >-
-  Trying to juice out the EigenLayer and Points train? Gearbox Protocol will
-  help you go back in time and earn points as if you were in the protocol from
-  the early days, with the power of leverage.
+  Trying to juice out Points? Gearbox Protocol will help you go back in time and
+  earn points as if you were in that protocol from the early days, with the
+  power of leverage. EigenLayer, Ethena, Renzo...
 ---
 
-# Leverage Restaking & Points
+# Leverage Points & Restaking
 
 {% hint style="success" %}
-You don't need ninja approval for leverage restaking points. You need the [SBT ninja pass](https://tally.so/r/3XoVzY) for leverage farming Curve, Balancer, and other [farming integrations](strategies/). But not for LRTs!
+You don't need ninja approval for leverage points. You need the [SBT ninja pass](https://tally.so/r/3XoVzY) for leverage farming Curve, Balancer, and other [farming integrations](strategies/). But not for points!
 {% endhint %}
 
-There's not much that you need to say beyond "Earn 10 times more EIGEN and EtherFi/Renzo points" to push this product. However, understanding why _restaking changes the fabric of society_ and where the yields come from - will help users learn and make better informed decisions.
+There's not much that you need to say beyond "Earn 10 times more EIGEN, Ethena shards, and EtherFi/Renzo points" to push this product. However, understanding why _leveraged points change the fabric of society_ and where the yields come from - will help you make better informed decisions.
 
-### Differences of leverage restaking points vs regular leverage farming
+### Differences of leverage points vs regular leverage farming
 
 Leverage borrowers who want to farm points are prepared to pay high rates today - to get higher rates “tomorrow” due to the airdrops earned in the future (points accrued). That's their logic.
 
-In that sense, **a leverage borrower is still technically leverage farming**… but **negative yields.** _Wait what?!_ - Yes, the organic rates for staking they get today are not large. What these users want is the distribution of tokens due to the points they earn: EigenLayer, Renzo, EtherFi, and others stacking up on top of each other. That’s where leverage users today see the \$$.
+In that sense, **a leverage borrower is still technically leverage farming**… but **negative yields.** _Wait what?!_ - Yes, the organic rates for staking they get today are not large. What these users want is the distribution of tokens due to the points they earn: EigenLayer, Ethena, Renzo, EtherFi, and others stacking up on top of each other. That’s where leverage users today see the \$$.
 
 > EtherFi, Renzo, Kelp, Swell, Puffer, and others - Gearbox can integrate them all.
 
@@ -45,9 +45,9 @@ Gearbox' smart router helps you execute trades and farms in one-go (multicall), 
 
 What happens underneath is:
 
-1. You borrow [real ETH from passive lenders](../lending-market/pools-and-apy/) with leverage (who earn interest passively);
+1. You borrow [real ETH or USDC from passive lenders](../lending-market/pools-and-apy/) with leverage (who earn interest passively);
 2. Together with your initial funds and borrowed funds, a [Credit Account](../overview/credit-account/) is opened for you;
-3. And then your Credit Account marketbuys the chosen liquid staking token (LRT).
+3. And then your Credit Account marketbuys the chosen liquid restaking token (LRT).
 
 Gearbox' multicall helps you do it all in one go, so you don't have to confirm many transactions one after another. That saves you money on gas fees and time on signing it all.
 

@@ -48,8 +48,8 @@ The flow and the interface are pretty much identical to leverage farming. This i
 
 _You can then change your leverage, assets, add or remove debt, etc..._
 
-{% content-ref url="leverage-restaking-and-points.md" %}
-[leverage-restaking-and-points.md](leverage-restaking-and-points.md)
+{% content-ref url="leverage-points-and-restaking.md" %}
+[leverage-points-and-restaking.md](leverage-points-and-restaking.md)
 {% endcontent-ref %}
 
 <figure><img src="../.gitbook/assets/gearbox leverage restaking leverage points eigenlayer.png" alt=""><figcaption><p><a href="https://app.gearbox.fi/restaking/list">https://app.gearbox.fi/restaking/list</a></p></figcaption></figure>
