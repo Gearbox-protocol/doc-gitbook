@@ -54,7 +54,7 @@ Gearbox' multicall helps you do it all in one go, so you don't have to confirm m
 ### Feel free to exit any time: always liquid
 
 {% hint style="info" %}
-You don't have to pay fees forever, you can stop at any time. Just don't fully close your Credit Account, because your points earned accrue and will be claimable via it later. That is, once those airdrops actually go live. See below on how to correctly "exit" leverage restaking.
+You don't have to pay fees forever, you can stop at any time. Just don't fully close your Credit Account. See below on how to correctly "exit" leverage restaking.
 {% endhint %}
 
 Gearbox is a superior offering compared to alternatives in many ways, because you can get in and out of a position at any time. There are a few ways you can exit a liquid restaking position in case you either don't want to pay any more fees or you just grew bored of this strategy. Here are the ways:
