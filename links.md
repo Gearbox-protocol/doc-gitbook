@@ -13,7 +13,6 @@ description: Useful links about Gearbox ecosystem.
 #### dApps
 
 * Farming dApp: [https://app.gearbox.fi/](https://app.gearbox.fi/)
-* Margin trading dApp: [https://pure.gearbox.fi/ ](https://pure.gearbox.fi/)
 * Analytics charts: [https://charts.gearbox.finance/](https://charts.gearbox.finance/)
 * Older V2 interface: [https://v2.gearbox.fi/](https://v2.gearbox.fi/)
 
