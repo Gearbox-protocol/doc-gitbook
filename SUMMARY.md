@@ -58,6 +58,7 @@
 
 * [Supply Information](gear-token/supply-information.md)
 * [Utility & Staking](gear-token/utility-and-staking.md)
+* [Legal Disclaimer](gear-token/legal-disclaimer.md)
 
 ## Security & Risks <a href="#risk-and-security" id="risk-and-security"></a>
 
