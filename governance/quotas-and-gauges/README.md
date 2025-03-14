@@ -50,7 +50,7 @@ Gauges decide the extra APY a borrower pays for each asset. These rates are appl
 
 These extra rates are split with passive lenders and are accumulated in the [Fee Guard](../setup/guards-multisigs.md#fee-temporary-guard-5-10). Check the [Utility & Staking page](../../gear-token/utility-and-staking.md) to see more about how GEAR holders can vote for these extra rates.
 
-Quota rates are determined based on gauge votes using the following formula:
+Quota rates are determined based on gauge votes using the following formula (only votes for particular token in particular gauge are taken into account):
 
 $$
 quotaRate = \frac{minRate \times Votes_{DOWN} + maxRate \times Votes_{UP}}{Votes_{TOTAL}}
