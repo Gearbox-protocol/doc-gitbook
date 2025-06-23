@@ -19,10 +19,10 @@ Ethereum Address: [0xA7D5DDc1b8557914F158076b228AA91eF613f1D5](https://etherscan
 List of members on the multisig:
 
 1. [zefram.eth](https://twitter.com/boredGenius) - Building [88mphapp](https://twitter.com/88mphapp), sudoswap, and more. Member of MetaCartel.
-2. [Ignacio](https://twitter.com/iicc\_eth) - Co-Founder of Stakely
+2. [Ignacio](https://twitter.com/iicc_eth) - Co-Founder of Stakely
 3. van0k - Gearbox protocol developer
-4. [0xmikko](https://twitter.com/0xmikko\_eth) - original inventor of Gearbox \[on behalf of Gearbox Protocol Limited]
-5. [Alex Smirnov](https://twitter.com/AlexSmirnov\_\_) - co-founder of [deBridge](https://twitter.com/deBridgeFinance)
+4. [0xmikko](https://twitter.com/0xmikko_eth) - original inventor of Gearbox \[on behalf of Gearbox Protocol Limited]
+5. [Alex Smirnov](https://twitter.com/AlexSmirnov__) - co-founder of [deBridge](https://twitter.com/deBridgeFinance)
 6. [MacLane Wilkison](https://twitter.com/MacLaneWilkison) - co-founder of [NuCypher](https://twitter.com/NuCypher) & [Threshold](https://twitter.com/TheTNetwork)
 7. [Simone](https://twitter.com/kronosimste) - developer at [DegenScore](https://twitter.com/DegenScore)
 8. [Lewi](https://twitter.com/lewifree) - OG degenerate & ESD summoner
@@ -64,14 +64,14 @@ List of members on the multisig:
 
 1. [Stani](https://twitter.com/StaniKulechov) - founder of [Aave](https://twitter.com/AaveAave), venture partner at [Variant Fund](https://twitter.com/VariantFund)
 2. [Amplice](https://twitter.com/astr0bas3d) - [lobsterdao](https://twitter.com/10b57e6da0) member & core DAO contributor on marketing
-3. [Pepo](https://twitter.com/0xPEPO) - contributor of [Wonderland](https://twitter.com/defi\_wonderland) & [DeFi LATAM](https://twitter.com/defi\_latam)
-4. [Sergey](https://t.me/icodrops\_sergey) - founder of [ICODrops](https://twitter.com/ICODrops)
+3. [Pepo](https://twitter.com/0xPEPO) - contributor of [Wonderland](https://twitter.com/defi_wonderland) & [DeFi LATAM](https://twitter.com/defi_latam)
+4. [Sergey](https://t.me/icodrops_sergey) - founder of [ICODrops](https://twitter.com/ICODrops)
 5. [NDW](https://twitter.com/cryptondee) - Castle Capital member and a DeFi degen
 6. [apeir99n](https://twitter.com/apeir99n) - original math & product at Gearbox \[on behalf of Gearbox Protocol Limited]
 7. [Nikitakle](https://twitter.com/NOstroymov) - core DAO contributor on marketing & community
-8. [Amantay](https://twitter.com/amantay\_a)  - core DAO contributor on risk & analytics
+8. [Amantay](https://twitter.com/amantay_a)  - core DAO contributor on risk & analytics
 9. [duckdegen.eth](https://twitter.com/DuckDegen) - devrel, ex-Connext \[[GIP-40](https://gov.gearbox.fi/t/gip-40-financial-multisig-reshuffle/2204/5)]
-10. [Vadym](https://twitter.com/0x\_vadym) - head of product at Kolibrio
+10. [Vadym](https://twitter.com/0x_vadym) - head of product at Kolibrio
 
 Spending and grants paid out can be seen in monthly DAO reports:
 
@@ -82,3 +82,9 @@ Spending and grants paid out can be seen in monthly DAO reports:
 Ethereum Address: [0x3E965117A51186e41c2BB58b729A1e518A715e5F](https://etherscan.io/address/0x3E965117A51186e41c2BB58b729A1e518A715e5F)
 
 A temporary multisig with the same set of singers as the Treasury Guard. It is created to separate funds from the [DAO rounds](../../gear-token/supply-information.md#early-backers-and-dao-round-2022) which are used for the development of the protocol. This Fee Guard collects all [fees from the protocol](../../overview/protocol-fees.md) and can later on give control over to an initiative which will focus on staking programs, or whatever else the DAO decides to do. It's a holder of fees for now.
+
+### Rewards management Guard 2/3
+
+Executes rewards distribution and sets up temporary incentive campaigns, typically provided by partner protocols.
+
+Ethereum address: [0x6f378f36899cEB7C6fB7D293aAE1ca86B0Edbf6D](https://app.safe.global/transactions/history?safe=eth:0x6f378f36899cEB7C6fB7D293aAE1ca86B0Edbf6D)
